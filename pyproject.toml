@@ -16,6 +16,9 @@ atlas = "atlas.cli:main"
 
 [dependency-groups]
 dev = ["pytest>=8"]
+plot = [
+    "matplotlib>=3.11.2",
+]
 
 [build-system]
 requires = ["hatchling"]
@@ -26,3 +29,6 @@ packages = ["src/atlas"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.uv]
+default-groups = ["dev", "plot"]

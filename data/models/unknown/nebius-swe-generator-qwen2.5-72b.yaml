@@ -1,0 +1,10 @@
+id: nebius-swe-generator-qwen2.5-72b
+name: Nebius SWE generator (Qwen2.5-72B)
+aliases:
+- Nebius SWE generator (Qwen2.5-72B)
+org: unknown
+company: Unknown
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

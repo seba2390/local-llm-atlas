@@ -1,0 +1,10 @@
+id: swe-fixer-qwen2.5-72b-editor
+name: SWE-Fixer (Qwen2.5-72B editor)
+aliases:
+- SWE-Fixer (Qwen2.5-72B editor)
+org: unknown
+company: Unknown
+open_weights: true
+sources:
+- swe-bench-leaderboards
+managed_by: register

@@ -53,13 +53,22 @@ MULTI_HINT = re.compile(r"&|\+")
 VERSION_SUFFIX = re.compile(r"[\s_-]+(v\d+(?:\.\d+)*|\d+\.\d+(?:\.\d+)*)$", re.I)
 HF_ORGS = {"qwen", "mistralai", "meta-llama", "zai-org", "agentica-org", "deepseek-ai", "moonshotai", "microsoft"}
 
+# Systems built on their own fine-tuned weights: the leaderboard's "Model:" tag names the BASE model they were
+# trained from, so the score must not be attributed to that base model.
+FINETUNED_SYSTEMS = [
+    (re.compile(r"^Skywork-SWE-32B", re.I), "Skywork-SWE-32B", "Qwen2.5-Coder-32B-Instruct"),
+    (re.compile(r"^EntroPO \+ R2E \+ Qwen3-Coder-30B-A3B", re.I), "EntroPO-R2E-Qwen3-Coder-30B-A3B", "Qwen3-Coder-30B-A3B-Instruct"),
+    (re.compile(r"^SWE-Fixer", re.I), "SWE-Fixer (Qwen2.5-72B editor)", "Qwen2.5-72B"),
+    (re.compile(r"^Nebius AI Qwen 2\.5 72B Generator", re.I), "Nebius SWE generator (Qwen2.5-72B)", "Qwen2.5-72B"),
+]
+
+
 def _override(board: str, r: dict) -> tuple[str, str] | None:
-    """(raw model name, note) for submissions whose model fields are family-level or contradict the name."""
+    """(raw model name, note) for submissions whose model fields are family-level, a base model, or contradict the name."""
     name = r.get("name") or ""
-    if r.get("agent") == "SWE-Fixer":
-        return "Qwen2.5-72b", "editor model per submission name (Qwen2.5-7b retriever + Qwen2.5-72b editor)"
-    if name.startswith("Nebius AI Qwen 2.5 72B Generator"):
-        return "Qwen 2.5 72B", "generator model per submission name (critic: LLama 3.1 70B)"
+    for pattern, model, base in FINETUNED_SYSTEMS:
+        if pattern.search(name):
+            return model, f"fine-tuned system; the leaderboard's model tag names its base model ({base})"
     if r.get("agent") == "Aegis" and (r.get("model_display") or "") == "o3-mini_1.0":
         return "o3-mini", "model_display 'o3-mini_1.0'; model tag 'o3-mini'"
     return None
@@ -162,7 +171,8 @@ def pick_model(board: str, r: dict) -> tuple[str | None, dict[str, Any], list[st
     ov = _override(board, r)
     if ov:
         raw, note = ov
-        return raw, {"name": None, "org": None}, tags or [display], note
+        claim = {"name": None, "org": None, "open_weights": True if is_open(r.get("os_model")) else None}
+        return raw, claim, tags or [display], note
 
     def tag_ok(t: str) -> bool:
         d = tag_date(t)

@@ -1,0 +1,10 @@
+id: entropo-r2e-qwen3-coder-30b-a3b
+name: EntroPO-R2E-Qwen3-Coder-30B-A3B
+aliases:
+- EntroPO-R2E-Qwen3-Coder-30B-A3B
+org: unknown
+company: Unknown
+open_weights: true
+sources:
+- swe-bench-leaderboards
+managed_by: register

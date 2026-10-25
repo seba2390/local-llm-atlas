@@ -1,0 +1,10 @@
+id: skywork-swe-32b
+name: Skywork-SWE-32B
+aliases:
+- Skywork-SWE-32B
+org: unknown
+company: Unknown
+open_weights: true
+sources:
+- swe-bench-leaderboards
+managed_by: register

@@ -13,8 +13,8 @@ quantisation, ...) that let large models fit on small machines.
 
 | | |
 |---|---|
-| Score rows | **33,679** (every row: model, benchmark/variant, harness + version, settings, source, locator) |
-| Models | **964** (526 open-weight, 226 closed/API, 212 not stated by any imported source), each with company + country of its developer where a source states it |
+| Score rows | **33,675** (every row: model, benchmark/variant, harness + version, settings, source, locator) |
+| Models | **968** (529 open-weight, 226 closed/API, 213 not stated by any imported source), each with company + country of its developer where a source states it |
 | Benchmarks | 95 (coding, agentic/SWE, tool use, math, science, knowledge, long context, games, ...) |
 | Harnesses / agent scaffolds | 209 |
 | Organisations | 111 |
@@ -22,7 +22,7 @@ quantisation, ...) that let large models fit on small machines.
 
 Score rows per importer: BFCL 19,952 · Epoch AI 8,886 · Aider 1,116 · vendor model cards / tech reports 1,014 ·
 Big Code Models Leaderboard 778 · BigCodeBench 652 · EvalPlus 428 · τ/τ²-bench 316 · SWE-bench 270 · CRUXEval 160 ·
-EvalPerf 102 · hand-entered 5.
+EvalPerf 102 · hand-entered 1.
 
 Not yet imported (importer stubs/plans only): Terminal-Bench direct, LiveCodeBench, LiveBench direct, Open LLM
 Leaderboard, LMArena, tokens/s + hardware + offload runtimes. Hugging Face enrichment (architecture from
@@ -94,6 +94,31 @@ uv run atlas ingest epoch      # re-run one importer (downloads are cached in .c
 uv run atlas ingest all        # all importers -> register new models/orgs -> merge duplicates -> re-run
 uv run atlas register          # create/refresh model + org records from what importers staged
 ```
+
+## Plotting
+
+`plotting_scripts/plot_frontier.py` plots, for each requested benchmark, the best open-weight model with at most
+`--max-params` billion parameters on every day of a time interval (step line; each model that took the lead is
+labelled), with reference models (open or closed) as horizontal lines:
+
+```bash
+uv run python plotting_scripts/plot_frontier.py \
+    --benchmarks aider-polyglot swe-bench:verified livecodebench \
+    --max-params 35 \
+    --references gemini-2.5-flash \
+    --start 2024-01-01 --end 2026-10-25
+```
+
+- Benchmarks are `id` or `id:variant` (`humaneval:plus`, `terminal-bench:2.0`); a benchmark with variants requires one.
+- Reference models are atlas ids or any of their aliases. A reference model with no score on a requested benchmark
+  raises `MissingReferenceScoreError` before anything is drawn.
+- A model's release date decides when it joins the frontier. Models without a release date or parameter count can't
+  be placed and are listed as skipped.
+- When a model has several reported scores (different sources/harnesses/settings), `--aggregate max` (default) or
+  `median` combines them. Narrow the input with `--provenance third_party`, `--harness aider`, or
+  `--exclude-setting 'attempts=2'` (drop best-of-N runs). `--param-basis active` caps active (MoE) parameters instead.
+- Output: `plots/<benchmark>[_<variant>]_le<N>B.png` plus a `.csv` beside it listing the source, locator, harness and
+  settings of every plotted number. `--show-candidates` adds the non-leading eligible models as grey dots.
 
 ## Example
 
