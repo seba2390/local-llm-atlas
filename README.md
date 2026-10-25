@@ -95,9 +95,17 @@ uv run atlas ingest all        # all importers -> register new models/orgs -> me
 uv run atlas register          # create/refresh model + org records from what importers staged
 ```
 
-## Plotting
+## Scripts
 
-`plotting_scripts/plot_frontier.py` plots, for each benchmark, the best open-weight model with at most `MAX_PARAMS`
+Scripts in `scripts/` have no command-line arguments: edit the capitalised settings at the top and run them.
+
+- `scripts/check_for_model.py`: set `QUERY` and run `uv run python scripts/check_for_model.py` to list every model
+  whose name, id or alias contains it (case-insensitive; spaces/hyphens/underscores ignored), with company,
+  open/closed, parameters, release date and number of score rows.
+
+### Plotting
+
+`scripts/plot_frontier.py` plots, for each benchmark, the best open-weight model with at most `MAX_PARAMS`
 billion parameters on every day from `START` to `END` (step line; each model that took the lead is labelled), with
 `REFERENCE_MODELS` (open or closed) as horizontal lines. Edit the settings at the top of the script and run it:
 
@@ -110,7 +118,7 @@ END = "2026-10-25"
 ```
 
 ```bash
-uv run python plotting_scripts/plot_frontier.py   # -> plots/<benchmark>[_<variant>]_le<N>B.png + .csv
+uv run python scripts/plot_frontier.py   # -> plots/<benchmark>[_<variant>]_le<N>B.png + .csv
 ```
 
 - A reference model with no score on one of the benchmarks raises `MissingReferenceScoreError` before anything is drawn.
@@ -118,7 +126,7 @@ uv run python plotting_scripts/plot_frontier.py   # -> plots/<benchmark>[_<varia
   listed as skipped. When a model has several reported scores (sources/harnesses/settings), the highest is used.
 - The CSV next to each plot lists the source, locator, harness and settings of every plotted number.
 - Reusable building blocks (score selection, frontier computation, drawing, colours) live in
-  `plotting_scripts/plot_utils.py`.
+  `scripts/plot_utils.py`.
 
 ## Example
 

@@ -1,6 +1,6 @@
 """Best open-weight model over time on each benchmark, with reference models as horizontal lines.
 
-Edit the settings below and run:  uv run python plotting_scripts/plot_frontier.py
+Edit the settings below and run:  uv run python scripts/plot_frontier.py
 Plots (and a CSV of the sources behind every plotted number) are written to plots/.
 """
 

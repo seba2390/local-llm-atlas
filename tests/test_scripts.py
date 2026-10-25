@@ -7,7 +7,7 @@ import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 FIXTURE = Path(__file__).parent / "fixtures" / "data"
-sys.path.insert(0, str(ROOT / "plotting_scripts"))
+sys.path.insert(0, str(ROOT / "scripts"))
 
 import plot_utils as pf  # noqa: E402
 
@@ -64,7 +64,16 @@ def test_bad_requests_raise(tmp_path):
 
 
 def test_script_only_exposes_its_settings():
-    tree = ast.parse((ROOT / "plotting_scripts" / "plot_frontier.py").read_text())
+    tree = ast.parse((ROOT / "scripts" / "plot_frontier.py").read_text())
     names = [t.id for node in tree.body if isinstance(node, ast.Assign) for t in node.targets]
     assert names == ["MAX_PARAMS", "REFERENCE_MODELS", "BENCHMARKS", "START", "END"]
-    assert "argparse" not in (ROOT / "plotting_scripts" / "plot_frontier.py").read_text()
+    assert "argparse" not in (ROOT / "scripts" / "plot_frontier.py").read_text()
+
+
+def test_check_for_model_matches_names_ids_and_aliases():
+    import check_for_model as cfm
+
+    hits = {m["id"]: matched for m, matched, _ in cfm.find_models("qwen 2.5 coder", data=FIXTURE)}
+    assert list(hits) == ["qwen2.5-coder-32b-instruct"]
+    assert [m["id"] for m, _, _ in cfm.find_models("SONNET", data=FIXTURE)] == ["claude-3-5-sonnet-20241022"]
+    assert cfm.find_models("no-such-model", data=FIXTURE) == []
