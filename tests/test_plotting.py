@@ -1,5 +1,5 @@
+import ast
 import datetime as dt
-import importlib.util
 import sys
 from pathlib import Path
 
@@ -7,11 +7,9 @@ import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 FIXTURE = Path(__file__).parent / "fixtures" / "data"
+sys.path.insert(0, str(ROOT / "plotting_scripts"))
 
-spec = importlib.util.spec_from_file_location("plot_frontier", ROOT / "plotting_scripts" / "plot_frontier.py")
-pf = importlib.util.module_from_spec(spec)
-sys.modules["plot_frontier"] = pf  # dataclasses look the module up while the class is created
-spec.loader.exec_module(pf)
+import plot_utils as pf  # noqa: E402
 
 
 def ms(mid: str, release: str, value: float, params: float = 7.0) -> "pf.ModelScore":
@@ -38,7 +36,7 @@ def test_frontier_lower_is_better():
 
 
 def test_plot_and_sidecar(tmp_path):
-    out = pf.plot_benchmarks(benchmarks=["aider-polyglot"], max_params=35, references=["claude-3-5-sonnet-20241022"],
+    out = pf.plot_frontier(benchmarks=["aider-polyglot"], max_params=35, references=["claude-3-5-sonnet-20241022"],
                              start=dt.date(2024, 6, 1), end=dt.date(2025, 6, 1), out_dir=tmp_path, data=FIXTURE,
                              verbose=False)
     assert out == [tmp_path / "aider-polyglot_le35B.png"] and out[0].stat().st_size > 10_000
@@ -48,7 +46,7 @@ def test_plot_and_sidecar(tmp_path):
 
 def test_reference_without_score_raises(tmp_path):
     with pytest.raises(pf.MissingReferenceScoreError, match="claude-3-5-sonnet-20241022"):
-        pf.plot_benchmarks(benchmarks=["aider-code-editing"], max_params=35, references=["claude-3-5-sonnet-20241022"],
+        pf.plot_frontier(benchmarks=["aider-code-editing"], max_params=35, references=["claude-3-5-sonnet-20241022"],
                            start=dt.date(2024, 1, 1), end=dt.date(2025, 1, 1), out_dir=tmp_path, data=FIXTURE, verbose=False)
     assert not list(tmp_path.iterdir())  # validated before drawing anything
 
@@ -56,10 +54,17 @@ def test_reference_without_score_raises(tmp_path):
 def test_bad_requests_raise(tmp_path):
     kw = dict(max_params=35, start=dt.date(2024, 1, 1), end=dt.date(2025, 1, 1), out_dir=tmp_path, data=FIXTURE, verbose=False)
     with pytest.raises(pf.PlotError, match="has variants"):
-        pf.plot_benchmarks(benchmarks=["humaneval"], references=[], **kw)
+        pf.plot_frontier(benchmarks=["humaneval"], references=[], **kw)
     with pytest.raises(pf.PlotError, match="unknown benchmark"):
-        pf.plot_benchmarks(benchmarks=["no-such-bench"], references=[], **kw)
+        pf.plot_frontier(benchmarks=["no-such-bench"], references=[], **kw)
     with pytest.raises(pf.PlotError, match="unknown model"):
-        pf.plot_benchmarks(benchmarks=["aider-polyglot"], references=["no-such-model"], **kw)
+        pf.plot_frontier(benchmarks=["aider-polyglot"], references=["no-such-model"], **kw)
     with pytest.raises(pf.PlotError, match="no open-weight model"):
-        pf.plot_benchmarks(benchmarks=["aider-polyglot"], references=[], **{**kw, "max_params": 1})
+        pf.plot_frontier(benchmarks=["aider-polyglot"], references=[], **{**kw, "max_params": 1})
+
+
+def test_script_only_exposes_its_settings():
+    tree = ast.parse((ROOT / "plotting_scripts" / "plot_frontier.py").read_text())
+    names = [t.id for node in tree.body if isinstance(node, ast.Assign) for t in node.targets]
+    assert names == ["MAX_PARAMS", "REFERENCE_MODELS", "BENCHMARKS", "START", "END"]
+    assert "argparse" not in (ROOT / "plotting_scripts" / "plot_frontier.py").read_text()

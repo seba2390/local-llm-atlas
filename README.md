@@ -97,28 +97,28 @@ uv run atlas register          # create/refresh model + org records from what im
 
 ## Plotting
 
-`plotting_scripts/plot_frontier.py` plots, for each requested benchmark, the best open-weight model with at most
-`--max-params` billion parameters on every day of a time interval (step line; each model that took the lead is
-labelled), with reference models (open or closed) as horizontal lines:
+`plotting_scripts/plot_frontier.py` plots, for each benchmark, the best open-weight model with at most `MAX_PARAMS`
+billion parameters on every day from `START` to `END` (step line; each model that took the lead is labelled), with
+`REFERENCE_MODELS` (open or closed) as horizontal lines. Edit the settings at the top of the script and run it:
 
-```bash
-uv run python plotting_scripts/plot_frontier.py \
-    --benchmarks aider-polyglot swe-bench:verified livecodebench \
-    --max-params 35 \
-    --references gemini-2.5-flash \
-    --start 2024-01-01 --end 2026-10-25
+```python
+MAX_PARAMS = 35
+REFERENCE_MODELS = ["gemini-2.5-flash"]
+BENCHMARKS = ["aider-polyglot", "swe-bench:verified", "livecodebench"]  # "id" or "id:variant"
+START = "2024-01-01"
+END = "2026-10-25"
 ```
 
-- Benchmarks are `id` or `id:variant` (`humaneval:plus`, `terminal-bench:2.0`); a benchmark with variants requires one.
-- Reference models are atlas ids or any of their aliases. A reference model with no score on a requested benchmark
-  raises `MissingReferenceScoreError` before anything is drawn.
-- A model's release date decides when it joins the frontier. Models without a release date or parameter count can't
-  be placed and are listed as skipped.
-- When a model has several reported scores (different sources/harnesses/settings), `--aggregate max` (default) or
-  `median` combines them. Narrow the input with `--provenance third_party`, `--harness aider`, or
-  `--exclude-setting 'attempts=2'` (drop best-of-N runs). `--param-basis active` caps active (MoE) parameters instead.
-- Output: `plots/<benchmark>[_<variant>]_le<N>B.png` plus a `.csv` beside it listing the source, locator, harness and
-  settings of every plotted number. `--show-candidates` adds the non-leading eligible models as grey dots.
+```bash
+uv run python plotting_scripts/plot_frontier.py   # -> plots/<benchmark>[_<variant>]_le<N>B.png + .csv
+```
+
+- A reference model with no score on one of the benchmarks raises `MissingReferenceScoreError` before anything is drawn.
+- A model's release date decides when it joins the frontier; models without a release date or parameter count are
+  listed as skipped. When a model has several reported scores (sources/harnesses/settings), the highest is used.
+- The CSV next to each plot lists the source, locator, harness and settings of every plotted number.
+- Reusable building blocks (score selection, frontier computation, drawing, colours) live in
+  `plotting_scripts/plot_utils.py`.
 
 ## Example
 
