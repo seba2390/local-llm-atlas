@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "artifact.schema.json",
+  "title": "Weight artifact (row of data/observations/artifacts.csv)",
+  "description": "A downloadable set of weights for a model in a given format/quantisation. disk_bytes is the exact on-disk size, read from the hosting API.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["model_id", "format", "quant", "disk_bytes", "repo_url", "source_id"],
+  "properties": {
+    "model_id": { "type": "string" },
+    "format": { "enum": ["safetensors", "gguf", "mlx", "exl2", "exl3", "awq", "gptq", "fp8", "nvfp4", "other"] },
+    "quant": { "type": "string", "description": "bf16, fp8, Q4_K_M, IQ2_XXS, 4bit, GSQ-RCO-2.25bpw, ..." },
+    "bits_per_weight": { "type": "number", "exclusiveMinimum": 0 },
+    "disk_bytes": { "type": "integer", "minimum": 1 },
+    "repo_url": { "type": "string", "pattern": "^https?://" },
+    "revision": { "type": "string" },
+    "publisher": { "type": "string", "description": "Who produced the quant (model org, unsloth, bartowski, ...)." },
+    "source_id": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "runtime.schema.json",
+  "title": "Runtime / technique",
+  "description": "Inference engines and the memory-saving techniques they implement (e.g. MoE expert offload, disk streaming, non-uniform low-bit quantisation).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "url", "techniques", "sources"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+    "name": { "type": "string" },
+    "url": { "type": "string", "pattern": "^https?://" },
+    "techniques": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "enum": [
+          "gpu-full", "layer-offload", "moe-expert-offload", "disk-streaming", "flash-weight-loading",
+          "uniform-quant", "non-uniform-quant", "kv-cache-quant", "activation-sparsity",
+          "speculative-decoding", "tensor-parallel", "pipeline-parallel", "paged-attention", "other"
+        ]
+      }
+    },
+    "formats": { "type": "array", "items": { "enum": ["safetensors", "gguf", "mlx", "exl2", "exl3", "awq", "gptq", "fp8", "nvfp4", "other"] } },
+    "platforms": { "type": "array", "items": { "enum": ["cuda", "rocm", "metal", "vulkan", "cpu", "sycl"] } },
+    "sources": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "notes": { "type": "string" }
+  }
+}

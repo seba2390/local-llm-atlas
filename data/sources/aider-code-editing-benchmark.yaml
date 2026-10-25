@@ -1,0 +1,8 @@
+id: aider-code-editing-benchmark
+kind: docs
+provenance: first_party
+title: GPT code editing benchmarks
+publisher: Aider
+url: https://aider.chat/docs/benchmarks.html
+accessed: 2026-10-25
+notes: Describes Aider's original (legacy) code-editing benchmark based on 133 Exercism Python exercises.

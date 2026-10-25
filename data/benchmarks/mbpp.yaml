@@ -1,0 +1,15 @@
+id: mbpp
+name: MBPP
+category: code-generation
+metric: pass@1
+unit: percent
+higher_is_better: true
+introduced: 2021-08-16
+url: https://github.com/google-research/google-research/tree/master/mbpp
+variants:
+  - id: base
+    notes: Original MBPP (state the subset, e.g. sanitized / full test split, in `setting`).
+  - id: plus
+    introduced: 2023-05-02
+    notes: MBPP+ from EvalPlus (state the EvalPlus version in `setting`).
+sources: [arxiv-2108.07732, arxiv-2305.01210]

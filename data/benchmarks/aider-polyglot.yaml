@@ -1,0 +1,11 @@
+id: aider-polyglot
+name: Aider Polyglot
+category: code-editing
+metric: pass_rate_2
+unit: percent
+higher_is_better: true
+introduced: 2024-12-21
+url: https://aider.chat/docs/leaderboards/
+sources: [aider-polyglot-announcement, aider-polyglot-leaderboard-data]
+description: 225 hard Exercism exercises in C++, Go, Java, JavaScript, Python and Rust; the model gets a second attempt after seeing test failures.
+notes: Record edit format in `setting` (edit_format=diff|whole|...). Not the same benchmark as aider-code-editing.

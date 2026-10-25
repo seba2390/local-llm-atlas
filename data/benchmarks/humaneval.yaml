@@ -1,0 +1,16 @@
+id: humaneval
+name: HumanEval
+category: code-generation
+metric: pass@1
+unit: percent
+higher_is_better: true
+introduced: 2021-07-07
+url: https://github.com/openai/human-eval
+variants:
+  - id: base
+    notes: Original 164 problems and tests.
+  - id: plus
+    introduced: 2023-05-02
+    notes: HumanEval+ from EvalPlus (80x more tests).
+sources: [arxiv-2107.03374, arxiv-2305.01210]
+notes: Saturated for modern models; keep for historical curves but prefer plus/contamination-free benchmarks.

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hardware.schema.json",
+  "title": "Hardware",
+  "description": "A GPU or system (Mac, DGX Spark, ...) that throughput/memory observations refer to.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "vendor", "kind", "consumer", "sources"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+    "name": { "type": "string" },
+    "vendor": { "type": "string" },
+    "kind": { "enum": ["discrete_gpu", "unified_memory", "cpu_only", "multi_gpu"] },
+    "consumer": { "type": "boolean", "description": "Purchasable by an individual and runs in a desktop/laptop." },
+    "vram_gb": { "type": "number", "exclusiveMinimum": 0 },
+    "system_ram_gb": { "type": "number", "exclusiveMinimum": 0 },
+    "mem_bandwidth_gbs": { "type": "number", "exclusiveMinimum": 0 },
+    "release_date": { "type": "string", "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$" },
+    "launch_price_usd": { "type": "number", "exclusiveMinimum": 0 },
+    "sources": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "notes": { "type": "string" }
+  }
+}

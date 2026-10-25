@@ -1,0 +1,10 @@
+id: livecodebench
+name: LiveCodeBench (code generation)
+category: competitive-programming
+metric: pass@1
+unit: percent
+higher_is_better: true
+introduced: 2024-03-12
+url: https://livecodebench.github.io/leaderboard.html
+sources: [arxiv-2403.07974]
+notes: Scores depend strongly on the problem date window; ALWAYS record the release/window in `setting` (e.g. "release_v6, 2025-02..2025-05").

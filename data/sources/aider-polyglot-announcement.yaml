@@ -1,0 +1,9 @@
+id: aider-polyglot-announcement
+kind: blog
+provenance: first_party
+title: o1 tops aider's new polyglot leaderboard
+publisher: Aider
+url: https://aider.chat/2024/12/21/polyglot.html
+published: 2024-12-21
+accessed: 2026-10-25
+notes: Introduces the Aider Polyglot benchmark (225 Exercism exercises in C++, Go, Java, JavaScript, Python, Rust).

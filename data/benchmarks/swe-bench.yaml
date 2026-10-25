@@ -1,0 +1,15 @@
+id: swe-bench
+name: SWE-bench
+category: software-engineering
+metric: resolved_rate
+unit: percent
+higher_is_better: true
+introduced: 2023-10-10
+url: https://www.swebench.com/
+variants:
+  - id: full
+  - id: lite
+  - id: verified
+    notes: Human-validated 500-task subset published by OpenAI.
+sources: [arxiv-2310.06770, openai-swe-bench-verified]
+notes: Scores depend heavily on the agent scaffold; record it in `setting` (e.g. "agent=OpenHands vX").

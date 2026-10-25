@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "throughput.schema.json",
+  "title": "Throughput measurement (row of data/observations/throughput.csv)",
+  "description": "Tokens/s are meaningless without hardware, runtime, quant, context and offload strategy, so all are recorded. Min/max tok/s per model are derived from these rows.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["model_id", "quant", "runtime_id", "hardware_id", "offload", "source_id"],
+  "anyOf": [{ "required": ["gen_tps"] }, { "required": ["prompt_tps"] }],
+  "properties": {
+    "model_id": { "type": "string" },
+    "quant": { "type": "string" },
+    "runtime_id": { "type": "string" },
+    "runtime_version": { "type": "string" },
+    "hardware_id": { "type": "string" },
+    "offload": { "enum": ["none", "layer-offload", "moe-expert-offload", "disk-streaming", "other"] },
+    "context_tokens": { "type": "integer", "minimum": 0, "description": "Context depth at which tok/s was measured." },
+    "batch_size": { "type": "integer", "minimum": 1 },
+    "prompt_tps": { "type": "number", "exclusiveMinimum": 0, "description": "Prefill tokens/s." },
+    "gen_tps": { "type": "number", "exclusiveMinimum": 0, "description": "Decode tokens/s." },
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$" },
+    "source_id": { "type": "string" },
+    "locator": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}
