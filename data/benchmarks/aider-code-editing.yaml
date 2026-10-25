@@ -4,6 +4,7 @@ category: code-editing
 metric: pass_rate_2
 unit: percent
 higher_is_better: true
+harness_sensitive: true
 url: https://aider.chat/docs/benchmarks.html
 sources: [aider-code-editing-benchmark, aider-edit-leaderboard-data]
 description: Aider's original benchmark of 133 Exercism Python exercises; superseded by Aider Polyglot.

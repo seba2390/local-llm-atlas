@@ -61,6 +61,7 @@ def validate(cat: Catalog) -> list[Issue]:
     benchmarks = cat.entities.get("benchmarks", {})
     hardware = cat.entities.get("hardware", {})
     runtimes = cat.entities.get("runtimes", {})
+    harnesses = cat.entities.get("harnesses", {})
     cited: set[str] = set()
 
     def check_source(rec: Record, sid: Any) -> None:
@@ -94,6 +95,8 @@ def validate(cat: Catalog) -> list[Issue]:
             if _get_path(d, dotted) is None:
                 err(rec.where, f"field_sources refers to missing field '{dotted}'")
             check_source(rec, sid)
+        if d.get("open_weights") is False and d.get("weights_url"):
+            err(rec.where, "closed-weight model must not have weights_url")
         if d.get("base_model"):
             check_ref(rec, models, "model (base_model)", d["base_model"])
         arch = d.get("architecture") or {}
@@ -111,10 +114,13 @@ def validate(cat: Catalog) -> list[Issue]:
         d = rec.data
         check_source(rec, d.get("source_id"))
         check_ref(rec, models, "model", d.get("model_id"))
+        harness = check_ref(rec, harnesses, "harness", d.get("harness_id"))
         bench = check_ref(rec, benchmarks, "benchmark", d.get("benchmark_id"))
         if bench is None:
             continue
         b = bench.data
+        if b.get("harness_sensitive") and harness and harness.data.get("kind") == "undisclosed":
+            warn(rec.where, f"benchmark '{b['id']}' is harness-sensitive but the harness is undisclosed")
         variants = {v["id"]: v for v in b.get("variants", []) or []}
         variant = d.get("variant")
         if variants and variant not in variants:
@@ -132,9 +138,13 @@ def validate(cat: Catalog) -> list[Issue]:
         dated = d.get("eval_date") or (src.data.get("published") if src else None)
         if introduced and dated and str(dated) < str(introduced)[: len(str(dated))]:
             err(rec.where, f"score dated {dated} predates benchmark '{b['id']}' ({introduced})")
-        key = tuple(d.get(k) for k in ("model_id", "benchmark_id", "variant", "metric", "setting", "reasoning", "quant", "source_id"))
+        key_fields = (
+            "model_id", "benchmark_id", "variant", "metric", "harness_id", "harness_version",
+            "setting", "reasoning", "reasoning_effort", "quant", "source_id",
+        )
+        key = tuple(d.get(k) for k in key_fields)
         if key in seen_scores:
-            err(rec.where, "duplicate score row (same model/benchmark/variant/metric/setting/reasoning/quant/source)")
+            err(rec.where, f"duplicate score row (same {'/'.join(key_fields)})")
         seen_scores.add(key)
 
     for kind in ("artifacts", "throughput", "memory"):

@@ -1,0 +1,8 @@
+id: anthropic-model-deprecations
+kind: docs
+provenance: first_party
+title: Model deprecations
+publisher: Anthropic
+url: https://docs.anthropic.com/en/docs/about-claude/model-deprecations
+accessed: 2026-10-25
+notes: Lists the API identifier claude-3-5-sonnet-20241022.

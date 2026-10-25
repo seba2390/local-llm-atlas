@@ -4,6 +4,7 @@ category: terminal-agent
 metric: resolution_rate
 unit: percent
 higher_is_better: true
+harness_sensitive: true
 url: https://www.tbench.ai/
 variants:
   - id: "1.0"
@@ -12,4 +13,4 @@ variants:
   - id: "4.0"
     notes: Current headline version on tbench.ai as of 2026-10-25.
 sources: [terminal-bench-site, terminal-bench-repo]
-notes: Task sets differ between versions, so scores are not comparable across variants. Record the agent harness in `setting`. Variant introduction dates still to be sourced.
+notes: Task sets differ between versions, so scores are not comparable across variants. Variant introduction dates still to be sourced.

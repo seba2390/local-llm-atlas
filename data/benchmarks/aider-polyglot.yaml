@@ -4,6 +4,7 @@ category: code-editing
 metric: pass_rate_2
 unit: percent
 higher_is_better: true
+harness_sensitive: true
 introduced: 2024-12-21
 url: https://aider.chat/docs/leaderboards/
 sources: [aider-polyglot-announcement, aider-polyglot-leaderboard-data]

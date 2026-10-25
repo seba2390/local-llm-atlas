@@ -9,7 +9,10 @@ from atlas.catalog import REPO_ROOT, load
 from atlas.validate import validate
 
 DATA = REPO_ROOT / "data"
-SCORE_HEADER = "model_id,benchmark_id,variant,metric,value,setting,reasoning,quant,eval_date,source_id,locator,notes\n"
+SCORE_HEADER = (
+    "model_id,benchmark_id,variant,metric,value,harness_id,harness_version,setting,"
+    "reasoning,reasoning_effort,quant,eval_date,source_id,locator,notes\n"
+)
 
 
 @pytest.fixture
@@ -37,40 +40,72 @@ def test_repository_data_is_valid():
 
 def test_score_predating_benchmark_is_rejected(data):
     # The classic mistake: filing a vendor's pre-Polyglot "Aider" number under Aider Polyglot.
-    set_scores(data, "qwen2.5-coder-32b-instruct,aider-polyglot,,,73.7,,n/a,,,qwen2.5-coder-family-blog,,")
+    set_scores(data, "qwen2.5-coder-32b-instruct,aider-polyglot,,,73.7,aider,,,n/a,,,,qwen2.5-coder-family-blog,,")
     assert any("predates benchmark 'aider-polyglot'" in e for e in errors(data))
 
 
 def test_variant_introduction_date_is_checked(data):
-    set_scores(data, "qwen2.5-coder-32b-instruct,humaneval,plus,,90,,n/a,,2022-01-01,arxiv-2305.01210,,")
+    set_scores(data, "qwen2.5-coder-32b-instruct,humaneval,plus,,90,undisclosed,,,n/a,,,2022-01-01,arxiv-2305.01210,,")
     assert any("predates benchmark 'humaneval'" in e for e in errors(data))
 
 
 def test_unknown_references_are_rejected(data):
-    set_scores(data, "no-such-model,no-such-bench,,,50,,,,,no-such-source,,")
+    set_scores(data, "no-such-model,no-such-bench,,,50,no-such-harness,,,,,,,no-such-source,,")
     errs = errors(data)
     assert any("unknown model 'no-such-model'" in e for e in errs)
     assert any("unknown benchmark 'no-such-bench'" in e for e in errs)
     assert any("unknown source 'no-such-source'" in e for e in errs)
+    assert any("unknown harness 'no-such-harness'" in e for e in errs)
 
 
 def test_missing_source_id_fails_schema(data):
-    set_scores(data, "qwen2.5-coder-32b-instruct,aider-polyglot,,,8.0,,,,2024-12-22,,,")
+    set_scores(data, "qwen2.5-coder-32b-instruct,aider-polyglot,,,8.0,aider,,,,,,2024-12-22,,,")
     assert any("'source_id' is a required property" in e for e in errors(data))
 
 
+def test_missing_harness_fails_schema(data):
+    set_scores(data, "qwen2.5-coder-32b-instruct,aider-polyglot,,,8.0,,,,n/a,,,2024-12-22,aider-polyglot-leaderboard-data,,")
+    assert any("'harness_id' is a required property" in e for e in errors(data))
+
+
+def test_undisclosed_harness_on_sensitive_benchmark_warns(data):
+    set_scores(data, "qwen2.5-coder-32b-instruct,aider-polyglot,,,8.0,undisclosed,,,n/a,,,2024-12-22,aider-polyglot-leaderboard-data,,")
+    assert errors(data) == []
+    assert any("harness-sensitive but the harness is undisclosed" in w for w in warnings(data))
+
+
+def test_closed_model_needs_no_architecture_but_open_model_does(data):
+    assert errors(data) == []  # repo contains a closed model without architecture
+    path = data / "models" / "qwen" / "qwen2.5-coder-32b-instruct.yaml"
+    text = path.read_text()
+    path.write_text(text[: text.index("architecture:")] + text[text.index("sources:") :])
+    assert any("'architecture' is a required property" in e for e in errors(data))
+
+
+def test_closed_model_cannot_have_weights_url(data):
+    path = data / "models" / "anthropic" / "claude-3-5-sonnet-20241022.yaml"
+    path.write_text(path.read_text() + "weights_url: https://example.org\n")
+    assert "closed-weight model must not have weights_url" in errors(data)
+
+
+def test_own_measurements_are_not_a_provenance(data):
+    path = data / "sources" / "arxiv-2107.03374.yaml"
+    path.write_text(path.read_text().replace("provenance: first_party", "provenance: own_measurement"))
+    assert any("provenance" in e for e in errors(data))
+
+
 def test_variant_must_be_declared(data):
-    set_scores(data, "qwen2.5-coder-32b-instruct,humaneval,,,90,,n/a,,2024-11-12,qwen2.5-coder-family-blog,,")
+    set_scores(data, "qwen2.5-coder-32b-instruct,humaneval,,,90,undisclosed,,,n/a,,,2024-11-12,qwen2.5-coder-family-blog,,")
     assert any("variant 'None' not in" in e for e in errors(data))
 
 
 def test_percent_out_of_range(data):
-    set_scores(data, "qwen2.5-coder-32b-instruct,aider-polyglot,,,140,,n/a,,2025-01-01,aider-polyglot-leaderboard-data,,")
+    set_scores(data, "qwen2.5-coder-32b-instruct,aider-polyglot,,,140,aider,,,n/a,,,2025-01-01,aider-polyglot-leaderboard-data,,")
     assert any("outside [0, 100]" in e for e in errors(data))
 
 
 def test_duplicate_score_rows(data):
-    row = "qwen2.5-coder-32b-instruct,aider-polyglot,,,8.0,edit_format=diff,n/a,,2024-12-22,aider-polyglot-leaderboard-data,,"
+    row = "qwen2.5-coder-32b-instruct,aider-polyglot,,,8.0,aider,0.69.2.dev,edit_format=diff,n/a,,,2024-12-22,aider-polyglot-leaderboard-data,,"
     set_scores(data, row, row)
     assert any("duplicate score row" in e for e in errors(data))
 

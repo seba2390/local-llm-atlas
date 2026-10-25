@@ -1,0 +1,6 @@
+id: aider
+name: Aider
+kind: coding-assistant
+url: https://aider.chat/
+sources: [aider-code-editing-benchmark, aider-polyglot-announcement]
+notes: Aider's benchmarks are run through the aider tool itself; results also depend on edit_format (record it in `setting`) and the aider version.

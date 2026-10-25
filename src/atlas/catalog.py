@@ -21,6 +21,7 @@ ENTITIES: dict[str, tuple[str, str]] = {
     "benchmarks": ("benchmarks", "benchmark.schema.json"),
     "hardware": ("hardware", "hardware.schema.json"),
     "runtimes": ("runtimes", "runtime.schema.json"),
+    "harnesses": ("harnesses", "harness.schema.json"),
 }
 
 # kind -> (file in data/observations/, schema file)
