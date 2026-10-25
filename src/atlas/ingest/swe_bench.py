@@ -207,7 +207,7 @@ def pick_model(board: str, r: dict) -> tuple[str | None, dict[str, Any], list[st
         "open_weights": True if (single and is_open(r.get("os_model"))) else None,
         "hf_repo": hf,
     }
-    if hf is None and single and display_is_model and "/" in display:
+    if hf is None and single and display_is_model and re.match(r"^[A-Za-z0-9][\w.-]*/[\w.-]+$", display):
         claim["hf_repo"] = display
     return raw, claim, tags or ([display] if display else []), note
 

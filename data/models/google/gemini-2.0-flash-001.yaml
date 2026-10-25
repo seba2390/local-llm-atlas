@@ -1,10 +1,16 @@
 id: gemini-2.0-flash-001
 name: Gemini 2.0 Flash (Feb 2025)
+aliases:
+- Gemini-2.0-Flash-001
 org: google
 company: Google DeepMind
 country: United States of America
 release_date: '2025-02-05'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

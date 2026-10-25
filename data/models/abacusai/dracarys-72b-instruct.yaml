@@ -1,0 +1,16 @@
+id: dracarys-72b-instruct
+name: Dracarys-72B-Instruct
+aliases:
+- Dracarys-72B-Instruct
+org: abacusai
+company: Abacus AI
+country: United States of America
+release_date: '2024-04-23'
+open_weights: true
+hf_repo: abacusai/Dracarys-72B-Instruct
+weights_url: https://huggingface.co/abacusai/Dracarys-72B-Instruct
+architecture:
+  params_total_b: 72.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

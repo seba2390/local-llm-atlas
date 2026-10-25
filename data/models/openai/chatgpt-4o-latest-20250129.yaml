@@ -1,0 +1,13 @@
+id: chatgpt-4o-latest-20250129
+name: ChatGPT-4o-latest-20250129
+aliases:
+- ChatGPT-4o-latest-20250129
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-01-29'
+open_weights: null
+sources:
+- bigcodebench-results-hf
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

@@ -1,0 +1,15 @@
+id: reflectioncoder-ds-33b
+name: ReflectionCoder-DS-33B
+aliases:
+- ReflectionCoder-DS-33B
+org: sensellm
+company: SenseLLM
+release_date: '2024-05-27'
+open_weights: true
+hf_repo: SenseLLM/ReflectionCoder-DS-33B
+weights_url: https://huggingface.co/SenseLLM/ReflectionCoder-DS-33B
+architecture:
+  params_total_b: 33.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

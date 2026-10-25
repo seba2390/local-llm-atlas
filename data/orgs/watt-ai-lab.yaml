@@ -1,0 +1,5 @@
+id: watt-ai-lab
+name: Watt AI Lab
+sources:
+- bfcl-result-archive
+managed_by: register

@@ -1,6 +1,7 @@
 id: llava-v1.5-7b
 name: llava-v1.5-7b
 org: unknown
+company: Unknown
 release_date: '2023-10-05'
 open_weights: null
 sources:

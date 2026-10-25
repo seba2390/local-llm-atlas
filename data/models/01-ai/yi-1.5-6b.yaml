@@ -1,0 +1,16 @@
+id: yi-1.5-6b
+name: Yi-1.5-6B
+aliases:
+- Yi-1.5-6B
+org: 01-ai
+company: 01.AI
+country: China
+release_date: '2024-05-20'
+open_weights: true
+hf_repo: 01-ai/Yi-1.5-6B
+weights_url: https://huggingface.co/01-ai/Yi-1.5-6B
+architecture:
+  params_total_b: 6.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

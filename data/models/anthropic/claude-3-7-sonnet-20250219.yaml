@@ -1,10 +1,18 @@
 id: claude-3-7-sonnet-20250219
-name: Claude 3.7 Sonnet (64k thinking)
+name: Claude 3.7 Sonnet
+aliases:
+- Claude 3.7 Sonnet
+- Claude-3.7-Sonnet
+- Claude-3.7-Sonnet-20250219
 org: anthropic
 company: Anthropic
 country: United States of America
 release_date: '2025-02-24'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

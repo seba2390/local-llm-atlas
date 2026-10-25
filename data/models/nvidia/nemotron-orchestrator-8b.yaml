@@ -1,0 +1,12 @@
+id: nemotron-orchestrator-8b
+name: Nemotron-Orchestrator-8B
+aliases:
+- Nemotron-Orchestrator-8B
+org: nvidia
+company: Nvidia
+country: United States of America
+release_date: '2025-11-26'
+open_weights: null
+sources:
+- taubench-leaderboard
+managed_by: register

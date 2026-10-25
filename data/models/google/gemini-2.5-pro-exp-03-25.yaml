@@ -1,10 +1,16 @@
 id: gemini-2.5-pro-exp-03-25
 name: Gemini 2.5 Pro Exp (Mar 2025)
+aliases:
+- Gemini-2.5-Pro-Exp-03-25
 org: google
 company: Google DeepMind
 country: United States of America
 release_date: '2025-03-25'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

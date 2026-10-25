@@ -2,13 +2,20 @@ id: mixtral-8x7b-v0.1
 name: Mixtral-8x7B-v0.1
 aliases:
 - Mixtral-8x7B-v0.1
+- mixtral-8x7b
 org: mistral
 company: Mistral AI
 country: France
 release_date: '2023-12-11'
 open_weights: true
+hf_repo: mistralai/Mixtral-8x7B-v0.1
+weights_url: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1
 architecture:
   params_total_b: 46.7
 sources:
 - epoch-ai-models
+- cruxeval-leaderboard
+field_sources:
+  hf_repo: cruxeval-leaderboard
+  weights_url: cruxeval-leaderboard
 managed_by: register

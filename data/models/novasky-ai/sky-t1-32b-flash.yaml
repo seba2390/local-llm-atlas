@@ -1,0 +1,15 @@
+id: sky-t1-32b-flash
+name: Sky-T1-32B-Flash
+aliases:
+- Sky-T1-32B-Flash
+org: novasky-ai
+company: NovaSky-AI
+release_date: '2025-01-12'
+open_weights: true
+hf_repo: NovaSky-AI/Sky-T1-32B-Flash
+weights_url: https://huggingface.co/NovaSky-AI/Sky-T1-32B-Flash
+architecture:
+  params_total_b: 32.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

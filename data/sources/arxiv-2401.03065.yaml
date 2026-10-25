@@ -4,8 +4,13 @@ provenance: first_party
 title: 'CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution'
 authors:
 - Alex Gu
-- et al.
+- Baptiste Rozière
+- Hugh Leather
+- Armando Solar-Lezama
+- Gabriel Synnaeve
+- Sida I. Wang
 publisher: arXiv
 url: https://arxiv.org/abs/2401.03065
 published: '2024-01-05'
+notes: Introduces CRUXEval.
 accessed: '2026-10-25'

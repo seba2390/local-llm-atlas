@@ -1,0 +1,10 @@
+id: claude-4-5-opus
+name: Claude 4.5 Opus
+org: anthropic
+company: Anthropic
+country: United States of America
+release_date: '2025-11-24'
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

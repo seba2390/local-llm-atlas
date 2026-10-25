@@ -10,6 +10,7 @@ from jsonschema import Draft202012Validator
 from .catalog import ENTITIES, OBSERVATIONS, Catalog, Record, load_schema
 
 PERCENT_TOLERANCE = 1e-9
+NON_PERCENT_METRIC_SUFFIXES = ("_usd", "_minutes", "_seconds", "_tokens", "_count", "_elo", "_ratio")
 
 
 @dataclass(frozen=True)
@@ -136,7 +137,9 @@ def validate(cat: Catalog) -> list[Issue]:
         elif not variants and variant:
             err(rec.where, f"benchmark '{b['id']}' declares no variants but row has variant '{variant}'")
         value = d.get("value")
-        if b.get("unit") == "percent" and isinstance(value, (int, float)) and not (
+        # Metrics whose name carries their own unit (cost_per_task_usd, p80_horizon_minutes, ...) are not percentages.
+        own_unit = str(d.get("metric") or "").endswith(NON_PERCENT_METRIC_SUFFIXES)
+        if b.get("unit") == "percent" and not own_unit and isinstance(value, (int, float)) and not (
             -PERCENT_TOLERANCE <= value <= 100 + PERCENT_TOLERANCE
         ):
             err(rec.where, f"percent value {value} outside [0, 100]")
@@ -146,7 +149,8 @@ def validate(cat: Catalog) -> list[Issue]:
         dated = d.get("eval_date") or (src.data.get("published") if src else None)
         # Benchmark creators legitimately run models before public release.
         hid = str(d.get("harness_id", ""))
-        by_creator = hid.endswith("-official") or (hid == "epoch-ai-evals" and b.get("managed_by") == "epoch")
+        hkind = harness.data.get("kind") if harness else None
+        by_creator = hkind == "benchmark-reference" or (hid == "epoch-ai-evals" and b.get("managed_by") == "epoch")
         if introduced and dated and not by_creator and str(dated) < str(introduced)[: len(str(dated))]:
             err(rec.where, f"score dated {dated} predates benchmark '{b['id']}' ({introduced})")
         key_fields = (

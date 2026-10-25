@@ -1,0 +1,13 @@
+id: chatgpt-4o-latest
+name: chatgpt-4o-latest
+aliases:
+- openai/chatgpt-4o-latest
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2024-10-04'
+open_weights: null
+sources:
+- aider-edit-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

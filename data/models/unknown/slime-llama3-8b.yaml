@@ -3,6 +3,7 @@ name: SliME-Llama3-8B
 aliases:
 - SliME-Llama3-8B
 org: unknown
+company: Unknown
 release_date: '2024-06-02'
 open_weights: null
 sources:

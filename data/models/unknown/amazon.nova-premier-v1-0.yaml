@@ -1,0 +1,10 @@
+id: amazon.nova-premier-v1-0
+name: Amazon.nova Premier v1:0
+aliases:
+- amazon.nova-premier-v1:0
+org: unknown
+company: Unknown
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

@@ -1,0 +1,13 @@
+id: watt-tool-70b
+name: watt-tool-70B
+aliases:
+- watt-tool-70B
+org: watt-ai-lab
+company: Watt AI Lab
+open_weights: true
+license: Apache-2.0
+hf_repo: watt-ai/watt-tool-70B
+weights_url: https://huggingface.co/watt-ai/watt-tool-70B
+sources:
+- bfcl-result-archive
+managed_by: register

@@ -1,0 +1,33 @@
+id: granite-4.0-1b
+name: granite-4.0-1b
+org: ibm
+company: IBM
+country: United States of America
+release_date: '2025-10-28'
+open_weights: null
+hf_repo: ibm-granite/granite-4.0-1b
+weights_url: https://huggingface.co/ibm-granite/granite-4.0-1b
+architecture:
+  type: dense
+  layers: 40
+  hidden_size: 2048
+  q_heads: 16
+  kv_heads: 4
+  attention: gqa
+  native_dtype: bf16
+  params_total_b: 1.632
+sources:
+- epoch-ai-models
+- hf-ibm-granite-granite-4.0-1b
+field_sources:
+  architecture.type: hf-ibm-granite-granite-4.0-1b
+  architecture.layers: hf-ibm-granite-granite-4.0-1b
+  architecture.hidden_size: hf-ibm-granite-granite-4.0-1b
+  architecture.q_heads: hf-ibm-granite-granite-4.0-1b
+  architecture.kv_heads: hf-ibm-granite-granite-4.0-1b
+  architecture.attention: hf-ibm-granite-granite-4.0-1b
+  architecture.native_dtype: hf-ibm-granite-granite-4.0-1b
+  architecture.params_total_b: hf-ibm-granite-granite-4.0-1b
+  hf_repo: hf-ibm-granite-granite-4.0-1b
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

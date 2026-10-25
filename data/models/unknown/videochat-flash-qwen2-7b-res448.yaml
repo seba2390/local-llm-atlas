@@ -3,6 +3,7 @@ name: VideoChat-Flash-Qwen2-7B_res448
 aliases:
 - VideoChat-Flash-Qwen2-7B_res448
 org: unknown
+company: Unknown
 release_date: '2025-01-11'
 open_weights: null
 sources:

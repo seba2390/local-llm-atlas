@@ -1,0 +1,12 @@
+id: claude-sonnet-3.5-june-2024
+name: Claude Sonnet 3.5 (June 2024)
+aliases:
+- Claude Sonnet 3.5 (June 2024)
+org: anthropic
+company: Anthropic
+country: United States of America
+open_weights: null
+sources:
+- evalplus-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

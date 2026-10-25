@@ -1,10 +1,17 @@
 id: gemini-2.5-pro
 name: gemini-2.5-pro
+aliases:
+- Gemini 2.5 Pro
+- Gemini-2.5-Pro
 org: google
 company: Google DeepMind
 country: United States of America
 release_date: '2025-06-05'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

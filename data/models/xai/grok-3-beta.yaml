@@ -1,10 +1,18 @@
 id: grok-3-beta
 name: grok-3-beta
+aliases:
+- Grok 3 Beta
+- Grok-3-Beta
+- Grok-3-beta
 org: xai
 company: xAI
 country: United States of America
 release_date: '2025-04-09'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

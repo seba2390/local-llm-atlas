@@ -3,6 +3,7 @@ name: mPLUG-Owl3-7B-241101
 aliases:
 - mPLUG-Owl3-7B-241101
 org: unknown
+company: Unknown
 release_date: '2024-11-26'
 open_weights: null
 sources:

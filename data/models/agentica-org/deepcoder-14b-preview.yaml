@@ -1,0 +1,15 @@
+id: deepcoder-14b-preview
+name: DeepCoder-14B-Preview
+aliases:
+- DeepCoder-14B-Preview
+org: agentica-org
+company: agentica-org
+release_date: '2025-04-09'
+open_weights: true
+hf_repo: agentica-org/DeepCoder-14B-Preview
+weights_url: https://huggingface.co/agentica-org/DeepCoder-14B-Preview
+architecture:
+  params_total_b: 14.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

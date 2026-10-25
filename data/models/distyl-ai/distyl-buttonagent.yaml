@@ -1,0 +1,10 @@
+id: distyl-buttonagent
+name: Distyl ButtonAgent
+aliases:
+- Distyl ButtonAgent
+org: distyl-ai
+company: Distyl AI
+open_weights: null
+sources:
+- taubench-leaderboard
+managed_by: register

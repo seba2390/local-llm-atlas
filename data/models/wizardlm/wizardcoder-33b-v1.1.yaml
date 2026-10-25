@@ -1,0 +1,14 @@
+id: wizardcoder-33b-v1.1
+name: WizardCoder-33B-V1.1
+aliases:
+- WizardCoder-33B-V1.1
+org: wizardlm
+company: WizardLM
+open_weights: true
+hf_repo: WizardLM/WizardCoder-33B-V1.1
+weights_url: https://huggingface.co/WizardLM/WizardCoder-33B-V1.1
+architecture:
+  params_total_b: 33.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

@@ -1,0 +1,16 @@
+id: octogeex-7b
+name: OctoGeeX-7B
+aliases:
+- OctoGeeX-7B
+org: bigcode
+company: BigCode
+country: United States of America
+open_weights: true
+hf_repo: bigcode/octogeex
+weights_url: https://huggingface.co/bigcode/octogeex
+context_length: 8192
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

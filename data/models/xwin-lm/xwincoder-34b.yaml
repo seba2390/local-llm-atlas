@@ -1,0 +1,14 @@
+id: xwincoder-34b
+name: XwinCoder-34B
+aliases:
+- XwinCoder-34B
+org: xwin-lm
+company: Xwin-LM
+open_weights: true
+hf_repo: Xwin-LM/XwinCoder-34B
+weights_url: https://huggingface.co/Xwin-LM/XwinCoder-34B
+architecture:
+  params_total_b: 34.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

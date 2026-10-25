@@ -1,0 +1,10 @@
+id: co-patcher
+name: Co-PatcheR
+aliases:
+- Co-PatcheR
+org: unknown
+company: Unknown
+open_weights: true
+sources:
+- swe-bench-leaderboards
+managed_by: register

@@ -7,9 +7,11 @@
    - `community`: forum posts, Reddit, GitHub discussions
 
    This project does not run its own measurements; only published values are recorded.
-2. **Add or update entities** (`models/`, `benchmarks/`, `hardware/`, `runtimes/`, `harnesses/`). Use `sources` for the default
-   citation and `field_sources` for fields that came from somewhere else.
-3. **Append observation rows** (`observations/*.csv`). Always fill `source_id` and `locator`.
+2. **Add or update entities** (`models/`, `orgs/`, `benchmarks/`, `hardware/`, `runtimes/`, `harnesses/`).
+   Use `sources` for the default citation and `field_sources` for fields that came from somewhere else.
+   After changing an org, run `uv run atlas sync-orgs` to copy company/country into its models.
+3. **Append observation rows** (`observations/scores/manual.csv` by hand, or write an importer; see
+   docs/IMPORTERS.md). Always fill `source_id` and `locator`.
    For scores, always fill `harness_id` (use `undisclosed` if the source doesn't say), `harness_version` if stated,
    and put harness options / eval settings that affect the number in `setting`.
    Never edit another source's row to "correct" it; add a new row with the new source.

@@ -1,0 +1,13 @@
+id: devstral-small-2505
+name: DevStral Small 2505
+aliases:
+- mistralai/Devstral-Small-2505
+org: mistral
+company: Mistral AI
+country: France
+open_weights: true
+hf_repo: mistralai/Devstral-Small-2505
+weights_url: https://huggingface.co/mistralai/Devstral-Small-2505
+sources:
+- swe-bench-leaderboards
+managed_by: register

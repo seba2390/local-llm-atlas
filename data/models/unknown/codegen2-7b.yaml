@@ -1,0 +1,12 @@
+id: codegen2-7b
+name: CodeGen2-7B
+aliases:
+- CodeGen2-7B
+org: unknown
+company: Unknown
+open_weights: true
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

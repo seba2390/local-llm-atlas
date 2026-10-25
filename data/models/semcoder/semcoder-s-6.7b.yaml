@@ -1,0 +1,10 @@
+id: semcoder-s-6.7b
+name: semcoder-s-6.7b
+org: semcoder
+company: semcoder
+open_weights: true
+hf_repo: semcoder/semcoder_s_1030
+weights_url: https://huggingface.co/semcoder/semcoder_s_1030
+sources:
+- cruxeval-leaderboard
+managed_by: register

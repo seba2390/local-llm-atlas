@@ -1,0 +1,14 @@
+id: speechless-coder-ds-6.7b
+name: speechless-coder-ds-6.7B
+aliases:
+- speechless-coder-ds-6.7B
+org: uukuguy
+company: uukuguy
+open_weights: true
+hf_repo: uukuguy/speechless-coder-ds-6.7b
+weights_url: https://huggingface.co/uukuguy/speechless-coder-ds-6.7b
+architecture:
+  params_total_b: 6.7
+sources:
+- evalplus-leaderboard-data
+managed_by: register

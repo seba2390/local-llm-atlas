@@ -2,14 +2,22 @@ id: qwq-32b
 name: QwQ-32B
 aliases:
 - QwQ-32B
+- Qwen/QwQ-32B
 - chutes/QwQ-32B
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2025-03-05'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/QwQ-32B
+weights_url: https://huggingface.co/Qwen/QwQ-32B
 architecture:
   params_total_b: 32.5
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
 managed_by: register

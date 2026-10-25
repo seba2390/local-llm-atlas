@@ -1,0 +1,15 @@
+id: llama-3-70b-synthia-v3.5
+name: Llama-3-70B-Synthia-v3.5
+aliases:
+- Llama-3-70B-Synthia-v3.5
+org: migtissera
+company: migtissera
+release_date: '2024-05-27'
+open_weights: true
+hf_repo: migtissera/Llama-3-70B-Synthia-v3.5
+weights_url: https://huggingface.co/migtissera/Llama-3-70B-Synthia-v3.5
+architecture:
+  params_total_b: 70.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

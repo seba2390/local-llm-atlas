@@ -1,0 +1,24 @@
+id: yi-coder-9b-chat
+name: Yi Coder 9B Chat
+aliases:
+- 01-ai/Yi-Coder-9B-Chat
+- Yi Coder 9B Chat
+- Yi-Coder-9B-Chat
+- ollama/yi-coder:9b-chat
+- yi-coder:9b-chat
+org: 01-ai
+company: 01.AI
+country: China
+release_date: '2024-09-04'
+open_weights: true
+hf_repo: 01-ai/Yi-Coder-9B-Chat
+weights_url: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
+architecture:
+  params_total_b: 9.0
+sources:
+- aider-edit-leaderboard-data
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+  architecture.params_total_b: bigcodebench-results-hf
+managed_by: register

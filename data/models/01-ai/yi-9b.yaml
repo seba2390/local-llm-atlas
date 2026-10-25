@@ -1,0 +1,13 @@
+id: yi-9b
+name: Yi-9B
+aliases:
+- Yi-9B
+org: 01-ai
+company: 01.AI
+country: China
+release_date: '2024-03-01'
+open_weights: null
+sources:
+- epoch-ai-models
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

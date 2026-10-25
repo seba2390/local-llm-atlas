@@ -1,0 +1,12 @@
+id: qwen3-max-thinking
+name: Qwen3-Max-Thinking
+aliases:
+- Qwen3-Max-Thinking
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2026-01-23'
+open_weights: null
+sources:
+- taubench-leaderboard
+managed_by: register

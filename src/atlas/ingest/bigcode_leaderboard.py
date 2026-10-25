@@ -32,7 +32,9 @@ MULTIPLE_BENCH = {
     "higher_is_better": True, "introduced": "2022-08-17", "url": "https://github.com/nuprl/MultiPL-E",
     "variants": [{"id": lang} for lang in LANGS] + [
         {"id": "bigcode-average", "notes": "Big Code Models Leaderboard 'Average score': mean pass@1 over HumanEval-Python "
-         "and the 11 MultiPL-E languages above (only comparable within that leaderboard)."}],
+         "and the 11 MultiPL-E languages above (only comparable within that leaderboard)."},
+        {"id": "vendor-average", "notes": "Single 'MultiPL-E' number in a vendor table; language set and averaging not stated "
+         "(only comparable within the same vendor table)."}],
     "sources": [SRC_MULTIPLE],
     "description": "HumanEval (and MBPP) translated into many programming languages; variant = target language "
                    "(HumanEval-derived problems).",

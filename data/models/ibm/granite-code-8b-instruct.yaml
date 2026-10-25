@@ -1,0 +1,16 @@
+id: granite-code-8b-instruct
+name: Granite-Code-8B-Instruct
+aliases:
+- Granite-Code-8B-Instruct
+org: ibm
+company: IBM
+country: United States of America
+release_date: '2024-05-06'
+open_weights: true
+hf_repo: ibm-granite/granite-8b-code-instruct
+weights_url: https://huggingface.co/ibm-granite/granite-8b-code-instruct
+architecture:
+  params_total_b: 8.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

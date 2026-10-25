@@ -1,8 +1,0 @@
-id: grok-code-fast-1
-name: grok-code-fast-1
-org: unknown
-release_date: '2025-08-28'
-open_weights: null
-sources:
-- epoch-ai-models
-managed_by: register

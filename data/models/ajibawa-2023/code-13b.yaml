@@ -1,0 +1,14 @@
+id: code-13b
+name: Code-13B
+aliases:
+- Code-13B
+org: ajibawa-2023
+company: ajibawa-2023
+open_weights: true
+hf_repo: ajibawa-2023/Code-13B
+weights_url: https://huggingface.co/ajibawa-2023/Code-13B
+architecture:
+  params_total_b: 13.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

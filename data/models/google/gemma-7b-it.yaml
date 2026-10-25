@@ -1,0 +1,19 @@
+id: gemma-7b-it
+name: gemma-7b-it
+aliases:
+- Gemma-7b-it
+org: google
+company: Google DeepMind
+country: United States of America
+open_weights: true
+license: gemma-terms-of-use
+hf_repo: google/gemma-7b-it
+weights_url: https://huggingface.co/google/gemma-7b-it
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+managed_by: register

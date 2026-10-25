@@ -1,0 +1,13 @@
+id: bielik-11b-v2.3-instruct
+name: Bielik-11B-v2.3-Instruct
+aliases:
+- Bielik-11B-v2.3-Instruct
+org: speakleash-ack-cyfronet-agh
+company: SpeakLeash & ACK Cyfronet AGH
+open_weights: true
+license: Apache 2.0
+hf_repo: speakleash/Bielik-11B-v2.3-Instruct
+weights_url: https://huggingface.co/speakleash/Bielik-11B-v2.3-Instruct
+sources:
+- bfcl-result-archive
+managed_by: register

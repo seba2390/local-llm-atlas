@@ -1,0 +1,11 @@
+id: codetulu-2-34b
+name: codetulu-2-34b
+org: allenai
+company: Allen Institute for AI
+country: United States of America
+open_weights: true
+hf_repo: allenai/codetulu-2-34b
+weights_url: https://huggingface.co/allenai/codetulu-2-34b
+sources:
+- cruxeval-leaderboard
+managed_by: register

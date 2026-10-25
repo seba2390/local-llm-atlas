@@ -1,0 +1,7 @@
+id: lingma-agent
+name: Lingma Agent
+kind: agent-scaffold
+url: https://www.modelscope.cn/models/yingwei/Lingma-SWE-GPT
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

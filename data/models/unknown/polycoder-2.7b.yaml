@@ -1,0 +1,12 @@
+id: polycoder-2.7b
+name: PolyCoder-2.7B
+aliases:
+- PolyCoder-2.7B
+org: unknown
+company: Unknown
+open_weights: true
+architecture:
+  params_total_b: 2.7
+sources:
+- evalplus-leaderboard-data
+managed_by: register

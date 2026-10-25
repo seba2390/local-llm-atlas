@@ -1,14 +1,22 @@
 id: falcon-180b
 name: falcon-180B
 aliases:
+- Falcon-180B
 - falcon-180B
 org: tii
 company: Technology Innovation Institute
 country: United Arab Emirates
 release_date: '2023-09-06'
 open_weights: true
+hf_repo: tiiuae/falcon-180B
+weights_url: https://huggingface.co/tiiuae/falcon-180B
+context_length: 2048
 architecture:
   params_total_b: 180.0
 sources:
 - epoch-ai-models
+- bigcode-models-leaderboard
+field_sources:
+  context_length: bigcode-models-leaderboard
+  hf_repo: bigcode-models-leaderboard
 managed_by: register

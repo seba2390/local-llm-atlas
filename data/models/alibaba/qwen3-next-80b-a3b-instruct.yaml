@@ -1,0 +1,26 @@
+id: qwen3-next-80b-a3b-instruct
+name: Qwen3-Next-80B-A3B-Instruct
+aliases:
+- Qwen/Qwen3-Next-80B-A3B-Instruct
+- chutes/Qwen3-Next-80B-A3B-Instruct
+- deepinfra/Qwen3-Next-80B-A3B-Instruct
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-09-11'
+open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3-Next-80B-A3B-Instruct
+weights_url: https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct
+architecture:
+  params_total_b: 81.3
+sources:
+- epoch-ai-models
+- hf-qwen3-next-80b-a3b-instruct
+field_sources:
+  org: hf-qwen3-next-80b-a3b-instruct
+  license: hf-qwen3-next-80b-a3b-instruct
+  open_weights: hf-qwen3-next-80b-a3b-instruct
+  hf_repo: hf-qwen3-next-80b-a3b-instruct
+  architecture.params_total_b: hf-qwen3-next-80b-a3b-instruct
+managed_by: register

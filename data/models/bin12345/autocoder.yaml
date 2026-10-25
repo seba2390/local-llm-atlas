@@ -1,0 +1,15 @@
+id: autocoder
+name: AutoCoder
+aliases:
+- AutoCoder
+org: bin12345
+company: Bin12345
+release_date: '2024-05-23'
+open_weights: true
+hf_repo: Bin12345/AutoCoder
+weights_url: https://huggingface.co/Bin12345/AutoCoder
+architecture:
+  params_total_b: 33.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

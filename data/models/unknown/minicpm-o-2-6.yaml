@@ -3,6 +3,7 @@ name: MiniCPM-o-2_6
 aliases:
 - MiniCPM-o-2_6
 org: unknown
+company: Unknown
 release_date: '2025-01-12'
 open_weights: null
 sources:

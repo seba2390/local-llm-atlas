@@ -1,0 +1,5 @@
+id: phronetic-ai
+name: Phronetic AI
+sources:
+- bfcl-result-archive
+managed_by: register

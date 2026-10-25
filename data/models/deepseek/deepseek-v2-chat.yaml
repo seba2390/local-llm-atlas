@@ -1,0 +1,16 @@
+id: deepseek-v2-chat
+name: DeepSeek-V2-Chat
+aliases:
+- DeepSeek-V2-Chat
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2024-04-06'
+open_weights: true
+hf_repo: deepseek-ai/DeepSeek-V2-Chat
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat
+architecture:
+  params_total_b: 236.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

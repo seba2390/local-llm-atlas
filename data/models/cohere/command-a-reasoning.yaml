@@ -1,0 +1,12 @@
+id: command-a-reasoning
+name: Command A Reasoning
+aliases:
+- Command A Reasoning
+org: cohere
+company: Cohere
+country: Canada
+open_weights: true
+license: CC-BY-NC 4.0 License (w/ Acceptable Use Addendum)
+sources:
+- bfcl-result-archive
+managed_by: register

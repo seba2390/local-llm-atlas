@@ -1,0 +1,15 @@
+id: stablelm-7b
+name: StableLM-7B
+aliases:
+- StableLM-7B
+org: stability
+company: Stability AI
+country: United Kingdom
+open_weights: true
+hf_repo: stabilityai/stablelm-base-alpha-7b
+weights_url: https://huggingface.co/stabilityai/stablelm-base-alpha-7b
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

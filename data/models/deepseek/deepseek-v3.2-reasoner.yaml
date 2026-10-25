@@ -1,0 +1,10 @@
+id: deepseek-v3.2-reasoner
+name: DeepSeek V3.2 Reasoner
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2025-12-01'
+open_weights: true
+sources:
+- swe-bench-leaderboards
+managed_by: register

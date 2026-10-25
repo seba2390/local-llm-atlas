@@ -1,0 +1,12 @@
+id: gemini-1.5-pro-preview-0409
+name: Gemini-1.5-Pro-Preview-0409
+aliases:
+- Gemini-1.5-Pro-Preview-0409
+org: google
+company: Google DeepMind
+country: United States of America
+open_weights: false
+license: Proprietary
+sources:
+- bfcl-result-archive
+managed_by: register

@@ -1,0 +1,14 @@
+id: mistral-codealpaca-7b
+name: Mistral-codealpaca-7B
+aliases:
+- Mistral-codealpaca-7B
+org: nondzu
+company: Nondzu
+open_weights: true
+hf_repo: Nondzu/Mistral-7B-codealpaca-lora
+weights_url: https://huggingface.co/Nondzu/Mistral-7B-codealpaca-lora
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

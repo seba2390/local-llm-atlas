@@ -1,0 +1,23 @@
+id: codeqwen1.5-7b-chat
+name: CodeQwen1.5-7B-Chat
+aliases:
+- CodeQwen1.5-7B-Chat
+- Qwen/CodeQwen1.5-7B-Chat
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2024-04-16'
+open_weights: true
+hf_repo: Qwen/CodeQwen1.5-7B-Chat
+weights_url: https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat
+context_length: 65536
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+- bigcode-models-leaderboard
+field_sources:
+  release_date: bigcodebench-results-hf
+  context_length: bigcode-models-leaderboard
+managed_by: register

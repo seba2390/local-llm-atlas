@@ -1,0 +1,5 @@
+id: speakleash-ack-cyfronet-agh
+name: SpeakLeash & ACK Cyfronet AGH
+sources:
+- bfcl-result-archive
+managed_by: register

@@ -1,14 +1,22 @@
 id: qwen3.5-27b
 name: Qwen3.5 27B
 aliases:
+- Qwen/Qwen3.5-27B
 - qwen3.5-27B
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2026-02-24'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3.5-27B
+weights_url: https://huggingface.co/Qwen/Qwen3.5-27B
 architecture:
   params_total_b: 27.0
 sources:
 - epoch-ai-models
+- hf-qwen3.5-27b
+field_sources:
+  license: hf-qwen3.5-27b
+  hf_repo: hf-qwen3.5-27b
 managed_by: register

@@ -1,0 +1,15 @@
+id: mistral-nemo-12b-instruct
+name: Mistral-Nemo-12B-Instruct
+aliases:
+- Mistral-Nemo-12B-Instruct
+org: nv-mistralai
+company: nv-mistralai
+release_date: '2024-07-18'
+open_weights: true
+hf_repo: nv-mistralai/Mistral-Nemo-12B-Instruct
+weights_url: https://huggingface.co/nv-mistralai/Mistral-Nemo-12B-Instruct
+architecture:
+  params_total_b: 12.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

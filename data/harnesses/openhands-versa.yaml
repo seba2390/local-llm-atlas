@@ -1,0 +1,7 @@
+id: openhands-versa
+name: OpenHands-Versa
+kind: agent-scaffold
+url: https://github.com/adityasoni9998/OpenHands-Versa
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

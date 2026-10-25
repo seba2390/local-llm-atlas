@@ -1,9 +1,0 @@
-id: hf-unsloth-gemma-4-26b-a4b-it-gguf
-kind: model_card
-provenance: community
-title: unsloth/gemma-4-26B-A4B-it-GGUF (GGUF quantisations of google/gemma-4-26B-A4B-it) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF
-revision: c099eb48e663fd284577b04978a94ffccb261841
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

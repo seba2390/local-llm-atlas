@@ -3,6 +3,7 @@ name: LinVT
 aliases:
 - LinVT
 org: unknown
+company: Unknown
 release_date: '2024-12-06'
 open_weights: null
 sources:

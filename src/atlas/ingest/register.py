@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import json
 import re
 from collections import defaultdict
 from typing import Any
@@ -42,7 +43,7 @@ ORG_SLUGS = {
     "stepfun-ai": "stepfun", "opengvlab": "shanghai-ai-lab", "tencent-hunyuan": "tencent", "ai21": "ai21",
     "servicenow-ai": "servicenow", "snowflake ai research": "snowflake", "arcee-ai": "arcee", "deepcogito": "deep-cogito",
     "primeintellect": "prime-intellect", "rhymes-ai": "rhymes", "mistral-community": "mistral", "openbmb": "openbmb",
-    "zhipu": "zhipu", "meta platforms": "meta", "apple": "apple", "amazon nova": "amazon", "ibm research": "ibm",
+    "huggingfaceh4": "huggingface", "zhipu": "zhipu", "meta platforms": "meta", "apple": "apple", "amazon nova": "amazon", "ibm research": "ibm",
 }
 
 # Brand prefixes (start of model id) that unambiguously identify the developer. Used only when no source states it;
@@ -92,15 +93,35 @@ def _read_claims() -> list[dict[str, str]]:
     return claims
 
 
+_NAME_TAG = re.compile(
+    r"\s*\((?:[^)]*\bthinking\b[^)]*|no thinking|together|novita|fireworks|deepinfra|chutes|web|web app)\)\s*$", re.I)
+
+
+def clean_name(name: str) -> str:
+    """Drop serving-provider / reasoning-effort tags from display names; those belong in score rows, not the model."""
+    name = re.sub(r"\s*\(pro, [^)]*\)\s*$", " Pro", name)
+    prev = None
+    while prev != name:
+        prev, name = name, _NAME_TAG.sub("", name).strip()
+    return name
+
+
+HF_REPO_RE = re.compile(r"^[A-Za-z0-9][\w.-]*/[\w.-]+$")
+
+
 def _derive(claims: list[dict[str, str]]) -> dict[str, tuple[Any, str]]:
     """field -> (value, source_id), taking the highest-priority claim that states it."""
     out: dict[str, tuple[Any, str]] = {}
     for c in claims:
         for f in ("name", "org", "release_date", "open_weights", "hf_repo", "params_total_b", "license", "context_length"):
             if c.get(f) and f not in out:
-                out[f] = (c[f], c.get("source_id", ""))
+                out[f] = (clean_name(c[f]) if f == "name" else c[f], c.get("source_id", ""))
+    if "hf_repo" in out and not HF_REPO_RE.match(out["hf_repo"][0]):
+        del out["hf_repo"]  # e.g. a leaderboard display name that merely contains a '/'
     if "open_weights" in out:
         out["open_weights"] = ({"true": True, "false": False}.get(out["open_weights"][0]), out["open_weights"][1])
+        if out["open_weights"][0] is False:
+            out.pop("hf_repo", None)
     if "context_length" in out:
         out["context_length"] = (int(float(out["context_length"][0])), out["context_length"][1])
     if "params_total_b" in out:
@@ -284,6 +305,23 @@ def register_orgs(dry_run: bool = False) -> dict[str, int]:
         created += 1
         if not dry_run:
             dump_yaml(path, rec)
+    # Orgs referenced by models (e.g. derived from a Hugging Face account) that no source describes yet.
+    cat = load(DATA)
+    known = set(cat.entities.get("orgs", {}))
+    pending: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for rec in cat.entities.get("models", {}).values():
+        slug = rec.data.get("org")
+        if slug and slug not in known and not (DATA / "orgs" / f"{slug}.yaml").exists():
+            pending[slug].append(rec.data)
+    for slug, models in pending.items():
+        authors = [m["hf_repo"].split("/")[0] for m in models if m.get("hf_repo")]
+        name = max(set(authors), key=authors.count) if authors else slug
+        src = next((m["sources"][0] for m in models if m.get("hf_repo") and m.get("sources")), models[0]["sources"][0])
+        rec = {"id": slug, "name": name, "sources": [src], "managed_by": "register",
+               "notes": "Created from the Hugging Face account that publishes the weights; country not stated by any imported source."}
+        created += 1
+        if not dry_run:
+            dump_yaml(DATA / "orgs" / f"{slug}.yaml", rec)
     print(f"[register-orgs] created={created} updated={updated}")
     return {"created": created, "updated": updated}
 
@@ -317,3 +355,87 @@ def sync_orgs() -> int:
             changed += 1
     print(f"[sync-orgs] updated {changed} model records")
     return changed
+
+
+def merge_duplicates(dry_run: bool = False) -> int:
+    """Merge managed model records that share a strong key (id/alias/HF repo): same checkpoint registered twice."""
+    from ..resolve import Resolver, strip_provider as _tail
+
+    cat = load(DATA)
+    models = cat.entities.get("models", {})
+    parent: dict[str, str] = {}
+
+    def find(x: str) -> str:
+        while parent.setdefault(x, x) != x:
+            x = parent[x]
+        return x
+
+    for ids in Resolver.from_catalog(cat).ambiguous().values():
+        ids = sorted(ids)
+        for i in ids[1:]:
+            parent[find(i)] = find(ids[0])
+    groups: dict[str, set[str]] = defaultdict(set)
+    for x in list(parent):
+        groups[find(x)].add(x)
+
+    merged = 0
+    for group in groups.values():
+        recs = [models[i] for i in sorted(group)]
+        if any(r.data.get("managed_by") != "register" for r in recs):
+            hand = [r for r in recs if r.data.get("managed_by") != "register"]
+            if len(hand) > 1:
+                continue  # two hand-curated records collide: needs a human
+            canon = hand[0]
+        else:
+            hf_ids = {slugify(_tail(r.data["hf_repo"])) for r in recs if r.data.get("hf_repo")}
+            canon = next((r for r in recs if r.data["id"] in hf_ids), None) or max(
+                recs, key=lambda r: (bool(r.data.get("release_date")), len(r.data.get("sources", [])), -len(r.data["id"])))
+        new = dict(canon.data)
+        new["sources"] = list(new.get("sources", []))
+        aliases = set(new.get("aliases", []))
+        for r in recs:
+            if r is canon:
+                continue
+            d = r.data
+            aliases |= {d["id"], *d.get("aliases", [])}
+            if d.get("name") and d["name"] != new.get("name"):
+                aliases.add(d["name"])
+            src = (d.get("sources") or [None])[0]
+            fsrc = d.get("field_sources") or {}
+            for field in ("release_date", "license", "context_length", "hf_repo", "weights_url", "family", "variant"):
+                if field not in new and field in d:
+                    new[field] = d[field]
+                    _cite(new, field, fsrc.get(field, src))
+            if new.get("open_weights") is None and d.get("open_weights") is not None:
+                new["open_weights"] = d["open_weights"]
+                _cite(new, "open_weights", fsrc.get("open_weights", src))
+            arch = dict(new.get("architecture") or {})
+            for k, v in (d.get("architecture") or {}).items():
+                if k not in arch:
+                    arch[k] = v
+                    _cite(new, f"architecture.{k}", fsrc.get(f"architecture.{k}", src))
+            if arch:
+                new["architecture"] = arch
+            for s in d.get("sources", []):
+                if s not in new["sources"]:
+                    new["sources"].append(s)
+        aliases.discard(new["id"])
+        if aliases:
+            new["aliases"] = sorted(aliases)
+        if new.get("managed_by") == "register":
+            new = _ordered(new)
+            if not dry_run:
+                dump_yaml(canon.path, new)
+        elif not dry_run:
+            # hand-curated canonical record: only extend its aliases line
+            text = canon.path.read_text()
+            lines = [l for l in text.splitlines() if not l.startswith("aliases:")]
+            i = next(i for i, l in enumerate(lines) if l.startswith("name:")) + 1
+            lines.insert(i, "aliases: " + json.dumps(new["aliases"]))
+            canon.path.write_text("\n".join(lines) + "\n")
+        for r in recs:
+            if r is not canon and not dry_run:
+                r.path.unlink()
+        merged += len(recs) - 1
+    print(f"[merge-duplicates] merged {merged} duplicate records into {len(groups)} models")
+    return merged

@@ -1,0 +1,15 @@
+id: phind-codellama-34b-v1
+name: Phind-CodeLlama-34B-v1
+aliases:
+- Phind-CodeLlama-34B-v1
+org: phind
+company: phind
+open_weights: true
+hf_repo: phind/Phind-CodeLlama-34B-v1
+weights_url: https://huggingface.co/phind/Phind-CodeLlama-34B-v1
+context_length: 16384
+architecture:
+  params_total_b: 34.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

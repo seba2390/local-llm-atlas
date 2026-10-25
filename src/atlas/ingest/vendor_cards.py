@@ -187,5 +187,8 @@ def run() -> dict:
         for r in csv.DictReader(fh):
             row = {k: (v.strip() or None) for k, v in r.items() if k != "raw_name"}
             row["value"] = float(row["value"])
+            if r["raw_name"] not in MODELS:
+                # comparison model in a vendor table: the table is the only source we have for it
+                imp.claim(r["raw_name"], source_id=row["source_id"])
             imp.score(r["raw_name"], **row)
     return imp.finish()

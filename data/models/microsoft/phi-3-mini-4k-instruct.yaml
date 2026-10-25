@@ -7,8 +7,13 @@ company: Microsoft
 country: United States of America
 release_date: '2024-04-23'
 open_weights: true
+hf_repo: microsoft/Phi-3-mini-4k-instruct
+weights_url: https://huggingface.co/microsoft/Phi-3-mini-4k-instruct
 architecture:
   params_total_b: 3.8
 sources:
 - epoch-ai-models
+- evalplus-leaderboard-data
+field_sources:
+  hf_repo: evalplus-leaderboard-data
 managed_by: register

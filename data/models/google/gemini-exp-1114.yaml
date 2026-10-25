@@ -1,0 +1,13 @@
+id: gemini-exp-1114
+name: gemini-exp-1114
+aliases:
+- Gemini-Exp-1114
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2024-11-14'
+open_weights: null
+sources:
+- aider-edit-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

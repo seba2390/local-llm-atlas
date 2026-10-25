@@ -1,0 +1,11 @@
+id: gemini-2.0-flash-v20241212-experimental
+name: Gemini 2.0 Flash (v20241212-experimental)
+aliases:
+- Gemini 2.0 Flash (v20241212-experimental)
+org: google
+company: Google DeepMind
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

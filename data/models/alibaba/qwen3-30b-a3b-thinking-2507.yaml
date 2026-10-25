@@ -1,10 +1,22 @@
 id: qwen3-30b-a3b-thinking-2507
 name: qwen3-30b-a3b-thinking-2507
+aliases:
+- Qwen/Qwen3-30B-A3B-Thinking-2507
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2025-07-30'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3-30B-A3B-Thinking-2507
+weights_url: https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507
+architecture:
+  params_total_b: 30.5
 sources:
 - epoch-ai-models
+- hf-qwen3-30b-a3b-thinking-2507
+field_sources:
+  license: hf-qwen3-30b-a3b-thinking-2507
+  hf_repo: hf-qwen3-30b-a3b-thinking-2507
+  architecture.params_total_b: hf-qwen3-30b-a3b-thinking-2507
 managed_by: register

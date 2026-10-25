@@ -1,0 +1,14 @@
+id: zyte-1b
+name: zyte-1B
+aliases:
+- zyte-1B
+org: aihub-app
+company: aihub-app
+open_weights: true
+hf_repo: aihub-app/zyte-1B
+weights_url: https://huggingface.co/aihub-app/zyte-1B
+architecture:
+  params_total_b: 1.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

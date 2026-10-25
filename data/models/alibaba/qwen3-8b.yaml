@@ -1,14 +1,22 @@
 id: qwen3-8b
 name: qwen3-8b
 aliases:
+- Qwen3-8B
 - chutes/Qwen3-8B
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2025-04-28'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3-8B
+weights_url: https://huggingface.co/Qwen/Qwen3-8B
 architecture:
   params_total_b: 8.2
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
 managed_by: register

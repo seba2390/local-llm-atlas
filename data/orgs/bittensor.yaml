@@ -1,0 +1,5 @@
+id: bittensor
+name: Bittensor
+sources:
+- bfcl-result-archive
+managed_by: register

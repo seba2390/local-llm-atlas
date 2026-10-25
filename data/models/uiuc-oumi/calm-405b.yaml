@@ -1,0 +1,13 @@
+id: calm-405b
+name: CALM-405B
+aliases:
+- CALM-405B
+org: uiuc-oumi
+company: UIUC + Oumi
+open_weights: true
+license: Meta Llama 3 Community
+hf_repo: uiuc-convai/CALM-405B
+weights_url: https://huggingface.co/uiuc-convai/CALM-405B
+sources:
+- bfcl-result-archive
+managed_by: register

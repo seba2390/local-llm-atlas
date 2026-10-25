@@ -1,0 +1,7 @@
+id: orcaloca-agentless
+name: OrcaLoca + Agentless
+kind: agent-scaffold
+url: https://github.com/fishmingyu/OrcarLLM
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

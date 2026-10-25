@@ -1,0 +1,5 @@
+id: thinkagents
+name: ThinkAgents
+sources:
+- bfcl-result-archive
+managed_by: register

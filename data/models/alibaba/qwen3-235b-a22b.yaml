@@ -1,6 +1,7 @@
 id: qwen3-235b-a22b
 name: qwen3-235b-a22b
 aliases:
+- Qwen/Qwen3-235B-A22B
 - Qwen3-235B-A22B
 - chutes/Qwen3-235B-A22B
 org: alibaba
@@ -8,8 +9,15 @@ company: Alibaba
 country: China
 release_date: '2025-04-28'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3-235B-A22B
+weights_url: https://huggingface.co/Qwen/Qwen3-235B-A22B
 architecture:
   params_total_b: 235.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
 managed_by: register

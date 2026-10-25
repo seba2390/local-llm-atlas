@@ -1,0 +1,16 @@
+id: kimi-k2
+name: Kimi K2
+aliases:
+- Kimi K2
+- Kimi-k2
+org: moonshot
+company: Moonshot
+country: China
+release_date: '2025-07-11'
+open_weights: null
+sources:
+- aider-polyglot-leaderboard-data
+- taubench-leaderboard
+field_sources:
+  release_date: taubench-leaderboard
+managed_by: register

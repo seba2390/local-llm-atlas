@@ -1,0 +1,16 @@
+id: codellama-70b-python
+name: CodeLlama-70b-Python
+aliases:
+- CodeLlama-70b-Python
+org: meta
+company: Meta AI
+country: United States of America
+open_weights: true
+hf_repo: codellama/CodeLlama-70b-Python-hf
+weights_url: https://huggingface.co/codellama/CodeLlama-70b-Python-hf
+context_length: 2048
+architecture:
+  params_total_b: 70.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

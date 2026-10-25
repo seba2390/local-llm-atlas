@@ -1,5 +1,8 @@
 id: qwen2-72b-instruct
 name: qwen2-72b-instruct
+aliases:
+- Qwen2 72B Instruct
+- qwen2:72b-instruct
 org: alibaba
 company: Alibaba
 country: China

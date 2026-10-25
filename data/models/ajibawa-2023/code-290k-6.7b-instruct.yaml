@@ -1,0 +1,14 @@
+id: code-290k-6.7b-instruct
+name: Code-290k-6.7B-Instruct
+aliases:
+- Code-290k-6.7B-Instruct
+org: ajibawa-2023
+company: ajibawa-2023
+open_weights: true
+hf_repo: ajibawa-2023/Code-290k-6.7B-Instruct
+weights_url: https://huggingface.co/ajibawa-2023/Code-290k-6.7B-Instruct
+architecture:
+  params_total_b: 6.7
+sources:
+- evalplus-leaderboard-data
+managed_by: register

@@ -1,0 +1,10 @@
+id: opencodeinterpreter-6.7b
+name: opencodeinterpreter:6.7b
+aliases:
+- ollama/wojtek/opencodeinterpreter:6.7b
+org: unknown
+company: Unknown
+open_weights: true
+sources:
+- aider-edit-leaderboard-data
+managed_by: register

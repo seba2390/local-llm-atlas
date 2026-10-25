@@ -1,0 +1,13 @@
+id: arch-agent-32b
+name: Arch-Agent-32B
+aliases:
+- Arch-Agent-32B
+org: katanemo
+company: katanemo
+open_weights: true
+license: katanemo-research
+hf_repo: katanemo/Arch-Agent-32B
+weights_url: https://huggingface.co/katanemo/Arch-Agent-32B
+sources:
+- bfcl-result-archive
+managed_by: register

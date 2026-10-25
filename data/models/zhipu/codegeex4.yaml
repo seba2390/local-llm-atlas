@@ -1,0 +1,12 @@
+id: codegeex4
+name: codegeex4
+aliases:
+- ollama/codegeex4
+org: zhipu
+company: Z.ai (Zhipu AI)
+country: China
+open_weights: true
+sources:
+- aider-edit-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

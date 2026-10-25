@@ -1,0 +1,15 @@
+id: athene-v2-agent
+name: Athene-V2-Agent
+aliases:
+- Athene-V2-Agent
+org: nexusflow
+company: Nexusflow
+release_date: '2024-11-14'
+open_weights: true
+hf_repo: Nexusflow/Athene-V2-Agent
+weights_url: https://huggingface.co/Nexusflow/Athene-V2-Agent
+architecture:
+  params_total_b: 72.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

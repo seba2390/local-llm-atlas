@@ -1,0 +1,7 @@
+id: skywork-swe-32b
+name: Skywork-SWE-32B
+kind: agent-scaffold
+url: https://quixotic-sting-239.notion.site/eb17f379610040ceb54da5d5d24065bd
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

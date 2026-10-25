@@ -1,0 +1,20 @@
+id: santacoder-1.1b
+name: SantaCoder-1.1B
+aliases:
+- SantaCoder-1.1B
+org: bigcode
+company: BigCode
+country: United States of America
+open_weights: true
+hf_repo: bigcode/santacoder
+weights_url: https://huggingface.co/bigcode/santacoder
+context_length: 2048
+architecture:
+  params_total_b: 1.1
+sources:
+- evalplus-leaderboard-data
+- bigcode-models-leaderboard
+field_sources:
+  context_length: bigcode-models-leaderboard
+  hf_repo: bigcode-models-leaderboard
+managed_by: register

@@ -1,0 +1,14 @@
+id: xdan-l1-chat-rl-v1-7b
+name: xDAN-L1-Chat-RL-v1-7B
+aliases:
+- xDAN-L1-Chat-RL-v1-7B
+org: xdan-ai
+company: xDAN-AI
+open_weights: true
+hf_repo: xDAN-AI/xDAN-L1-Chat-RL-v1
+weights_url: https://huggingface.co/xDAN-AI/xDAN-L1-Chat-RL-v1
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

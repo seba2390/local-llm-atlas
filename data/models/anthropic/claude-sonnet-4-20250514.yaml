@@ -1,10 +1,17 @@
 id: claude-sonnet-4-20250514
-name: Claude Sonnet 4 (unknown thinking)
+name: Claude Sonnet 4
+aliases:
+- Claude Sonnet 4
+- Claude-Sonnet-4-20250514
 org: anthropic
 company: Anthropic
 country: United States of America
 release_date: '2025-05-22'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

@@ -1,9 +1,0 @@
-id: hf-unsloth-deepseek-v3.1-terminus-gguf
-kind: model_card
-provenance: community
-title: unsloth/DeepSeek-V3.1-Terminus-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-V3.1-Terminus) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/DeepSeek-V3.1-Terminus-GGUF
-revision: fe48342e95b8b3ca863189919605651fc2e88f4e
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

@@ -1,12 +1,23 @@
 id: qwen2.5-72b-instruct
 name: qwen2.5-72b-instruct
+aliases:
+- Qwen/Qwen2.5-72B-Instruct
+- Qwen2.5-72B-Instruct
+- qwen-2.5-72b-instruct
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2024-09-19'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen2.5-72B-Instruct
+weights_url: https://huggingface.co/Qwen/Qwen2.5-72B-Instruct
 architecture:
   params_total_b: 72.7
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
 managed_by: register

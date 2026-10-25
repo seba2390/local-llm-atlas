@@ -7,6 +7,7 @@ company: DeepSeek
 country: China
 release_date: '2025-09-29'
 open_weights: true
+license: MIT
 hf_repo: deepseek-ai/DeepSeek-V3.2-Exp
 weights_url: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
 architecture:
@@ -24,6 +25,7 @@ architecture:
 sources:
 - epoch-ai-models
 - hf-deepseek-ai-deepseek-v3.2-exp
+- bfcl-result-archive
 field_sources:
   architecture.type: hf-deepseek-ai-deepseek-v3.2-exp
   architecture.layers: hf-deepseek-ai-deepseek-v3.2-exp
@@ -36,4 +38,5 @@ field_sources:
   architecture.experts_shared: hf-deepseek-ai-deepseek-v3.2-exp
   architecture.native_dtype: hf-deepseek-ai-deepseek-v3.2-exp
   hf_repo: hf-deepseek-ai-deepseek-v3.2-exp
+  license: bfcl-result-archive
 managed_by: register

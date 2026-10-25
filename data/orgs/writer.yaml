@@ -1,0 +1,5 @@
+id: writer
+name: Writer
+sources:
+- bfcl-result-archive
+managed_by: register

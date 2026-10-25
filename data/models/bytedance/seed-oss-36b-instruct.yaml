@@ -1,0 +1,11 @@
+id: seed-oss-36b-instruct
+name: seed-oss-36b-instruct
+org: bytedance
+company: ByteDance
+country: China
+release_date: '2025-08-20'
+open_weights: null
+sources:
+- epoch-ai-models
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

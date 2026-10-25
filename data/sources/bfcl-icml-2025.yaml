@@ -1,6 +1,6 @@
 id: bfcl-icml-2025
 kind: paper
-provenance: third_party
+provenance: first_party
 title: 'The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models'
 authors:
 - Shishir G. Patil

@@ -1,0 +1,17 @@
+id: qwen3-4b-thinking-2507
+name: Qwen3-4B-Thinking-2507
+aliases:
+- Qwen/Qwen3-4B-Thinking-2507
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-08-05'
+open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3-4B-Thinking-2507
+weights_url: https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507
+architecture:
+  params_total_b: 4.0
+sources:
+- hf-qwen3-4b-thinking-2507
+managed_by: register

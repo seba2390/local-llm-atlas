@@ -1,9 +1,0 @@
-id: hf-unsloth-cogito-671b-v2.1-gguf
-kind: model_card
-provenance: community
-title: unsloth/cogito-671b-v2.1-GGUF (GGUF quantisations of deepcogito/cogito-671b-v2.1) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/cogito-671b-v2.1-GGUF
-revision: 839784575682ddcfff6d4faf8ca0d11e477a9488
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

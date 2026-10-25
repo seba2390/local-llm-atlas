@@ -1,5 +1,7 @@
 id: gemini-3.1-pro-preview
 name: Gemini 3.1 Pro Preview
+aliases:
+- Gemini 3.1 Pro Preview
 org: google
 company: Google DeepMind
 country: United States of America

@@ -271,9 +271,6 @@ def run() -> dict:
             if cost is None or cost == 0:
                 # 0 means "not tracked" (free/local endpoints, older runs), not a measured cost.
                 imp.skipped["total_cost missing or 0"] += 1
-            elif cost > 100:
-                # validate.py range-checks every value of a percent benchmark against [0, 100], whatever the metric.
-                imp.skipped["total_cost > 100 (fails percent range check)"] += 1
             else:
                 imp.score(name, metric="total_cost_usd", value=cost, **base)
     return imp.finish()

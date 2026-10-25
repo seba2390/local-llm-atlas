@@ -1,0 +1,7 @@
+id: bigcode
+name: BigCode
+country: United States of America
+kind: collaboration
+sources:
+- epoch-ai-models
+notes: Name and country as listed in Epoch AI "Data on AI models" (Organization / Country of organization).

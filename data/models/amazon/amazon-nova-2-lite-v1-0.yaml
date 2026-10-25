@@ -1,0 +1,12 @@
+id: amazon-nova-2-lite-v1-0
+name: Amazon-Nova-2-Lite-v1:0
+aliases:
+- Amazon-Nova-2-Lite-v1:0
+org: amazon
+company: Amazon
+country: United States of America
+open_weights: false
+license: Proprietary
+sources:
+- bfcl-result-archive
+managed_by: register

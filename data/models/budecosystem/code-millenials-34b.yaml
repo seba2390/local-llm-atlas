@@ -1,0 +1,14 @@
+id: code-millenials-34b
+name: code-millenials-34B
+aliases:
+- code-millenials-34B
+org: budecosystem
+company: budecosystem
+open_weights: true
+hf_repo: budecosystem/code-millenials-34b
+weights_url: https://huggingface.co/budecosystem/code-millenials-34b
+architecture:
+  params_total_b: 34.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

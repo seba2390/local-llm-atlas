@@ -1,14 +1,25 @@
 id: meta-llama-3-8b
 name: Meta-Llama-3-8B
 aliases:
+- Llama-3-8B-Base
+- Llama3-8B-base
 - Meta-Llama-3-8B
+- llama-3-8b-base
+- llama3-8b-base
 org: meta
 company: Meta AI
 country: United States of America
 release_date: '2024-04-18'
 open_weights: true
+hf_repo: meta-llama/Meta-Llama-3-8B
+weights_url: https://huggingface.co/meta-llama/Meta-Llama-3-8B
 architecture:
   params_total_b: 8.0
 sources:
 - epoch-ai-models
+- bigcodebench-results-hf
+- evalplus-leaderboard-data
+field_sources:
+  hf_repo: bigcodebench-results-hf
+  weights_url: bigcodebench-results-hf
 managed_by: register

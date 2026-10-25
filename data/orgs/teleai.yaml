@@ -1,0 +1,5 @@
+id: teleai
+name: TeleAI
+sources:
+- bfcl-result-archive
+managed_by: register

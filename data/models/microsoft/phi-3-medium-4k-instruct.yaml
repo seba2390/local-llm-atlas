@@ -1,0 +1,13 @@
+id: phi-3-medium-4k-instruct
+name: Phi-3-medium-4k-instruct
+aliases:
+- microsoft/Phi-3-medium-4k-instruct
+org: microsoft
+company: Microsoft
+country: United States of America
+open_weights: true
+hf_repo: microsoft/Phi-3-medium-4k-instruct
+weights_url: https://huggingface.co/microsoft/Phi-3-medium-4k-instruct
+sources:
+- evalperf-leaderboard
+managed_by: register

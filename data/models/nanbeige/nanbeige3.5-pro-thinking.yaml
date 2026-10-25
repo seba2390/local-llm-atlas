@@ -1,0 +1,11 @@
+id: nanbeige3.5-pro-thinking
+name: Nanbeige3.5-Pro-Thinking
+aliases:
+- Nanbeige3.5-Pro-Thinking
+org: nanbeige
+company: Nanbeige
+open_weights: true
+license: apache-2.0
+sources:
+- bfcl-result-archive
+managed_by: register

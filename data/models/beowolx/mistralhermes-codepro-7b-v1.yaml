@@ -1,0 +1,14 @@
+id: mistralhermes-codepro-7b-v1
+name: MistralHermes-CodePro-7B-v1
+aliases:
+- MistralHermes-CodePro-7B-v1
+org: beowolx
+company: beowolx
+open_weights: true
+hf_repo: beowolx/MistralHermes-CodePro-7B-v1
+weights_url: https://huggingface.co/beowolx/MistralHermes-CodePro-7B-v1
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

@@ -1,0 +1,14 @@
+id: granite-3.1-8b-instruct
+name: Granite-3.1-8B-Instruct
+aliases:
+- Granite-3.1-8B-Instruct
+org: ibm
+company: IBM
+country: United States of America
+open_weights: true
+license: Apache-2.0
+hf_repo: ibm-granite/granite-3.1-8b-instruct
+weights_url: https://huggingface.co/ibm-granite/granite-3.1-8b-instruct
+sources:
+- bfcl-result-archive
+managed_by: register

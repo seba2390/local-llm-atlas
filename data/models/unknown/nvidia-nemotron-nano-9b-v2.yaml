@@ -1,8 +1,0 @@
-id: nvidia-nemotron-nano-9b-v2
-name: nvidia-nemotron-nano-9b-v2
-org: unknown
-release_date: '2025-08-18'
-open_weights: null
-sources:
-- epoch-ai-models
-managed_by: register

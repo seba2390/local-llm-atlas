@@ -5028,18 +5028,18 @@ gpt-5.6-sol,weirdml,v1-v2,,88.76,0.00323706,weirdml-official,,,on,high,,,epoch-b
 gpt-5.6-sol,weirdml,v1-v2,,86.97,0.00844333,weirdml-official,,,on,max,,,epoch-benchmarks-external,weirdml_external.csv id=rec7UbzIyPljXighC,,https://htihle.github.io/weirdml.html,
 gpt-5.6-sol,weirdml,v3,,14.9922,,codex-cli,codex_cli:0.154.0,,on,xhigh,,,epoch-benchmarks-external,weirdml_v3_external.csv row=6,,https://htihle.github.io/weirdml.html,listed as 'GPT-5.6 Sol (xhigh)'
 gpt-5.6-sol,weirdml,v3,max_performance,21.449,,codex-cli,codex_cli:0.154.0,,on,xhigh,,,epoch-benchmarks-external,weirdml_v3_external.csv row=6,,https://htihle.github.io/weirdml.html,listed as 'GPT-5.6 Sol (xhigh)'
-gpt-5.6-sol-promax,apex-agents,,,51.4,550,apex-agents-official,,,,,,,epoch-benchmarks-external,apex_agents_external.csv id=recG6d1VEmPidhR3T,,,listed as 'GPT-5.6 Sol'
-gpt-5.6-sol-promax,apex-agents,,mean_score,65.2,,apex-agents-official,,,,,,,epoch-benchmarks-external,apex_agents_external.csv id=recG6d1VEmPidhR3T,,,listed as 'GPT-5.6 Sol'
-gpt-5.6-sol-promax,dtbench,,,96,,dtbench-official,,,,,,,epoch-benchmarks-external,dtbench_external.csv row=6,,https://conceptualreasoning.ai/dtbench,listed as 'GPT-5.6 Sol Pro'
-gpt-5.6-sol-promax,epoch-chess-puzzles,,,68,4.68826,epoch-ai-evals,,,,,,2026-10-14,epoch-benchmarks-runs,chess_puzzles.csv id=WAavFdihYDHwjGsDNh9toF,Epoch AI run log,,
-gpt-5.6-sol-promax,forecastbench,,,65.6,,forecastbench-official,,,,,,,epoch-benchmarks-external,forecastbench_external.csv id=recFXTxZahTdG8ouo,,,listed as 'gpt-5.6-sol-pro-max-web-search-code-execution-128k-cost-optimized†'
-gpt-5.6-sol-promax,forecastbench,,dataset_score,60.6,,forecastbench-official,,,,,,,epoch-benchmarks-external,forecastbench_external.csv id=recFXTxZahTdG8ouo,,,listed as 'gpt-5.6-sol-pro-max-web-search-code-execution-128k-cost-optimized†'
-gpt-5.6-sol-promax,forecastbench,,market_score,71.6,,forecastbench-official,,,,,,,epoch-benchmarks-external,forecastbench_external.csv id=recFXTxZahTdG8ouo,,,listed as 'gpt-5.6-sol-pro-max-web-search-code-execution-128k-cost-optimized†'
-gpt-5.6-sol-promax,frontiermath,tier-4-v2-private,,80.4878,6.26597,epoch-ai-evals,,,,,,2026-07-09,epoch-benchmarks-runs,frontiermath_tier_4_v2.csv id=cdWwJSH3jVfrKyhUHmT54T,Epoch AI run log,https://logs.epoch.ai/inspect-viewer/36231d6d/viewer.html?log_file=https%3A%2F%2Flogs.epoch.ai%2Finspect_ai_logs%2FcdWwJSH3jVfrKyhUHmT54T.eval,
-gpt-5.6-sol-promax,lmca,,,59.21,,lmca-official,,,,,,,epoch-benchmarks-external,lmca_external.csv row=4,,https://conceptualreasoning.ai/lmca,listed as 'GPT-5.6 Sol Pro'
-gpt-5.6-sol-promax,weirdml,v1-v2,,89.43,0.00606825,weirdml-official,,,,,,,epoch-benchmarks-external,weirdml_external.csv id=recKCrWh6fGtCumC9,,https://htihle.github.io/weirdml.html,
-gpt-5.6-sol-prounknown,simplebench,,,71.7,,simplebench-official,,,,,,,epoch-benchmarks-external,simplebench_external.csv id=recF9cVAXsbbbYZfc,SimpleBench Leaderboard,,
-gpt-5.6-sol-proxhigh,simplebench,,,71.7,,lm-council,,,,,,,epoch-benchmarks-external,simplebench_external.csv id=recLvVjubvjSAUEPo,,https://lmcouncil.ai/benchmarks,
+gpt-5.6-sol-pro,apex-agents,,,51.4,550,apex-agents-official,,,on,max,,,epoch-benchmarks-external,apex_agents_external.csv id=recG6d1VEmPidhR3T,,,listed as 'GPT-5.6 Sol'
+gpt-5.6-sol-pro,apex-agents,,mean_score,65.2,,apex-agents-official,,,on,max,,,epoch-benchmarks-external,apex_agents_external.csv id=recG6d1VEmPidhR3T,,,listed as 'GPT-5.6 Sol'
+gpt-5.6-sol-pro,dtbench,,,96,,dtbench-official,,,on,max,,,epoch-benchmarks-external,dtbench_external.csv row=6,,https://conceptualreasoning.ai/dtbench,listed as 'GPT-5.6 Sol Pro'
+gpt-5.6-sol-pro,epoch-chess-puzzles,,,68,4.68826,epoch-ai-evals,,,on,max,,2026-10-14,epoch-benchmarks-runs,chess_puzzles.csv id=WAavFdihYDHwjGsDNh9toF,Epoch AI run log,,
+gpt-5.6-sol-pro,forecastbench,,,65.6,,forecastbench-official,,,on,max,,,epoch-benchmarks-external,forecastbench_external.csv id=recFXTxZahTdG8ouo,,,listed as 'gpt-5.6-sol-pro-max-web-search-code-execution-128k-cost-optimized†'
+gpt-5.6-sol-pro,forecastbench,,dataset_score,60.6,,forecastbench-official,,,on,max,,,epoch-benchmarks-external,forecastbench_external.csv id=recFXTxZahTdG8ouo,,,listed as 'gpt-5.6-sol-pro-max-web-search-code-execution-128k-cost-optimized†'
+gpt-5.6-sol-pro,forecastbench,,market_score,71.6,,forecastbench-official,,,on,max,,,epoch-benchmarks-external,forecastbench_external.csv id=recFXTxZahTdG8ouo,,,listed as 'gpt-5.6-sol-pro-max-web-search-code-execution-128k-cost-optimized†'
+gpt-5.6-sol-pro,frontiermath,tier-4-v2-private,,80.4878,6.26597,epoch-ai-evals,,,on,max,,2026-07-09,epoch-benchmarks-runs,frontiermath_tier_4_v2.csv id=cdWwJSH3jVfrKyhUHmT54T,Epoch AI run log,https://logs.epoch.ai/inspect-viewer/36231d6d/viewer.html?log_file=https%3A%2F%2Flogs.epoch.ai%2Finspect_ai_logs%2FcdWwJSH3jVfrKyhUHmT54T.eval,
+gpt-5.6-sol-pro,lmca,,,59.21,,lmca-official,,,on,max,,,epoch-benchmarks-external,lmca_external.csv row=4,,https://conceptualreasoning.ai/lmca,listed as 'GPT-5.6 Sol Pro'
+gpt-5.6-sol-pro,simplebench,,,71.7,,lm-council,,,on,xhigh,,,epoch-benchmarks-external,simplebench_external.csv id=recLvVjubvjSAUEPo,,https://lmcouncil.ai/benchmarks,
+gpt-5.6-sol-pro,simplebench,,,71.7,,simplebench-official,,,,unknown,,,epoch-benchmarks-external,simplebench_external.csv id=recF9cVAXsbbbYZfc,SimpleBench Leaderboard,,
+gpt-5.6-sol-pro,weirdml,v1-v2,,89.43,0.00606825,weirdml-official,,,on,max,,,epoch-benchmarks-external,weirdml_external.csv id=recKCrWh6fGtCumC9,,https://htihle.github.io/weirdml.html,
 gpt-5.6-terra,ale-bench,,,1951.42,,ale-bench-official,,,on,max,,,epoch-benchmarks-external,ale_bench_external.csv id=recy6tGLt0oXl5Z3t,,,listed as 'gpt-5.6-terra-max'
 gpt-5.6-terra,apex-agents,,,58.2,530,apex-agents-official,,,on,max,,,epoch-benchmarks-external,apex_agents_external.csv id=recIl7G6eKw5AFuMv,,,listed as 'GPT-5.6 Terra'
 gpt-5.6-terra,apex-agents,,mean_score,71.8,,apex-agents-official,,,on,max,,,epoch-benchmarks-external,apex_agents_external.csv id=recIl7G6eKw5AFuMv,,,listed as 'GPT-5.6 Terra'
@@ -5229,8 +5229,8 @@ gpt-6-astra,weirdml,v1-v2,,92.87,0.00164812,weirdml-official,,,on,high,,,epoch-b
 gpt-6-astra,weirdml,v1-v2,,93.28,0.00154465,weirdml-official,,,on,max,,,epoch-benchmarks-external,weirdml_external.csv id=rec133XekkfngA36k,,https://htihle.github.io/weirdml.html,
 gpt-6-astra,weirdml,v3,,42.2202,,codex-cli,codex_cli:0.154.0,,on,xhigh,,,epoch-benchmarks-external,weirdml_v3_external.csv row=2,,https://htihle.github.io/weirdml.html,listed as 'GPT-6 Astra (xhigh)'
 gpt-6-astra,weirdml,v3,max_performance,54.0453,,codex-cli,codex_cli:0.154.0,,on,xhigh,,,epoch-benchmarks-external,weirdml_v3_external.csv row=2,,https://htihle.github.io/weirdml.html,listed as 'GPT-6 Astra (xhigh)'
-gpt-6-astra-promax,epoch-chess-puzzles,,,76,4.29235,epoch-ai-evals,,,,,,2026-10-15,epoch-benchmarks-runs,chess_puzzles.csv id=76P4iR5BFFPS5jtR3VRWDE,Epoch AI run log,,
-gpt-6-astra-promax,weirdml,v1-v2,,93.57,0.0026474,weirdml-official,,,,,,,epoch-benchmarks-external,weirdml_external.csv id=recEy3l0e3fb7Ia3k,,https://htihle.github.io/weirdml.html,
+gpt-6-astra-pro,epoch-chess-puzzles,,,76,4.29235,epoch-ai-evals,,,on,max,,2026-10-15,epoch-benchmarks-runs,chess_puzzles.csv id=76P4iR5BFFPS5jtR3VRWDE,Epoch AI run log,,
+gpt-6-astra-pro,weirdml,v1-v2,,93.57,0.0026474,weirdml-official,,,on,max,,,epoch-benchmarks-external,weirdml_external.csv id=recEy3l0e3fb7Ia3k,,https://htihle.github.io/weirdml.html,
 gpt-6-luna,ale-bench,,,1576.92,,ale-bench-official,,,on,xhigh,,,epoch-benchmarks-external,ale_bench_external.csv id=rec922KTi4fs6PkF3,,,listed as 'gpt-6-luna-xhigh'
 gpt-6-luna,apex-agents,,,44.3,550,apex-agents-official,,,on,max,,,epoch-benchmarks-external,apex_agents_external.csv id=rec1U23OkfwoEOepV,,,listed as 'GPT-6 Luna'
 gpt-6-luna,apex-agents,,mean_score,59,,apex-agents-official,,,on,max,,,epoch-benchmarks-external,apex_agents_external.csv id=rec1U23OkfwoEOepV,,,listed as 'GPT-6 Luna'

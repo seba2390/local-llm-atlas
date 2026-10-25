@@ -1,5 +1,7 @@
 id: qwen3.8-max
 name: Qwen3.8 Max
+aliases:
+- Qwen 3.8 Max
 org: alibaba
 company: Alibaba
 country: China

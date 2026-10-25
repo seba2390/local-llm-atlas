@@ -3,6 +3,7 @@ name: LongVA-7B
 aliases:
 - LongVA-7B
 org: unknown
+company: Unknown
 release_date: '2024-06-13'
 open_weights: null
 sources:

@@ -1,9 +1,0 @@
-id: hf-unsloth-kimi-k3-gguf
-kind: model_card
-provenance: community
-title: unsloth/Kimi-K3-GGUF (GGUF quantisations of moonshotai/Kimi-K3) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/Kimi-K3-GGUF
-revision: a0836360ce58dfec088d966a97f2ddc8a606279b
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

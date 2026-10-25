@@ -1,14 +1,28 @@
 id: meta-llama-3-70b-instruct
 name: Meta-Llama-3-70B-Instruct
 aliases:
+- Llama-3-70B-Instruct
+- Llama3-70B-instruct
 - Meta-Llama-3-70B-Instruct
+- llama-3-70b-instruct
+- llama3-70b-instruct
 org: meta
 company: Meta AI
 country: United States of America
 release_date: '2024-04-18'
 open_weights: true
+license: Meta Llama 3 Community
+hf_repo: meta-llama/Meta-Llama-3-70B-Instruct
+weights_url: https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct
 architecture:
   params_total_b: 70.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+- bigcodebench-results-hf
+- evalplus-leaderboard-data
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bigcodebench-results-hf
+  weights_url: bigcodebench-results-hf
 managed_by: register

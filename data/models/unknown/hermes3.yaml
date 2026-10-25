@@ -1,0 +1,10 @@
+id: hermes3
+name: hermes3
+aliases:
+- ollama/hermes3
+org: unknown
+company: Unknown
+open_weights: true
+sources:
+- aider-edit-leaderboard-data
+managed_by: register

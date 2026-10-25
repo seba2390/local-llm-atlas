@@ -1,5 +1,7 @@
 id: gpt-5.5
-name: GPT-5.5 (no thinking)
+name: GPT-5.5
+aliases:
+- GPT-5.5
 org: openai
 company: OpenAI
 country: United States of America

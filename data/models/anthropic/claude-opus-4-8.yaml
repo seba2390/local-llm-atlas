@@ -1,5 +1,7 @@
 id: claude-opus-4-8
 name: Claude Opus 4.8
+aliases:
+- Claude Opus 4.8
 org: anthropic
 company: Anthropic
 country: United States of America

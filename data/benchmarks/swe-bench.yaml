@@ -8,9 +8,17 @@ harness_sensitive: true
 introduced: 2023-10-10
 url: https://www.swebench.com/
 variants:
-  - id: full
-  - id: lite
-  - id: verified
-    notes: Human-validated 500-task subset published by OpenAI.
-sources: [arxiv-2310.06770, openai-swe-bench-verified]
+- id: full
+- id: lite
+- id: verified
+  notes: Human-validated 500-task subset published by OpenAI.
+- id: multimodal
+  introduced: '2024-10-04'
+  notes: 'SWE-bench Multimodal (arXiv:2410.03859): JavaScript issues with visual elements; ''Multimodal'' board on swebench.com.'
+- id: multilingual
+  notes: 'SWE-bench Multilingual: 300 tasks from 42 repositories in 9 languages (https://www.swebench.com/multilingual.html);
+    ''Multilingual'' board on swebench.com.'
+sources:
+- arxiv-2310.06770
+- openai-swe-bench-verified
 notes: Scores depend heavily on the agent scaffold (harness_id + harness_version).

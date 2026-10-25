@@ -1,0 +1,14 @@
+id: qwen3-0.6b
+name: Qwen3-0.6B
+aliases:
+- Qwen3-0.6B
+org: alibaba
+company: Alibaba
+country: China
+open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3-0.6B
+weights_url: https://huggingface.co/Qwen/Qwen3-0.6B
+sources:
+- bfcl-result-archive
+managed_by: register

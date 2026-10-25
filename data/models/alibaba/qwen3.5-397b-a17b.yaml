@@ -1,12 +1,22 @@
 id: qwen3.5-397b-a17b
 name: Qwen3.5 397B-A17B
+aliases:
+- Qwen/Qwen3.5-397B-A17B
+- Qwen3.5-397B-A17B
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2026-02-13'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3.5-397B-A17B
+weights_url: https://huggingface.co/Qwen/Qwen3.5-397B-A17B
 architecture:
   params_total_b: 397.0
 sources:
 - epoch-ai-models
+- hf-qwen3.5-397b-a17b
+field_sources:
+  license: hf-qwen3.5-397b-a17b
+  hf_repo: hf-qwen3.5-397b-a17b
 managed_by: register

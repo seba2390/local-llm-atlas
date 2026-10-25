@@ -1,5 +1,11 @@
 id: deepseek-coder-1.3b-base
 name: deepseek-coder-1.3b-base
+aliases:
+- DeepSeek-Coder-1.3B-Base
+- DeepSeek-Coder-1.3B-base
+- DeepSeek-Coder-1b-base
+- deepseek-base-1.3b
+- deepseek-coder-1b-base
 org: deepseek
 company: DeepSeek
 country: China
@@ -7,6 +13,7 @@ release_date: '2023-11-02'
 open_weights: true
 hf_repo: deepseek-ai/deepseek-coder-1.3b-base
 weights_url: https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base
+context_length: 16384
 architecture:
   params_total_b: 1.3
   type: dense
@@ -19,6 +26,8 @@ architecture:
 sources:
 - epoch-ai-models
 - hf-deepseek-ai-deepseek-coder-1.3b-base
+- cruxeval-leaderboard
+- bigcode-models-leaderboard
 field_sources:
   architecture.type: hf-deepseek-ai-deepseek-coder-1.3b-base
   architecture.layers: hf-deepseek-ai-deepseek-coder-1.3b-base
@@ -28,4 +37,5 @@ field_sources:
   architecture.attention: hf-deepseek-ai-deepseek-coder-1.3b-base
   architecture.native_dtype: hf-deepseek-ai-deepseek-coder-1.3b-base
   hf_repo: hf-deepseek-ai-deepseek-coder-1.3b-base
+  context_length: bigcode-models-leaderboard
 managed_by: register

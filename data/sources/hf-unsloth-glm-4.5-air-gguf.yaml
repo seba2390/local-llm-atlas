@@ -1,9 +1,0 @@
-id: hf-unsloth-glm-4.5-air-gguf
-kind: model_card
-provenance: community
-title: unsloth/GLM-4.5-Air-GGUF (GGUF quantisations of zai-org/GLM-4.5-Air) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/GLM-4.5-Air-GGUF
-revision: 506d64aa8c5cfe9dbbf00bc7a15739438f83204d
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

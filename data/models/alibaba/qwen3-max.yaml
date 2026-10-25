@@ -1,0 +1,12 @@
+id: qwen3-max
+name: Qwen3-Max
+aliases:
+- Qwen3-Max
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-09-23'
+open_weights: null
+sources:
+- taubench-leaderboard
+managed_by: register

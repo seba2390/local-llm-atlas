@@ -1,6 +1,8 @@
 id: llama-4-maverick-17b-128e-instruct
 name: Llama 4 Maverick
 aliases:
+- Llama 4 Maverick
+- Llama-4-Maverick
 - Llama-4-Maverick-17B-128E-Instruct
 - chutes/Llama-4-Maverick-17B-128E-Instruct
 org: meta
@@ -8,8 +10,13 @@ company: Meta AI
 country: United States of America
 release_date: '2025-04-05'
 open_weights: true
+hf_repo: meta-llama/Llama-4-Maverick-17B-128E-Instruct
+weights_url: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
 architecture:
   params_total_b: 400.0
 sources:
 - epoch-ai-models
+- bigcodebench-results-hf
+field_sources:
+  hf_repo: bigcodebench-results-hf
 managed_by: register

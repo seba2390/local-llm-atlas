@@ -1,0 +1,14 @@
+id: openchat-3.5-7b-0106
+name: OpenChat-3.5-7B-0106
+aliases:
+- OpenChat-3.5-7B-0106
+org: openchat
+company: openchat
+open_weights: true
+hf_repo: openchat/openchat-3.5-0106
+weights_url: https://huggingface.co/openchat/openchat-3.5-0106
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

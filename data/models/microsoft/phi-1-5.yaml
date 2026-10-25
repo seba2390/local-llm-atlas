@@ -1,14 +1,20 @@
 id: phi-1-5
 name: phi-1_5
 aliases:
+- phi-1.5
 - phi-1_5
 org: microsoft
 company: Microsoft
 country: United States of America
 release_date: '2023-09-11'
 open_weights: true
+hf_repo: microsoft/phi-1_5
+weights_url: https://huggingface.co/microsoft/phi-1_5
 architecture:
   params_total_b: 1.3
 sources:
 - epoch-ai-models
+- cruxeval-leaderboard
+field_sources:
+  hf_repo: cruxeval-leaderboard
 managed_by: register

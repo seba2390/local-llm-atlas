@@ -1,0 +1,14 @@
+id: speechless-codellama-34b-v2.0
+name: speechless-codellama-34B-v2.0
+aliases:
+- speechless-codellama-34B-v2.0
+org: uukuguy
+company: uukuguy
+open_weights: true
+hf_repo: uukuguy/speechless-codellama-34b-v2.0
+weights_url: https://huggingface.co/uukuguy/speechless-codellama-34b-v2.0
+architecture:
+  params_total_b: 34.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

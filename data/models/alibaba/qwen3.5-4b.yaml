@@ -1,5 +1,7 @@
 id: qwen3.5-4b
 name: qwen3.5-4b
+aliases:
+- Qwen/Qwen3.5-4B
 org: alibaba
 company: Alibaba
 country: China

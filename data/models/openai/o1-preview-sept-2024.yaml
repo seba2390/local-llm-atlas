@@ -1,0 +1,12 @@
+id: o1-preview-sept-2024
+name: O1 Preview (Sept 2024)
+aliases:
+- O1 Preview (Sept 2024)
+org: openai
+company: OpenAI
+country: United States of America
+open_weights: null
+sources:
+- evalplus-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

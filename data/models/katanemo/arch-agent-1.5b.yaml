@@ -1,0 +1,13 @@
+id: arch-agent-1.5b
+name: Arch-Agent-1.5B
+aliases:
+- Arch-Agent-1.5B
+org: katanemo
+company: katanemo
+open_weights: true
+license: katanemo-research
+hf_repo: katanemo/Arch-Agent-1.5B
+weights_url: https://huggingface.co/katanemo/Arch-Agent-1.5B
+sources:
+- bfcl-result-archive
+managed_by: register

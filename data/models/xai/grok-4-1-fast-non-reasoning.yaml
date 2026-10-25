@@ -1,10 +1,16 @@
 id: grok-4-1-fast-non-reasoning
 name: grok-4-1-fast-non-reasoning
+aliases:
+- Grok-4-1-fast-non-reasoning
 org: xai
 company: xAI
 country: United States of America
 release_date: '2025-11-19'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

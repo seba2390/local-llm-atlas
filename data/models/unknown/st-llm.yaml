@@ -3,6 +3,7 @@ name: ST-LLM
 aliases:
 - ST-LLM
 org: unknown
+company: Unknown
 release_date: '2024-03-28'
 open_weights: null
 sources:

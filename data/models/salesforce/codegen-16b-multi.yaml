@@ -1,0 +1,16 @@
+id: codegen-16b-multi
+name: CodeGen-16B-Multi
+aliases:
+- CodeGen-16B-Multi
+org: salesforce
+company: Salesforce
+country: United States of America
+open_weights: true
+hf_repo: Salesforce/codegen-16B-multi
+weights_url: https://huggingface.co/Salesforce/codegen-16B-multi
+context_length: 2048
+architecture:
+  params_total_b: 16.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

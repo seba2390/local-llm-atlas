@@ -1,0 +1,21 @@
+id: codellama-13b-instruct
+name: CodeLlama-13b-Instruct
+aliases:
+- CodeLlama-13B-Instruct
+- CodeLlama-13b-Instruct
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-08-25'
+open_weights: true
+hf_repo: codellama/CodeLlama-13b-Instruct-hf
+weights_url: https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf
+context_length: 16384
+architecture:
+  params_total_b: 13.0
+sources:
+- bigcode-models-leaderboard
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+managed_by: register

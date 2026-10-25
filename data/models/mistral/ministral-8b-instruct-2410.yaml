@@ -1,0 +1,14 @@
+id: ministral-8b-instruct-2410
+name: Ministral-8B-Instruct-2410
+aliases:
+- Ministral-8B-Instruct-2410
+org: mistral
+company: Mistral AI
+country: France
+open_weights: true
+license: Mistral AI Research License
+hf_repo: mistralai/Ministral-8B-Instruct-2410
+weights_url: https://huggingface.co/mistralai/Ministral-8B-Instruct-2410
+sources:
+- bfcl-result-archive
+managed_by: register

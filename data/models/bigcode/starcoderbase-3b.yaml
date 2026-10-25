@@ -1,0 +1,19 @@
+id: starcoderbase-3b
+name: StarCoderBase-3B
+aliases:
+- StarCoderBase-3B
+org: bigcode
+company: BigCode
+country: United States of America
+open_weights: true
+hf_repo: bigcode/starcoderbase-3b
+weights_url: https://huggingface.co/bigcode/starcoderbase-3b
+context_length: 8192
+architecture:
+  params_total_b: 3.0
+sources:
+- evalplus-leaderboard-data
+- bigcode-models-leaderboard
+field_sources:
+  context_length: bigcode-models-leaderboard
+managed_by: register

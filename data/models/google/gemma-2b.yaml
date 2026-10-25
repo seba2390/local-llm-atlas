@@ -5,8 +5,13 @@ company: Google DeepMind
 country: United States of America
 release_date: '2024-02-21'
 open_weights: true
+hf_repo: google/gemma-2b
+weights_url: https://huggingface.co/google/gemma-2b
 architecture:
   params_total_b: 2.506
 sources:
 - epoch-ai-models
+- evalplus-leaderboard-data
+field_sources:
+  hf_repo: evalplus-leaderboard-data
 managed_by: register

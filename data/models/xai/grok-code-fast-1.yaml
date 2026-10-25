@@ -1,0 +1,11 @@
+id: grok-code-fast-1
+name: grok-code-fast-1
+org: xai
+company: xAI
+country: United States of America
+release_date: '2025-08-28'
+open_weights: null
+sources:
+- epoch-ai-models
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

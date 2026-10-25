@@ -1,0 +1,21 @@
+id: opencodeinterpreter-ds-33b
+name: OpenCodeInterpreter-DS-33B
+aliases:
+- OpenCodeInterpreter-DS-33B
+org: m-a-p
+company: m-a-p
+release_date: '2024-02-22'
+open_weights: true
+hf_repo: m-a-p/OpenCodeInterpreter-DS-33B
+weights_url: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B
+context_length: 16384
+architecture:
+  params_total_b: 33.0
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+- bigcode-models-leaderboard
+field_sources:
+  release_date: bigcodebench-results-hf
+  context_length: bigcode-models-leaderboard
+managed_by: register

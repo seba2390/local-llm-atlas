@@ -1,0 +1,35 @@
+id: deepseek-r1-0528-qwen3-8b
+name: deepseek-r1-0528-qwen3-8b
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2025-05-29'
+open_weights: null
+hf_repo: deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
+architecture:
+  type: dense
+  layers: 36
+  hidden_size: 4096
+  q_heads: 32
+  kv_heads: 8
+  head_dim: 128
+  attention: gqa
+  native_dtype: bf16
+  params_total_b: 8.191
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+  architecture.layers: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+  architecture.hidden_size: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+  architecture.q_heads: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+  architecture.kv_heads: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+  architecture.head_dim: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+  architecture.attention: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+  architecture.native_dtype: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+  architecture.params_total_b: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+  hf_repo: hf-deepseek-ai-deepseek-r1-0528-qwen3-8b
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

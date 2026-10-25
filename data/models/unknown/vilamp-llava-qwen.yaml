@@ -3,6 +3,7 @@ name: ViLAMP-llava-qwen
 aliases:
 - ViLAMP-llava-qwen
 org: unknown
+company: Unknown
 release_date: '2025-05-01'
 open_weights: null
 sources:

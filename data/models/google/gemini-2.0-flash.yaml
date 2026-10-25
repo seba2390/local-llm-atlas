@@ -1,0 +1,10 @@
+id: gemini-2.0-flash
+name: Gemini 2.0 Flash
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2025-02-05'
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

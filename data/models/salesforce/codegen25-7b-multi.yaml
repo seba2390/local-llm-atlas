@@ -1,0 +1,16 @@
+id: codegen25-7b-multi
+name: CodeGen25-7B-multi
+aliases:
+- CodeGen25-7B-multi
+org: salesforce
+company: Salesforce
+country: United States of America
+open_weights: true
+hf_repo: Salesforce/codegen25-7b-multi
+weights_url: https://huggingface.co/Salesforce/codegen25-7b-multi
+context_length: 2048
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

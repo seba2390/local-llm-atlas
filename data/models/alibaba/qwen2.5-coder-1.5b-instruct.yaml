@@ -1,0 +1,22 @@
+id: qwen2.5-coder-1.5b-instruct
+name: Qwen2.5-Coder-1.5B-Instruct
+aliases:
+- Qwen2.5-Coder-1.5B-Instruct
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2024-11-12'
+open_weights: true
+hf_repo: Qwen/Qwen2.5-Coder-1.5B-Instruct
+weights_url: https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct
+architecture:
+  params_total_b: 1.5
+sources:
+- aider-edit-leaderboard-data
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+  open_weights: bigcodebench-results-hf
+  hf_repo: bigcodebench-results-hf
+  architecture.params_total_b: bigcodebench-results-hf
+managed_by: register

@@ -1,0 +1,13 @@
+id: palm-62b
+name: PaLM 62B
+aliases:
+- PaLM 62B
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2022-04-04'
+open_weights: null
+sources:
+- epoch-ai-models
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

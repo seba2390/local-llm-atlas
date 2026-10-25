@@ -1,0 +1,11 @@
+id: warriorcoder-6.7b
+name: WarriorCoder-6.7B
+aliases:
+- WarriorCoder-6.7B
+org: unknown
+company: Unknown
+release_date: '2025-02-18'
+open_weights: null
+sources:
+- bigcodebench-results-hf
+managed_by: register

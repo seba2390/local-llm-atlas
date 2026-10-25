@@ -1,0 +1,14 @@
+id: xlam-7b-fc-r
+name: xLAM-7b-fc-r
+aliases:
+- xLAM-7b-fc-r
+org: salesforce
+company: Salesforce
+country: United States of America
+open_weights: true
+license: cc-by-nc-4.0
+hf_repo: Salesforce/xLAM-7b-fc-r
+weights_url: https://huggingface.co/Salesforce/xLAM-7b-fc-r
+sources:
+- bfcl-result-archive
+managed_by: register

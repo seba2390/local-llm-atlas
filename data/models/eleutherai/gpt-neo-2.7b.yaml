@@ -1,6 +1,7 @@
 id: gpt-neo-2.7b
 name: gpt-neo-2.7B
 aliases:
+- GPT-Neo-2.7B
 - gpt-neo-2.7B
 org: eleutherai
 company: EleutherAI

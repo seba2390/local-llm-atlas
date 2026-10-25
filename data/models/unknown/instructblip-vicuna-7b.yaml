@@ -1,6 +1,7 @@
 id: instructblip-vicuna-7b
 name: instructblip-vicuna-7b
 org: unknown
+company: Unknown
 release_date: '2023-05-22'
 open_weights: null
 hf_repo: Salesforce/instructblip-vicuna-7b

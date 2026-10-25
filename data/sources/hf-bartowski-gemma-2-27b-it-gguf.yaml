@@ -1,9 +1,0 @@
-id: hf-bartowski-gemma-2-27b-it-gguf
-kind: model_card
-provenance: community
-title: bartowski/gemma-2-27b-it-GGUF (GGUF quantisations of google/gemma-2-27b-it) file listing
-publisher: Hugging Face
-url: https://huggingface.co/bartowski/gemma-2-27b-it-GGUF
-revision: a8874ad70a9d2ce99d6d41c25920b11bb330aecd
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

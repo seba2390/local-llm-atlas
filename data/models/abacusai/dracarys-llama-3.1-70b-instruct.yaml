@@ -1,0 +1,16 @@
+id: dracarys-llama-3.1-70b-instruct
+name: Dracarys-Llama-3.1-70B-Instruct
+aliases:
+- Dracarys-Llama-3.1-70B-Instruct
+org: abacusai
+company: Abacus AI
+country: United States of America
+release_date: '2024-04-23'
+open_weights: true
+hf_repo: abacusai/Dracarys-Llama-3.1-70B-Instruct
+weights_url: https://huggingface.co/abacusai/Dracarys-Llama-3.1-70B-Instruct
+architecture:
+  params_total_b: 70.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

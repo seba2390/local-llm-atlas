@@ -1,0 +1,5 @@
+id: novasky-ai
+name: NovaSky-AI
+sources:
+- bfcl-result-archive
+managed_by: register

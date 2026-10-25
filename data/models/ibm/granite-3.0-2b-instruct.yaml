@@ -1,0 +1,16 @@
+id: granite-3.0-2b-instruct
+name: Granite-3.0-2B-Instruct
+aliases:
+- Granite-3.0-2B-Instruct
+org: ibm
+company: IBM
+country: United States of America
+release_date: '2024-10-21'
+open_weights: true
+hf_repo: ibm-granite/granite-3.0-2b-instruct
+weights_url: https://huggingface.co/ibm-granite/granite-3.0-2b-instruct
+architecture:
+  params_total_b: 2.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

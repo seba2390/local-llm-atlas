@@ -1,10 +1,22 @@
 id: qwen3.6-35b-a3b
 name: Qwen3.6 35B-A3B
+aliases:
+- Qwen/Qwen3.6-35B-A3B
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2026-04-14'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3.6-35B-A3B
+weights_url: https://huggingface.co/Qwen/Qwen3.6-35B-A3B
+architecture:
+  params_total_b: 36.0
 sources:
 - epoch-ai-models
+- hf-qwen3.6-35b-a3b
+field_sources:
+  license: hf-qwen3.6-35b-a3b
+  hf_repo: hf-qwen3.6-35b-a3b
+  architecture.params_total_b: hf-qwen3.6-35b-a3b
 managed_by: register

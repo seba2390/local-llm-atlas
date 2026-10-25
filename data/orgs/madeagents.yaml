@@ -1,0 +1,5 @@
+id: madeagents
+name: MadeAgents
+sources:
+- bfcl-result-archive
+managed_by: register

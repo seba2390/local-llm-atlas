@@ -1,0 +1,22 @@
+id: magicoder-s-ds-6.7b
+name: Magicoder-S-DS-6.7B
+aliases:
+- Magicoder-S-DS-6.7B
+- ise-uiuc/Magicoder-S-DS-6.7B
+- magicoder-ds-6.7b
+org: ise-uiuc
+company: University of Illinois Urbana-Champaign (UIUC)
+country: United States of America
+release_date: '2024-12-04'
+open_weights: true
+hf_repo: ise-uiuc/Magicoder-S-DS-6.7B
+weights_url: https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B
+architecture:
+  params_total_b: 6.7
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+- cruxeval-leaderboard
+field_sources:
+  release_date: bigcodebench-results-hf
+managed_by: register

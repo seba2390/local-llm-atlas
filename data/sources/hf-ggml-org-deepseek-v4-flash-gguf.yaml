@@ -1,9 +1,0 @@
-id: hf-ggml-org-deepseek-v4-flash-gguf
-kind: model_card
-provenance: community
-title: ggml-org/DeepSeek-V4-Flash-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-V4-Flash) file listing
-publisher: Hugging Face
-url: https://huggingface.co/ggml-org/DeepSeek-V4-Flash-GGUF
-revision: 9088bc50fd3d64adf560ad5ca62bca7b9faf7f3e
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

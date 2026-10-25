@@ -1,0 +1,17 @@
+id: phi-3.1-mini-128k-instruct
+name: Phi-3.1-Mini-128K-Instruct
+aliases:
+- Phi-3-Mini-128K-Instruct
+- Phi-3.1-Mini-128K-Instruct
+org: microsoft
+company: Microsoft
+country: United States of America
+release_date: '2024-05-21'
+open_weights: true
+hf_repo: microsoft/Phi-3-mini-128k-instruct
+weights_url: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct
+architecture:
+  params_total_b: 3.8
+sources:
+- bigcodebench-results-hf
+managed_by: register

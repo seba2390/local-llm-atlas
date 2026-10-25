@@ -1,9 +1,0 @@
-id: hf-bartowski-hermes-2-theta-llama-3-70b-gguf
-kind: model_card
-provenance: community
-title: bartowski/Hermes-2-Theta-Llama-3-70B-GGUF (GGUF quantisations of NousResearch/Hermes-2-Theta-Llama-3-70B) file listing
-publisher: Hugging Face
-url: https://huggingface.co/bartowski/Hermes-2-Theta-Llama-3-70B-GGUF
-revision: 15b4bf7531c448464a359e28976728212a2e41d9
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

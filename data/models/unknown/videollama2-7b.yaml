@@ -3,6 +3,7 @@ name: VideoLLAMA2-7B
 aliases:
 - VideoLLAMA2-7B
 org: unknown
+company: Unknown
 release_date: '2024-06-12'
 open_weights: null
 sources:

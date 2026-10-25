@@ -1,5 +1,7 @@
 id: gemma-4-31b-it
 name: Gemma 4 31B IT
+aliases:
+- google/gemma-4-31B-it
 org: google
 company: Google DeepMind
 country: United States of America

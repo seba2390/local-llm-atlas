@@ -1,6 +1,7 @@
 id: kangaroo
 name: kangaroo
 org: unknown
+company: Unknown
 release_date: '2024-11-13'
 open_weights: null
 sources:

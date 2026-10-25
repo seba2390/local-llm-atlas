@@ -1,0 +1,35 @@
+id: internvl-chat-v1-5
+name: InternVL-Chat-V1-5
+aliases:
+- InternVL-Chat-V1-5
+org: shanghai-ai-lab
+company: Shanghai AI Lab
+country: Hong Kong
+release_date: '2024-04-18'
+open_weights: null
+hf_repo: OpenGVLab/InternVL-Chat-V1-5
+weights_url: https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5
+architecture:
+  type: dense
+  layers: 48
+  hidden_size: 6144
+  q_heads: 48
+  kv_heads: 8
+  attention: gqa
+  native_dtype: bf16
+  params_total_b: 25.514
+sources:
+- epoch-ai-models
+- hf-opengvlab-internvl-chat-v1-5
+field_sources:
+  architecture.type: hf-opengvlab-internvl-chat-v1-5
+  architecture.layers: hf-opengvlab-internvl-chat-v1-5
+  architecture.hidden_size: hf-opengvlab-internvl-chat-v1-5
+  architecture.q_heads: hf-opengvlab-internvl-chat-v1-5
+  architecture.kv_heads: hf-opengvlab-internvl-chat-v1-5
+  architecture.attention: hf-opengvlab-internvl-chat-v1-5
+  architecture.native_dtype: hf-opengvlab-internvl-chat-v1-5
+  architecture.params_total_b: hf-opengvlab-internvl-chat-v1-5
+  hf_repo: hf-opengvlab-internvl-chat-v1-5
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

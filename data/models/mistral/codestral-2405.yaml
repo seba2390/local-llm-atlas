@@ -1,0 +1,10 @@
+id: codestral-2405
+name: codestral-2405
+org: mistral
+company: Mistral AI
+country: France
+open_weights: null
+sources:
+- aider-edit-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

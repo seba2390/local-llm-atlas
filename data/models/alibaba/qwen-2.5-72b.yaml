@@ -1,0 +1,12 @@
+id: qwen-2.5-72b
+name: Qwen 2.5 72B
+aliases:
+- Qwen 2.5 72B
+org: alibaba
+company: Alibaba
+country: China
+open_weights: null
+sources:
+- swe-bench-leaderboards
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

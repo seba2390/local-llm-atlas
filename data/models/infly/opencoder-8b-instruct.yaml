@@ -1,0 +1,19 @@
+id: opencoder-8b-instruct
+name: OpenCoder-8B-Instruct
+aliases:
+- OpenCoder-8B-Instruct
+- infly/OpenCoder-8B-Instruct
+org: infly
+company: infly
+release_date: '2024-11-09'
+open_weights: true
+hf_repo: infly/OpenCoder-8B-Instruct
+weights_url: https://huggingface.co/infly/OpenCoder-8B-Instruct
+architecture:
+  params_total_b: 8.0
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+managed_by: register

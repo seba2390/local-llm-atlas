@@ -1,0 +1,15 @@
+id: autocoder-qw-7b
+name: AutoCoder-QW-7B
+aliases:
+- AutoCoder-QW-7B
+org: bin12345
+company: Bin12345
+release_date: '2024-05-23'
+open_weights: true
+hf_repo: Bin12345/AutoCoder_QW_7B
+weights_url: https://huggingface.co/Bin12345/AutoCoder_QW_7B
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

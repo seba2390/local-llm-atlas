@@ -1,0 +1,7 @@
+id: kodu
+name: Kodu
+kind: agent-scaffold
+url: https://www.kodu.ai/
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

@@ -1,0 +1,16 @@
+id: codegen25-7b-mono
+name: CodeGen25-7B-mono
+aliases:
+- CodeGen25-7B-mono
+org: salesforce
+company: Salesforce
+country: United States of America
+open_weights: true
+hf_repo: Salesforce/codegen25-7b-mono
+weights_url: https://huggingface.co/Salesforce/codegen25-7b-mono
+context_length: 2048
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

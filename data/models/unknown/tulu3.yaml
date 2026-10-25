@@ -1,0 +1,10 @@
+id: tulu3
+name: tulu3
+aliases:
+- ollama/tulu3
+org: unknown
+company: Unknown
+open_weights: true
+sources:
+- aider-edit-leaderboard-data
+managed_by: register

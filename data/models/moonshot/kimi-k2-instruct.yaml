@@ -2,11 +2,15 @@ id: kimi-k2-instruct
 name: Kimi K2 Instruct
 aliases:
 - Kimi-K2-Instruct
+- Moonshotai-Kimi-K2-Instruct
+- moonshotai-kimi-k2-instruct
+- moonshotai/Kimi-K2-Instruct
 org: moonshot
 company: Moonshot
 country: China
 release_date: '2025-07-12'
 open_weights: true
+license: modified-mit
 hf_repo: moonshotai/Kimi-K2-Instruct
 weights_url: https://huggingface.co/moonshotai/Kimi-K2-Instruct
 architecture:
@@ -24,6 +28,7 @@ architecture:
 sources:
 - epoch-ai-models
 - hf-moonshotai-kimi-k2-instruct
+- bfcl-result-archive
 field_sources:
   architecture.type: hf-moonshotai-kimi-k2-instruct
   architecture.layers: hf-moonshotai-kimi-k2-instruct
@@ -37,4 +42,5 @@ field_sources:
   architecture.native_dtype: hf-moonshotai-kimi-k2-instruct
   architecture.params_total_b: hf-moonshotai-kimi-k2-instruct
   hf_repo: hf-moonshotai-kimi-k2-instruct
+  license: bfcl-result-archive
 managed_by: register

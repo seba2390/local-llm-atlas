@@ -1,0 +1,13 @@
+id: hammer2.1-0.5b
+name: Hammer2.1-0.5b
+aliases:
+- Hammer2.1-0.5b
+org: madeagents
+company: MadeAgents
+open_weights: true
+license: cc-by-nc-4.0
+hf_repo: MadeAgents/Hammer2.1-0.5b
+weights_url: https://huggingface.co/MadeAgents/Hammer2.1-0.5b
+sources:
+- bfcl-result-archive
+managed_by: register

@@ -1,0 +1,14 @@
+id: xlam-2-3b-fc-r
+name: xLAM-2-3b-fc-r
+aliases:
+- xLAM-2-3b-fc-r
+org: salesforce
+company: Salesforce
+country: United States of America
+open_weights: true
+license: cc-by-nc-4.0
+hf_repo: Salesforce/xLAM-2-3b-fc-r
+weights_url: https://huggingface.co/Salesforce/xLAM-2-3b-fc-r
+sources:
+- bfcl-result-archive
+managed_by: register

@@ -1,0 +1,20 @@
+id: command-r
+name: Command-R+
+aliases:
+- Command R+
+- Command-R+
+org: cohere
+company: Cohere
+country: Canada
+release_date: '2024-04-04'
+open_weights: true
+hf_repo: CohereForAI/c4ai-command-r-plus
+weights_url: https://huggingface.co/CohereForAI/c4ai-command-r-plus
+architecture:
+  params_total_b: 104.0
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+managed_by: register

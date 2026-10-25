@@ -1,0 +1,16 @@
+id: phi-1
+name: Phi-1
+aliases:
+- Phi-1
+org: microsoft
+company: Microsoft
+country: United States of America
+open_weights: true
+hf_repo: microsoft/phi-1
+weights_url: https://huggingface.co/microsoft/phi-1
+context_length: 2048
+architecture:
+  params_total_b: 1.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

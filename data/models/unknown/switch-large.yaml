@@ -3,6 +3,7 @@ name: Switch-Large
 aliases:
 - Switch-Large
 org: unknown
+company: Unknown
 open_weights: null
 sources:
 - epoch-ai-models

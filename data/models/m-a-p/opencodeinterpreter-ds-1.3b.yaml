@@ -1,0 +1,15 @@
+id: opencodeinterpreter-ds-1.3b
+name: OpenCodeInterpreter-DS-1.3B
+aliases:
+- OpenCodeInterpreter-DS-1.3B
+org: m-a-p
+company: m-a-p
+release_date: '2024-02-22'
+open_weights: true
+hf_repo: m-a-p/OpenCodeInterpreter-DS-1.3B
+weights_url: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B
+architecture:
+  params_total_b: 1.3
+sources:
+- bigcodebench-results-hf
+managed_by: register

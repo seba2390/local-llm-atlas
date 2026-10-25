@@ -1,9 +1,0 @@
-id: hf-lmstudio-community-deepseek-r1-gguf
-kind: model_card
-provenance: community
-title: lmstudio-community/DeepSeek-R1-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-R1) file listing
-publisher: Hugging Face
-url: https://huggingface.co/lmstudio-community/DeepSeek-R1-GGUF
-revision: 9d55447a52d044e19d1c2311477801d823517718
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

@@ -1,9 +1,0 @@
-id: hf-unsloth-deepseek-r1-gguf
-kind: model_card
-provenance: community
-title: unsloth/DeepSeek-R1-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-R1) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/DeepSeek-R1-GGUF
-revision: 4dab99fdb3fea560e5a402b49c6ef11e025321a8
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

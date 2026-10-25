@@ -1,0 +1,15 @@
+id: replit-2.7b
+name: Replit-2.7B
+aliases:
+- Replit-2.7B
+org: replit
+company: replit
+open_weights: true
+hf_repo: replit/replit-code-v1-3b
+weights_url: https://huggingface.co/replit/replit-code-v1-3b
+context_length: 2048
+architecture:
+  params_total_b: 2.7
+sources:
+- bigcode-models-leaderboard
+managed_by: register

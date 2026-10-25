@@ -1,0 +1,12 @@
+id: codegen-6b
+name: CodeGen-6B
+aliases:
+- CodeGen-6B
+org: unknown
+company: Unknown
+open_weights: true
+architecture:
+  params_total_b: 6.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

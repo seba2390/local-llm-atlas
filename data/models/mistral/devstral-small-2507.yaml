@@ -1,0 +1,9 @@
+id: devstral-small-2507
+name: DevStral Small 2507
+org: mistral
+company: Mistral AI
+country: France
+open_weights: true
+sources:
+- swe-bench-leaderboards
+managed_by: register

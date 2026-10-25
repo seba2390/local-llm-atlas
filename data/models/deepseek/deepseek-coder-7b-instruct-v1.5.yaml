@@ -1,0 +1,21 @@
+id: deepseek-coder-7b-instruct-v1.5
+name: DeepSeek-Coder-7B-instruct-v1.5
+aliases:
+- DeepSeek-Coder-7B-instruct-v1.5
+- Deepseek-v1.5
+- deepseek-v1.5
+org: deepseek
+company: DeepSeek
+country: China
+open_weights: true
+license: Deepseek License
+hf_repo: deepseek-ai/deepseek-coder-7b-instruct-v1.5
+weights_url: https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+managed_by: register

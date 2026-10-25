@@ -1,0 +1,21 @@
+id: opencodeinterpreter-ds-6.7b
+name: OpenCodeInterpreter-DS-6.7B
+aliases:
+- OpenCodeInterpreter-DS-6.7B
+org: m-a-p
+company: m-a-p
+release_date: '2024-02-22'
+open_weights: true
+hf_repo: m-a-p/OpenCodeInterpreter-DS-6.7B
+weights_url: https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-6.7B
+context_length: 16384
+architecture:
+  params_total_b: 6.7
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+- bigcode-models-leaderboard
+field_sources:
+  release_date: bigcodebench-results-hf
+  context_length: bigcode-models-leaderboard
+managed_by: register

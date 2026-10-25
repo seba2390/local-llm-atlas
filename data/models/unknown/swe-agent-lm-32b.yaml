@@ -1,0 +1,10 @@
+id: swe-agent-lm-32b
+name: SWE-agent-LM-32B
+aliases:
+- SWE-agent-LM-32B
+org: unknown
+company: Unknown
+open_weights: true
+sources:
+- swe-bench-leaderboards
+managed_by: register

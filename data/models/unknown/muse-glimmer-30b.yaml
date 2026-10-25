@@ -1,0 +1,10 @@
+id: muse-glimmer-30b
+name: Muse Glimmer-30B
+aliases:
+- Muse Glimmer-30B
+org: unknown
+company: Unknown
+open_weights: null
+sources:
+- hf-qwen3.8-27b
+managed_by: register

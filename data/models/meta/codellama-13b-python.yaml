@@ -1,0 +1,18 @@
+id: codellama-13b-python
+name: CodeLlama-13b-Python
+aliases:
+- CodeLlama-13b-Python
+- codellama-python-13b
+org: meta
+company: Meta AI
+country: United States of America
+open_weights: true
+hf_repo: codellama/CodeLlama-13b-Python-hf
+weights_url: https://huggingface.co/codellama/CodeLlama-13b-Python-hf
+context_length: 16384
+architecture:
+  params_total_b: 13.0
+sources:
+- bigcode-models-leaderboard
+- cruxeval-leaderboard
+managed_by: register

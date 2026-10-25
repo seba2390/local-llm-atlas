@@ -1,10 +1,17 @@
 id: o1-mini-2024-09-12
 name: o1-mini
+aliases:
+- o1-Mini-2024-09-12
+- o1-mini
 org: openai
 company: OpenAI
 country: United States of America
 release_date: '2024-09-12'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

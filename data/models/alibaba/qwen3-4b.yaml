@@ -1,12 +1,22 @@
 id: qwen3-4b
 name: qwen3-4b
+aliases:
+- Qwen/Qwen3-4B
+- Qwen3-4B
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2025-04-29'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3-4B
+weights_url: https://huggingface.co/Qwen/Qwen3-4B
 architecture:
   params_total_b: 4.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
 managed_by: register

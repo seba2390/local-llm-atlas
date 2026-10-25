@@ -1,0 +1,15 @@
+id: athene-70b
+name: Athene-70B
+aliases:
+- Athene-70B
+org: nexusflow
+company: Nexusflow
+release_date: '2024-07-20'
+open_weights: true
+hf_repo: Nexusflow/Athene-70B
+weights_url: https://huggingface.co/Nexusflow/Athene-70B
+architecture:
+  params_total_b: 70.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

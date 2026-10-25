@@ -1,10 +1,17 @@
 id: mistral-large-2402
 name: mistral-large-2402
+aliases:
+- Mistral-Large-2402
+- Mistral-large-2402
 org: mistral
 company: Mistral AI
 country: France
 release_date: '2024-02-26'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

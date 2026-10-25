@@ -1,0 +1,10 @@
+id: reflection-70b
+name: Reflection-70B
+aliases:
+- Reflection-70B
+org: unknown
+company: Unknown
+open_weights: null
+sources:
+- aider-edit-leaderboard-data
+managed_by: register

@@ -1,0 +1,17 @@
+id: grok-beta
+name: Grok Beta
+aliases:
+- Grok Beta
+- Grok-Beta
+org: xai
+company: xAI
+country: United States of America
+release_date: '2024-03-17'
+open_weights: null
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

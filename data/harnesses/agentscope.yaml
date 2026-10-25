@@ -1,0 +1,7 @@
+id: agentscope
+name: AgentScope
+kind: agent-scaffold
+url: https://github.com/modelscope/agentscope
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

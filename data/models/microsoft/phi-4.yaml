@@ -1,12 +1,21 @@
 id: phi-4
 name: phi-4
+aliases:
+- Phi-4
 org: microsoft
 company: Microsoft
 country: United States of America
 release_date: '2024-12-12'
 open_weights: true
+license: MIT
+hf_repo: microsoft/phi-4
+weights_url: https://huggingface.co/microsoft/phi-4
 architecture:
   params_total_b: 14.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
 managed_by: register

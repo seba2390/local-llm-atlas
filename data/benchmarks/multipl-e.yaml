@@ -21,6 +21,9 @@ variants:
 - id: bigcode-average
   notes: 'Big Code Models Leaderboard ''Average score'': mean pass@1 over HumanEval-Python and the 11 MultiPL-E languages
     above (only comparable within that leaderboard).'
+- id: vendor-average
+  notes: Single 'MultiPL-E' number in a vendor table; language set and averaging not stated (only comparable within the same
+    vendor table).
 sources:
 - arxiv-2208.08227
 description: HumanEval (and MBPP) translated into many programming languages; variant = target language (HumanEval-derived

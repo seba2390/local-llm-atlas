@@ -1,0 +1,15 @@
+id: wizardcoder-3b-v1.0
+name: WizardCoder-3B-V1.0
+aliases:
+- WizardCoder-3B-V1.0
+org: wizardlm
+company: WizardLM
+open_weights: true
+hf_repo: WizardLM/WizardCoder-3B-V1.0
+weights_url: https://huggingface.co/WizardLM/WizardCoder-3B-V1.0
+context_length: 8192
+architecture:
+  params_total_b: 3.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

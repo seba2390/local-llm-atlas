@@ -1,0 +1,20 @@
+id: wizardcoder-python-34b-v1.0
+name: WizardCoder-Python-34B-V1.0
+aliases:
+- WizardCoder-Python-34B-V1.0
+- wizard-34b
+org: wizardlm
+company: WizardLM
+open_weights: true
+hf_repo: WizardLM/WizardCoder-Python-34B-V1.0
+weights_url: https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0
+context_length: 16384
+architecture:
+  params_total_b: 34.0
+sources:
+- evalplus-leaderboard-data
+- bigcode-models-leaderboard
+- cruxeval-leaderboard
+field_sources:
+  context_length: bigcode-models-leaderboard
+managed_by: register

@@ -1,12 +1,22 @@
 id: starcoder2-7b
 name: starcoder2-7b
+aliases:
+- StarCoder2-7B
 org: huggingface
 company: Hugging Face
 country: United States of America
 release_date: '2024-02-20'
 open_weights: true
+hf_repo: bigcode/starcoder2-7b
+weights_url: https://huggingface.co/bigcode/starcoder2-7b
+context_length: 16384
 architecture:
   params_total_b: 7.0
 sources:
 - epoch-ai-models
+- bigcode-models-leaderboard
+- evalplus-leaderboard-data
+field_sources:
+  context_length: bigcode-models-leaderboard
+  hf_repo: evalplus-leaderboard-data
 managed_by: register

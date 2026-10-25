@@ -1,0 +1,13 @@
+id: snowflake-arctic-instruct
+name: snowflake-arctic-instruct
+aliases:
+- Snowflake/snowflake-arctic-instruct
+org: snowflake
+company: Snowflake
+open_weights: true
+license: apache-2.0
+hf_repo: Snowflake/snowflake-arctic-instruct
+weights_url: https://huggingface.co/Snowflake/snowflake-arctic-instruct
+sources:
+- bfcl-result-archive
+managed_by: register

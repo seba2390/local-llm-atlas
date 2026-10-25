@@ -1,0 +1,14 @@
+id: nemotron-4-340b-instruct
+name: Nemotron-4-340b-instruct
+aliases:
+- Nemotron-4-340b-instruct
+org: nvidia
+company: Nvidia
+country: United States of America
+open_weights: true
+license: nvidia-open-model-license
+hf_repo: nvidia/nemotron-4-340b-instruct
+weights_url: https://huggingface.co/nvidia/nemotron-4-340b-instruct
+sources:
+- bfcl-result-archive
+managed_by: register

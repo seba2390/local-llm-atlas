@@ -3,6 +3,7 @@ name: LLaVA-Video-7B-Qwen2-TPO
 aliases:
 - LLaVA-Video-7B-Qwen2-TPO
 org: unknown
+company: Unknown
 release_date: '2025-01-19'
 open_weights: null
 sources:

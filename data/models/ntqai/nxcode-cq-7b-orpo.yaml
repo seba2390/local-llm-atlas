@@ -1,0 +1,20 @@
+id: nxcode-cq-7b-orpo
+name: Nxcode-CQ-7B-orpo
+aliases:
+- Nxcode-CQ-7B-Orpo
+- Nxcode-CQ-7B-orpo
+org: ntqai
+company: NTQAI
+release_date: '2024-04-25'
+open_weights: true
+hf_repo: NTQAI/Nxcode-CQ-7B-orpo
+weights_url: https://huggingface.co/NTQAI/Nxcode-CQ-7B-orpo
+context_length: 65536
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcode-models-leaderboard
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+managed_by: register

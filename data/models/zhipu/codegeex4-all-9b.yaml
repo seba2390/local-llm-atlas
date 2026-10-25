@@ -1,0 +1,16 @@
+id: codegeex4-all-9b
+name: CodeGeex4-All-9B
+aliases:
+- CodeGeex4-All-9B
+org: zhipu
+company: Z.ai (Zhipu AI)
+country: China
+release_date: '2024-07-05'
+open_weights: true
+hf_repo: THUDM/codegeex4-all-9b
+weights_url: https://huggingface.co/THUDM/codegeex4-all-9b
+architecture:
+  params_total_b: 9.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

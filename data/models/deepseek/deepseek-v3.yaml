@@ -1,12 +1,17 @@
 id: deepseek-v3
 name: DeepSeek-V3
 aliases:
+- DeepSeek V3
 - DeepSeek-V3
+- DeepSeek-V3 (Nov 2024)
+- Deepseek V3
+- deepseek-v3-nov-2024
 org: deepseek
 company: DeepSeek
 country: China
 release_date: '2024-12-26'
 open_weights: true
+license: DeepSeek License
 hf_repo: deepseek-ai/DeepSeek-V3
 weights_url: https://huggingface.co/deepseek-ai/DeepSeek-V3
 architecture:
@@ -24,6 +29,8 @@ architecture:
 sources:
 - epoch-ai-models
 - hf-deepseek-ai-deepseek-v3
+- bfcl-result-archive
+- evalplus-leaderboard-data
 field_sources:
   architecture.type: hf-deepseek-ai-deepseek-v3
   architecture.layers: hf-deepseek-ai-deepseek-v3
@@ -36,4 +43,5 @@ field_sources:
   architecture.experts_shared: hf-deepseek-ai-deepseek-v3
   architecture.native_dtype: hf-deepseek-ai-deepseek-v3
   hf_repo: hf-deepseek-ai-deepseek-v3
+  license: bfcl-result-archive
 managed_by: register

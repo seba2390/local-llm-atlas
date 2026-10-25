@@ -1,0 +1,16 @@
+id: qwen2-57b-a14b
+name: Qwen2-57B-A14B
+aliases:
+- Qwen2-57B-A14B
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2024-06-07'
+open_weights: true
+hf_repo: Qwen/Qwen2-57B-A14B
+weights_url: https://huggingface.co/Qwen/Qwen2-57B-A14B
+architecture:
+  params_total_b: 57.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

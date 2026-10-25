@@ -1,0 +1,9 @@
+id: claude-4-sonnet
+name: Claude 4 Sonnet
+org: anthropic
+company: Anthropic
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

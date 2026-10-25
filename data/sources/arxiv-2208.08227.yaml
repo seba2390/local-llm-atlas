@@ -4,8 +4,10 @@ provenance: first_party
 title: 'MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation'
 authors:
 - Federico Cassano
+- John Gouwar
 - et al.
 publisher: arXiv
 url: https://arxiv.org/abs/2208.08227
 published: '2022-08-17'
+notes: Introduces MultiPL-E.
 accessed: '2026-10-25'

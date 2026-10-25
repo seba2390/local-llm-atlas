@@ -1,0 +1,6 @@
+id: patchkitty
+name: PatchKitty
+kind: agent-scaffold
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

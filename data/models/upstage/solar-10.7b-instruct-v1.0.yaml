@@ -1,0 +1,15 @@
+id: solar-10.7b-instruct-v1.0
+name: SOLAR-10.7B-Instruct-v1.0
+aliases:
+- SOLAR-10.7B-Instruct-v1.0
+org: upstage
+company: Upstage
+country: South Korea
+open_weights: true
+hf_repo: upstage/SOLAR-10.7B-Instruct-v1.0
+weights_url: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0
+architecture:
+  params_total_b: 10.7
+sources:
+- evalplus-leaderboard-data
+managed_by: register

@@ -1,0 +1,12 @@
+id: gemma2-27b-instruct
+name: gemma2:27b-instruct
+aliases:
+- gemma2:27b-instruct
+org: google
+company: Google DeepMind
+country: United States of America
+open_weights: true
+sources:
+- aider-edit-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

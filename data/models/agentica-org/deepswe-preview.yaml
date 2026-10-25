@@ -1,0 +1,12 @@
+id: deepswe-preview
+name: DeepSWE-Preview
+aliases:
+- agentica-org/DeepSWE-Preview
+org: agentica-org
+company: agentica-org
+open_weights: true
+hf_repo: agentica-org/DeepSWE-Preview
+weights_url: https://huggingface.co/agentica-org/DeepSWE-Preview
+sources:
+- swe-bench-leaderboards
+managed_by: register

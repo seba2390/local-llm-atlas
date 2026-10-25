@@ -1,7 +1,0 @@
-id: learnlm-1.5-pro-experimental
-name: learnlm-1.5-pro-experimental
-org: unknown
-open_weights: null
-sources:
-- epoch-ai-models
-managed_by: register

@@ -7,6 +7,17 @@ import importlib
 
 IMPORTERS = [
     "epoch",
+    "aider",
+    "swe-bench",
+    "evalplus",
+    "evalperf",
+    "bigcodebench",
+    "bigcode-leaderboard",
+    "cruxeval",
+    "bfcl",
+    "taubench",
+    "vendor-cards",
+    "hf",  # slow: queries the Hugging Face API for every open-weight model
 ]
 
 

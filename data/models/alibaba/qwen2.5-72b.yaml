@@ -2,6 +2,7 @@ id: qwen2.5-72b
 name: Qwen2.5-72B
 aliases:
 - Qwen2.5-72B
+- Qwen2.5-72b
 org: alibaba
 company: Alibaba
 country: China

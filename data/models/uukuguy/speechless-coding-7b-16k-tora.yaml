@@ -1,0 +1,14 @@
+id: speechless-coding-7b-16k-tora
+name: speechless-coding-7B-16k-tora
+aliases:
+- speechless-coding-7B-16k-tora
+org: uukuguy
+company: uukuguy
+open_weights: true
+hf_repo: uukuguy/speechless-coding-7b-16k-tora
+weights_url: https://huggingface.co/uukuguy/speechless-coding-7b-16k-tora
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

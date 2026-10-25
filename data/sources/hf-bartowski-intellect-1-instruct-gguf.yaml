@@ -1,9 +1,0 @@
-id: hf-bartowski-intellect-1-instruct-gguf
-kind: model_card
-provenance: community
-title: bartowski/INTELLECT-1-Instruct-GGUF (GGUF quantisations of PrimeIntellect/INTELLECT-1-Instruct) file listing
-publisher: Hugging Face
-url: https://huggingface.co/bartowski/INTELLECT-1-Instruct-GGUF
-revision: 7293422e6c759528ad110db71fc0b8c60623d12e
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

@@ -1,0 +1,7 @@
+id: ise-uiuc
+name: University of Illinois Urbana-Champaign (UIUC)
+country: United States of America
+kind: academic
+sources:
+- epoch-ai-models
+notes: Name and country as listed in Epoch AI "Data on AI models" (Organization / Country of organization).

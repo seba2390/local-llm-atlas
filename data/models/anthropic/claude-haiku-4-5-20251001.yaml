@@ -1,10 +1,16 @@
 id: claude-haiku-4-5-20251001
-name: Claude Haiku 4.5 (59k thinking)
+name: Claude Haiku 4.5
+aliases:
+- Claude-Haiku-4-5-20251001
 org: anthropic
 company: Anthropic
 country: United States of America
 release_date: '2025-10-15'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

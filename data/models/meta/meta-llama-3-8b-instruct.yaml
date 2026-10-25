@@ -1,14 +1,29 @@
 id: meta-llama-3-8b-instruct
 name: Meta-Llama-3-8B-Instruct
 aliases:
+- Llama-3-8B-Instruct
+- Llama3-8B-instruct
 - Meta-Llama-3-8B-Instruct
+- llama-3-8b-instruct
+- llama3-8b-instruct
+- meta-llama/Meta-Llama-3-8B-Instruct
 org: meta
 company: Meta AI
 country: United States of America
 release_date: '2024-04-18'
 open_weights: true
+license: Meta Llama 3 Community
+hf_repo: meta-llama/Meta-Llama-3-8B-Instruct
+weights_url: https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct
 architecture:
   params_total_b: 8.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+- evalperf-leaderboard
+- bigcodebench-results-hf
+- evalplus-leaderboard-data
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: evalperf-leaderboard
 managed_by: register

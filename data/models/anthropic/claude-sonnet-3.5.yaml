@@ -1,0 +1,11 @@
+id: claude-sonnet-3.5
+name: Claude Sonnet 3.5
+aliases:
+- Claude Sonnet 3.5
+org: anthropic
+company: Anthropic
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

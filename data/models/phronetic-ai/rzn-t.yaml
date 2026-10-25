@@ -1,0 +1,13 @@
+id: rzn-t
+name: RZN-T
+aliases:
+- RZN-T
+org: phronetic-ai
+company: Phronetic AI
+open_weights: true
+license: apache-2.0
+hf_repo: phronetic-ai/RZN-T
+weights_url: https://huggingface.co/phronetic-ai/RZN-T
+sources:
+- bfcl-result-archive
+managed_by: register

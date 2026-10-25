@@ -1,0 +1,19 @@
+id: wavecoder-ultra-6.7b
+name: WaveCoder-Ultra-6.7B
+aliases:
+- WaveCoder-Ultra-6.7B
+org: microsoft
+company: Microsoft
+country: United States of America
+release_date: '2023-12-26'
+open_weights: true
+hf_repo: microsoft/wavecoder-ultra-6.7b
+weights_url: https://huggingface.co/microsoft/wavecoder-ultra-6.7b
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+managed_by: register

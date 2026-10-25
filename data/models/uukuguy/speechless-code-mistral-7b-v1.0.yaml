@@ -1,0 +1,14 @@
+id: speechless-code-mistral-7b-v1.0
+name: speechless-code-mistral-7B-v1.0
+aliases:
+- speechless-code-mistral-7B-v1.0
+org: uukuguy
+company: uukuguy
+open_weights: true
+hf_repo: uukuguy/speechless-code-mistral-7b-v1.0
+weights_url: https://huggingface.co/uukuguy/speechless-code-mistral-7b-v1.0
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

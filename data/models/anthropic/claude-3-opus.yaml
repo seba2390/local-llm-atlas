@@ -1,0 +1,11 @@
+id: claude-3-opus
+name: Claude 3 Opus
+aliases:
+- Claude 3 Opus
+org: anthropic
+company: Anthropic
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

@@ -1,0 +1,11 @@
+id: nvidia-nemotron-nano-9b-v2
+name: nvidia-nemotron-nano-9b-v2
+org: nvidia
+company: Nvidia
+country: United States of America
+release_date: '2025-08-18'
+open_weights: null
+sources:
+- epoch-ai-models
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

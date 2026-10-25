@@ -1,0 +1,5 @@
+id: mininglamp
+name: Mininglamp
+sources:
+- bfcl-result-archive
+managed_by: register

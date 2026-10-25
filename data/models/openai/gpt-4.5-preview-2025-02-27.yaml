@@ -1,10 +1,16 @@
 id: gpt-4.5-preview-2025-02-27
 name: GPT-4.5 Preview (Feb 2025)
+aliases:
+- GPT-4.5-Preview-2025-02-27
 org: openai
 company: OpenAI
 country: United States of America
 release_date: '2025-02-27'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

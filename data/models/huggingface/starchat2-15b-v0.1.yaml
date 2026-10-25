@@ -1,0 +1,13 @@
+id: starchat2-15b-v0.1
+name: starchat2-15b-v0.1
+org: huggingface
+company: Hugging Face
+country: United States of America
+open_weights: true
+hf_repo: HuggingFaceH4/starchat2-15b-v0.1
+weights_url: https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1
+architecture:
+  params_total_b: 15.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

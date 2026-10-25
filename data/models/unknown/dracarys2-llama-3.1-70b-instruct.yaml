@@ -3,6 +3,7 @@ name: Dracarys2-Llama-3.1-70B-Instruct
 aliases:
 - Dracarys2-Llama-3.1-70B-Instruct
 org: unknown
+company: Unknown
 release_date: '2024-08-14'
 open_weights: null
 sources:

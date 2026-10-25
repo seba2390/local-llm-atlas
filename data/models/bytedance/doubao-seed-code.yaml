@@ -1,0 +1,11 @@
+id: doubao-seed-code
+name: Doubao-Seed-Code
+aliases:
+- Doubao-Seed-Code
+org: bytedance
+company: ByteDance
+country: China
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

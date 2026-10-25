@@ -1,0 +1,15 @@
+id: minicpm3-4b
+name: MiniCPM3-4B
+aliases:
+- MiniCPM3-4B
+- MiniCPM3-4B-FC
+- minicpm3-4b-fc
+org: openbmb
+company: openbmb
+open_weights: true
+license: Apache-2.0
+hf_repo: openbmb/MiniCPM3-4B
+weights_url: https://huggingface.co/openbmb/MiniCPM3-4B
+sources:
+- bfcl-result-archive
+managed_by: register

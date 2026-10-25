@@ -1,0 +1,9 @@
+id: kimi-k2-0905-preview
+name: Kimi K2
+org: moonshot
+company: Moonshot
+country: China
+open_weights: true
+sources:
+- swe-bench-leaderboards
+managed_by: register

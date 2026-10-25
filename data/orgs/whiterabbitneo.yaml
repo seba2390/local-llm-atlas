@@ -1,0 +1,6 @@
+id: whiterabbitneo
+name: WhiteRabbitNeo
+sources:
+- bigcodebench-results-hf
+managed_by: register
+notes: Created from the Hugging Face account that publishes the weights; country not stated by any imported source.

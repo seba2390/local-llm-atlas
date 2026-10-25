@@ -1,0 +1,9 @@
+id: claude-2
+name: Claude 2
+org: anthropic
+company: Anthropic
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

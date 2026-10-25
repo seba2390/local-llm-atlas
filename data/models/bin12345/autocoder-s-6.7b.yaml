@@ -1,0 +1,15 @@
+id: autocoder-s-6.7b
+name: AutoCoder-S-6.7B
+aliases:
+- AutoCoder-S-6.7B
+org: bin12345
+company: Bin12345
+release_date: '2024-05-23'
+open_weights: true
+hf_repo: Bin12345/AutoCoder_S_6.7B
+weights_url: https://huggingface.co/Bin12345/AutoCoder_S_6.7B
+architecture:
+  params_total_b: 6.7
+sources:
+- bigcodebench-results-hf
+managed_by: register

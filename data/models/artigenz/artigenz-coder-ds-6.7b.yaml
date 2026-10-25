@@ -1,0 +1,21 @@
+id: artigenz-coder-ds-6.7b
+name: Artigenz-Coder-DS-6.7B
+aliases:
+- Artigenz-Coder-DS-6.7B
+org: artigenz
+company: Artigenz
+release_date: '2024-04-16'
+open_weights: true
+hf_repo: Artigenz/Artigenz-Coder-DS-6.7B
+weights_url: https://huggingface.co/Artigenz/Artigenz-Coder-DS-6.7B
+context_length: 16384
+architecture:
+  params_total_b: 6.7
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+- bigcode-models-leaderboard
+field_sources:
+  release_date: bigcodebench-results-hf
+  context_length: bigcode-models-leaderboard
+managed_by: register

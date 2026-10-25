@@ -1,0 +1,17 @@
+id: wizardcoder-python-13b-v1.0
+name: WizardCoder-Python-13B-V1.0
+aliases:
+- WizardCoder-Python-13B-V1.0
+- wizard-13b
+org: wizardlm
+company: WizardLM
+open_weights: true
+hf_repo: WizardLM/WizardCoder-Python-13B-V1.0
+weights_url: https://huggingface.co/WizardLM/WizardCoder-Python-13B-V1.0
+context_length: 16384
+architecture:
+  params_total_b: 13.0
+sources:
+- bigcode-models-leaderboard
+- cruxeval-leaderboard
+managed_by: register

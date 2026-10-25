@@ -20,6 +20,14 @@ variants:
   notes: tau2-bench 1.x; 26 retail tasks fixed in 1.0.0.
 - id: telecom-v1
   notes: tau2-bench 1.x telecom.
+- id: airline
+  notes: Airline domain; tau2-bench version not stated by the source.
+- id: retail
+  notes: Retail domain; tau2-bench version not stated by the source.
+- id: telecom
+  notes: Telecom domain; tau2-bench version not stated by the source.
+- id: overall
+  notes: Single tau2-bench number (domain average as reported by the source; version not stated).
 - id: banking-knowledge
   introduced: '2026-03-04'
   notes: τ-Knowledge banking domain, tau2-bench >= 1.0.1 grading (not comparable with earlier grading).

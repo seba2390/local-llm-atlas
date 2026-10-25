@@ -1,0 +1,14 @@
+id: hermes-2-theta-llama-3-8b
+name: Hermes-2-Theta-Llama-3-8B
+aliases:
+- Hermes-2-Theta-Llama-3-8B
+org: nous
+company: Nous Research
+country: United States of America
+open_weights: true
+license: apache-2.0
+hf_repo: NousResearch/Hermes-2-Theta-Llama-3-8B
+weights_url: https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B
+sources:
+- bfcl-result-archive
+managed_by: register

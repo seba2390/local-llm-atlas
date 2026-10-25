@@ -27,7 +27,7 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.cmd in ("ingest", "register", "sync-orgs"):
         from . import ingest
-        from .ingest.register import register, register_orgs, sync_orgs
+        from .ingest.register import merge_duplicates, register, register_orgs, sync_orgs
 
         if args.cmd == "ingest":
             names = ingest.IMPORTERS if args.names == ["all"] else args.names
@@ -36,12 +36,14 @@ def main(argv: list[str] | None = None) -> int:
             if args.names == ["all"]:
                 register_orgs()
                 register()
+                merge_duplicates()
                 sync_orgs()
                 for name in names:
                     ingest.run(name)
         elif args.cmd == "register":
             register_orgs()
             register()
+            merge_duplicates()
             sync_orgs()
         else:
             sync_orgs()

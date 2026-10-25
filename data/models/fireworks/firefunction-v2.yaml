@@ -1,0 +1,13 @@
+id: firefunction-v2
+name: FireFunction-v2
+aliases:
+- FireFunction-v2
+org: fireworks
+company: Fireworks
+open_weights: true
+license: Apache 2.0
+hf_repo: fireworks-ai/firefunction-v2
+weights_url: https://huggingface.co/fireworks-ai/firefunction-v2
+sources:
+- bfcl-result-archive
+managed_by: register

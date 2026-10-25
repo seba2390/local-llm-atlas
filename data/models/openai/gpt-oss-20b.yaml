@@ -1,5 +1,7 @@
 id: gpt-oss-20b
 name: gpt-oss-20b
+aliases:
+- openai/gpt-oss-20b
 org: openai
 company: OpenAI
 country: United States of America

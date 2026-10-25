@@ -1,10 +1,16 @@
 id: gpt-4-0613
 name: GPT-4 (Jun 2023)
+aliases:
+- GPT-4-0613
 org: openai
 company: OpenAI
 country: United States of America
 release_date: '2023-06-13'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

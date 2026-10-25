@@ -1,10 +1,16 @@
 id: gemini-exp-1206
 name: gemini-exp-1206
+aliases:
+- Gemini-Exp-1206
 org: google
 company: Google DeepMind
 country: United States of America
 release_date: '2024-12-06'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

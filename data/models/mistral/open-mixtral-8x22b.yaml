@@ -1,12 +1,18 @@
 id: open-mixtral-8x22b
 name: open-mixtral-8x22b
+aliases:
+- Open-Mixtral-8x22b
 org: mistral
 company: Mistral AI
 country: France
 release_date: '2024-04-17'
 open_weights: true
+license: Proprietary
 architecture:
   params_total_b: 141.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

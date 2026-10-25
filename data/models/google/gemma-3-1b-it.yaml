@@ -1,12 +1,18 @@
 id: gemma-3-1b-it
 name: gemma-3-1b-it
+aliases:
+- Gemma-3-1b-it
 org: google
 company: Google DeepMind
 country: United States of America
 release_date: '2025-03-12'
 open_weights: true
+license: gemma-terms-of-use
 architecture:
   params_total_b: 1.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

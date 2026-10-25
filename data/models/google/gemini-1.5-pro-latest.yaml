@@ -1,0 +1,12 @@
+id: gemini-1.5-pro-latest
+name: gemini-1.5-pro-latest
+aliases:
+- gemini/gemini-1.5-pro-latest
+org: google
+company: Google DeepMind
+country: United States of America
+open_weights: null
+sources:
+- aider-refactor-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

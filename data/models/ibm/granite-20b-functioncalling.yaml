@@ -1,0 +1,14 @@
+id: granite-20b-functioncalling
+name: Granite-20b-FunctionCalling
+aliases:
+- Granite-20b-FunctionCalling
+org: ibm
+company: IBM
+country: United States of America
+open_weights: true
+license: Apache-2.0
+hf_repo: ibm-granite/granite-20b-functioncalling
+weights_url: https://huggingface.co/ibm-granite/granite-20b-functioncalling
+sources:
+- bfcl-result-archive
+managed_by: register

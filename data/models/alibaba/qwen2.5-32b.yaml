@@ -1,0 +1,12 @@
+id: qwen2.5-32b
+name: qwen2.5:32b
+aliases:
+- ollama/qwen2.5:32b
+org: alibaba
+company: Alibaba
+country: China
+open_weights: true
+sources:
+- aider-edit-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

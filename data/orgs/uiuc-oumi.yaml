@@ -1,0 +1,5 @@
+id: uiuc-oumi
+name: UIUC + Oumi
+sources:
+- bfcl-result-archive
+managed_by: register

@@ -1,0 +1,13 @@
+id: bitagent-bounty-8b
+name: BitAgent-Bounty-8B
+aliases:
+- BitAgent-Bounty-8B
+org: bittensor
+company: Bittensor
+open_weights: true
+license: Apache-2.0
+hf_repo: BitAgent/BitAgent-Bounty-8B
+weights_url: https://huggingface.co/BitAgent/BitAgent-Bounty-8B
+sources:
+- bfcl-result-archive
+managed_by: register

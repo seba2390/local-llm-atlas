@@ -1,0 +1,13 @@
+id: coalm-405b
+name: CoALM-405B
+aliases:
+- CoALM-405B
+org: uiuc-oumi
+company: UIUC + Oumi
+open_weights: true
+license: Meta Llama 3 Community
+hf_repo: uiuc-convai/CoALM-405B
+weights_url: https://huggingface.co/uiuc-convai/CoALM-405B
+sources:
+- bfcl-result-archive
+managed_by: register

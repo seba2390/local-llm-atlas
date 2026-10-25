@@ -1,0 +1,15 @@
+id: reflectioncoder-ds-6.7b
+name: ReflectionCoder-DS-6.7B
+aliases:
+- ReflectionCoder-DS-6.7B
+org: sensellm
+company: SenseLLM
+release_date: '2024-05-27'
+open_weights: true
+hf_repo: SenseLLM/ReflectionCoder-DS-6.7B
+weights_url: https://huggingface.co/SenseLLM/ReflectionCoder-DS-6.7B
+architecture:
+  params_total_b: 6.7
+sources:
+- bigcodebench-results-hf
+managed_by: register

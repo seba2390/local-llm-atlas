@@ -10,8 +10,15 @@ company: Alibaba
 country: China
 release_date: '2025-07-25'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3-235B-A22B-Thinking-2507
+weights_url: https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507
 architecture:
   params_total_b: 235.0
 sources:
 - epoch-ai-models
+- hf-qwen3-235b-a22b-thinking-2507
+field_sources:
+  license: hf-qwen3-235b-a22b-thinking-2507
+  hf_repo: hf-qwen3-235b-a22b-thinking-2507
 managed_by: register

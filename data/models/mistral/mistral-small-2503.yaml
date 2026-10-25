@@ -1,12 +1,18 @@
 id: mistral-small-2503
 name: mistral-small-2503
+aliases:
+- Mistral-small-2503
 org: mistral
 company: Mistral AI
 country: France
 release_date: '2025-03-17'
 open_weights: true
+license: Proprietary
 architecture:
   params_total_b: 24.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

@@ -1,0 +1,10 @@
+id: frogmini-14b-2510
+name: Frogmini 14B 2510
+aliases:
+- FrogMini-14B-2510
+org: unknown
+company: Unknown
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

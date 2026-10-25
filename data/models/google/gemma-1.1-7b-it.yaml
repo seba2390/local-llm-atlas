@@ -1,0 +1,13 @@
+id: gemma-1.1-7b-it
+name: gemma-1.1-7b-it
+org: google
+company: Google DeepMind
+country: United States of America
+open_weights: true
+hf_repo: google/gemma-1.1-7b-it
+weights_url: https://huggingface.co/google/gemma-1.1-7b-it
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

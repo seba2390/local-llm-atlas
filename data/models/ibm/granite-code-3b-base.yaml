@@ -1,0 +1,16 @@
+id: granite-code-3b-base
+name: Granite-Code-3B-Base
+aliases:
+- Granite-Code-3B-Base
+org: ibm
+company: IBM
+country: United States of America
+release_date: '2024-05-06'
+open_weights: true
+hf_repo: ibm-granite/granite-3b-code-base
+weights_url: https://huggingface.co/ibm-granite/granite-3b-code-base
+architecture:
+  params_total_b: 3.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

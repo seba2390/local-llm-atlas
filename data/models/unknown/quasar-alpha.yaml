@@ -1,0 +1,15 @@
+id: quasar-alpha
+name: Quasar Alpha
+aliases:
+- Quasar Alpha
+- Quasar-Alpha
+org: unknown
+company: Unknown
+release_date: '2025-04-02'
+open_weights: null
+sources:
+- aider-polyglot-leaderboard-data
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+managed_by: register

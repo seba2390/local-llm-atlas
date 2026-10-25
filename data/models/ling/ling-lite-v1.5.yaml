@@ -1,0 +1,11 @@
+id: ling-lite-v1.5
+name: ling-lite-v1.5
+org: ling
+company: Ling
+open_weights: true
+license: MIT
+hf_repo: inclusionAI/Ling-lite-1.5
+weights_url: https://huggingface.co/inclusionAI/Ling-lite-1.5
+sources:
+- bfcl-result-archive
+managed_by: register

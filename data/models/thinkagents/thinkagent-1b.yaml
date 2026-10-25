@@ -1,0 +1,13 @@
+id: thinkagent-1b
+name: ThinkAgent-1B
+aliases:
+- ThinkAgent-1B
+org: thinkagents
+company: ThinkAgents
+open_weights: true
+license: apache-2.0
+hf_repo: ThinkAgents/ThinkAgent-1B
+weights_url: https://huggingface.co/ThinkAgents/ThinkAgent-1B
+sources:
+- bfcl-result-archive
+managed_by: register

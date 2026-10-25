@@ -1,0 +1,9 @@
+id: claude-3-5-haiku-latest
+name: claude-3-5-haiku-latest
+org: anthropic
+company: Anthropic
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

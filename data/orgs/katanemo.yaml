@@ -1,0 +1,5 @@
+id: katanemo
+name: katanemo
+sources:
+- bfcl-result-archive
+managed_by: register

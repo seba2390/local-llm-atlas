@@ -1,0 +1,15 @@
+id: openchat-3.6-8b-20240522
+name: OpenChat-3.6-8B-20240522
+aliases:
+- OpenChat-3.6-8B-20240522
+org: openchat
+company: openchat
+release_date: '2024-05-22'
+open_weights: true
+hf_repo: openchat/openchat-3.6-8b-20240522
+weights_url: https://huggingface.co/openchat/openchat-3.6-8b-20240522
+architecture:
+  params_total_b: 8.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

@@ -1,10 +1,18 @@
 id: gpt-4.1-nano-2025-04-14
 name: GPT-4.1 nano
+aliases:
+- GPT-4.1-Nano-2025-04-14
+- GPT-4.1-nano-2025-04-14
+- gpt-4.1-nano
 org: openai
 company: OpenAI
 country: United States of America
 release_date: '2025-04-14'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

@@ -14,7 +14,6 @@ architecture:
   hidden_size: 4096
   q_heads: 64
   kv_heads: 64
-  head_dim: 0
   attention: mla
   experts_total: 288
   experts_active: 8
@@ -29,7 +28,6 @@ field_sources:
   architecture.hidden_size: hf-zai-org-glm-5.3-flash
   architecture.q_heads: hf-zai-org-glm-5.3-flash
   architecture.kv_heads: hf-zai-org-glm-5.3-flash
-  architecture.head_dim: hf-zai-org-glm-5.3-flash
   architecture.attention: hf-zai-org-glm-5.3-flash
   architecture.experts_total: hf-zai-org-glm-5.3-flash
   architecture.experts_active: hf-zai-org-glm-5.3-flash

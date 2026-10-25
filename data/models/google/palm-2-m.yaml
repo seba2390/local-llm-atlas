@@ -1,0 +1,13 @@
+id: palm-2-m
+name: PaLM 2-M
+aliases:
+- PaLM 2-M
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2023-05-17'
+open_weights: null
+sources:
+- epoch-ai-models
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

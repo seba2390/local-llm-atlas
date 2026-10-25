@@ -1,10 +1,16 @@
 id: gpt-5-nano-2025-08-07
 name: GPT-5 nano
+aliases:
+- GPT-5-nano-2025-08-07
 org: openai
 company: OpenAI
 country: United States of America
 release_date: '2025-08-07'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

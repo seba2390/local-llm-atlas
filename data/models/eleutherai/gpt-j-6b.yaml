@@ -1,5 +1,7 @@
 id: gpt-j-6b
 name: gpt-j-6b
+aliases:
+- GPT-J-6B
 org: eleutherai
 company: EleutherAI
 country: United States of America

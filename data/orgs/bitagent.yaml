@@ -1,0 +1,5 @@
+id: bitagent
+name: BitAgent
+sources:
+- bfcl-result-archive
+managed_by: register

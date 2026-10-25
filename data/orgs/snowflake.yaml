@@ -1,0 +1,5 @@
+id: snowflake
+name: Snowflake
+sources:
+- bfcl-result-archive
+managed_by: register

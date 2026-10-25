@@ -1,0 +1,14 @@
+id: whiterabbitneo-33b-v1
+name: WhiteRabbitNeo-33B-v1
+aliases:
+- WhiteRabbitNeo-33B-v1
+org: whiterabbitneo
+company: WhiteRabbitNeo
+open_weights: true
+hf_repo: WhiteRabbitNeo/WhiteRabbitNeo-33B-v1
+weights_url: https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-33B-v1
+architecture:
+  params_total_b: 33.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

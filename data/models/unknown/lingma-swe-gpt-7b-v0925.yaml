@@ -1,0 +1,10 @@
+id: lingma-swe-gpt-7b-v0925
+name: Lingma SWE-GPT 7b (v0925)
+aliases:
+- Lingma SWE-GPT 7b (v0925)
+org: unknown
+company: Unknown
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

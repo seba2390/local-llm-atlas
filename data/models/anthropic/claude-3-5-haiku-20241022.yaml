@@ -1,10 +1,17 @@
 id: claude-3-5-haiku-20241022
 name: Claude 3.5 Haiku (Oct 2024)
+aliases:
+- Claude-3.5-Haiku-20241022
+- claude-3.5-haiku-20241022
 org: anthropic
 company: Anthropic
 country: United States of America
 release_date: '2024-10-22'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

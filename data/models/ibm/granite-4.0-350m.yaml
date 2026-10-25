@@ -1,0 +1,39 @@
+id: granite-4.0-350m
+name: granite-4.0-350m
+aliases:
+- Granite-4.0-350m
+org: ibm
+company: IBM
+country: United States of America
+release_date: '2025-10-28'
+open_weights: true
+license: Apache-2.0
+hf_repo: ibm-granite/granite-4.0-350m
+weights_url: https://huggingface.co/ibm-granite/granite-4.0-350m
+architecture:
+  type: dense
+  layers: 28
+  hidden_size: 1024
+  q_heads: 16
+  kv_heads: 4
+  attention: gqa
+  native_dtype: bf16
+  params_total_b: 0.352
+sources:
+- epoch-ai-models
+- hf-ibm-granite-granite-4.0-350m
+- bfcl-result-archive
+field_sources:
+  architecture.type: hf-ibm-granite-granite-4.0-350m
+  architecture.layers: hf-ibm-granite-granite-4.0-350m
+  architecture.hidden_size: hf-ibm-granite-granite-4.0-350m
+  architecture.q_heads: hf-ibm-granite-granite-4.0-350m
+  architecture.kv_heads: hf-ibm-granite-granite-4.0-350m
+  architecture.attention: hf-ibm-granite-granite-4.0-350m
+  architecture.native_dtype: hf-ibm-granite-granite-4.0-350m
+  architecture.params_total_b: hf-ibm-granite-granite-4.0-350m
+  hf_repo: hf-ibm-granite-granite-4.0-350m
+  org: bfcl-result-archive
+  license: bfcl-result-archive
+  open_weights: bfcl-result-archive
+managed_by: register

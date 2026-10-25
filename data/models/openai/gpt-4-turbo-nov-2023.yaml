@@ -1,0 +1,12 @@
+id: gpt-4-turbo-nov-2023
+name: GPT-4-Turbo (Nov 2023)
+aliases:
+- GPT-4-Turbo (Nov 2023)
+org: openai
+company: OpenAI
+country: United States of America
+open_weights: null
+sources:
+- evalplus-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

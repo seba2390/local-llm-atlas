@@ -1,0 +1,24 @@
+id: codellama-13b-base
+name: CodeLlama-13B-Base
+aliases:
+- CodeLlama-13B
+- CodeLlama-13B-Base
+- CodeLlama-13b
+- codellama-13b
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-08-25'
+open_weights: true
+hf_repo: codellama/CodeLlama-13b-hf
+weights_url: https://huggingface.co/codellama/CodeLlama-13b-hf
+context_length: 16384
+architecture:
+  params_total_b: 13.0
+sources:
+- bigcodebench-results-hf
+- bigcode-models-leaderboard
+- evalplus-leaderboard-data
+field_sources:
+  context_length: bigcode-models-leaderboard
+managed_by: register

@@ -1,0 +1,10 @@
+id: hermes3-8b-llama3.1
+name: hermes3:8b-llama3.1
+aliases:
+- ollama/hermes3:8b-llama3.1
+org: unknown
+company: Unknown
+open_weights: true
+sources:
+- aider-edit-leaderboard-data
+managed_by: register

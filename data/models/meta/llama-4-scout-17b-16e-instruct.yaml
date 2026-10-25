@@ -1,15 +1,25 @@
 id: llama-4-scout-17b-16e-instruct
 name: Llama-4-Scout-17B-16E-Instruct
 aliases:
+- Llama-4-Scout
 - Llama-4-Scout-17B-16E-Instruct
 - chutes/Llama-4-Scout-17B-16E Instruct
+- llama-4-scout
 org: meta
 company: Meta AI
 country: United States of America
 release_date: '2025-04-05'
 open_weights: true
+license: Meta Llama 4 Community
+hf_repo: meta-llama/Llama-4-Scout-17B-16E-Instruct
+weights_url: https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct
 architecture:
   params_total_b: 109.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+- bigcodebench-results-hf
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
 managed_by: register

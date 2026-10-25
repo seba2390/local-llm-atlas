@@ -1,0 +1,7 @@
+id: patched.codes-patchwork
+name: Patched.Codes Patchwork
+kind: agent-scaffold
+url: https://github.com/patched-codes/patchwork
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

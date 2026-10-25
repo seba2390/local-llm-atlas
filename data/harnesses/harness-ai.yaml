@@ -1,0 +1,7 @@
+id: harness-ai
+name: Harness AI
+kind: agent-scaffold
+url: https://www.harness.io/
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

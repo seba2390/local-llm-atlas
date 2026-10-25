@@ -1,0 +1,13 @@
+id: qwen-vl-chat
+name: Qwen-VL-Chat
+aliases:
+- Qwen-VL-Chat
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2023-08-20'
+open_weights: null
+sources:
+- epoch-ai-models
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

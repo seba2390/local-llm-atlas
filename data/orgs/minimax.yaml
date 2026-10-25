@@ -4,3 +4,5 @@ country: China
 sources:
 - epoch-ai-models
 managed_by: register
+aliases:
+- Minimax

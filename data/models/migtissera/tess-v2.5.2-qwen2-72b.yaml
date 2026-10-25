@@ -1,0 +1,15 @@
+id: tess-v2.5.2-qwen2-72b
+name: Tess-v2.5.2-Qwen2-72B
+aliases:
+- Tess-v2.5.2-Qwen2-72B
+org: migtissera
+company: migtissera
+release_date: '2024-07-18'
+open_weights: true
+hf_repo: migtissera/Tess-v2.5.2-Qwen2-72B
+weights_url: https://huggingface.co/migtissera/Tess-v2.5.2-Qwen2-72B
+architecture:
+  params_total_b: 72.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

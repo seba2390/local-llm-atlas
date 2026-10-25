@@ -1,0 +1,10 @@
+id: command-a-03-2025-quality
+name: command-a-03-2025-quality
+org: cohere
+company: Cohere
+country: Canada
+open_weights: null
+sources:
+- aider-polyglot-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

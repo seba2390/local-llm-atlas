@@ -1,0 +1,17 @@
+id: qwen2.5-coder-14b
+name: Qwen2.5-Coder-14B
+aliases:
+- Qwen2.5-Coder-14B
+- ollama/qwen2.5-coder:14b
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2024-09-18'
+open_weights: true
+sources:
+- epoch-ai-models
+- aider-edit-leaderboard-data
+field_sources:
+  open_weights: aider-edit-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

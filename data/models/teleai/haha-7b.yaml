@@ -1,0 +1,13 @@
+id: haha-7b
+name: Haha-7B
+aliases:
+- Haha-7B
+org: teleai
+company: TeleAI
+open_weights: true
+license: Apache 2.0
+hf_repo: ZJared/Haha-7B
+weights_url: https://huggingface.co/ZJared/Haha-7B
+sources:
+- bfcl-result-archive
+managed_by: register

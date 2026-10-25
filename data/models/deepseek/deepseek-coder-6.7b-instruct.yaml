@@ -1,0 +1,28 @@
+id: deepseek-coder-6.7b-instruct
+name: DeepSeek-Coder-6.7B-instruct
+aliases:
+- DeepSeek-Coder-6.7B-Instruct
+- DeepSeek-Coder-6.7B-instruct
+- DeepSeek-Coder-7b-instruct
+- deepseek-ai/deepseek-coder-6.7b-instruct
+- deepseek-coder-7b-instruct
+- deepseek-instruct-6.7b
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2023-10-28'
+open_weights: true
+hf_repo: deepseek-ai/deepseek-coder-6.7b-instruct
+weights_url: https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct
+context_length: 16384
+architecture:
+  params_total_b: 6.7
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+- bigcode-models-leaderboard
+- cruxeval-leaderboard
+field_sources:
+  release_date: bigcodebench-results-hf
+  context_length: bigcode-models-leaderboard
+managed_by: register

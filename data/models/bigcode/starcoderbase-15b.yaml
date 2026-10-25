@@ -1,0 +1,18 @@
+id: starcoderbase-15b
+name: StarCoderBase-15B
+aliases:
+- StarCoderBase-15B
+- starcoderbase-16b
+org: bigcode
+company: BigCode
+country: United States of America
+open_weights: true
+hf_repo: bigcode/starcoderbase
+weights_url: https://huggingface.co/bigcode/starcoderbase
+context_length: 8192
+architecture:
+  params_total_b: 15.0
+sources:
+- bigcode-models-leaderboard
+- cruxeval-leaderboard
+managed_by: register

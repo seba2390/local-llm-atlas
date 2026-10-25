@@ -1,7 +1,0 @@
-id: sonar
-name: Perplexity Sonar
-org: unknown
-open_weights: null
-sources:
-- epoch-ai-models
-managed_by: register

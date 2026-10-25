@@ -1,0 +1,7 @@
+id: swe-exp
+name: SWE-Exp
+kind: agent-scaffold
+url: https://github.com/YerbaPage/SWE-Exp
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

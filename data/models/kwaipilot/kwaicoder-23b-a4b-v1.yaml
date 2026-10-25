@@ -1,0 +1,15 @@
+id: kwaicoder-23b-a4b-v1
+name: KwaiCoder-23B-A4B-v1
+aliases:
+- KwaiCoder-23B-A4B-v1
+org: kwaipilot
+company: Kwaipilot
+release_date: '2025-01-25'
+open_weights: true
+hf_repo: Kwaipilot/KwaiCoder-23B-A4B-v1
+weights_url: https://huggingface.co/Kwaipilot/KwaiCoder-23B-A4B-v1
+architecture:
+  params_total_b: 23.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

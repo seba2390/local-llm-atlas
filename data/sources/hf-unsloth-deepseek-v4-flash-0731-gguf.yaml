@@ -1,9 +1,0 @@
-id: hf-unsloth-deepseek-v4-flash-0731-gguf
-kind: model_card
-provenance: community
-title: unsloth/DeepSeek-V4-Flash-0731-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-V4-Flash-0731) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF
-revision: fbbb5b93fb787c21338159b0af3318bb3f4d9768
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

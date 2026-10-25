@@ -1,9 +1,0 @@
-id: hf-unsloth-deepseek-r1-distill-llama-70b-gguf
-kind: model_card
-provenance: community
-title: unsloth/DeepSeek-R1-Distill-Llama-70B-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-R1-Distill-Llama-70B) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-70B-GGUF
-revision: 732dd974083ea5877d7b6d788b36fe7c2e5eab36
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

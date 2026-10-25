@@ -7,6 +7,7 @@ company: Nous Research
 country: United States of America
 release_date: '2024-06-20'
 open_weights: true
+license: apache-2.0
 hf_repo: NousResearch/Hermes-2-Theta-Llama-3-70B
 weights_url: https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-70B
 architecture:
@@ -21,6 +22,7 @@ architecture:
 sources:
 - epoch-ai-models
 - hf-nousresearch-hermes-2-theta-llama-3-70b
+- bfcl-result-archive
 field_sources:
   architecture.type: hf-nousresearch-hermes-2-theta-llama-3-70b
   architecture.layers: hf-nousresearch-hermes-2-theta-llama-3-70b
@@ -30,4 +32,5 @@ field_sources:
   architecture.attention: hf-nousresearch-hermes-2-theta-llama-3-70b
   architecture.native_dtype: hf-nousresearch-hermes-2-theta-llama-3-70b
   hf_repo: hf-nousresearch-hermes-2-theta-llama-3-70b
+  license: bfcl-result-archive
 managed_by: register

@@ -1,10 +1,16 @@
 id: claude-3-haiku-20240307
 name: claude-3-haiku-20240307
+aliases:
+- Claude-3-Haiku-20240307
 org: anthropic
 company: Anthropic
 country: United States of America
 release_date: '2024-03-07'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

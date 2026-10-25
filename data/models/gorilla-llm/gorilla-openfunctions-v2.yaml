@@ -1,0 +1,11 @@
+id: gorilla-openfunctions-v2
+name: Gorilla-OpenFunctions-v2
+aliases:
+- Gorilla-OpenFunctions-v2
+org: gorilla-llm
+company: Gorilla LLM
+open_weights: true
+license: Apache 2.0
+sources:
+- bfcl-result-archive
+managed_by: register

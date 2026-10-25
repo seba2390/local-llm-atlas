@@ -1,0 +1,12 @@
+id: gemini-3-flash
+name: Gemini 3 Flash
+aliases:
+- Gemini 3 Flash
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2025-12-17'
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

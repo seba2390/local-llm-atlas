@@ -1,0 +1,13 @@
+id: falcon3-1b-instruct
+name: Falcon3-1B-Instruct
+aliases:
+- Falcon3-1B-Instruct
+org: tii-uae
+company: TII UAE
+open_weights: true
+license: falcon-llm-license
+hf_repo: tiiuae/Falcon3-1B-Instruct
+weights_url: https://huggingface.co/tiiuae/Falcon3-1B-Instruct
+sources:
+- bfcl-result-archive
+managed_by: register

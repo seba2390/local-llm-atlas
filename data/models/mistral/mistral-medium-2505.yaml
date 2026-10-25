@@ -1,10 +1,16 @@
 id: mistral-medium-2505
 name: mistral-medium-2505
+aliases:
+- Mistral-Medium-2505
 org: mistral
 company: Mistral AI
 country: France
 release_date: '2025-05-07'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

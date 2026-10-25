@@ -1,0 +1,13 @@
+id: nexusflow-raven-v2
+name: Nexusflow-Raven-v2
+aliases:
+- Nexusflow-Raven-v2
+org: nexusflow
+company: Nexusflow
+open_weights: true
+license: Apache 2.0
+hf_repo: Nexusflow/NexusRaven-V2-13B
+weights_url: https://huggingface.co/Nexusflow/NexusRaven-V2-13B
+sources:
+- bfcl-result-archive
+managed_by: register

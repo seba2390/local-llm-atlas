@@ -1,12 +1,21 @@
 id: phi-2
 name: phi-2
+aliases:
+- phi-2-2.7B
+- phi-2-2.7b
 org: microsoft
 company: Microsoft
 country: United States of America
 release_date: '2023-12-12'
 open_weights: true
+hf_repo: microsoft/phi-2
+weights_url: https://huggingface.co/microsoft/phi-2
 architecture:
   params_total_b: 2.7
 sources:
 - epoch-ai-models
+- cruxeval-leaderboard
+- evalplus-leaderboard-data
+field_sources:
+  hf_repo: cruxeval-leaderboard
 managed_by: register

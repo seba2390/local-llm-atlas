@@ -1,0 +1,14 @@
+id: qwen2.5-3b-instruct
+name: Qwen2.5-3B-Instruct
+aliases:
+- Qwen2.5-3B-Instruct
+org: alibaba
+company: Alibaba
+country: China
+open_weights: true
+license: qwen
+hf_repo: Qwen/Qwen2.5-3B-Instruct
+weights_url: https://huggingface.co/Qwen/Qwen2.5-3B-Instruct
+sources:
+- bfcl-result-archive
+managed_by: register

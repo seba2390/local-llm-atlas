@@ -1,6 +1,7 @@
 id: qwen3-32b
 name: Qwen3-32B
 aliases:
+- Qwen/Qwen3-32B
 - Qwen3-32B
 - chutes/Qwen3-32B
 org: alibaba
@@ -8,8 +9,15 @@ company: Alibaba
 country: China
 release_date: '2025-04-29'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen3-32B
+weights_url: https://huggingface.co/Qwen/Qwen3-32B
 architecture:
   params_total_b: 32.8
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
 managed_by: register

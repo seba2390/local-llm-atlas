@@ -1,0 +1,10 @@
+id: deepseek-chat-v3
+name: deepseek-chat-v3
+org: deepseek
+company: DeepSeek
+country: China
+open_weights: null
+sources:
+- evalperf-leaderboard
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

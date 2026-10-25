@@ -4,8 +4,12 @@ provenance: first_party
 title: 'τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment'
 authors:
 - Victor Barres
-- et al.
+- Honghua Dong
+- Soham Ray
+- Xujie Si
+- Karthik Narasimhan
 publisher: arXiv
 url: https://arxiv.org/abs/2506.07982
 published: '2025-06-09'
+notes: Introduces τ²-bench (telecom domain).
 accessed: '2026-10-25'

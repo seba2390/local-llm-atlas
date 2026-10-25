@@ -1,0 +1,16 @@
+id: codegeex2-6b
+name: CodeGeex2-6B
+aliases:
+- CodeGeex2-6B
+org: zhipu
+company: Z.ai (Zhipu AI)
+country: China
+open_weights: true
+hf_repo: THUDM/codegeex2-6b
+weights_url: https://huggingface.co/THUDM/codegeex2-6b
+context_length: 8192
+architecture:
+  params_total_b: 6.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

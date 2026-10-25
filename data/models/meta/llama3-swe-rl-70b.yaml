@@ -1,0 +1,11 @@
+id: llama3-swe-rl-70b
+name: Llama3-SWE-RL-70B
+aliases:
+- Llama3-SWE-RL-70B
+org: meta
+company: Meta AI
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

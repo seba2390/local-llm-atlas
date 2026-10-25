@@ -1,0 +1,11 @@
+id: xiaoming-14b
+name: xiaoming-14B
+aliases:
+- xiaoming-14B
+org: mininglamp
+company: Mininglamp
+open_weights: false
+license: Proprietary
+sources:
+- bfcl-result-archive
+managed_by: register

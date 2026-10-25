@@ -1,0 +1,7 @@
+id: abacusai
+name: Abacus AI
+country: United States of America
+kind: company
+sources:
+- epoch-ai-models
+notes: Name and country as listed in Epoch AI "Data on AI models" (Organization / Country of organization).

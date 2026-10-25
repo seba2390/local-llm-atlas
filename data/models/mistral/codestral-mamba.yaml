@@ -1,0 +1,16 @@
+id: codestral-mamba
+name: Codestral-Mamba
+aliases:
+- Codestral-Mamba
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2024-07-16'
+open_weights: true
+hf_repo: mistralai/mamba-codestral-7B-v0.1
+weights_url: https://huggingface.co/mistralai/mamba-codestral-7B-v0.1
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

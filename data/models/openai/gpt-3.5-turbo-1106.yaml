@@ -1,5 +1,7 @@
 id: gpt-3.5-turbo-1106
 name: GPT-3.5 Turbo (Nov 2023)
+aliases:
+- GPT-3.5-Turbo (Nov 2023)
 org: openai
 company: OpenAI
 country: United States of America

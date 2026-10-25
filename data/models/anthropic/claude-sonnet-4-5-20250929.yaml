@@ -1,10 +1,20 @@
 id: claude-sonnet-4-5-20250929
-name: Claude Sonnet 4.5 (16k thinking)
+name: Claude Sonnet 4.5
+aliases:
+- Claude Sonnet 4.5
+- Claude-Sonnet-4-5-20250929
+- Claude-Sonnet-4.5
+- claude-sonnet-4-5
+- claude-sonnet-4.5
 org: anthropic
 company: Anthropic
 country: United States of America
 release_date: '2025-09-29'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

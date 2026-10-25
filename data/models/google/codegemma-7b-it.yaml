@@ -1,0 +1,24 @@
+id: codegemma-7b-it
+name: codegemma-7b-it
+aliases:
+- CodeGemma-7B-Instruct
+- CodeGemma-7B-it
+- codegemma-7b-instruct
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2024-04-10'
+open_weights: true
+hf_repo: google/codegemma-7b-it
+weights_url: https://huggingface.co/google/codegemma-7b-it
+context_length: 8192
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+- bigcode-models-leaderboard
+- bigcodebench-results-hf
+field_sources:
+  context_length: bigcode-models-leaderboard
+  release_date: bigcodebench-results-hf
+managed_by: register

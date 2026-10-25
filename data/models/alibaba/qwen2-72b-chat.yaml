@@ -1,0 +1,16 @@
+id: qwen2-72b-chat
+name: Qwen2-72B-Chat
+aliases:
+- Qwen2-72B-Chat
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2024-06-07'
+open_weights: true
+hf_repo: Qwen/Qwen2-72B-Chat
+weights_url: https://huggingface.co/Qwen/Qwen2-72B-Chat
+architecture:
+  params_total_b: 72.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

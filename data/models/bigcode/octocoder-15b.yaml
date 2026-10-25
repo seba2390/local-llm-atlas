@@ -1,0 +1,16 @@
+id: octocoder-15b
+name: OctoCoder-15B
+aliases:
+- OctoCoder-15B
+org: bigcode
+company: BigCode
+country: United States of America
+open_weights: true
+hf_repo: bigcode/octocoder
+weights_url: https://huggingface.co/bigcode/octocoder
+context_length: 8192
+architecture:
+  params_total_b: 15.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

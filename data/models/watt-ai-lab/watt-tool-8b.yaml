@@ -1,0 +1,13 @@
+id: watt-tool-8b
+name: watt-tool-8B
+aliases:
+- watt-tool-8B
+org: watt-ai-lab
+company: Watt AI Lab
+open_weights: true
+license: Apache-2.0
+hf_repo: watt-ai/watt-tool-8B
+weights_url: https://huggingface.co/watt-ai/watt-tool-8B
+sources:
+- bfcl-result-archive
+managed_by: register

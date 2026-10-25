@@ -1,0 +1,15 @@
+id: refact-1.6b
+name: Refact-1.6B
+aliases:
+- Refact-1.6B
+org: smallcloudai
+company: smallcloudai
+open_weights: true
+hf_repo: smallcloudai/Refact-1_6B-fim
+weights_url: https://huggingface.co/smallcloudai/Refact-1_6B-fim
+context_length: 4096
+architecture:
+  params_total_b: 1.6
+sources:
+- bigcode-models-leaderboard
+managed_by: register

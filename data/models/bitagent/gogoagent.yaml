@@ -1,0 +1,11 @@
+id: gogoagent
+name: GoGoAgent
+aliases:
+- GoGoAgent
+org: bitagent
+company: BitAgent
+open_weights: false
+license: Proprietary
+sources:
+- bfcl-result-archive
+managed_by: register

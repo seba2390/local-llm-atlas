@@ -1,10 +1,16 @@
 id: o3-mini-2025-01-31
 name: o3-mini
+aliases:
+- o3-mini
 org: openai
 company: OpenAI
 country: United States of America
 release_date: '2025-01-31'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

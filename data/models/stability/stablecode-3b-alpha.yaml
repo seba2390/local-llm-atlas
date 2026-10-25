@@ -1,0 +1,16 @@
+id: stablecode-3b-alpha
+name: StableCode-3B-alpha
+aliases:
+- StableCode-3B-alpha
+org: stability
+company: Stability AI
+country: United Kingdom
+open_weights: true
+hf_repo: stabilityai/stablecode-completion-alpha-3b
+weights_url: https://huggingface.co/stabilityai/stablecode-completion-alpha-3b
+context_length: 16384
+architecture:
+  params_total_b: 3.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

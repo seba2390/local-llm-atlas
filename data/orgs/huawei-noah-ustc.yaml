@@ -1,0 +1,5 @@
+id: huawei-noah-ustc
+name: Huawei Noah & USTC
+sources:
+- bfcl-result-archive
+managed_by: register

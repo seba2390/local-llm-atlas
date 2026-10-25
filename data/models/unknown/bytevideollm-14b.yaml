@@ -3,6 +3,7 @@ name: ByteVideoLLM-14B
 aliases:
 - ByteVideoLLM-14B
 org: unknown
+company: Unknown
 release_date: '2024-10-13'
 open_weights: null
 sources:

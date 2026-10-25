@@ -1,10 +1,16 @@
 id: gemini-2.0-flash-lite-001
 name: gemini-2.0-flash-lite-001
+aliases:
+- Gemini-2.0-Flash-Lite-001
 org: google
 company: Google DeepMind
 country: United States of America
 release_date: '2025-02-25'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

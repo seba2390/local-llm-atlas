@@ -3,6 +3,7 @@ name: Video-CCAM-7B-v1.2
 aliases:
 - Video-CCAM-7B-v1.2
 org: unknown
+company: Unknown
 release_date: '2024-09-29'
 open_weights: null
 sources:

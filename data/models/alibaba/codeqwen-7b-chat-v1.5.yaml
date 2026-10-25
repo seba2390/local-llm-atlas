@@ -1,0 +1,12 @@
+id: codeqwen-7b-chat-v1.5
+name: codeqwen:7b-chat-v1.5
+aliases:
+- codeqwen:7b-chat-v1.5
+org: alibaba
+company: Alibaba
+country: China
+open_weights: true
+sources:
+- aider-edit-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

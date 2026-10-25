@@ -1,0 +1,12 @@
+id: incoder-1.3b
+name: InCoder-1.3B
+aliases:
+- InCoder-1.3B
+org: unknown
+company: Unknown
+open_weights: true
+architecture:
+  params_total_b: 1.3
+sources:
+- evalplus-leaderboard-data
+managed_by: register

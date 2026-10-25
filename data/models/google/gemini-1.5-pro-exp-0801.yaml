@@ -1,0 +1,13 @@
+id: gemini-1.5-pro-exp-0801
+name: Gemini-1.5-Pro-Exp-0801
+aliases:
+- Gemini-1.5-Pro-Exp-0801
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2024-08-01'
+open_weights: null
+sources:
+- bigcodebench-results-hf
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

@@ -1,0 +1,12 @@
+id: deepseek-chat-v3-prev
+name: DeepSeek Chat V3 (prev)
+aliases:
+- DeepSeek Chat V3 (prev)
+org: deepseek
+company: DeepSeek
+country: China
+open_weights: null
+sources:
+- aider-polyglot-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

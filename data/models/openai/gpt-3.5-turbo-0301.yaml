@@ -1,0 +1,11 @@
+id: gpt-3.5-turbo-0301
+name: gpt-3.5-turbo-0301
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2023-03-01'
+open_weights: null
+sources:
+- aider-edit-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

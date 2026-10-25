@@ -1,6 +1,7 @@
 id: ml-elephant
 name: Zoo Ml-Ephant
 org: unknown
+company: Unknown
 open_weights: null
 sources:
 - epoch-ai-models

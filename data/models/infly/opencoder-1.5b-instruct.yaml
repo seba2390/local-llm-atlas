@@ -1,0 +1,15 @@
+id: opencoder-1.5b-instruct
+name: OpenCoder-1.5B-Instruct
+aliases:
+- OpenCoder-1.5B-Instruct
+org: infly
+company: infly
+release_date: '2024-11-09'
+open_weights: true
+hf_repo: infly/OpenCoder-1.5B-Instruct
+weights_url: https://huggingface.co/infly/OpenCoder-1.5B-Instruct
+architecture:
+  params_total_b: 1.5
+sources:
+- bigcodebench-results-hf
+managed_by: register

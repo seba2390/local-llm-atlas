@@ -1,0 +1,15 @@
+id: reflectioncoder-cl-34b
+name: ReflectionCoder-CL-34B
+aliases:
+- ReflectionCoder-CL-34B
+org: sensellm
+company: SenseLLM
+release_date: '2024-05-27'
+open_weights: true
+hf_repo: SenseLLM/ReflectionCoder-CL-34B
+weights_url: https://huggingface.co/SenseLLM/ReflectionCoder-CL-34B
+architecture:
+  params_total_b: 34.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

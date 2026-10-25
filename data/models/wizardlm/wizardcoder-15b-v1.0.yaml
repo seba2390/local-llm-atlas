@@ -1,0 +1,18 @@
+id: wizardcoder-15b-v1.0
+name: WizardCoder-15B-V1.0
+aliases:
+- WizardCoder-15B-V1.0
+org: wizardlm
+company: WizardLM
+open_weights: true
+hf_repo: WizardLM/WizardCoder-15B-V1.0
+weights_url: https://huggingface.co/WizardLM/WizardCoder-15B-V1.0
+context_length: 8192
+architecture:
+  params_total_b: 15.0
+sources:
+- evalplus-leaderboard-data
+- bigcode-models-leaderboard
+field_sources:
+  context_length: bigcode-models-leaderboard
+managed_by: register

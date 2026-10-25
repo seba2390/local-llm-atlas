@@ -1,0 +1,13 @@
+id: coalm-70b
+name: CoALM-70B
+aliases:
+- CoALM-70B
+org: uiuc-oumi
+company: UIUC + Oumi
+open_weights: true
+license: Meta Llama 3 Community
+hf_repo: uiuc-convai/CoALM-70B
+weights_url: https://huggingface.co/uiuc-convai/CoALM-70B
+sources:
+- bfcl-result-archive
+managed_by: register

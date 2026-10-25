@@ -1,12 +1,24 @@
 id: mistral-7b-v0.1
 name: Mistral-7B-v0.1
 aliases:
+- Mistral-7B
 - Mistral-7B-v0.1
+- mistral-7b
 org: mistral
 company: Mistral AI
 country: France
 release_date: '2023-09-27'
 open_weights: true
+hf_repo: mistralai/Mistral-7B-v0.1
+weights_url: https://huggingface.co/mistralai/Mistral-7B-v0.1
+architecture:
+  params_total_b: 7.0
 sources:
 - epoch-ai-models
+- cruxeval-leaderboard
+- evalplus-leaderboard-data
+field_sources:
+  hf_repo: cruxeval-leaderboard
+  weights_url: evalplus-leaderboard-data
+  architecture.params_total_b: evalplus-leaderboard-data
 managed_by: register

@@ -1,0 +1,21 @@
+id: qwen2.5-1.5b-instruct
+name: Qwen2.5-1.5B-Instruct
+aliases:
+- Qwen2.5-1.5B-Instruct
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2024-09-19'
+open_weights: true
+license: apache-2.0
+hf_repo: Qwen/Qwen2.5-1.5B-Instruct
+weights_url: https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct
+architecture:
+  params_total_b: 1.5
+sources:
+- bfcl-result-archive
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+  architecture.params_total_b: bigcodebench-results-hf
+managed_by: register

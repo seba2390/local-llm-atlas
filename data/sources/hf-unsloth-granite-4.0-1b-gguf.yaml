@@ -1,9 +1,0 @@
-id: hf-unsloth-granite-4.0-1b-gguf
-kind: model_card
-provenance: community
-title: unsloth/granite-4.0-1b-GGUF (GGUF quantisations of ibm-granite/granite-4.0-1b) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/granite-4.0-1b-GGUF
-revision: cfdca559b6af6d2d6c443a5e51d8700ec04d67c9
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

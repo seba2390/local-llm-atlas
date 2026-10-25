@@ -1,5 +1,7 @@
 id: qwen2.5-max
 name: qwen2.5-max
+aliases:
+- Qwen2.5-Max
 org: alibaba
 company: Alibaba
 country: China

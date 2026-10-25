@@ -1,13 +1,16 @@
 id: deepseek-v3-0324
 name: DeepSeek-V3 (Mar 2025)
 aliases:
+- DeepSeek V3 (0324)
 - DeepSeek-V3-0324
 - chutes/DeepSeek-V3-0324
+- deepseek-ai/DeepSeek-V3-0324
 org: deepseek
 company: DeepSeek
 country: China
 release_date: '2025-03-24'
 open_weights: true
+license: DeepSeek License
 hf_repo: deepseek-ai/DeepSeek-V3-0324
 weights_url: https://huggingface.co/deepseek-ai/DeepSeek-V3-0324
 architecture:
@@ -25,6 +28,7 @@ architecture:
 sources:
 - epoch-ai-models
 - hf-deepseek-ai-deepseek-v3-0324
+- bfcl-result-archive
 field_sources:
   architecture.type: hf-deepseek-ai-deepseek-v3-0324
   architecture.layers: hf-deepseek-ai-deepseek-v3-0324
@@ -37,4 +41,5 @@ field_sources:
   architecture.experts_shared: hf-deepseek-ai-deepseek-v3-0324
   architecture.native_dtype: hf-deepseek-ai-deepseek-v3-0324
   hf_repo: hf-deepseek-ai-deepseek-v3-0324
+  license: bfcl-result-archive
 managed_by: register

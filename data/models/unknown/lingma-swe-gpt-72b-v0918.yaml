@@ -1,0 +1,10 @@
+id: lingma-swe-gpt-72b-v0918
+name: Lingma SWE-GPT 72b (v0918)
+aliases:
+- Lingma SWE-GPT 72b (v0918)
+org: unknown
+company: Unknown
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

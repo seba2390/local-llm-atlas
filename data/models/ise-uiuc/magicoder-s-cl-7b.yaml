@@ -1,0 +1,15 @@
+id: magicoder-s-cl-7b
+name: Magicoder-S-CL-7B
+aliases:
+- Magicoder-S-CL-7B
+org: ise-uiuc
+company: University of Illinois Urbana-Champaign (UIUC)
+country: United States of America
+open_weights: true
+hf_repo: ise-uiuc/Magicoder-S-CL-7B
+weights_url: https://huggingface.co/ise-uiuc/Magicoder-S-CL-7B
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

@@ -1,0 +1,10 @@
+id: frogboss-32b-2510
+name: Frogboss 32B 2510
+aliases:
+- FrogBoss-32B-2510
+org: unknown
+company: Unknown
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

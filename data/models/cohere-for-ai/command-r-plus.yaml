@@ -1,0 +1,15 @@
+id: command-r-plus
+name: command-r-plus
+aliases:
+- Command-R-Plus
+org: cohere-for-ai
+company: Cohere For AI
+open_weights: true
+license: cc-by-nc-4.0
+sources:
+- aider-edit-leaderboard-data
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+  open_weights: bfcl-result-archive
+managed_by: register

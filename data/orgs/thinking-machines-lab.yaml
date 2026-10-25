@@ -1,0 +1,5 @@
+id: thinking-machines-lab
+name: Thinking Machines Lab
+sources:
+- taubench-leaderboard
+managed_by: register

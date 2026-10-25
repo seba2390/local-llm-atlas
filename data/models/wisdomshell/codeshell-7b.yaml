@@ -1,0 +1,15 @@
+id: codeshell-7b
+name: CodeShell-7B
+aliases:
+- CodeShell-7B
+org: wisdomshell
+company: WisdomShell
+open_weights: true
+hf_repo: WisdomShell/CodeShell-7B
+weights_url: https://huggingface.co/WisdomShell/CodeShell-7B
+context_length: 8194
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

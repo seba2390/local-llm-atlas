@@ -1,12 +1,19 @@
 id: qwen1.5-72b-chat
 name: qwen1.5-72b-chat
+aliases:
+- Qwen1.5-72B-Chat
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2024-02-04'
 open_weights: true
+hf_repo: Qwen/Qwen1.5-72B-Chat
+weights_url: https://huggingface.co/Qwen/Qwen1.5-72B-Chat
 architecture:
   params_total_b: 72.0
 sources:
 - epoch-ai-models
+- evalplus-leaderboard-data
+field_sources:
+  hf_repo: evalplus-leaderboard-data
 managed_by: register

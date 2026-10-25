@@ -1,0 +1,31 @@
+id: baichuan2-13b-chat
+name: Baichuan2-13B-Chat
+aliases:
+- Baichuan2-13B-Chat
+org: baichuan
+company: Baichuan
+country: China
+release_date: '2023-09-06'
+open_weights: null
+hf_repo: baichuan-inc/Baichuan2-13B-Chat
+weights_url: https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat
+architecture:
+  type: dense
+  layers: 40
+  hidden_size: 5120
+  q_heads: 40
+  attention: mha
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-baichuan-inc-baichuan2-13b-chat
+field_sources:
+  architecture.type: hf-baichuan-inc-baichuan2-13b-chat
+  architecture.layers: hf-baichuan-inc-baichuan2-13b-chat
+  architecture.hidden_size: hf-baichuan-inc-baichuan2-13b-chat
+  architecture.q_heads: hf-baichuan-inc-baichuan2-13b-chat
+  architecture.attention: hf-baichuan-inc-baichuan2-13b-chat
+  architecture.native_dtype: hf-baichuan-inc-baichuan2-13b-chat
+  hf_repo: hf-baichuan-inc-baichuan2-13b-chat
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

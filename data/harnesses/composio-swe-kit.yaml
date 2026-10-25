@@ -1,0 +1,7 @@
+id: composio-swe-kit
+name: Composio SWE-Kit
+kind: agent-scaffold
+url: https://github.com/ComposioHQ/composio/tree/master/python/swe/agent
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

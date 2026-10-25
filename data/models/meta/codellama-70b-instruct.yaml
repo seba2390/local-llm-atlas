@@ -1,0 +1,23 @@
+id: codellama-70b-instruct
+name: CodeLlama-70B-Instruct
+aliases:
+- CodeLlama-70B-Instruct
+- CodeLlama-70b-Instruct
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-08-25'
+open_weights: true
+hf_repo: codellama/CodeLlama-70b-Instruct-hf
+weights_url: https://huggingface.co/codellama/CodeLlama-70b-Instruct-hf
+context_length: 2048
+architecture:
+  params_total_b: 70.0
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+- bigcode-models-leaderboard
+field_sources:
+  release_date: bigcodebench-results-hf
+  context_length: bigcode-models-leaderboard
+managed_by: register

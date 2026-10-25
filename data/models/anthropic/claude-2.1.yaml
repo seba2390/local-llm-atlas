@@ -1,10 +1,16 @@
 id: claude-2.1
 name: claude-2.1
+aliases:
+- Claude-2.1
 org: anthropic
 company: Anthropic
 country: United States of America
 release_date: '2023-11-21'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

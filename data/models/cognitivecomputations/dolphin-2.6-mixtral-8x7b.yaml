@@ -1,0 +1,10 @@
+id: dolphin-2.6-mixtral-8x7b
+name: dolphin-2.6-mixtral-8x7b
+org: cognitivecomputations
+company: cognitivecomputations
+open_weights: true
+hf_repo: cognitivecomputations/dolphin-2.6-mixtral-8x7b
+weights_url: https://huggingface.co/cognitivecomputations/dolphin-2.6-mixtral-8x7b
+sources:
+- evalplus-leaderboard-data
+managed_by: register

@@ -1,9 +1,0 @@
-id: hf-lmstudio-community-gemma-3-1b-it-gguf
-kind: model_card
-provenance: community
-title: lmstudio-community/gemma-3-1b-it-GGUF (GGUF quantisations of google/gemma-3-1b-it) file listing
-publisher: Hugging Face
-url: https://huggingface.co/lmstudio-community/gemma-3-1b-it-GGUF
-revision: a029b19eb98005eb2d2d91d7c09de52194874be5
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

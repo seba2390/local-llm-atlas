@@ -1,0 +1,19 @@
+id: starcoder2-15b-instruct-v0.1
+name: starcoder2-15b-instruct-v0.1
+aliases:
+- StarCoder2-15B-Instruct-v0.1
+org: bigcode
+company: BigCode
+country: United States of America
+release_date: '2024-04-30'
+open_weights: true
+hf_repo: bigcode/starcoder2-15b-instruct-v0.1
+weights_url: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
+architecture:
+  params_total_b: 15.0
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+managed_by: register

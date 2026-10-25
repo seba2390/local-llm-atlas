@@ -1,0 +1,12 @@
+id: grok-4.1-fast
+name: Grok 4.1 fast
+aliases:
+- Grok 4.1 fast
+org: xai
+company: xAI
+country: United States of America
+release_date: '2025-11-19'
+open_weights: null
+sources:
+- taubench-leaderboard
+managed_by: register

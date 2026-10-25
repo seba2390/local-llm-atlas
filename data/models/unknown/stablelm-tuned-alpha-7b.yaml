@@ -1,6 +1,7 @@
 id: stablelm-tuned-alpha-7b
 name: stablelm-tuned-alpha-7b
 org: unknown
+company: Unknown
 release_date: '2023-04-19'
 open_weights: null
 sources:

@@ -1,0 +1,13 @@
+id: deepseek-v2-chat-2024-06-28
+name: DeepSeek-V2-Chat (2024-06-28)
+aliases:
+- DeepSeek-V2-Chat (2024-06-28)
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2024-06-28'
+open_weights: null
+sources:
+- bigcodebench-results-hf
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

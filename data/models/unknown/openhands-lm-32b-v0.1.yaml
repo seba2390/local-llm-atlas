@@ -1,6 +1,7 @@
 id: openhands-lm-32b-v0.1
 name: openhands-lm-32b-v0.1
 org: unknown
+company: Unknown
 release_date: '2024-03-26'
 open_weights: null
 sources:

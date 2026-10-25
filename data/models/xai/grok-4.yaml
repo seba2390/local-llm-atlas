@@ -1,0 +1,10 @@
+id: grok-4
+name: grok-4
+org: xai
+company: xAI
+country: United States of America
+open_weights: null
+sources:
+- aider-polyglot-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

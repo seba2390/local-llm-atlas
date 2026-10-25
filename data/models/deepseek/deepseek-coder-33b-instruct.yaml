@@ -1,0 +1,27 @@
+id: deepseek-coder-33b-instruct
+name: DeepSeek-Coder-33B-instruct
+aliases:
+- DeepSeek-Coder-33B-Instruct
+- DeepSeek-Coder-33B-instruct
+- DeepSeek-Coder-33b-instruct
+- deepseek-ai/deepseek-coder-33b-instruct
+- deepseek-instruct-33b
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2023-10-28'
+open_weights: true
+hf_repo: deepseek-ai/deepseek-coder-33b-instruct
+weights_url: https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct
+context_length: 16384
+architecture:
+  params_total_b: 33.0
+sources:
+- evalplus-leaderboard-data
+- bigcodebench-results-hf
+- bigcode-models-leaderboard
+- cruxeval-leaderboard
+field_sources:
+  release_date: bigcodebench-results-hf
+  context_length: bigcode-models-leaderboard
+managed_by: register

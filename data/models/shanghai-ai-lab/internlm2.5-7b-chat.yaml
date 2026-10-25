@@ -1,0 +1,16 @@
+id: internlm2.5-7b-chat
+name: InternLM2.5-7B-Chat
+aliases:
+- InternLM2.5-7B-Chat
+org: shanghai-ai-lab
+company: Shanghai AI Lab
+country: Hong Kong
+release_date: '2024-07-03'
+open_weights: true
+hf_repo: internlm/internlm2_5-7b-chat
+weights_url: https://huggingface.co/internlm/internlm2_5-7b-chat
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcodebench-results-hf
+managed_by: register

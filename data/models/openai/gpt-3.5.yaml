@@ -1,0 +1,11 @@
+id: gpt-3.5
+name: GPT-3.5
+aliases:
+- GPT-3.5
+org: openai
+company: OpenAI
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

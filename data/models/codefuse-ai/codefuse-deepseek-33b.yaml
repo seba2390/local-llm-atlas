@@ -1,0 +1,15 @@
+id: codefuse-deepseek-33b
+name: CodeFuse-DeepSeek-33b
+aliases:
+- CodeFuse-DeepSeek-33b
+org: codefuse-ai
+company: codefuse-ai
+open_weights: true
+hf_repo: codefuse-ai/CodeFuse-DeepSeek-33B
+weights_url: https://huggingface.co/codefuse-ai/CodeFuse-DeepSeek-33B
+context_length: 16384
+architecture:
+  params_total_b: 33.0
+sources:
+- bigcode-models-leaderboard
+managed_by: register

@@ -1,0 +1,21 @@
+id: hermes-2-pro-llama-3-70b
+name: Hermes-2-Pro-Llama-3-70B
+aliases:
+- Hermes-2-Pro-Llama-3-70B
+org: nous
+company: Nous Research
+country: United States of America
+release_date: '2024-06-27'
+open_weights: true
+license: apache-2.0
+hf_repo: NousResearch/Hermes-2-Pro-Llama-3-70B
+weights_url: https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-70B
+architecture:
+  params_total_b: 70.0
+sources:
+- bfcl-result-archive
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+  architecture.params_total_b: bigcodebench-results-hf
+managed_by: register

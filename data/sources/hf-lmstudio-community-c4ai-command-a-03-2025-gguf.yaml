@@ -1,9 +1,0 @@
-id: hf-lmstudio-community-c4ai-command-a-03-2025-gguf
-kind: model_card
-provenance: community
-title: lmstudio-community/c4ai-command-a-03-2025-GGUF (GGUF quantisations of CohereLabs/c4ai-command-a-03-2025) file listing
-publisher: Hugging Face
-url: https://huggingface.co/lmstudio-community/c4ai-command-a-03-2025-GGUF
-revision: 70a45310055e4ebdb28cae4d4e963e64b9c01ea2
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

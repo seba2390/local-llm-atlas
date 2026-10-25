@@ -1,0 +1,6 @@
+id: wizardlm
+name: WizardLM
+sources:
+- evalplus-leaderboard-data
+managed_by: register
+notes: Created from the Hugging Face account that publishes the weights; country not stated by any imported source.

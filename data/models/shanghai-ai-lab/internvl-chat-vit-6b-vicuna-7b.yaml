@@ -1,0 +1,33 @@
+id: internvl-chat-vit-6b-vicuna-7b
+name: InternVL-Chat-ViT-6B-Vicuna-7B
+aliases:
+- InternVL-Chat-ViT-6B-Vicuna-7B
+org: shanghai-ai-lab
+company: Shanghai AI Lab
+country: Hong Kong
+release_date: '2023-12-25'
+open_weights: null
+hf_repo: OpenGVLab/InternVL-Chat-ViT-6B-Vicuna-7B
+weights_url: https://huggingface.co/OpenGVLab/InternVL-Chat-ViT-6B-Vicuna-7B
+architecture:
+  type: dense
+  layers: 32
+  hidden_size: 4096
+  q_heads: 32
+  kv_heads: 32
+  attention: mha
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+field_sources:
+  architecture.type: hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+  architecture.layers: hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+  architecture.hidden_size: hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+  architecture.q_heads: hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+  architecture.kv_heads: hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+  architecture.attention: hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+  architecture.native_dtype: hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+  hf_repo: hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

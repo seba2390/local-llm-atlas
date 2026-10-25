@@ -1,0 +1,14 @@
+id: deepseek-coder-v2
+name: DeepSeek-Coder-V2
+aliases:
+- DeepSeek-Coder-V2
+org: deepseek
+company: DeepSeek
+country: China
+open_weights: true
+license: DeepSeek License
+hf_repo: deepseek-ai/DeepSeek-Coder-V2-Instruct-0724
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724
+sources:
+- bfcl-result-archive
+managed_by: register

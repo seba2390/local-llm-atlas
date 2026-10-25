@@ -1,0 +1,24 @@
+id: codellama-7b-base
+name: CodeLlama-7B-Base
+aliases:
+- CodeLlama-7B
+- CodeLlama-7B-Base
+- CodeLlama-7b
+- codellama-7b
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-08-25'
+open_weights: true
+hf_repo: codellama/CodeLlama-7b-hf
+weights_url: https://huggingface.co/codellama/CodeLlama-7b-hf
+context_length: 16384
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcodebench-results-hf
+- bigcode-models-leaderboard
+- evalplus-leaderboard-data
+field_sources:
+  context_length: bigcode-models-leaderboard
+managed_by: register

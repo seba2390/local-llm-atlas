@@ -227,6 +227,10 @@ def _is_url(s: str) -> bool:
 
 
 def split_effort(version: str) -> tuple[str, str | None]:
+    # Epoch writes the Pro tier and its effort as one suffix, e.g. gpt-5.6-sol_promax -> gpt-5.6-sol-pro, effort max.
+    m = re.search(r"_pro(low|medium|high|xhigh|max|unknown)$", version)
+    if m:
+        return version[: m.start()] + "-pro", m.group(1)
     m = EFFORT_RE.search(version)
     return (version[: m.start()], m.group(1)) if m else (version, None)
 

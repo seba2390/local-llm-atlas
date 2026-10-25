@@ -1,0 +1,7 @@
+id: nemotron-cortexa
+name: Nemotron-CORTEXA
+kind: agent-scaffold
+url: https://research.nvidia.com/labs/adlr/cortexa/
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

@@ -1,9 +1,0 @@
-id: hf-ggml-org-gpt-oss-120b-gguf
-kind: model_card
-provenance: community
-title: ggml-org/gpt-oss-120b-GGUF (GGUF quantisations of openai/gpt-oss-120b) file listing
-publisher: Hugging Face
-url: https://huggingface.co/ggml-org/gpt-oss-120b-GGUF
-revision: 7200b74bea78b0a2964ef9f3897eefa401e890ff
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

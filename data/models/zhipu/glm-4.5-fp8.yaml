@@ -1,0 +1,43 @@
+id: glm-4.5-fp8
+name: GLM-4.5-FP8
+aliases:
+- chutes/GLM-4.5-FP8
+org: zhipu
+company: Z.ai (Zhipu AI)
+country: China
+release_date: '2025-07-27'
+open_weights: null
+hf_repo: zai-org/GLM-4.5-FP8
+weights_url: https://huggingface.co/zai-org/GLM-4.5-FP8
+architecture:
+  type: moe
+  layers: 92
+  hidden_size: 5120
+  q_heads: 96
+  kv_heads: 8
+  head_dim: 128
+  attention: gqa
+  experts_total: 160
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: bf16
+  params_total_b: 358.338
+sources:
+- epoch-ai-models
+- hf-zai-org-glm-4.5-fp8
+field_sources:
+  architecture.type: hf-zai-org-glm-4.5-fp8
+  architecture.layers: hf-zai-org-glm-4.5-fp8
+  architecture.hidden_size: hf-zai-org-glm-4.5-fp8
+  architecture.q_heads: hf-zai-org-glm-4.5-fp8
+  architecture.kv_heads: hf-zai-org-glm-4.5-fp8
+  architecture.head_dim: hf-zai-org-glm-4.5-fp8
+  architecture.attention: hf-zai-org-glm-4.5-fp8
+  architecture.experts_total: hf-zai-org-glm-4.5-fp8
+  architecture.experts_active: hf-zai-org-glm-4.5-fp8
+  architecture.experts_shared: hf-zai-org-glm-4.5-fp8
+  architecture.native_dtype: hf-zai-org-glm-4.5-fp8
+  architecture.params_total_b: hf-zai-org-glm-4.5-fp8
+  hf_repo: hf-zai-org-glm-4.5-fp8
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

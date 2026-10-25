@@ -1,0 +1,13 @@
+id: nanbeige4-3b-thinking-2511
+name: Nanbeige4-3B-Thinking-2511
+aliases:
+- Nanbeige4-3B-Thinking-2511
+org: nanbeige
+company: Nanbeige
+open_weights: true
+license: apache-2.0
+hf_repo: Nanbeige/Nanbeige4-3B-Thinking-2511
+weights_url: https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511
+sources:
+- bfcl-result-archive
+managed_by: register

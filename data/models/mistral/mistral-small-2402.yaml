@@ -1,0 +1,19 @@
+id: mistral-small-2402
+name: mistral-small-2402
+aliases:
+- Mistral-Small-2402
+- Mistral-small-2402
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2024-02-26'
+open_weights: false
+license: Proprietary
+sources:
+- epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  org: bfcl-result-archive
+  license: bfcl-result-archive
+  open_weights: bfcl-result-archive
+managed_by: register

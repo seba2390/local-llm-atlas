@@ -1,0 +1,12 @@
+id: speechless-starcoder2-15b
+name: speechless-starcoder2-15b
+org: uukuguy
+company: uukuguy
+open_weights: true
+hf_repo: uukuguy/speechless-starcoder2-15b
+weights_url: https://huggingface.co/uukuguy/speechless-starcoder2-15b
+architecture:
+  params_total_b: 15.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

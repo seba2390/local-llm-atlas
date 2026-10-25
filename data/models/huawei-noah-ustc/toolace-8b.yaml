@@ -1,0 +1,13 @@
+id: toolace-8b
+name: ToolACE-8B
+aliases:
+- ToolACE-8B
+org: huawei-noah-ustc
+company: Huawei Noah & USTC
+open_weights: true
+license: Apache-2.0
+hf_repo: Team-ACE/ToolACE-8B
+weights_url: https://huggingface.co/Team-ACE/ToolACE-8B
+sources:
+- bfcl-result-archive
+managed_by: register

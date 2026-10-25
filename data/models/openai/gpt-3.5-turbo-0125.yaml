@@ -1,10 +1,16 @@
 id: gpt-3.5-turbo-0125
 name: GPT-3.5 Turbo (Jan 2024)
+aliases:
+- GPT-3.5-Turbo-0125
 org: openai
 company: OpenAI
 country: United States of America
 release_date: '2024-01-25'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

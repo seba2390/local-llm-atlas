@@ -1,0 +1,9 @@
+id: claude-4-sonnet-20250522
+name: claude-4-sonnet-20250522
+org: anthropic
+company: Anthropic
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

@@ -1,12 +1,23 @@
 id: dbrx-instruct
 name: dbrx-instruct
+aliases:
+- DBRX-Instruct
+- databricks/dbrx-instruct
 org: databricks
 company: Databricks
 country: United States of America
 release_date: '2024-03-27'
 open_weights: true
+license: Databricks Open Model
+hf_repo: databricks/dbrx-instruct
+weights_url: https://huggingface.co/databricks/dbrx-instruct
 architecture:
   params_total_b: 132.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+- evalplus-leaderboard-data
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: evalplus-leaderboard-data
 managed_by: register

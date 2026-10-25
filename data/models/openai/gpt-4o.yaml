@@ -1,0 +1,11 @@
+id: gpt-4o
+name: GPT-4o
+aliases:
+- GPT-4o
+org: openai
+company: OpenAI
+country: United States of America
+open_weights: null
+sources:
+- aider-refactor-leaderboard-data
+managed_by: register

@@ -1,0 +1,7 @@
+id: engine-labs
+name: Engine Labs
+kind: agent-scaffold
+url: https://www.enginelabs.ai/
+sources:
+- swe-bench-leaderboards
+notes: Agent/system name as listed on the official SWE-bench leaderboard (swebench.com).

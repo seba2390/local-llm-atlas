@@ -1,0 +1,11 @@
+id: dm-cito-8b
+name: DM-Cito-8B
+aliases:
+- DM-Cito-8B
+org: mininglamp
+company: Mininglamp
+open_weights: false
+license: Proprietary
+sources:
+- bfcl-result-archive
+managed_by: register

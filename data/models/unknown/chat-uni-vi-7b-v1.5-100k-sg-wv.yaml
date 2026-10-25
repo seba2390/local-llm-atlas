@@ -3,6 +3,7 @@ name: Chat-Uni-Vi-7B-v1.5 + 100k SG-WV
 aliases:
 - Chat-Uni-Vi-7B-v1.5 + 100k SG-WV
 org: unknown
+company: Unknown
 release_date: '2024-06-20'
 open_weights: null
 sources:

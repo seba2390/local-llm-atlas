@@ -1,0 +1,10 @@
+id: minimax-2.5
+name: MiniMax M2.5
+org: minimax
+company: MiniMax
+country: China
+release_date: '2026-02-12'
+open_weights: true
+sources:
+- swe-bench-leaderboards
+managed_by: register

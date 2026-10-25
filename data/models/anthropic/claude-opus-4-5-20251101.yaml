@@ -1,10 +1,18 @@
 id: claude-opus-4-5-20251101
-name: Claude Opus 4.5 (16k thinking)
+name: Claude Opus 4.5
+aliases:
+- Claude Opus 4.5
+- Claude-Opus-4-5-20251101
+- claude-opus-4-5
 org: anthropic
 company: Anthropic
 country: United States of America
 release_date: '2025-11-24'
 open_weights: false
+license: Proprietary
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
 managed_by: register

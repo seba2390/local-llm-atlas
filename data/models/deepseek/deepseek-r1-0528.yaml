@@ -1,13 +1,16 @@
 id: deepseek-r1-0528
 name: DeepSeek-R1 (May 2025)
 aliases:
+- DeepSeek R1 (0528)
 - DeepSeek-R1-0528
 - chutes/DeepSeek-R1-0528
+- deepseek-ai/DeepSeek-R1-0528
 org: deepseek
 company: DeepSeek
 country: China
 release_date: '2025-05-28'
 open_weights: true
+license: MIT
 hf_repo: deepseek-ai/DeepSeek-R1-0528
 weights_url: https://huggingface.co/deepseek-ai/DeepSeek-R1-0528
 architecture:
@@ -25,6 +28,7 @@ architecture:
 sources:
 - epoch-ai-models
 - hf-deepseek-ai-deepseek-r1-0528
+- bfcl-result-archive
 field_sources:
   architecture.type: hf-deepseek-ai-deepseek-r1-0528
   architecture.layers: hf-deepseek-ai-deepseek-r1-0528
@@ -37,4 +41,5 @@ field_sources:
   architecture.experts_shared: hf-deepseek-ai-deepseek-r1-0528
   architecture.native_dtype: hf-deepseek-ai-deepseek-r1-0528
   hf_repo: hf-deepseek-ai-deepseek-r1-0528
+  license: bfcl-result-archive
 managed_by: register

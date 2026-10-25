@@ -1,7 +1,10 @@
 id: deepseek-v2.5
 name: DeepSeek-V2.5
 aliases:
+- DeepSeek V2.5
 - DeepSeek-V2.5
+- DeepSeek-V2.5 (Nov 2024)
+- deepseek-v2.5-nov-2024
 org: deepseek
 company: DeepSeek
 country: China
@@ -24,6 +27,7 @@ architecture:
 sources:
 - epoch-ai-models
 - hf-deepseek-ai-deepseek-v2.5
+- evalplus-leaderboard-data
 field_sources:
   architecture.type: hf-deepseek-ai-deepseek-v2.5
   architecture.layers: hf-deepseek-ai-deepseek-v2.5

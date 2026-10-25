@@ -1,0 +1,10 @@
+id: swe-llama-7b
+name: SWE-Llama 7B
+aliases:
+- SWE-Llama 7B
+org: unknown
+company: Unknown
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

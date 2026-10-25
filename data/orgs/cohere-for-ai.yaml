@@ -1,0 +1,5 @@
+id: cohere-for-ai
+name: Cohere For AI
+sources:
+- bfcl-result-archive
+managed_by: register

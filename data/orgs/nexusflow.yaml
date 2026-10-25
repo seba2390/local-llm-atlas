@@ -1,0 +1,5 @@
+id: nexusflow
+name: Nexusflow
+sources:
+- bfcl-result-archive
+managed_by: register

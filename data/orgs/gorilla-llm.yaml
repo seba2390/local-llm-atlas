@@ -1,0 +1,5 @@
+id: gorilla-llm
+name: Gorilla LLM
+sources:
+- bfcl-result-archive
+managed_by: register

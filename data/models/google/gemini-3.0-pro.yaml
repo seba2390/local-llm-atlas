@@ -1,0 +1,12 @@
+id: gemini-3.0-pro
+name: Gemini 3.0 Pro
+aliases:
+- Gemini 3.0 Pro
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2025-11-18'
+open_weights: null
+sources:
+- taubench-leaderboard
+managed_by: register

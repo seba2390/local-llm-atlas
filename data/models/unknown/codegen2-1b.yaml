@@ -1,0 +1,12 @@
+id: codegen2-1b
+name: CodeGen2-1B
+aliases:
+- CodeGen2-1B
+org: unknown
+company: Unknown
+open_weights: true
+architecture:
+  params_total_b: 1.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

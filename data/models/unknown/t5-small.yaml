@@ -3,6 +3,7 @@ name: T5-Small
 aliases:
 - T5-Small
 org: unknown
+company: Unknown
 open_weights: null
 sources:
 - epoch-ai-models

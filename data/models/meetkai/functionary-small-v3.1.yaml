@@ -1,0 +1,13 @@
+id: functionary-small-v3.1
+name: Functionary-Small-v3.1
+aliases:
+- Functionary-Small-v3.1
+org: meetkai
+company: MeetKai
+open_weights: true
+license: MIT
+hf_repo: meetkai/functionary-small-v3.1
+weights_url: https://huggingface.co/meetkai/functionary-small-v3.1
+sources:
+- bfcl-result-archive
+managed_by: register

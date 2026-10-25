@@ -7,8 +7,15 @@ company: Meta AI
 country: United States of America
 release_date: '2025-04-05'
 open_weights: true
+license: Meta Llama 4 Community
+hf_repo: meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
+weights_url: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
 architecture:
   params_total_b: 400.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
 managed_by: register

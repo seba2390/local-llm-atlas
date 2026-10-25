@@ -2,11 +2,23 @@ id: qwq-32b-preview
 name: QwQ-32B-Preview
 aliases:
 - QwQ-32B-Preview
+- Qwen/QwQ-32B-Preview
 org: alibaba
 company: Alibaba
 country: China
 release_date: '2024-11-28'
 open_weights: true
+license: apache-2.0
+hf_repo: Qwen/QwQ-32B-Preview
+weights_url: https://huggingface.co/Qwen/QwQ-32B-Preview
+architecture:
+  params_total_b: 32.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+- bigcodebench-results-hf
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bfcl-result-archive
+  architecture.params_total_b: bigcodebench-results-hf
 managed_by: register

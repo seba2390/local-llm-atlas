@@ -1,0 +1,12 @@
+id: claude-instant-1-mar-2024
+name: claude-instant-1 (Mar 2024)
+aliases:
+- claude-instant-1 (Mar 2024)
+org: anthropic
+company: Anthropic
+country: United States of America
+open_weights: null
+sources:
+- evalplus-leaderboard-data
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

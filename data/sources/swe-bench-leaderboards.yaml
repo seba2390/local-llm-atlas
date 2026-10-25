@@ -1,0 +1,11 @@
+id: swe-bench-leaderboards
+kind: leaderboard_data
+provenance: third_party
+title: SWE-bench leaderboards (swebench.com) - data/leaderboards.json
+publisher: SWE-bench team
+url: https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json
+revision: 193160a463a435d05cf44a1fa9dc5eac832113c3
+notes: Boards Test (full), Lite, Verified, Multimodal, Multilingual. Submissions are made by agent developers; 'checked' =
+  run performed or directly checked by the SWE-bench team. Per-submission logs/trajectories in SWE-bench/experiments@40f164d5b8f1
+  (original_url).
+accessed: '2026-10-25'

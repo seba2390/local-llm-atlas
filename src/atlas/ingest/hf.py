@@ -97,24 +97,28 @@ def architecture_from_config(cfg: dict[str, Any]) -> dict[str, Any]:
     hybrid = any(w in layer_kinds for w in ("mamba", "linear_attention", "ssm", "\"m\"", "gated_deltanet")) or "mamba" in str(c.get("model_type", "")).lower()
     is_moe = bool(experts and experts > 1)
     arch["type"] = ("hybrid-ssm-moe" if is_moe else "hybrid-ssm") if hybrid else ("moe" if is_moe else "dense")
-    if isinstance(c.get("num_hidden_layers"), int):
+    def pos(v: Any) -> bool:
+        return isinstance(v, int) and not isinstance(v, bool) and v > 0
+
+    if pos(c.get("num_hidden_layers")):
         arch["layers"] = c["num_hidden_layers"]
-    if isinstance(c.get("hidden_size"), int):
+    if pos(c.get("hidden_size")):
         arch["hidden_size"] = c["hidden_size"]
     q, kv = c.get("num_attention_heads"), c.get("num_key_value_heads")
-    if isinstance(q, int):
+    q, kv = (q if pos(q) else None), (kv if pos(kv) else None)
+    if q:
         arch["q_heads"] = q
-    if isinstance(kv, int):
+    if kv:
         arch["kv_heads"] = kv
-    if isinstance(c.get("head_dim"), int):
+    if pos(c.get("head_dim")):
         arch["head_dim"] = c["head_dim"]
     if c.get("kv_lora_rank"):
         arch["attention"] = "mla"
     elif hybrid:
         arch["attention"] = "hybrid"
-    elif isinstance(q, int) and isinstance(kv, int):
+    elif q and kv:
         arch["attention"] = "mqa" if kv == 1 else ("mha" if kv == q else "gqa")
-    elif isinstance(q, int) and kv is None:
+    elif q and kv is None:
         arch["attention"] = "mha"
     if is_moe:
         arch["experts_total"] = experts

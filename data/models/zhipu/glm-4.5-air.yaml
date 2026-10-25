@@ -7,6 +7,7 @@ company: Z.ai (Zhipu AI)
 country: China
 release_date: '2025-07-20'
 open_weights: true
+license: MIT
 hf_repo: zai-org/GLM-4.5-Air
 weights_url: https://huggingface.co/zai-org/GLM-4.5-Air
 architecture:
@@ -25,6 +26,7 @@ architecture:
 sources:
 - epoch-ai-models
 - hf-zai-org-glm-4.5-air
+- bfcl-result-archive
 field_sources:
   architecture.type: hf-zai-org-glm-4.5-air
   architecture.layers: hf-zai-org-glm-4.5-air
@@ -38,4 +40,5 @@ field_sources:
   architecture.experts_shared: hf-zai-org-glm-4.5-air
   architecture.native_dtype: hf-zai-org-glm-4.5-air
   hf_repo: hf-zai-org-glm-4.5-air
+  license: bfcl-result-archive
 managed_by: register

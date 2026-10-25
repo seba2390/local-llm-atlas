@@ -1,9 +1,0 @@
-id: hf-unsloth-gpt-oss-120b-gguf
-kind: model_card
-provenance: community
-title: unsloth/gpt-oss-120b-GGUF (GGUF quantisations of openai/gpt-oss-120b) file listing
-publisher: Hugging Face
-url: https://huggingface.co/unsloth/gpt-oss-120b-GGUF
-revision: ff1a82da6ad466e32284fa3d2b86694db3204789
-notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
-accessed: '2026-10-25'

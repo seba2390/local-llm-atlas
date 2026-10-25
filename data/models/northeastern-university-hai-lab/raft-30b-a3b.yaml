@@ -1,0 +1,10 @@
+id: raft-30b-a3b
+name: RAFT-30B-A3B
+aliases:
+- RAFT-30B-A3B
+org: northeastern-university-hai-lab
+company: Northeastern University HAI Lab
+open_weights: null
+sources:
+- taubench-leaderboard
+managed_by: register

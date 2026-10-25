@@ -1,0 +1,16 @@
+id: deepseek-v2.5-1210
+name: DeepSeek-V2.5-1210
+aliases:
+- DeepSeek-V2.5-1210
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2024-12-10'
+open_weights: null
+sources:
+- aider-edit-leaderboard-data
+- bigcodebench-results-hf
+field_sources:
+  release_date: bigcodebench-results-hf
+notes: Organisation inferred from the model's brand name; no imported source states the developer.
+managed_by: register

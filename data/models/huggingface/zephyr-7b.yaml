@@ -1,0 +1,15 @@
+id: zephyr-7b
+name: Zephyr β-7B
+aliases:
+- Zephyr β-7B
+org: huggingface
+company: Hugging Face
+country: United States of America
+open_weights: true
+hf_repo: HuggingFaceH4/zephyr-7b-beta
+weights_url: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+architecture:
+  params_total_b: 7.0
+sources:
+- evalplus-leaderboard-data
+managed_by: register

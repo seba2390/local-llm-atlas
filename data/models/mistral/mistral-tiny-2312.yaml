@@ -1,0 +1,12 @@
+id: mistral-tiny-2312
+name: Mistral-tiny-2312
+aliases:
+- Mistral-tiny-2312
+org: mistral
+company: Mistral AI
+country: France
+open_weights: false
+license: Proprietary
+sources:
+- bfcl-result-archive
+managed_by: register

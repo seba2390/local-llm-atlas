@@ -1,0 +1,11 @@
+id: claude-3.5-haiku
+name: Claude 3.5 Haiku
+aliases:
+- Claude 3.5 Haiku
+org: anthropic
+company: Anthropic
+country: United States of America
+open_weights: null
+sources:
+- swe-bench-leaderboards
+managed_by: register

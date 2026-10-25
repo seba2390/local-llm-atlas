@@ -1,14 +1,26 @@
 id: gemma-3-27b-it
 name: gemma-3-27b-it
 aliases:
+- Gemma-3-27B-Instruct
+- Gemma-3-27b-it
 - chutes/Gemma-3-27b-It
+- gemma-3-27b-instruct
 org: google
 company: Google DeepMind
 country: United States of America
 release_date: '2025-03-12'
 open_weights: true
+license: gemma-terms-of-use
+hf_repo: google/gemma-3-27b-it
+weights_url: https://huggingface.co/google/gemma-3-27b-it
 architecture:
   params_total_b: 27.0
 sources:
 - epoch-ai-models
+- bfcl-result-archive
+- bigcodebench-results-hf
+field_sources:
+  license: bfcl-result-archive
+  hf_repo: bigcodebench-results-hf
+  weights_url: bigcodebench-results-hf
 managed_by: register

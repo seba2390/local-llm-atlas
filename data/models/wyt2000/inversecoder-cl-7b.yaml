@@ -1,0 +1,15 @@
+id: inversecoder-cl-7b
+name: InverseCoder-CL-7B
+aliases:
+- InverseCoder-CL-7B
+org: wyt2000
+company: wyt2000
+release_date: '2024-07-08'
+open_weights: true
+hf_repo: wyt2000/InverseCoder-CL-7B
+weights_url: https://huggingface.co/wyt2000/InverseCoder-CL-7B
+architecture:
+  params_total_b: 7.0
+sources:
+- bigcodebench-results-hf
+managed_by: register
