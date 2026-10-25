@@ -1,0 +1,10 @@
+id: qwen-plus-2025-04-28
+name: qwen-plus-2025-04-28
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-04-28'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

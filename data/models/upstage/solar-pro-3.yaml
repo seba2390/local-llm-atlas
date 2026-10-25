@@ -1,0 +1,10 @@
+id: solar-pro-3
+name: Solar Pro 3
+org: upstage
+company: Upstage
+country: South Korea
+release_date: '2026-01-27'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

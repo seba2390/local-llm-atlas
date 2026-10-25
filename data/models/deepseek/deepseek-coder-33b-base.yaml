@@ -1,0 +1,31 @@
+id: deepseek-coder-33b-base
+name: deepseek-coder-33b-base
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2023-11-02'
+open_weights: true
+hf_repo: deepseek-ai/deepseek-coder-33b-base
+weights_url: https://huggingface.co/deepseek-ai/deepseek-coder-33b-base
+architecture:
+  params_total_b: 33.0
+  type: dense
+  layers: 62
+  hidden_size: 7168
+  q_heads: 56
+  kv_heads: 8
+  attention: gqa
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-coder-33b-base
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-coder-33b-base
+  architecture.layers: hf-deepseek-ai-deepseek-coder-33b-base
+  architecture.hidden_size: hf-deepseek-ai-deepseek-coder-33b-base
+  architecture.q_heads: hf-deepseek-ai-deepseek-coder-33b-base
+  architecture.kv_heads: hf-deepseek-ai-deepseek-coder-33b-base
+  architecture.attention: hf-deepseek-ai-deepseek-coder-33b-base
+  architecture.native_dtype: hf-deepseek-ai-deepseek-coder-33b-base
+  hf_repo: hf-deepseek-ai-deepseek-coder-33b-base
+managed_by: register

@@ -1,0 +1,12 @@
+id: remote-labor-index
+name: Remote Labor Index
+category: agentic
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2025-10-29'
+url: https://www.remotelabor.ai/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

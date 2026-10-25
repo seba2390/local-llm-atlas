@@ -1,0 +1,6 @@
+id: mistral
+name: Mistral AI
+country: France
+sources:
+- epoch-ai-models
+managed_by: register

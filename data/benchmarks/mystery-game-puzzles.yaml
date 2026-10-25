@@ -1,0 +1,11 @@
+id: mystery-game-puzzles
+name: Mystery Game Puzzles
+category: games
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2026-07-30'
+url: https://epoch.ai/benchmarks
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

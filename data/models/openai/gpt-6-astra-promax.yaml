@@ -1,0 +1,12 @@
+id: gpt-6-astra-promax
+name: GPT-6 Astra (pro, max)
+aliases:
+- gpt-6-astra_promax
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2026-09-03'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

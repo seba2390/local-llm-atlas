@@ -1,0 +1,14 @@
+id: qwen-7b
+name: Qwen-7B
+aliases:
+- Qwen-7B
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2023-09-28'
+open_weights: true
+architecture:
+  params_total_b: 7.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,15 @@
+id: spireclimb
+name: SpireClimb (Slay the Spire)
+category: games
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+url: https://epoch.ai/benchmarks
+variants:
+- id: combined
+- id: sts1-a20-heart
+- id: sts2-a10
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

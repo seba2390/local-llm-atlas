@@ -1,0 +1,10 @@
+id: gpt-6.1-sol
+name: GPT-6.1 Sol
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2026-09-29'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

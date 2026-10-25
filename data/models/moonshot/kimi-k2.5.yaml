@@ -1,0 +1,39 @@
+id: kimi-k2.5
+name: Kimi K2.5 (Fireworks)
+aliases:
+- Kimi K2.5
+org: moonshot
+company: Moonshot
+country: China
+release_date: '2026-01-27'
+open_weights: true
+hf_repo: moonshotai/Kimi-K2.5
+weights_url: https://huggingface.co/moonshotai/Kimi-K2.5
+architecture:
+  params_total_b: 1040.0
+  type: moe
+  layers: 61
+  hidden_size: 7168
+  q_heads: 64
+  kv_heads: 64
+  attention: mla
+  experts_total: 384
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-moonshotai-kimi-k2.5
+field_sources:
+  architecture.type: hf-moonshotai-kimi-k2.5
+  architecture.layers: hf-moonshotai-kimi-k2.5
+  architecture.hidden_size: hf-moonshotai-kimi-k2.5
+  architecture.q_heads: hf-moonshotai-kimi-k2.5
+  architecture.kv_heads: hf-moonshotai-kimi-k2.5
+  architecture.attention: hf-moonshotai-kimi-k2.5
+  architecture.experts_total: hf-moonshotai-kimi-k2.5
+  architecture.experts_active: hf-moonshotai-kimi-k2.5
+  architecture.experts_shared: hf-moonshotai-kimi-k2.5
+  architecture.native_dtype: hf-moonshotai-kimi-k2.5
+  hf_repo: hf-moonshotai-kimi-k2.5
+managed_by: register

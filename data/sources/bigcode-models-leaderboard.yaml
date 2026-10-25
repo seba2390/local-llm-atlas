@@ -1,0 +1,10 @@
+id: bigcode-models-leaderboard
+kind: leaderboard_data
+provenance: third_party
+title: Big Code Models Leaderboard
+publisher: BigCode (Hugging Face)
+url: https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard
+revision: 985e474a4a1d32f8738299951f4041781886fc1b
+notes: data/code_eval_board.csv in the space repository. Scores from the bigcode-evaluation-harness (top-p=0.95, temperature=0.2,
+  n_samples=50); 'EXT' rows are community submissions run by the submitter.
+accessed: '2026-10-25'

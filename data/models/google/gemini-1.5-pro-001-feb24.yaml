@@ -1,0 +1,10 @@
+id: gemini-1.5-pro-001-feb24
+name: gemini-1.5-pro-001-feb24
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2024-02-15'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

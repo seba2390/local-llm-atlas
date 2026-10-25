@@ -1,0 +1,10 @@
+id: mercury-2
+name: Mercury 2
+org: inception
+company: Inception Labs
+country: United States of America
+release_date: '2026-02-20'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

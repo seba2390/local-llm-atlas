@@ -1,0 +1,10 @@
+id: bbh
+name: BIG-Bench Hard
+category: reasoning
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2022-10-17'
+url: https://github.com/suzgunmirac/BIG-Bench-Hard
+sources:
+- arxiv-2210.09261

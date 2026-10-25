@@ -1,0 +1,12 @@
+id: inkling-small
+name: Inkling Small
+org: thinking-machines
+company: Thinking Machines
+country: United States of America
+release_date: '2026-07-15'
+open_weights: true
+architecture:
+  params_total_b: 276.0
+sources:
+- epoch-ai-models
+managed_by: register

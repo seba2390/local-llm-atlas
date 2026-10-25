@@ -1,0 +1,14 @@
+id: llama-4-maverick-17b-128e-instruct-fp8
+name: Llama 4 Maverick (FP8)
+aliases:
+- Llama-4-Maverick-17B-128E-Instruct-FP8
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2025-04-05'
+open_weights: true
+architecture:
+  params_total_b: 400.0
+sources:
+- epoch-ai-models
+managed_by: register

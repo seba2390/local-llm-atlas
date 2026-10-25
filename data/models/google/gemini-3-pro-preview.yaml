@@ -1,0 +1,10 @@
+id: gemini-3-pro-preview
+name: Gemini 3 Pro Preview
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2025-11-18'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

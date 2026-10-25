@@ -1,0 +1,11 @@
+id: triviaqa
+name: TriviaQA
+category: knowledge
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2017-05-09'
+url: https://nlp.cs.washington.edu/triviaqa/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

@@ -1,0 +1,8 @@
+id: codex-mini-2025-05-16
+name: codex-mini-2025-05-16
+org: unknown
+release_date: '2025-05-16'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

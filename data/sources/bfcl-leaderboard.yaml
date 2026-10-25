@@ -1,0 +1,8 @@
+id: bfcl-leaderboard
+kind: leaderboard
+provenance: first_party
+title: Berkeley Function Calling Leaderboard (BFCL)
+publisher: UC Berkeley Gorilla project
+url: https://gorilla.cs.berkeley.edu/leaderboard.html
+notes: BFCL versions (v1-v4) change the task mix; scores are only comparable within a version.
+accessed: '2026-10-25'

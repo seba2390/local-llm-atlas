@@ -1,0 +1,11 @@
+id: otis-mock-aime
+name: OTIS Mock AIME 2024-2025
+category: math
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2024-12-19'
+url: https://epoch.ai/benchmarks/otis-mock-aime
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

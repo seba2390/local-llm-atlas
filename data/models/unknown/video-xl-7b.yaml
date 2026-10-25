@@ -1,0 +1,10 @@
+id: video-xl-7b
+name: Video-XL-7B
+aliases:
+- Video-XL-7B
+org: unknown
+release_date: '2024-10-17'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,14 @@
+id: minimax-m2
+name: MiniMax-M2
+aliases:
+- MiniMax-M2
+org: minimax
+company: MiniMax
+country: China
+release_date: '2025-10-27'
+open_weights: true
+architecture:
+  params_total_b: 229.0
+sources:
+- epoch-ai-models
+managed_by: register

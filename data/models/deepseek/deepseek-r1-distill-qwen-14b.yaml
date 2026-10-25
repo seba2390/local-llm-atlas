@@ -1,0 +1,33 @@
+id: deepseek-r1-distill-qwen-14b
+name: DeepSeek-R1-Distill-Qwen-14B
+aliases:
+- DeepSeek-R1-Distill-Qwen-14B
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2025-01-20'
+open_weights: true
+hf_repo: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+architecture:
+  params_total_b: 14.8
+  type: dense
+  layers: 48
+  hidden_size: 5120
+  q_heads: 40
+  kv_heads: 8
+  attention: gqa
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-r1-distill-qwen-14b
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-r1-distill-qwen-14b
+  architecture.layers: hf-deepseek-ai-deepseek-r1-distill-qwen-14b
+  architecture.hidden_size: hf-deepseek-ai-deepseek-r1-distill-qwen-14b
+  architecture.q_heads: hf-deepseek-ai-deepseek-r1-distill-qwen-14b
+  architecture.kv_heads: hf-deepseek-ai-deepseek-r1-distill-qwen-14b
+  architecture.attention: hf-deepseek-ai-deepseek-r1-distill-qwen-14b
+  architecture.native_dtype: hf-deepseek-ai-deepseek-r1-distill-qwen-14b
+  hf_repo: hf-deepseek-ai-deepseek-r1-distill-qwen-14b
+managed_by: register

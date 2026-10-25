@@ -1,0 +1,39 @@
+id: deepseek-coder-v2-base
+name: DeepSeek-Coder-V2-Base
+aliases:
+- DeepSeek-Coder-V2-Base
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2024-06-17'
+open_weights: true
+hf_repo: deepseek-ai/DeepSeek-Coder-V2-Base
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Base
+architecture:
+  params_total_b: 236.0
+  type: moe
+  layers: 60
+  hidden_size: 5120
+  q_heads: 128
+  kv_heads: 128
+  attention: mla
+  experts_total: 160
+  experts_active: 6
+  experts_shared: 2
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-coder-v2-base
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-coder-v2-base
+  architecture.layers: hf-deepseek-ai-deepseek-coder-v2-base
+  architecture.hidden_size: hf-deepseek-ai-deepseek-coder-v2-base
+  architecture.q_heads: hf-deepseek-ai-deepseek-coder-v2-base
+  architecture.kv_heads: hf-deepseek-ai-deepseek-coder-v2-base
+  architecture.attention: hf-deepseek-ai-deepseek-coder-v2-base
+  architecture.experts_total: hf-deepseek-ai-deepseek-coder-v2-base
+  architecture.experts_active: hf-deepseek-ai-deepseek-coder-v2-base
+  architecture.experts_shared: hf-deepseek-ai-deepseek-coder-v2-base
+  architecture.native_dtype: hf-deepseek-ai-deepseek-coder-v2-base
+  hf_repo: hf-deepseek-ai-deepseek-coder-v2-base
+managed_by: register

@@ -1,0 +1,10 @@
+id: mimo-v2.5
+name: mimo-v2.5
+org: xiaomi
+company: Xiaomi Corp
+country: China
+release_date: '2026-04-23'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,10 @@
+id: qwen3.7-flash
+name: Qwen3.7 Flash
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2026-07-27'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

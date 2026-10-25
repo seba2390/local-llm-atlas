@@ -1,0 +1,14 @@
+id: evalperf
+name: EvalPerf
+category: code-generation
+metric: dps
+unit: percent
+higher_is_better: true
+introduced: '2024-08-12'
+url: https://evalplus.github.io/evalperf.html
+sources:
+- arxiv-2408.06450
+description: 'Code efficiency: Differential Performance Score (DPS) = percentile of reference solutions the model''s correct
+  solutions match or outperform on performance-exercising tasks.'
+notes: 'Other metrics: dps_norm, pass@1 (correctness on the same tasks).'
+managed_by: evalperf

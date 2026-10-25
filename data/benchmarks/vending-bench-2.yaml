@@ -1,0 +1,12 @@
+id: vending-bench-2
+name: Vending-Bench 2
+category: agentic
+metric: score
+unit: usd
+higher_is_better: true
+harness_sensitive: true
+introduced: '2025-11-18'
+url: https://andonlabs.com/evals/vending-bench-2
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

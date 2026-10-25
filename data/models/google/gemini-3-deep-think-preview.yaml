@@ -1,0 +1,10 @@
+id: gemini-3-deep-think-preview
+name: Gemini 3 Deep Think
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2026-02-12'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

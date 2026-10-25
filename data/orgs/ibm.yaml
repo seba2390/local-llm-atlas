@@ -1,0 +1,6 @@
+id: ibm
+name: IBM
+country: United States of America
+sources:
+- epoch-ai-models
+managed_by: register

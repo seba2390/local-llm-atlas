@@ -1,0 +1,12 @@
+id: nemotron-3-super
+name: Nemotron 3 Super
+org: nvidia
+company: Nvidia
+country: United States of America
+release_date: '2026-03-11'
+open_weights: true
+architecture:
+  params_total_b: 120.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,10 @@
+id: mimo-v2.6-flash
+name: MiMo-V2.6 Flash
+org: xiaomi
+company: Xiaomi Corp
+country: China
+release_date: '2026-09-21'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

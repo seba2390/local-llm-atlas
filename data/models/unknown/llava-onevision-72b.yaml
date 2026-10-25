@@ -1,0 +1,10 @@
+id: llava-onevision-72b
+name: LLaVA-OneVision 72B
+aliases:
+- LLaVA-OneVision 72B
+org: unknown
+release_date: '2024-08-06'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,12 @@
+id: video-salmonn-2plus
+name: video-SALMONN-2plus
+aliases:
+- video-SALMONN-2plus
+org: bytedance
+company: ByteDance
+country: China
+release_date: '2025-06-18'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

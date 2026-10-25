@@ -1,0 +1,10 @@
+id: hf-salesforce-instructblip-vicuna-13b
+kind: model_config
+provenance: first_party
+title: Salesforce/instructblip-vicuna-13b on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/Salesforce/instructblip-vicuna-13b
+revision: 91271ed4920607b735c9925dfa495de6d012d16d
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

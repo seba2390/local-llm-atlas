@@ -1,0 +1,9 @@
+id: aider-o1-results-data
+kind: leaderboard_data
+provenance: third_party
+title: Aider blog 'o1-preview is SOTA on the aider leaderboard' raw results (o1_results.yml)
+publisher: Aider-AI/aider
+url: https://github.com/Aider-AI/aider/blob/5dc9490bb35f9729ef2c95d00a19ccd30c26339c/aider/website/_data/o1_results.yml
+revision: 5dc9490bb35f9729ef2c95d00a19ccd30c26339c
+notes: Data behind https://aider.chat/2024/09/12/o1.html
+accessed: '2026-10-25'

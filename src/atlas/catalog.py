@@ -22,6 +22,7 @@ ENTITIES: dict[str, tuple[str, str]] = {
     "hardware": ("hardware", "hardware.schema.json"),
     "runtimes": ("runtimes", "runtime.schema.json"),
     "harnesses": ("harnesses", "harness.schema.json"),
+    "orgs": ("orgs", "org.schema.json"),
 }
 
 # kind -> (file in data/observations/, schema file)
@@ -117,8 +118,11 @@ def load(root: Path | str) -> Catalog:
     for kind, (filename, schema_name) in OBSERVATIONS.items():
         schema = load_schema(schema_name)
         rows: list[Record] = []
-        path = root / "observations" / filename
-        if path.exists():
+        # Each kind may be a single CSV and/or a directory of CSVs (one per importer).
+        single = root / "observations" / filename
+        folder = root / "observations" / Path(filename).stem
+        paths = ([single] if single.exists() else []) + (sorted(folder.glob("*.csv")) if folder.is_dir() else [])
+        for path in paths:
             with path.open(newline="") as fh:
                 reader = csv.DictReader(fh)
                 for i, row in enumerate(reader, start=2):

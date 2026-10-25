@@ -1,0 +1,16 @@
+id: livebench
+name: LiveBench
+category: reasoning
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2024-06-27'
+url: https://livebench.ai/
+variants:
+- id: '2024-11-25'
+- id: unspecified
+sources:
+- arxiv-2406.19314
+notes: Variants are LiveBench release versions (question sets are refreshed per release,
+  so scores are only comparable within a release). "unspecified" = the source did
+  not state the release.

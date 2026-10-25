@@ -1,0 +1,10 @@
+id: arxiv-2107.03374
+kind: paper
+provenance: first_party
+title: Evaluating Large Language Models Trained on Code
+authors: [Mark Chen, et al.]
+publisher: arXiv
+url: https://arxiv.org/abs/2107.03374
+published: 2021-07-07
+accessed: 2026-10-25
+notes: Introduces HumanEval.

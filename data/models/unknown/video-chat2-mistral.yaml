@@ -1,0 +1,10 @@
+id: video-chat2-mistral
+name: video_chat2_mistral
+aliases:
+- video_chat2_mistral
+org: unknown
+release_date: '2023-11-29'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

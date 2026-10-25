@@ -1,0 +1,14 @@
+id: phi-3-medium-128k-instruct
+name: Phi-3-medium-128k-instruct
+aliases:
+- Phi-3-medium-128k-instruct
+org: microsoft
+company: Microsoft
+country: United States of America
+release_date: '2024-04-23'
+open_weights: true
+architecture:
+  params_total_b: 14.0
+sources:
+- epoch-ai-models
+managed_by: register

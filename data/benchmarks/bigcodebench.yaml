@@ -1,0 +1,19 @@
+id: bigcodebench
+name: BigCodeBench
+category: code-generation
+metric: pass@1
+unit: percent
+higher_is_better: true
+introduced: '2024-06-22'
+url: https://bigcode-bench.github.io/
+variants:
+- id: complete-full
+  notes: Full set (1140 tasks), code completion from structured docstrings.
+- id: instruct-full
+  notes: Full set (1140 tasks), code generation from brief natural-language instructions.
+- id: complete-hard
+  notes: Hard subset (~150 user-facing, challenging tasks), completion prompts.
+- id: instruct-hard
+  notes: Hard subset (~150 user-facing, challenging tasks), instruction prompts.
+sources:
+- arxiv-2406.15877

@@ -1,0 +1,12 @@
+id: mimo-v2-flash
+name: mimo-v2-flash
+org: xiaomi
+company: Xiaomi Corp
+country: China
+release_date: '2025-12-16'
+open_weights: true
+architecture:
+  params_total_b: 309.0
+sources:
+- epoch-ai-models
+managed_by: register

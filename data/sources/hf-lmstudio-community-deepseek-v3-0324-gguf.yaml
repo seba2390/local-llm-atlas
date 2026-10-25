@@ -1,0 +1,9 @@
+id: hf-lmstudio-community-deepseek-v3-0324-gguf
+kind: model_card
+provenance: community
+title: lmstudio-community/DeepSeek-V3-0324-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-V3-0324) file listing
+publisher: Hugging Face
+url: https://huggingface.co/lmstudio-community/DeepSeek-V3-0324-GGUF
+revision: cdcaced0811035e25af83157b4ded8813ef4d47e
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

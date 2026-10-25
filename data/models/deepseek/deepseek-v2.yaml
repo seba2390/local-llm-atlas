@@ -1,0 +1,40 @@
+id: deepseek-v2
+name: DeepSeek-V2
+aliases:
+- DeepSeek-V2
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2024-05-07'
+open_weights: true
+hf_repo: deepseek-ai/DeepSeek-V2
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-V2
+architecture:
+  type: moe
+  layers: 60
+  hidden_size: 5120
+  q_heads: 128
+  kv_heads: 128
+  attention: mla
+  experts_total: 160
+  experts_active: 6
+  experts_shared: 2
+  native_dtype: bf16
+  params_total_b: 235.741
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-v2
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-v2
+  architecture.layers: hf-deepseek-ai-deepseek-v2
+  architecture.hidden_size: hf-deepseek-ai-deepseek-v2
+  architecture.q_heads: hf-deepseek-ai-deepseek-v2
+  architecture.kv_heads: hf-deepseek-ai-deepseek-v2
+  architecture.attention: hf-deepseek-ai-deepseek-v2
+  architecture.experts_total: hf-deepseek-ai-deepseek-v2
+  architecture.experts_active: hf-deepseek-ai-deepseek-v2
+  architecture.experts_shared: hf-deepseek-ai-deepseek-v2
+  architecture.native_dtype: hf-deepseek-ai-deepseek-v2
+  architecture.params_total_b: hf-deepseek-ai-deepseek-v2
+  hf_repo: hf-deepseek-ai-deepseek-v2
+managed_by: register

@@ -1,0 +1,10 @@
+id: hf-rhymes-ai-aria
+kind: model_config
+provenance: first_party
+title: rhymes-ai/Aria on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/rhymes-ai/Aria
+revision: 53a09c77895d7025efa6239ea71cf1a8991064e8
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

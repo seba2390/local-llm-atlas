@@ -1,0 +1,10 @@
+id: hf-deepcogito-cogito-671b-v2.1
+kind: model_config
+provenance: first_party
+title: deepcogito/cogito-671b-v2.1 on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/deepcogito/cogito-671b-v2.1
+revision: 556104cc940a69be9417d3579041ff0009a50382
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

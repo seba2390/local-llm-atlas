@@ -1,0 +1,10 @@
+id: linvt
+name: LinVT
+aliases:
+- LinVT
+org: unknown
+release_date: '2024-12-06'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

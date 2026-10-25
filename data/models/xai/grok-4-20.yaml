@@ -1,0 +1,10 @@
+id: grok-4-20
+name: grok-4-20
+org: xai
+company: xAI
+country: United States of America
+release_date: '2026-02-17'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

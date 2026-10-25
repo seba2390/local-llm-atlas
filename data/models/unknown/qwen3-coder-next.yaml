@@ -1,0 +1,8 @@
+id: qwen3-coder-next
+name: qwen3-coder-next
+org: unknown
+release_date: '2026-02-02'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

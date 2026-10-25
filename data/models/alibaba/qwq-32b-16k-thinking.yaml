@@ -1,0 +1,14 @@
+id: qwq-32b-16k-thinking
+name: QwQ-32B (16K thinking)
+aliases:
+- QwQ-32B (16K thinking)
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-03-05'
+open_weights: true
+architecture:
+  params_total_b: 32.5
+sources:
+- epoch-ai-models
+managed_by: register

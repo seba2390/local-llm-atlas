@@ -1,0 +1,6 @@
+id: spatialviz-bench-official
+name: SpatialViz-Bench maintainers' evaluation
+kind: benchmark-reference
+sources:
+- epoch-benchmarks-external
+notes: Score from the benchmark maintainers' own leaderboard/evaluation setup.

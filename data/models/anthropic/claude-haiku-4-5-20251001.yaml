@@ -1,0 +1,10 @@
+id: claude-haiku-4-5-20251001
+name: Claude Haiku 4.5 (59k thinking)
+org: anthropic
+company: Anthropic
+country: United States of America
+release_date: '2025-10-15'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

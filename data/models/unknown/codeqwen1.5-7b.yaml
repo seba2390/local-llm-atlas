@@ -1,0 +1,32 @@
+id: codeqwen1.5-7b
+name: CodeQwen1.5-7B
+aliases:
+- CodeQwen1.5-7B
+org: unknown
+release_date: '2024-04-15'
+open_weights: null
+hf_repo: Qwen/CodeQwen1.5-7B
+weights_url: https://huggingface.co/Qwen/CodeQwen1.5-7B
+architecture:
+  type: dense
+  layers: 32
+  hidden_size: 4096
+  q_heads: 32
+  kv_heads: 4
+  attention: gqa
+  native_dtype: bf16
+  params_total_b: 7.25
+sources:
+- epoch-ai-models
+- hf-qwen-codeqwen1.5-7b
+field_sources:
+  architecture.type: hf-qwen-codeqwen1.5-7b
+  architecture.layers: hf-qwen-codeqwen1.5-7b
+  architecture.hidden_size: hf-qwen-codeqwen1.5-7b
+  architecture.q_heads: hf-qwen-codeqwen1.5-7b
+  architecture.kv_heads: hf-qwen-codeqwen1.5-7b
+  architecture.attention: hf-qwen-codeqwen1.5-7b
+  architecture.native_dtype: hf-qwen-codeqwen1.5-7b
+  architecture.params_total_b: hf-qwen-codeqwen1.5-7b
+  hf_repo: hf-qwen-codeqwen1.5-7b
+managed_by: register

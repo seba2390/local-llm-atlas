@@ -1,0 +1,8 @@
+id: opt-13b
+name: opt-13b
+org: unknown
+release_date: '2022-05-11'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

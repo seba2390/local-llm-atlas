@@ -1,0 +1,12 @@
+id: dolly-v2-12b
+name: dolly-v2-12b
+org: databricks
+company: Databricks
+country: United States of America
+release_date: '2023-04-11'
+open_weights: true
+architecture:
+  params_total_b: 12.0
+sources:
+- epoch-ai-models
+managed_by: register

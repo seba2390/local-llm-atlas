@@ -1,0 +1,9 @@
+id: switch-large
+name: Switch-Large
+aliases:
+- Switch-Large
+org: unknown
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

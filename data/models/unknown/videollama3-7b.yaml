@@ -1,0 +1,10 @@
+id: videollama3-7b
+name: VideoLLAMA3-7B
+aliases:
+- VideoLLAMA3-7B
+org: unknown
+release_date: '2024-01-22'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

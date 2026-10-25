@@ -1,0 +1,28 @@
+id: internlm-chat-20b
+name: internlm-chat-20b
+org: unknown
+release_date: '2023-09-17'
+open_weights: null
+hf_repo: internlm/internlm-chat-20b
+weights_url: https://huggingface.co/internlm/internlm-chat-20b
+architecture:
+  type: dense
+  layers: 60
+  hidden_size: 5120
+  q_heads: 40
+  kv_heads: 40
+  attention: mha
+  native_dtype: fp16
+sources:
+- epoch-ai-models
+- hf-internlm-internlm-chat-20b
+field_sources:
+  architecture.type: hf-internlm-internlm-chat-20b
+  architecture.layers: hf-internlm-internlm-chat-20b
+  architecture.hidden_size: hf-internlm-internlm-chat-20b
+  architecture.q_heads: hf-internlm-internlm-chat-20b
+  architecture.kv_heads: hf-internlm-internlm-chat-20b
+  architecture.attention: hf-internlm-internlm-chat-20b
+  architecture.native_dtype: hf-internlm-internlm-chat-20b
+  hf_repo: hf-internlm-internlm-chat-20b
+managed_by: register

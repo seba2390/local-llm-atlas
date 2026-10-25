@@ -1,0 +1,16 @@
+id: arxiv-2408.06450
+kind: paper
+provenance: first_party
+title: Evaluating Language Models for Efficient Code Generation
+authors:
+- Jiawei Liu
+- Songrun Xie
+- Junhao Wang
+- Yuxiang Wei
+- Yifeng Ding
+- Lingming Zhang
+publisher: arXiv
+url: https://arxiv.org/abs/2408.06450
+published: '2024-08-12'
+notes: Introduces Differential Performance Evaluation (DPE) and EvalPerf.
+accessed: '2026-10-25'

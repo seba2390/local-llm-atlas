@@ -1,0 +1,10 @@
+id: palm-2-s
+name: PaLM 2-S
+aliases:
+- PaLM 2-S
+org: unknown
+release_date: '2023-05-17'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

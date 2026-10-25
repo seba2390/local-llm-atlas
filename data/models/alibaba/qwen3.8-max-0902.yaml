@@ -1,0 +1,10 @@
+id: qwen3.8-max-0902
+name: Qwen3.8 Max (0902)
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2026-09-01'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

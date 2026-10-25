@@ -1,0 +1,10 @@
+id: trinity-large-thinking
+name: Trinity Large Thinking
+org: arcee
+company: Arcee AI
+country: United States of America
+release_date: '2026-04-01'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

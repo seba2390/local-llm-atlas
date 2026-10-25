@@ -1,0 +1,9 @@
+id: bigcodebench-hard-results-hf
+kind: leaderboard_data
+provenance: third_party
+title: BigCodeBench leaderboard results, hard set (Hugging Face dataset bigcode/bigcodebench-hard-results)
+publisher: BigCode
+url: https://huggingface.co/datasets/bigcode/bigcodebench-hard-results/tree/522a45334d838a87b421ac96db27b2ef7fc165bb
+revision: 522a45334d838a87b421ac96db27b2ef7fc165bb
+notes: Data behind https://bigcode-bench.github.io/ (calibrated pass@1, greedy decoding).
+accessed: '2026-10-25'

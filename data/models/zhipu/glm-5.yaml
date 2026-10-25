@@ -1,0 +1,39 @@
+id: glm-5
+name: GLM-5
+org: zhipu
+company: Z.ai (Zhipu AI)
+country: China
+release_date: '2026-02-11'
+open_weights: true
+hf_repo: zai-org/GLM-5
+weights_url: https://huggingface.co/zai-org/GLM-5
+architecture:
+  params_total_b: 744.0
+  type: moe
+  layers: 78
+  hidden_size: 6144
+  q_heads: 64
+  kv_heads: 64
+  head_dim: 64
+  attention: mla
+  experts_total: 256
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-zai-org-glm-5
+field_sources:
+  architecture.type: hf-zai-org-glm-5
+  architecture.layers: hf-zai-org-glm-5
+  architecture.hidden_size: hf-zai-org-glm-5
+  architecture.q_heads: hf-zai-org-glm-5
+  architecture.kv_heads: hf-zai-org-glm-5
+  architecture.head_dim: hf-zai-org-glm-5
+  architecture.attention: hf-zai-org-glm-5
+  architecture.experts_total: hf-zai-org-glm-5
+  architecture.experts_active: hf-zai-org-glm-5
+  architecture.experts_shared: hf-zai-org-glm-5
+  architecture.native_dtype: hf-zai-org-glm-5
+  hf_repo: hf-zai-org-glm-5
+managed_by: register

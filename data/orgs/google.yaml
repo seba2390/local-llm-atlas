@@ -1,0 +1,10 @@
+id: google
+name: Google DeepMind
+aliases:
+- DeepMind
+- Google
+- Google Research
+country: United States of America
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,12 @@
+id: gopher-280b
+name: Gopher (280B)
+aliases:
+- Gopher (280B)
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2021-12-08'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

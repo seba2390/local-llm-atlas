@@ -1,0 +1,10 @@
+id: parasail-qwen3-235b-a22b-instruct-2507
+name: parasail-qwen3-235b-a22b-instruct-2507
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-07-25'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

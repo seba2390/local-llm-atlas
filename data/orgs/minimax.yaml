@@ -1,0 +1,6 @@
+id: minimax
+name: MiniMax
+country: China
+sources:
+- epoch-ai-models
+managed_by: register

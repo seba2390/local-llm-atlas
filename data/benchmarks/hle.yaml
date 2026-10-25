@@ -1,0 +1,11 @@
+id: hle
+name: Humanity's Last Exam
+category: knowledge
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2025-01-24'
+url: https://lastexam.ai/
+sources:
+- arxiv-2501.14249
+notes: Record text-only vs full and tool use in `setting` when the source states it.

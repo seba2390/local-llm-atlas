@@ -1,0 +1,14 @@
+id: baichuan-2-7b-base
+name: Baichuan-2-7B-Base
+aliases:
+- Baichuan-2-7B-Base
+org: baichuan
+company: Baichuan
+country: China
+release_date: '2023-09-20'
+open_weights: true
+architecture:
+  params_total_b: 7.0
+sources:
+- epoch-ai-models
+managed_by: register

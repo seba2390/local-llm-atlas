@@ -1,0 +1,9 @@
+id: aider-sonnet-fine-data
+kind: leaderboard_data
+provenance: third_party
+title: Aider blog 'Sonnet seems as good as ever' raw results (sonnet-fine.yml)
+publisher: Aider-AI/aider
+url: https://github.com/Aider-AI/aider/blob/5dc9490bb35f9729ef2c95d00a19ccd30c26339c/aider/website/_data/sonnet-fine.yml
+revision: 5dc9490bb35f9729ef2c95d00a19ccd30c26339c
+notes: Data behind https://aider.chat/2024/08/26/sonnet-seems-fine.html
+accessed: '2026-10-25'

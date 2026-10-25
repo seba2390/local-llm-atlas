@@ -1,0 +1,11 @@
+id: ebr-bench
+name: EBR-bench
+category: other
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2026-07-01'
+url: https://epoch.ai/benchmarks
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

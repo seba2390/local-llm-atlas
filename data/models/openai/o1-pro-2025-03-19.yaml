@@ -1,0 +1,10 @@
+id: o1-pro-2025-03-19
+name: o1 Pro
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-03-19'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

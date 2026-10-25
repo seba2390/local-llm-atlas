@@ -1,0 +1,12 @@
+id: the-agent-company
+name: TheAgentCompany
+category: agentic
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2024-12-18'
+url: https://the-agent-company.com/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

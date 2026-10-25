@@ -1,0 +1,12 @@
+id: glam-moe
+name: GLaM (MoE)
+aliases:
+- GLaM (MoE)
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2021-12-13'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

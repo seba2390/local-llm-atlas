@@ -1,0 +1,10 @@
+id: ifeval
+name: IFEval
+category: instruction-following
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2023-11-14'
+url: https://github.com/google-research/google-research/tree/master/instruction_following_eval
+sources:
+- arxiv-2311.07911

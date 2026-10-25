@@ -1,0 +1,8 @@
+id: tiny-recursion-model
+name: tiny-recursion-model
+org: unknown
+release_date: '2025-10-06'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

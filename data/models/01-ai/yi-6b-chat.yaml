@@ -1,0 +1,14 @@
+id: yi-6b-chat
+name: Yi-6B-Chat
+aliases:
+- Yi-6B-Chat
+org: 01-ai
+company: 01.AI
+country: China
+release_date: '2023-11-22'
+open_weights: true
+architecture:
+  params_total_b: 6.0
+sources:
+- epoch-ai-models
+managed_by: register

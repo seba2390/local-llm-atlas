@@ -1,0 +1,14 @@
+id: olmo-2-1124-13b-instruct
+name: OLMo-2-1124-13B-Instruct
+aliases:
+- OLMo-2-1124-13B-Instruct
+org: allenai
+company: Allen Institute for AI
+country: United States of America
+release_date: '2024-12-31'
+open_weights: true
+architecture:
+  params_total_b: 13.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,37 @@
+id: gpt-oss-20b
+name: gpt-oss-20b
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-08-05'
+open_weights: true
+hf_repo: openai/gpt-oss-20b
+weights_url: https://huggingface.co/openai/gpt-oss-20b
+architecture:
+  params_total_b: 20.91
+  type: moe
+  layers: 24
+  hidden_size: 2880
+  q_heads: 64
+  kv_heads: 8
+  head_dim: 64
+  attention: gqa
+  experts_total: 32
+  experts_active: 4
+  native_dtype: fp4
+sources:
+- epoch-ai-models
+- hf-openai-gpt-oss-20b
+field_sources:
+  architecture.type: hf-openai-gpt-oss-20b
+  architecture.layers: hf-openai-gpt-oss-20b
+  architecture.hidden_size: hf-openai-gpt-oss-20b
+  architecture.q_heads: hf-openai-gpt-oss-20b
+  architecture.kv_heads: hf-openai-gpt-oss-20b
+  architecture.head_dim: hf-openai-gpt-oss-20b
+  architecture.attention: hf-openai-gpt-oss-20b
+  architecture.experts_total: hf-openai-gpt-oss-20b
+  architecture.experts_active: hf-openai-gpt-oss-20b
+  architecture.native_dtype: hf-openai-gpt-oss-20b
+  hf_repo: hf-openai-gpt-oss-20b
+managed_by: register

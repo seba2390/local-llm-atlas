@@ -1,0 +1,11 @@
+id: gso
+name: GSO (Global Software Optimization)
+category: software-engineering
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+url: https://gso-bench.github.io/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

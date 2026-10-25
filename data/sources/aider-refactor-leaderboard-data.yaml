@@ -1,0 +1,9 @@
+id: aider-refactor-leaderboard-data
+kind: leaderboard_data
+provenance: third_party
+title: Aider refactoring leaderboard raw results (refactor_leaderboard.yml)
+publisher: Aider-AI/aider
+url: https://github.com/Aider-AI/aider/blob/5dc9490bb35f9729ef2c95d00a19ccd30c26339c/aider/website/_data/refactor_leaderboard.yml
+revision: 5dc9490bb35f9729ef2c95d00a19ccd30c26339c
+notes: Data behind https://aider.chat/docs/leaderboards/refactor.html
+accessed: '2026-10-25'

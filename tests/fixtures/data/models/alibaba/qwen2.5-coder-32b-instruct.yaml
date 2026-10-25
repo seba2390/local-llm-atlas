@@ -1,0 +1,25 @@
+id: qwen2.5-coder-32b-instruct
+name: Qwen2.5-Coder-32B-Instruct
+org: alibaba
+company: Alibaba
+country: China
+family: Qwen2.5-Coder
+variant: instruct
+release_date: 2024-11-12
+open_weights: true
+license: apache-2.0
+weights_url: https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct
+context_length: 131072
+modalities: [text]
+architecture:
+  type: dense
+  params_total_b: 32.5
+  params_non_embedding_b: 31.0
+  layers: 64
+  attention: gqa
+  q_heads: 40
+  kv_heads: 8
+  native_dtype: bf16
+sources: [hf-qwen2.5-coder-32b-instruct]
+field_sources:
+  release_date: qwen2.5-coder-family-blog

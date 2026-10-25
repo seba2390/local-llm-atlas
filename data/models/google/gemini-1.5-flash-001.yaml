@@ -1,0 +1,10 @@
+id: gemini-1.5-flash-001
+name: Gemini 1.5 Flash (May 2024)
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2024-05-23'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

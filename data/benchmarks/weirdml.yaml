@@ -1,0 +1,15 @@
+id: weirdml
+name: WeirdML
+category: code-generation
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2025-01-16'
+url: https://htihle.github.io/weirdml.html
+variants:
+- id: v1-v2
+- id: v3
+  introduced: '2026-09-18'
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

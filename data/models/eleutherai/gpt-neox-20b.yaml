@@ -1,0 +1,29 @@
+id: gpt-neox-20b
+name: gpt-neox-20b
+org: eleutherai
+company: EleutherAI
+country: United States of America
+release_date: '2022-04-07'
+open_weights: true
+hf_repo: EleutherAI/gpt-neox-20b
+weights_url: https://huggingface.co/EleutherAI/gpt-neox-20b
+architecture:
+  params_total_b: 20.0
+  type: dense
+  layers: 44
+  hidden_size: 6144
+  q_heads: 64
+  attention: mha
+  native_dtype: fp16
+sources:
+- epoch-ai-models
+- hf-eleutherai-gpt-neox-20b
+field_sources:
+  architecture.type: hf-eleutherai-gpt-neox-20b
+  architecture.layers: hf-eleutherai-gpt-neox-20b
+  architecture.hidden_size: hf-eleutherai-gpt-neox-20b
+  architecture.q_heads: hf-eleutherai-gpt-neox-20b
+  architecture.attention: hf-eleutherai-gpt-neox-20b
+  architecture.native_dtype: hf-eleutherai-gpt-neox-20b
+  hf_repo: hf-eleutherai-gpt-neox-20b
+managed_by: register

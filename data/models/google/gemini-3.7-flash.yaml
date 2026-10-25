@@ -1,0 +1,10 @@
+id: gemini-3.7-flash
+name: Gemini 3.7 Flash
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2026-08-13'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,12 @@
+id: yi-large
+name: Yi-large
+aliases:
+- Yi-large
+org: 01-ai
+company: 01.AI
+country: China
+release_date: '2024-05-13'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

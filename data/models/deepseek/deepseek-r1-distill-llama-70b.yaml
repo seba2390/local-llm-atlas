@@ -1,0 +1,35 @@
+id: deepseek-r1-distill-llama-70b
+name: DeepSeek-R1-Distill-Llama-70B
+aliases:
+- DeepSeek-R1-Distill-Llama-70B
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2025-01-20'
+open_weights: true
+hf_repo: deepseek-ai/DeepSeek-R1-Distill-Llama-70B
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B
+architecture:
+  params_total_b: 70.0
+  type: dense
+  layers: 80
+  hidden_size: 8192
+  q_heads: 64
+  kv_heads: 8
+  head_dim: 128
+  attention: gqa
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-r1-distill-llama-70b
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-r1-distill-llama-70b
+  architecture.layers: hf-deepseek-ai-deepseek-r1-distill-llama-70b
+  architecture.hidden_size: hf-deepseek-ai-deepseek-r1-distill-llama-70b
+  architecture.q_heads: hf-deepseek-ai-deepseek-r1-distill-llama-70b
+  architecture.kv_heads: hf-deepseek-ai-deepseek-r1-distill-llama-70b
+  architecture.head_dim: hf-deepseek-ai-deepseek-r1-distill-llama-70b
+  architecture.attention: hf-deepseek-ai-deepseek-r1-distill-llama-70b
+  architecture.native_dtype: hf-deepseek-ai-deepseek-r1-distill-llama-70b
+  hf_repo: hf-deepseek-ai-deepseek-r1-distill-llama-70b
+managed_by: register

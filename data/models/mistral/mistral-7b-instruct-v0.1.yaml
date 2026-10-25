@@ -1,0 +1,12 @@
+id: mistral-7b-instruct-v0.1
+name: Mistral-7B-Instruct-v0.1
+aliases:
+- Mistral-7B-Instruct-v0.1
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2023-09-27'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

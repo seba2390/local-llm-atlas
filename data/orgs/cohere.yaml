@@ -1,0 +1,6 @@
+id: cohere
+name: Cohere
+country: Canada
+sources:
+- epoch-ai-models
+managed_by: register

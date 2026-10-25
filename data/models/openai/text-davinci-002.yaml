@@ -1,0 +1,10 @@
+id: text-davinci-002
+name: text-davinci-002
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2022-03-15'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

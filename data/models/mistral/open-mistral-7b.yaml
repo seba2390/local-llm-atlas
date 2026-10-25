@@ -1,0 +1,10 @@
+id: open-mistral-7b
+name: open-mistral-7b
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2023-09-27'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

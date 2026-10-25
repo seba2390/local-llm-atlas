@@ -1,0 +1,12 @@
+id: vicuna-13b-v1.3
+name: vicuna-13b-v1.3
+org: lmsys
+company: Large Model Systems Organization
+country: United States of America
+release_date: '2023-06-18'
+open_weights: true
+architecture:
+  params_total_b: 13.0
+sources:
+- epoch-ai-models
+managed_by: register

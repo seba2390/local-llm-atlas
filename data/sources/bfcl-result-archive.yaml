@@ -1,0 +1,10 @@
+id: bfcl-result-archive
+kind: leaderboard_data
+provenance: third_party
+title: 'BFCL-Result: public evaluation result archive for the Berkeley Function Calling Leaderboard'
+publisher: UC Berkeley Gorilla team (Huanzhi Mao)
+url: https://github.com/HuanzhiMao/BFCL-Result
+revision: cadd76a8dc62984e7bf15ecaf358f070bae745cc
+notes: Apache-2.0. One folder per leaderboard update (folder name = update date) with the score CSVs rendered on gorilla.cs.berkeley.edu/leaderboard.html.
+  The live data_overall.csv was byte-identical to the 2025-12-16 folder when checked on 2026-10-25.
+accessed: '2026-10-25'

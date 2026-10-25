@@ -1,0 +1,6 @@
+id: authors-internal
+name: Authors' own evaluation setup
+kind: vendor-internal
+sources:
+- epoch-benchmarks-external
+notes: Number reported in a paper/technical report, produced by the report authors' own (often lightly documented) setup.

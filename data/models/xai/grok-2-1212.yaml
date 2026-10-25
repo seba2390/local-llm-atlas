@@ -1,0 +1,10 @@
+id: grok-2-1212
+name: grok-2-1212
+org: xai
+company: xAI
+country: United States of America
+release_date: '2024-12-12'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

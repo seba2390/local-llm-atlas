@@ -1,0 +1,14 @@
+id: phi-4-mini-instruct
+name: Phi-4-mini-instruct
+aliases:
+- Phi-4-mini-instruct
+org: microsoft
+company: Microsoft
+country: United States of America
+release_date: '2025-02-27'
+open_weights: true
+architecture:
+  params_total_b: 3.8
+sources:
+- epoch-ai-models
+managed_by: register

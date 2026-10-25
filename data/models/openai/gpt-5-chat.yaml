@@ -1,0 +1,10 @@
+id: gpt-5-chat
+name: gpt-5-chat
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-08-07'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

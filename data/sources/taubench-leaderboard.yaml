@@ -1,0 +1,10 @@
+id: taubench-leaderboard
+kind: leaderboard_data
+provenance: third_party
+title: τ-bench leaderboard submissions
+publisher: Sierra
+url: https://github.com/sierra-research/tau2-bench/tree/main/web/leaderboard/public/submissions
+revision: 0c69df456a96aa76a1162591574dad9c427a34d7
+notes: MIT. Data behind https://taubench.com/ (manifest.json + one submission.json per entry). Entries are run by Sierra or
+  submitted by model developers/others; self-reported entries cite their reference.
+accessed: '2026-10-25'

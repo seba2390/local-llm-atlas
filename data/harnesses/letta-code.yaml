@@ -1,0 +1,6 @@
+id: letta-code
+name: Letta Code
+kind: agent-scaffold
+sources:
+- epoch-benchmarks-external
+notes: Agent/scaffold name as listed by Epoch AI for terminal-bench.

@@ -1,0 +1,10 @@
+id: hf-opengvlab-internvl-chat-v1-5
+kind: model_config
+provenance: first_party
+title: OpenGVLab/InternVL-Chat-V1-5 on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5
+revision: 5fde09e092da1be5a86ffdae196913570f81c5ad
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

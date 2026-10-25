@@ -1,0 +1,6 @@
+id: 01-ai
+name: 01.AI
+country: China
+sources:
+- epoch-ai-models
+managed_by: register

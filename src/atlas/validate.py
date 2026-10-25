@@ -91,6 +91,14 @@ def validate(cat: Catalog) -> list[Issue]:
         d = rec.data
         if rec.path.parent.name != d.get("org"):
             err(rec.where, f"model files live in data/models/<org>/; expected folder '{d.get('org')}'")
+        org = cat.entities.get("orgs", {}).get(d.get("org", ""))
+        if org is None:
+            err(rec.where, f"unknown org '{d.get('org')}' (add data/orgs/{d.get('org')}.yaml)")
+        else:
+            if d.get("company") != org.data.get("name"):
+                err(rec.where, f"company must be '{org.data.get('name')}' (from data/orgs/{org.data['id']}.yaml); run `atlas sync-orgs`")
+            if d.get("country") != org.data.get("country"):
+                err(rec.where, f"country must be '{org.data.get('country')}' (from data/orgs/{org.data['id']}.yaml); run `atlas sync-orgs`")
         for dotted, sid in (d.get("field_sources") or {}).items():
             if _get_path(d, dotted) is None:
                 err(rec.where, f"field_sources refers to missing field '{dotted}'")
@@ -136,11 +144,14 @@ def validate(cat: Catalog) -> list[Issue]:
         introduced = (variants.get(variant) or {}).get("introduced") or b.get("introduced")
         src = sources.get(d.get("source_id") or "")
         dated = d.get("eval_date") or (src.data.get("published") if src else None)
-        if introduced and dated and str(dated) < str(introduced)[: len(str(dated))]:
+        # Benchmark creators legitimately run models before public release.
+        hid = str(d.get("harness_id", ""))
+        by_creator = hid.endswith("-official") or (hid == "epoch-ai-evals" and b.get("managed_by") == "epoch")
+        if introduced and dated and not by_creator and str(dated) < str(introduced)[: len(str(dated))]:
             err(rec.where, f"score dated {dated} predates benchmark '{b['id']}' ({introduced})")
         key_fields = (
             "model_id", "benchmark_id", "variant", "metric", "harness_id", "harness_version",
-            "setting", "reasoning", "reasoning_effort", "quant", "source_id",
+            "setting", "reasoning", "reasoning_effort", "quant", "eval_date", "source_id", "locator", "original_url",
         )
         key = tuple(d.get(k) for k in key_fields)
         if key in seen_scores:
@@ -160,6 +171,16 @@ def validate(cat: Catalog) -> list[Issue]:
     for sid, rec in sources.items():
         if sid not in cited:
             warn(rec.where, "source is never cited")
+    used_harnesses = {r.data.get("harness_id") for r in cat.observations.get("scores", [])}
+    for hid, rec in harnesses.items():
+        if hid not in used_harnesses and hid != "undisclosed":
+            warn(rec.where, "harness is never used")
+
+    # 4. Two models must never share a name/alias, or imported rows could be attached to the wrong one.
+    from .resolve import Resolver
+
+    for key, ids in sorted(Resolver.from_catalog(cat).ambiguous().items()):
+        err(", ".join(str(models[i].path) for i in sorted(ids)), f"models {sorted(ids)} share the name/alias key '{key}'")
 
     return issues
 

@@ -31,10 +31,25 @@
         "software-engineering",
         "terminal-agent",
         "tool-use",
+        "agentic",
+        "computer-use",
         "math",
         "reasoning",
         "knowledge",
+        "science",
+        "commonsense",
+        "reading-comprehension",
+        "language-modeling",
+        "instruction-following",
         "long-context",
+        "multimodal",
+        "writing",
+        "forecasting",
+        "games",
+        "cybersecurity",
+        "research",
+        "chat-arena",
+        "safety",
         "other"
       ]
     },
@@ -46,7 +61,10 @@
       "enum": [
         "percent",
         "score",
-        "elo"
+        "elo",
+        "minutes",
+        "usd",
+        "ratio"
       ]
     },
     "higher_is_better": {
@@ -101,6 +119,10 @@
     },
     "notes": {
       "type": "string"
+    },
+    "managed_by": {
+      "type": "string",
+      "description": "Importer that owns (regenerates) this record."
     }
   }
 }

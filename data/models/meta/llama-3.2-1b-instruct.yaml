@@ -1,0 +1,14 @@
+id: llama-3.2-1b-instruct
+name: Llama-3.2-1B-Instruct
+aliases:
+- Llama-3.2-1B-Instruct
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2024-09-24'
+open_weights: true
+architecture:
+  params_total_b: 1.23
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,12 @@
+id: devstral-small-2512
+name: Devstral Small 2
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2025-12-09'
+open_weights: true
+architecture:
+  params_total_b: 24.0
+sources:
+- epoch-ai-models
+managed_by: register

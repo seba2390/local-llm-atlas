@@ -1,0 +1,10 @@
+id: gemini-2.0-flash-thinking-exp-01-21
+name: Gemini 2.0 Flash Thinking Exp
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2025-01-21'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

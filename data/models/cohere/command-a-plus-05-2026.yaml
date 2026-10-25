@@ -1,0 +1,12 @@
+id: command-a-plus-05-2026
+name: Command A+
+org: cohere
+company: Cohere
+country: Canada
+release_date: '2026-05-20'
+open_weights: true
+architecture:
+  params_total_b: 218.0
+sources:
+- epoch-ai-models
+managed_by: register

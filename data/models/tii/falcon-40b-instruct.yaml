@@ -1,0 +1,29 @@
+id: falcon-40b-instruct
+name: falcon-40b-instruct
+org: tii
+company: Technology Innovation Institute
+country: United Arab Emirates
+release_date: '2023-05-25'
+open_weights: true
+hf_repo: tiiuae/falcon-40b-instruct
+weights_url: https://huggingface.co/tiiuae/falcon-40b-instruct
+architecture:
+  params_total_b: 40.0
+  type: dense
+  layers: 60
+  hidden_size: 8192
+  q_heads: 128
+  attention: mha
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-tiiuae-falcon-40b-instruct
+field_sources:
+  architecture.type: hf-tiiuae-falcon-40b-instruct
+  architecture.layers: hf-tiiuae-falcon-40b-instruct
+  architecture.hidden_size: hf-tiiuae-falcon-40b-instruct
+  architecture.q_heads: hf-tiiuae-falcon-40b-instruct
+  architecture.attention: hf-tiiuae-falcon-40b-instruct
+  architecture.native_dtype: hf-tiiuae-falcon-40b-instruct
+  hf_repo: hf-tiiuae-falcon-40b-instruct
+managed_by: register

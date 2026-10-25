@@ -1,0 +1,10 @@
+id: hf-zai-org-glm-5.3-flash
+kind: model_config
+provenance: first_party
+title: zai-org/GLM-5.3-Flash on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/zai-org/GLM-5.3-Flash
+revision: 46a050bec13002ad29ee795c16e61cf4fa3c4a9c
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

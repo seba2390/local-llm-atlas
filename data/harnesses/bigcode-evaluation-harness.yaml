@@ -1,0 +1,7 @@
+id: bigcode-evaluation-harness
+name: bigcode-evaluation-harness
+kind: eval-framework
+url: https://github.com/bigcode-project/bigcode-evaluation-harness
+sources:
+- bigcode-models-leaderboard
+notes: BigCode's framework for evaluating code generation models (HumanEval, MultiPL-E, MBPP, DS-1000, ...).

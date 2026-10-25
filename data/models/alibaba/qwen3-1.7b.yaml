@@ -1,0 +1,12 @@
+id: qwen3-1.7b
+name: qwen3-1.7b
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-04-29'
+open_weights: true
+architecture:
+  params_total_b: 1.7
+sources:
+- epoch-ai-models
+managed_by: register

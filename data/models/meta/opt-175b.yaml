@@ -1,0 +1,12 @@
+id: opt-175b
+name: opt-175b
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2022-05-02'
+open_weights: true
+architecture:
+  params_total_b: 175.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,7 @@
+id: tau-bench
+name: τ-bench reference agent/user-simulator harness
+kind: benchmark-reference
+url: https://github.com/sierra-research/tau-bench
+sources:
+- arxiv-2406.12045
+notes: Original τ-bench code (tool-calling agent + LLM user simulator).

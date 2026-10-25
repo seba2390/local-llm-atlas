@@ -1,0 +1,8 @@
+id: evalplus
+name: EvalPlus
+kind: eval-framework
+url: https://github.com/evalplus/evalplus
+sources:
+- arxiv-2305.01210
+- evalplus-leaderboard-data
+notes: EvalPlus evaluation framework (HumanEval+/MBPP+ test harness and codegen setup).

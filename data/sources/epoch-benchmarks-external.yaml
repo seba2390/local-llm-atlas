@@ -1,0 +1,9 @@
+id: epoch-benchmarks-external
+kind: leaderboard_data
+provenance: third_party
+title: Epoch AI, 'Capabilities & benchmarking' - external results compiled by Epoch AI
+publisher: Epoch AI
+url: https://epoch.ai/data/benchmark_data.zip
+notes: CC-BY 4.0. *_external.csv files. Epoch compiles results from leaderboards, papers and model cards; the primary source
+  of each row is kept in original_source/original_url and may be first-party.
+accessed: '2026-10-25'

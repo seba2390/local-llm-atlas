@@ -1,0 +1,10 @@
+id: qwen3-max-2025-09-23
+name: Qwen3-Max-Instruct
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-09-24'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

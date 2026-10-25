@@ -1,0 +1,10 @@
+id: hf-coherelabs-c4ai-command-a-03-2025
+kind: model_config
+provenance: first_party
+title: CohereLabs/c4ai-command-a-03-2025 on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/CohereLabs/c4ai-command-a-03-2025
+revision: 066daaa11d57404b07cc650d1068936d31431979
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

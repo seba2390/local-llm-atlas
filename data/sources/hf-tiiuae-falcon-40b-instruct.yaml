@@ -1,0 +1,10 @@
+id: hf-tiiuae-falcon-40b-instruct
+kind: model_config
+provenance: first_party
+title: tiiuae/falcon-40b-instruct on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/tiiuae/falcon-40b-instruct
+revision: ecb78d97ac356d098e79f0db222c9ce7c5d9ee5f
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

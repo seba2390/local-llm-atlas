@@ -1,0 +1,8 @@
+id: epoch-ai-models
+kind: leaderboard_data
+provenance: third_party
+title: Epoch AI, 'Data on AI models'
+publisher: Epoch AI
+url: https://epoch.ai/data/ai_models.zip
+notes: CC-BY 4.0. Model metadata (organisation, country, publication date, parameters, accessibility).
+accessed: '2026-10-25'

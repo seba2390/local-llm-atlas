@@ -1,0 +1,12 @@
+id: nemotron-3-ultra
+name: nemotron-3-ultra
+org: nvidia
+company: Nvidia
+country: United States of America
+release_date: '2026-06-04'
+open_weights: true
+architecture:
+  params_total_b: 550.0
+sources:
+- epoch-ai-models
+managed_by: register

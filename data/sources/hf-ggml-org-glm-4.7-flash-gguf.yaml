@@ -1,0 +1,9 @@
+id: hf-ggml-org-glm-4.7-flash-gguf
+kind: model_card
+provenance: community
+title: ggml-org/GLM-4.7-Flash-GGUF (GGUF quantisations of zai-org/GLM-4.7-Flash) file listing
+publisher: Hugging Face
+url: https://huggingface.co/ggml-org/GLM-4.7-Flash-GGUF
+revision: 7559e96b7e324ab405897dc2b91492b0f376ad4a
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

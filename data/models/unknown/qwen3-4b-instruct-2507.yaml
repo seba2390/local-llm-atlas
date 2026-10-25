@@ -1,0 +1,8 @@
+id: qwen3-4b-instruct-2507
+name: qwen3-4b-instruct-2507
+org: unknown
+release_date: '2025-08-06'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

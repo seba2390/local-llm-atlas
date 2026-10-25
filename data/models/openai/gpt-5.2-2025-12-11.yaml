@@ -1,0 +1,10 @@
+id: gpt-5.2-2025-12-11
+name: GPT-5.2
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-12-11'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,11 @@
+id: fiction-livebench
+name: Fiction.LiveBench
+category: long-context
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2025-02-21'
+url: https://fiction.live/stories/Fiction-liveBench
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

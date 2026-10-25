@@ -1,0 +1,11 @@
+id: hf-qwen3.6-27b
+kind: model_card
+provenance: first_party
+title: Qwen/Qwen3.6-27B model card (README.md)
+publisher: Qwen Team, Alibaba
+url: https://huggingface.co/Qwen/Qwen3.6-27B
+published: '2026-04-21'
+revision: 6a9e13bd6fc8f0983b9b99948120bc37f49c13e9
+notes: Benchmark tables read from https://huggingface.co/Qwen/Qwen3.6-27B/raw/6a9e13bd6fc8f0983b9b99948120bc37f49c13e9/README.md;
+  published = repository creation date.
+accessed: '2026-10-25'

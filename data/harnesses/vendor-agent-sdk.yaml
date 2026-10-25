@@ -1,0 +1,6 @@
+id: vendor-agent-sdk
+name: Vendor agent SDK
+kind: agent-scaffold
+sources:
+- epoch-benchmarks-external
+notes: Agent/scaffold name as listed by Epoch AI for Bench to the Future 3 (BTF-3).

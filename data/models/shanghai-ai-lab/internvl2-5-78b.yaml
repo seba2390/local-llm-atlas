@@ -1,0 +1,33 @@
+id: internvl2-5-78b
+name: InternVL2_5-78B
+aliases:
+- InternVL2_5-78B
+org: shanghai-ai-lab
+company: Shanghai AI Lab
+country: Hong Kong
+release_date: '2024-12-06'
+open_weights: true
+hf_repo: OpenGVLab/InternVL2_5-78B
+weights_url: https://huggingface.co/OpenGVLab/InternVL2_5-78B
+architecture:
+  params_total_b: 78.4
+  type: dense
+  layers: 80
+  hidden_size: 8192
+  q_heads: 64
+  kv_heads: 8
+  attention: gqa
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-opengvlab-internvl2-5-78b
+field_sources:
+  architecture.type: hf-opengvlab-internvl2-5-78b
+  architecture.layers: hf-opengvlab-internvl2-5-78b
+  architecture.hidden_size: hf-opengvlab-internvl2-5-78b
+  architecture.q_heads: hf-opengvlab-internvl2-5-78b
+  architecture.kv_heads: hf-opengvlab-internvl2-5-78b
+  architecture.attention: hf-opengvlab-internvl2-5-78b
+  architecture.native_dtype: hf-opengvlab-internvl2-5-78b
+  hf_repo: hf-opengvlab-internvl2-5-78b
+managed_by: register

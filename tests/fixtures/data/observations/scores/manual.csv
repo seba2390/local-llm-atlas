@@ -1,0 +1,6 @@
+model_id,benchmark_id,variant,metric,value,stderr,harness_id,harness_version,setting,reasoning,reasoning_effort,quant,eval_date,source_id,locator,original_source,original_url,notes
+qwen2.5-coder-32b-instruct,aider-code-editing,,,73.7,,aider,,,n/a,,,2024-11-12,qwen2.5-coder-family-blog,"Section ""Code Repair""",,,"Self-reported; blog says ""Aider"" (pre-dates Polyglot), so this is the legacy benchmark. Aider version and edit format not stated."
+qwen2.5-coder-32b-instruct,aider-code-editing,,,71.4,,aider,0.59.2.dev,edit_format=diff,n/a,,,2024-11-09,aider-edit-leaderboard-data,dirname=2024-11-09-11-09-15--Qwen2.5-Coder-32B-Instruct,,,Served via glhf.chat.
+qwen2.5-coder-32b-instruct,aider-polyglot,,,8.0,,aider,0.69.2.dev,edit_format=diff,n/a,,,2024-12-22,aider-polyglot-leaderboard-data,dirname=2024-12-22-13-22-32--polyglot-qwen-diff,,,Served via Hyperbolic.
+qwen2.5-coder-32b-instruct,aider-polyglot,,,16.4,,aider,0.69.2.dev,edit_format=whole,n/a,,,2024-12-26,aider-polyglot-leaderboard-data,dirname=2024-12-26-00-55-20--Qwen2.5-Coder-32B-Instruct,,,
+claude-3-5-sonnet-20241022,aider-polyglot,,,51.6,,aider,0.71.2.dev,edit_format=diff,n/a,,,2025-01-17,aider-polyglot-leaderboard-data,dirname=2025-01-17-19-44-33--sonnet-baseline-jan-17,,,

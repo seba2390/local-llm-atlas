@@ -1,0 +1,12 @@
+id: cybench
+name: Cybench
+category: cybersecurity
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2024-08-15'
+url: https://cybench.github.io/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

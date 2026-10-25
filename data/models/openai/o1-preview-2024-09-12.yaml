@@ -1,0 +1,10 @@
+id: o1-preview-2024-09-12
+name: o1-preview
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2024-09-12'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

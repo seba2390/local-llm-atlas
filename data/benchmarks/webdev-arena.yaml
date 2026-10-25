@@ -1,0 +1,11 @@
+id: webdev-arena
+name: WebDev Arena
+category: chat-arena
+metric: score
+unit: elo
+higher_is_better: true
+introduced: '2024-12-10'
+url: https://web.lmarena.ai/leaderboard
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

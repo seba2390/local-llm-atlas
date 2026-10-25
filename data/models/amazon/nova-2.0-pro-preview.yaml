@@ -1,0 +1,10 @@
+id: nova-2.0-pro-preview
+name: Nova 2.0 Pro Preview
+org: amazon
+company: Amazon
+country: United States of America
+release_date: '2025-12-02'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

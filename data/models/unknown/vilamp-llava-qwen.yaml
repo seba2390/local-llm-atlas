@@ -1,0 +1,10 @@
+id: vilamp-llava-qwen
+name: ViLAMP-llava-qwen
+aliases:
+- ViLAMP-llava-qwen
+org: unknown
+release_date: '2025-05-01'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

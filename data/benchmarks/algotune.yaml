@@ -1,0 +1,12 @@
+id: algotune
+name: AlgoTune
+category: software-engineering
+metric: score
+unit: ratio
+higher_is_better: true
+harness_sensitive: true
+introduced: '2025-07-19'
+url: https://algotune.io/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

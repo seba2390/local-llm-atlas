@@ -1,0 +1,11 @@
+id: scicode
+name: SciCode
+category: science
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2024-07-18'
+url: https://scicode-bench.github.io/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

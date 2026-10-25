@@ -1,0 +1,12 @@
+id: gemma-3-12b-it
+name: gemma-3-12b-it
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2025-03-12'
+open_weights: true
+architecture:
+  params_total_b: 12.0
+sources:
+- epoch-ai-models
+managed_by: register

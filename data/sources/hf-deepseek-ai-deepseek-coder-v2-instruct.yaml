@@ -1,0 +1,10 @@
+id: hf-deepseek-ai-deepseek-coder-v2-instruct
+kind: model_config
+provenance: first_party
+title: deepseek-ai/DeepSeek-Coder-V2-Instruct on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct
+revision: 2453c79a2a0947968a054947b53daa598cb3be52
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

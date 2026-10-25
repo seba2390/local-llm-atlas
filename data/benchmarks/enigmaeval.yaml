@@ -1,0 +1,11 @@
+id: enigmaeval
+name: EnigmaEval
+category: reasoning
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2025-02-13'
+url: https://labs.scale.com/leaderboard/enigma_eval
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

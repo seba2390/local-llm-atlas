@@ -1,0 +1,10 @@
+id: hf-deepseek-ai-deepseek-v3.2-speciale
+kind: model_config
+provenance: first_party
+title: deepseek-ai/DeepSeek-V3.2-Speciale on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale
+revision: c562883eda916fd699a44bbf1f4987a53b96008b
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

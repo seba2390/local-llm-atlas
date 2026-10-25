@@ -1,0 +1,10 @@
+id: hf-poolside-laguna-m.1
+kind: model_config
+provenance: first_party
+title: poolside/Laguna-M.1 on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/poolside/Laguna-M.1
+revision: 2bf8a4ab6d2e8e1e0d92a41318532a0fee1640d6
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

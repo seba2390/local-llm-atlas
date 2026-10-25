@@ -1,0 +1,10 @@
+id: gemini-robotics-er-1.6-preview
+name: Gemini Robotics-ER 1.6 Preview
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2026-04-14'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

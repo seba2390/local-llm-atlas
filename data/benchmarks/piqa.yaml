@@ -1,0 +1,11 @@
+id: piqa
+name: PIQA
+category: commonsense
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2019-11-26'
+url: https://yonatanbisk.com/piqa/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

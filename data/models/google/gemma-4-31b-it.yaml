@@ -1,0 +1,33 @@
+id: gemma-4-31b-it
+name: Gemma 4 31B IT
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2026-04-02'
+open_weights: true
+hf_repo: google/gemma-4-31B-it
+weights_url: https://huggingface.co/google/gemma-4-31B-it
+architecture:
+  params_total_b: 31.0
+  type: dense
+  layers: 60
+  hidden_size: 5376
+  q_heads: 32
+  kv_heads: 16
+  head_dim: 256
+  attention: gqa
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-google-gemma-4-31b-it
+field_sources:
+  architecture.type: hf-google-gemma-4-31b-it
+  architecture.layers: hf-google-gemma-4-31b-it
+  architecture.hidden_size: hf-google-gemma-4-31b-it
+  architecture.q_heads: hf-google-gemma-4-31b-it
+  architecture.kv_heads: hf-google-gemma-4-31b-it
+  architecture.head_dim: hf-google-gemma-4-31b-it
+  architecture.attention: hf-google-gemma-4-31b-it
+  architecture.native_dtype: hf-google-gemma-4-31b-it
+  hf_repo: hf-google-gemma-4-31b-it
+managed_by: register

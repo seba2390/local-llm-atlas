@@ -1,0 +1,10 @@
+id: o1-mini-2024-09-12
+name: o1-mini
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2024-09-12'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

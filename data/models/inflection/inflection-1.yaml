@@ -1,0 +1,12 @@
+id: inflection-1
+name: Inflection-1
+aliases:
+- Inflection-1
+org: inflection
+company: Inflection AI
+country: United States of America
+release_date: '2023-06-22'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

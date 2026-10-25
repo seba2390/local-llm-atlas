@@ -1,0 +1,10 @@
+id: qwen3.6-plus
+name: Qwen 3.6 Plus (2026-04-02)
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2026-03-31'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

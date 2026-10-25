@@ -1,0 +1,10 @@
+id: gpt-4.1-nano-2025-04-14
+name: GPT-4.1 nano
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-04-14'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

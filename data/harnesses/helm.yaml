@@ -1,0 +1,6 @@
+id: helm
+name: Stanford HELM
+kind: eval-framework
+url: https://crfm.stanford.edu/helm/
+sources:
+- epoch-benchmarks-external

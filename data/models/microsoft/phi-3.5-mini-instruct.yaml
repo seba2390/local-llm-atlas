@@ -1,0 +1,14 @@
+id: phi-3.5-mini-instruct
+name: Phi-3.5-mini-instruct
+aliases:
+- Phi-3.5-mini-instruct
+org: microsoft
+company: Microsoft
+country: United States of America
+release_date: '2024-08-16'
+open_weights: true
+architecture:
+  params_total_b: 3.8
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,10 @@
+id: qwen2.5-max
+name: qwen2.5-max
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-01-25'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

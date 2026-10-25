@@ -1,0 +1,7 @@
+id: lm-council
+name: LM Council
+kind: eval-framework
+url: https://lmcouncil.ai/
+sources:
+- epoch-benchmarks-external
+notes: Independent evaluator that runs benchmarks with its own harness.

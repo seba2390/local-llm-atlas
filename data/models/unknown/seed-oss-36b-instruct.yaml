@@ -1,0 +1,8 @@
+id: seed-oss-36b-instruct
+name: seed-oss-36b-instruct
+org: unknown
+release_date: '2025-08-20'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

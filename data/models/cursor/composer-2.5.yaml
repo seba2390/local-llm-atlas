@@ -1,0 +1,12 @@
+id: composer-2.5
+name: Composer 2.5
+aliases:
+- Composer 2.5
+org: cursor
+company: Cursor
+country: United States of America
+release_date: '2026-05-18'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

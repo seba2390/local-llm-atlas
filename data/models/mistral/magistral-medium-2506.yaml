@@ -1,0 +1,10 @@
+id: magistral-medium-2506
+name: magistral-medium-2506
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2025-06-10'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

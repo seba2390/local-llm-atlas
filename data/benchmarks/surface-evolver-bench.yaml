@@ -1,0 +1,11 @@
+id: surface-evolver-bench
+name: Surface Evolver Bench
+category: science
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2026-06-19'
+url: https://yhenon.github.io/surface-evolver-bench/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

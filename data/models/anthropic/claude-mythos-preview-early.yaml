@@ -1,0 +1,10 @@
+id: claude-mythos-preview-early
+name: Claude Mythos Preview (Early)
+org: anthropic
+company: Anthropic
+country: United States of America
+release_date: '2026-04-07'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

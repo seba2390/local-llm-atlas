@@ -1,0 +1,31 @@
+id: baichuan-7b
+name: Baichuan-7B
+aliases:
+- Baichuan-7B
+org: baichuan
+company: Baichuan
+country: China
+release_date: '2023-06-01'
+open_weights: true
+hf_repo: baichuan-inc/Baichuan-7B
+weights_url: https://huggingface.co/baichuan-inc/Baichuan-7B
+architecture:
+  params_total_b: 7.001
+  type: dense
+  layers: 32
+  hidden_size: 4096
+  q_heads: 32
+  attention: mha
+  native_dtype: fp32
+sources:
+- epoch-ai-models
+- hf-baichuan-inc-baichuan-7b
+field_sources:
+  architecture.type: hf-baichuan-inc-baichuan-7b
+  architecture.layers: hf-baichuan-inc-baichuan-7b
+  architecture.hidden_size: hf-baichuan-inc-baichuan-7b
+  architecture.q_heads: hf-baichuan-inc-baichuan-7b
+  architecture.attention: hf-baichuan-inc-baichuan-7b
+  architecture.native_dtype: hf-baichuan-inc-baichuan-7b
+  hf_repo: hf-baichuan-inc-baichuan-7b
+managed_by: register

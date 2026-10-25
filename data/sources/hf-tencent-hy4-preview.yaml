@@ -1,0 +1,10 @@
+id: hf-tencent-hy4-preview
+kind: model_config
+provenance: first_party
+title: tencent/Hy4-preview on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/tencent/Hy4-preview
+revision: 705d81ee51566a186d645b74c974d642ef2828fe
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

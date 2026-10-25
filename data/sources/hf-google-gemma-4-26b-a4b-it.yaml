@@ -1,0 +1,10 @@
+id: hf-google-gemma-4-26b-a4b-it
+kind: model_config
+provenance: first_party
+title: google/gemma-4-26B-A4B-it on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/google/gemma-4-26B-A4B-it
+revision: 4d7ae4984b7db7de8f8457170b3f1a419ee76d52
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

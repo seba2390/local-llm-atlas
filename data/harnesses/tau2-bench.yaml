@@ -1,0 +1,9 @@
+id: tau2-bench
+name: τ²-bench reference harness (tau2 CLI)
+kind: benchmark-reference
+url: https://github.com/sierra-research/tau2-bench
+sources:
+- arxiv-2506.07982
+- taubench-leaderboard
+notes: Default τ²-bench agent scaffold + user simulator; harness_version = tau2-bench release. 'submission_type=custom' entries
+  changed the benchmark-side setup (see notes).

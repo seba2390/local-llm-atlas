@@ -1,0 +1,9 @@
+id: t5-large
+name: T5-Large
+aliases:
+- T5-Large
+org: unknown
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

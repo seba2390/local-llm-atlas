@@ -1,0 +1,9 @@
+id: hf-bartowski-codeqwen1.5-7b-gguf
+kind: model_card
+provenance: community
+title: bartowski/CodeQwen1.5-7B-GGUF (GGUF quantisations of Qwen/CodeQwen1.5-7B) file listing
+publisher: Hugging Face
+url: https://huggingface.co/bartowski/CodeQwen1.5-7B-GGUF
+revision: c0bd1493818461df5d79ee2cde2651fc237d49a5
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

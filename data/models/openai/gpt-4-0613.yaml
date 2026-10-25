@@ -1,0 +1,10 @@
+id: gpt-4-0613
+name: GPT-4 (Jun 2023)
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2023-06-13'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

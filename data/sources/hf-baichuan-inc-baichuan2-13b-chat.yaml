@@ -1,0 +1,10 @@
+id: hf-baichuan-inc-baichuan2-13b-chat
+kind: model_config
+provenance: first_party
+title: baichuan-inc/Baichuan2-13B-Chat on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat
+revision: c8d877c7ca596d9aeff429d43bff06e288684f45
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

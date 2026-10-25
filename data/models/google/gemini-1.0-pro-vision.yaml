@@ -1,0 +1,10 @@
+id: gemini-1.0-pro-vision
+name: gemini-1.0-pro-vision
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2024-01-04'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

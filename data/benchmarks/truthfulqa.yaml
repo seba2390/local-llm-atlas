@@ -1,0 +1,10 @@
+id: truthfulqa
+name: TruthfulQA
+category: knowledge
+metric: mc2
+unit: percent
+higher_is_better: true
+introduced: '2021-09-08'
+url: https://github.com/sylinrl/TruthfulQA
+sources:
+- arxiv-2109.07958

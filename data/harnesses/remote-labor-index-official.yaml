@@ -1,0 +1,6 @@
+id: remote-labor-index-official
+name: Remote Labor Index maintainers' evaluation
+kind: benchmark-reference
+sources:
+- epoch-benchmarks-external
+notes: Score from the benchmark maintainers' own leaderboard/evaluation setup.

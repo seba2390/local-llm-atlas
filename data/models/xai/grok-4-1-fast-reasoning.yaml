@@ -1,0 +1,10 @@
+id: grok-4-1-fast-reasoning
+name: grok-4-1-fast-reasoning
+org: xai
+company: xAI
+country: United States of America
+release_date: '2025-11-19'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

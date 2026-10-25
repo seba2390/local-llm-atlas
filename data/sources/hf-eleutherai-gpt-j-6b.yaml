@@ -1,0 +1,10 @@
+id: hf-eleutherai-gpt-j-6b
+kind: model_config
+provenance: first_party
+title: EleutherAI/gpt-j-6b on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/EleutherAI/gpt-j-6b
+revision: 47e169305d2e8376be1d31e765533382721b2cc1
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

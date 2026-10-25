@@ -1,0 +1,6 @@
+id: cognition
+name: Cognition
+country: United States of America
+sources:
+- epoch-ai-models
+managed_by: register

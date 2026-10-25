@@ -1,0 +1,12 @@
+id: step-3.7-flash
+name: Step 3.7 Flash
+org: stepfun
+company: StepFun
+country: China
+release_date: '2026-05-29'
+open_weights: true
+architecture:
+  params_total_b: 198.0
+sources:
+- epoch-ai-models
+managed_by: register

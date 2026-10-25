@@ -1,0 +1,11 @@
+id: spatialviz-bench
+name: SpatialViz-Bench
+category: multimodal
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2025-07-10'
+url: https://arxiv.org/abs/2507.07610
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

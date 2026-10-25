@@ -1,0 +1,7 @@
+id: epoch-ai-evals
+name: Epoch AI evaluation harness (Inspect)
+kind: eval-framework
+url: https://epoch.ai/benchmarks
+sources:
+- epoch-benchmarks-runs
+notes: Epoch AI's own runs; per-run logs are linked in original_url.

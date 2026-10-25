@@ -1,0 +1,30 @@
+id: falcon-11b-vlm
+name: falcon-11B-vlm
+aliases:
+- falcon-11B-vlm
+org: unknown
+release_date: '2024-05-21'
+open_weights: null
+hf_repo: tiiuae/falcon-11B-vlm
+weights_url: https://huggingface.co/tiiuae/falcon-11B-vlm
+architecture:
+  type: dense
+  layers: 60
+  hidden_size: 4096
+  q_heads: 32
+  attention: mha
+  native_dtype: bf16
+  params_total_b: 11.427
+sources:
+- epoch-ai-models
+- hf-tiiuae-falcon-11b-vlm
+field_sources:
+  architecture.type: hf-tiiuae-falcon-11b-vlm
+  architecture.layers: hf-tiiuae-falcon-11b-vlm
+  architecture.hidden_size: hf-tiiuae-falcon-11b-vlm
+  architecture.q_heads: hf-tiiuae-falcon-11b-vlm
+  architecture.attention: hf-tiiuae-falcon-11b-vlm
+  architecture.native_dtype: hf-tiiuae-falcon-11b-vlm
+  architecture.params_total_b: hf-tiiuae-falcon-11b-vlm
+  hf_repo: hf-tiiuae-falcon-11b-vlm
+managed_by: register

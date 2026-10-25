@@ -1,0 +1,8 @@
+id: llama3-llava-next-8b
+name: llama3-llava-next-8b
+org: unknown
+release_date: '2024-04-20'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

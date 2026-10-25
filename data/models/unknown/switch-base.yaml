@@ -1,0 +1,9 @@
+id: switch-base
+name: Switch-Base
+aliases:
+- Switch-Base
+org: unknown
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

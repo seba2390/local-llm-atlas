@@ -1,0 +1,14 @@
+id: llama-7b
+name: LLaMA-7B
+aliases:
+- LLaMA-7B
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-02-24'
+open_weights: true
+architecture:
+  params_total_b: 6.7
+sources:
+- epoch-ai-models
+managed_by: register

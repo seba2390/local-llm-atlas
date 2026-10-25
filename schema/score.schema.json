@@ -5,22 +5,86 @@
   "description": "One reported number. Conflicting reports are all kept; never overwrite a row with a different source.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["model_id", "benchmark_id", "value", "harness_id", "source_id"],
+  "required": [
+    "model_id",
+    "benchmark_id",
+    "value",
+    "harness_id",
+    "source_id"
+  ],
   "properties": {
-    "model_id": { "type": "string" },
-    "benchmark_id": { "type": "string" },
-    "variant": { "type": "string", "description": "Must be one of the benchmark's declared variants (e.g. humaneval: base|plus)." },
-    "metric": { "type": "string", "description": "Override of the benchmark's default metric." },
-    "value": { "type": "number" },
-    "harness_id": { "type": "string", "description": "Harness/scaffold that produced the number; 'undisclosed' if the source does not say." },
-    "harness_version": { "type": "string", "description": "Version/commit of the harness, as stated by the source." },
-    "setting": { "type": "string", "description": "Harness options and eval settings that change the number, e.g. 'edit_format=diff', 'max_turns=100', '0-shot greedy', LiveCodeBench date window." },
-    "reasoning": { "enum": ["on", "off", "n/a"] },
-    "reasoning_effort": { "type": "string", "description": "Effort level / thinking budget as stated by the source, e.g. 'high', 'budget=32k'." },
-    "quant": { "type": "string", "description": "Weights precision used for the eval, if not native (e.g. Q4_K_M)." },
-    "eval_date": { "type": "string", "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$", "description": "When the eval was run/published." },
-    "source_id": { "type": "string" },
-    "locator": { "type": "string", "description": "Where in the source: 'Table 3', 'polyglot_leaderboard.yml dirname=...'." },
-    "notes": { "type": "string" }
+    "model_id": {
+      "type": "string"
+    },
+    "benchmark_id": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "string",
+      "description": "Must be one of the benchmark's declared variants (e.g. humaneval: base|plus)."
+    },
+    "metric": {
+      "type": "string",
+      "description": "Override of the benchmark's default metric."
+    },
+    "value": {
+      "type": "number"
+    },
+    "stderr": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Standard error of value, if reported."
+    },
+    "harness_id": {
+      "type": "string",
+      "description": "Harness/scaffold that produced the number; 'undisclosed' if the source does not say."
+    },
+    "harness_version": {
+      "type": "string",
+      "description": "Version/commit of the harness, as stated by the source."
+    },
+    "setting": {
+      "type": "string",
+      "description": "Harness options and eval settings that change the number, e.g. 'edit_format=diff', 'max_turns=100', '0-shot greedy', LiveCodeBench date window."
+    },
+    "reasoning": {
+      "enum": [
+        "on",
+        "off",
+        "n/a"
+      ]
+    },
+    "reasoning_effort": {
+      "type": "string",
+      "description": "Effort level / thinking budget as stated by the source, e.g. 'high', 'budget=32k'."
+    },
+    "quant": {
+      "type": "string",
+      "description": "Weights precision used for the eval, if not native (e.g. Q4_K_M)."
+    },
+    "eval_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$",
+      "description": "When the eval was run/published."
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "locator": {
+      "type": "string",
+      "description": "Where in the source: 'Table 3', 'polyglot_leaderboard.yml dirname=...'."
+    },
+    "original_source": {
+      "type": "string",
+      "description": "When source_id is an aggregator (e.g. Epoch AI), the name of the primary source it cites."
+    },
+    "original_url": {
+      "type": "string",
+      "pattern": "^https?://",
+      "description": "URL of that primary source."
+    },
+    "notes": {
+      "type": "string"
+    }
   }
 }

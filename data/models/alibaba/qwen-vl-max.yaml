@@ -1,0 +1,12 @@
+id: qwen-vl-max
+name: Qwen-VL-Max
+aliases:
+- Qwen-VL-Max
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2024-01-18'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

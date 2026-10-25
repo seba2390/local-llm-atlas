@@ -1,0 +1,20 @@
+id: mmlu
+name: MMLU
+category: knowledge
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2020-09-07'
+url: https://github.com/hendrycks/test
+variants:
+- id: base
+- id: pro
+  introduced: '2024-06-03'
+  notes: MMLU-Pro (10 options, harder questions).
+- id: redux
+  introduced: '2024-06-06'
+  notes: MMLU-Redux (re-annotated subset).
+sources:
+- arxiv-2009.03300
+- arxiv-2406.01574
+- arxiv-2406.04127

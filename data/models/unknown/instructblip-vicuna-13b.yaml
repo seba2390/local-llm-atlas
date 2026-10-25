@@ -1,0 +1,32 @@
+id: instructblip-vicuna-13b
+name: instructblip-vicuna-13b
+org: unknown
+release_date: '2023-12-25'
+open_weights: null
+hf_repo: Salesforce/instructblip-vicuna-13b
+weights_url: https://huggingface.co/Salesforce/instructblip-vicuna-13b
+architecture:
+  type: dense
+  layers: 40
+  hidden_size: 5120
+  q_heads: 40
+  kv_heads: 40
+  head_dim: 128
+  attention: mha
+  native_dtype: fp16
+  params_total_b: 14.192
+sources:
+- epoch-ai-models
+- hf-salesforce-instructblip-vicuna-13b
+field_sources:
+  architecture.type: hf-salesforce-instructblip-vicuna-13b
+  architecture.layers: hf-salesforce-instructblip-vicuna-13b
+  architecture.hidden_size: hf-salesforce-instructblip-vicuna-13b
+  architecture.q_heads: hf-salesforce-instructblip-vicuna-13b
+  architecture.kv_heads: hf-salesforce-instructblip-vicuna-13b
+  architecture.head_dim: hf-salesforce-instructblip-vicuna-13b
+  architecture.attention: hf-salesforce-instructblip-vicuna-13b
+  architecture.native_dtype: hf-salesforce-instructblip-vicuna-13b
+  architecture.params_total_b: hf-salesforce-instructblip-vicuna-13b
+  hf_repo: hf-salesforce-instructblip-vicuna-13b
+managed_by: register

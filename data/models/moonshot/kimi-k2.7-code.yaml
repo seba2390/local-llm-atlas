@@ -1,0 +1,37 @@
+id: kimi-k2.7-code
+name: Kimi K2.7 Code
+org: moonshot
+company: Moonshot
+country: China
+release_date: '2026-06-12'
+open_weights: true
+hf_repo: moonshotai/Kimi-K2.7-Code
+weights_url: https://huggingface.co/moonshotai/Kimi-K2.7-Code
+architecture:
+  params_total_b: 1040.0
+  type: moe
+  layers: 61
+  hidden_size: 7168
+  q_heads: 64
+  kv_heads: 64
+  attention: mla
+  experts_total: 384
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-moonshotai-kimi-k2.7-code
+field_sources:
+  architecture.type: hf-moonshotai-kimi-k2.7-code
+  architecture.layers: hf-moonshotai-kimi-k2.7-code
+  architecture.hidden_size: hf-moonshotai-kimi-k2.7-code
+  architecture.q_heads: hf-moonshotai-kimi-k2.7-code
+  architecture.kv_heads: hf-moonshotai-kimi-k2.7-code
+  architecture.attention: hf-moonshotai-kimi-k2.7-code
+  architecture.experts_total: hf-moonshotai-kimi-k2.7-code
+  architecture.experts_active: hf-moonshotai-kimi-k2.7-code
+  architecture.experts_shared: hf-moonshotai-kimi-k2.7-code
+  architecture.native_dtype: hf-moonshotai-kimi-k2.7-code
+  hf_repo: hf-moonshotai-kimi-k2.7-code
+managed_by: register

@@ -1,0 +1,10 @@
+id: o1-2024-12-17
+name: o1
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2024-12-17'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

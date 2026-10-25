@@ -1,0 +1,10 @@
+id: swe-1.6
+name: SWE-1.6
+org: cognition
+company: Cognition
+country: United States of America
+release_date: '2026-04-07'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,11 @@
+id: hf-qwen3-235b-a22b-instruct-2507
+kind: model_card
+provenance: first_party
+title: Qwen/Qwen3-235B-A22B-Instruct-2507 model card (README.md)
+publisher: Qwen Team, Alibaba
+url: https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507
+published: '2025-07-21'
+revision: ac9c66cc9b46af7306746a9250f23d47083d689e
+notes: Benchmark tables read from https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507/raw/ac9c66cc9b46af7306746a9250f23d47083d689e/README.md;
+  published = repository creation date.
+accessed: '2026-10-25'

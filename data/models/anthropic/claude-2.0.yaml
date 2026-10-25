@@ -1,0 +1,10 @@
+id: claude-2.0
+name: claude-2.0
+org: anthropic
+company: Anthropic
+country: United States of America
+release_date: '2023-07-11'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

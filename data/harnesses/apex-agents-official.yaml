@@ -1,0 +1,6 @@
+id: apex-agents-official
+name: APEX-Agents maintainers' evaluation
+kind: benchmark-reference
+sources:
+- epoch-benchmarks-external
+notes: Score from the benchmark maintainers' own leaderboard/evaluation setup.

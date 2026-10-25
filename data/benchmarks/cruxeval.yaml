@@ -1,0 +1,17 @@
+id: cruxeval
+name: CRUXEval
+category: code-generation
+metric: pass@1
+unit: percent
+higher_is_better: true
+introduced: '2024-01-05'
+url: https://crux-eval.github.io/
+variants:
+- id: input
+  notes: 'CRUXEval-I: given a function and an output, predict an input.'
+- id: output
+  notes: 'CRUXEval-O: given a function and an input, predict the output.'
+sources:
+- arxiv-2401.03065
+description: Code reasoning/execution benchmark of 800 short Python functions.
+managed_by: cruxeval

@@ -1,0 +1,12 @@
+id: qwen1.5-72b-chat
+name: qwen1.5-72b-chat
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2024-02-04'
+open_weights: true
+architecture:
+  params_total_b: 72.0
+sources:
+- epoch-ai-models
+managed_by: register

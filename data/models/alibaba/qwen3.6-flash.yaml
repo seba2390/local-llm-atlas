@@ -1,0 +1,10 @@
+id: qwen3.6-flash
+name: Qwen 3.6 Flash (2026-04-16)
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2026-04-27'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

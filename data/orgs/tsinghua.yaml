@@ -1,0 +1,6 @@
+id: tsinghua
+name: Tsinghua University
+country: China
+sources:
+- epoch-ai-models
+managed_by: register

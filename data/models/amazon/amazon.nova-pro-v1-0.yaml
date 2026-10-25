@@ -1,0 +1,12 @@
+id: amazon.nova-pro-v1-0
+name: amazon.nova-pro-v1:0
+aliases:
+- amazon.nova-pro-v1:0
+org: amazon
+company: Amazon
+country: United States of America
+release_date: '2024-12-03'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

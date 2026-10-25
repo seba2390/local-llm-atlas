@@ -1,0 +1,15 @@
+id: arc-agi
+name: ARC-AGI
+category: reasoning
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2019-11-05'
+url: https://arcprize.org/leaderboard
+variants:
+- id: '1'
+- id: '2'
+  introduced: '2025-03-24'
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

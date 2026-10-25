@@ -1,0 +1,10 @@
+id: mm1-7b-chat
+name: MM1-7B-Chat
+aliases:
+- MM1-7B-Chat
+org: unknown
+release_date: '2024-03-14'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

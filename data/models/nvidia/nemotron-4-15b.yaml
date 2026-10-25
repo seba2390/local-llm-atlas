@@ -1,0 +1,12 @@
+id: nemotron-4-15b
+name: Nemotron-4 15B
+aliases:
+- Nemotron-4 15B
+org: nvidia
+company: Nvidia
+country: United States of America
+release_date: '2024-02-26'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

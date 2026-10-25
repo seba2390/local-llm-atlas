@@ -1,0 +1,9 @@
+id: hf-bartowski-deepseek-r1-distill-qwen-32b-gguf
+kind: model_card
+provenance: community
+title: bartowski/DeepSeek-R1-Distill-Qwen-32B-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) file listing
+publisher: Hugging Face
+url: https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-32B-GGUF
+revision: 1dc8cf9ffa5dd333057ea1b09ccf4772d8726dec
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

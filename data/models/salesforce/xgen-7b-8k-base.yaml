@@ -1,0 +1,12 @@
+id: xgen-7b-8k-base
+name: xgen-7b-8k-base
+org: salesforce
+company: Salesforce
+country: United States of America
+release_date: '2023-06-27'
+open_weights: true
+architecture:
+  params_total_b: 6.7
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,31 @@
+id: baichuan-13b-base
+name: Baichuan-13B-Base
+aliases:
+- Baichuan-13B-Base
+org: baichuan
+company: Baichuan
+country: China
+release_date: '2023-07-11'
+open_weights: true
+hf_repo: baichuan-inc/Baichuan-13B-Base
+weights_url: https://huggingface.co/baichuan-inc/Baichuan-13B-Base
+architecture:
+  params_total_b: 13.265
+  type: dense
+  layers: 40
+  hidden_size: 5120
+  q_heads: 40
+  attention: mha
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-baichuan-inc-baichuan-13b-base
+field_sources:
+  architecture.type: hf-baichuan-inc-baichuan-13b-base
+  architecture.layers: hf-baichuan-inc-baichuan-13b-base
+  architecture.hidden_size: hf-baichuan-inc-baichuan-13b-base
+  architecture.q_heads: hf-baichuan-inc-baichuan-13b-base
+  architecture.attention: hf-baichuan-inc-baichuan-13b-base
+  architecture.native_dtype: hf-baichuan-inc-baichuan-13b-base
+  hf_repo: hf-baichuan-inc-baichuan-13b-base
+managed_by: register

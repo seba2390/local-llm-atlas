@@ -1,0 +1,11 @@
+id: lmca
+name: LMCA
+category: reasoning
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2026-08-12'
+url: https://conceptualreasoning.ai/lmca
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

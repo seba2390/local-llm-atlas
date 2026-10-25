@@ -1,0 +1,10 @@
+id: hf-qwen-codeqwen1.5-7b
+kind: model_config
+provenance: first_party
+title: Qwen/CodeQwen1.5-7B on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/Qwen/CodeQwen1.5-7B
+revision: 5ce5a1554e50a9e3bb236de7c0b8a2a1746186e4
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

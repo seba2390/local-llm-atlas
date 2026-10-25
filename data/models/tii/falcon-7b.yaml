@@ -1,0 +1,29 @@
+id: falcon-7b
+name: falcon-7b
+org: tii
+company: Technology Innovation Institute
+country: United Arab Emirates
+release_date: '2023-04-24'
+open_weights: true
+hf_repo: tiiuae/falcon-7b
+weights_url: https://huggingface.co/tiiuae/falcon-7b
+architecture:
+  params_total_b: 7.0
+  type: dense
+  layers: 32
+  hidden_size: 4544
+  q_heads: 71
+  attention: mha
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-tiiuae-falcon-7b
+field_sources:
+  architecture.type: hf-tiiuae-falcon-7b
+  architecture.layers: hf-tiiuae-falcon-7b
+  architecture.hidden_size: hf-tiiuae-falcon-7b
+  architecture.q_heads: hf-tiiuae-falcon-7b
+  architecture.attention: hf-tiiuae-falcon-7b
+  architecture.native_dtype: hf-tiiuae-falcon-7b
+  hf_repo: hf-tiiuae-falcon-7b
+managed_by: register

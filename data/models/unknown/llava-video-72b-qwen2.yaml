@@ -1,0 +1,10 @@
+id: llava-video-72b-qwen2
+name: LLaVA-Video-72B-Qwen2
+aliases:
+- LLaVA-Video-72B-Qwen2
+org: unknown
+release_date: '2024-09-02'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

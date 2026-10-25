@@ -1,0 +1,10 @@
+id: gsm8k
+name: GSM8K
+category: math
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2021-10-27'
+url: https://github.com/openai/grade-school-math
+sources:
+- arxiv-2110.14168

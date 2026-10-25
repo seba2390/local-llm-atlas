@@ -1,0 +1,19 @@
+id: gpt-j-6b
+name: gpt-j-6b
+org: eleutherai
+company: EleutherAI
+country: United States of America
+release_date: '2021-08-05'
+open_weights: true
+hf_repo: EleutherAI/gpt-j-6b
+weights_url: https://huggingface.co/EleutherAI/gpt-j-6b
+architecture:
+  params_total_b: 6.053
+  type: dense
+sources:
+- epoch-ai-models
+- hf-eleutherai-gpt-j-6b
+field_sources:
+  architecture.type: hf-eleutherai-gpt-j-6b
+  hf_repo: hf-eleutherai-gpt-j-6b
+managed_by: register

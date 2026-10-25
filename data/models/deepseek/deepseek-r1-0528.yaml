@@ -1,0 +1,40 @@
+id: deepseek-r1-0528
+name: DeepSeek-R1 (May 2025)
+aliases:
+- DeepSeek-R1-0528
+- chutes/DeepSeek-R1-0528
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2025-05-28'
+open_weights: true
+hf_repo: deepseek-ai/DeepSeek-R1-0528
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-R1-0528
+architecture:
+  params_total_b: 671.0
+  type: moe
+  layers: 61
+  hidden_size: 7168
+  q_heads: 128
+  kv_heads: 128
+  attention: mla
+  experts_total: 256
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: fp8
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-r1-0528
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-r1-0528
+  architecture.layers: hf-deepseek-ai-deepseek-r1-0528
+  architecture.hidden_size: hf-deepseek-ai-deepseek-r1-0528
+  architecture.q_heads: hf-deepseek-ai-deepseek-r1-0528
+  architecture.kv_heads: hf-deepseek-ai-deepseek-r1-0528
+  architecture.attention: hf-deepseek-ai-deepseek-r1-0528
+  architecture.experts_total: hf-deepseek-ai-deepseek-r1-0528
+  architecture.experts_active: hf-deepseek-ai-deepseek-r1-0528
+  architecture.experts_shared: hf-deepseek-ai-deepseek-r1-0528
+  architecture.native_dtype: hf-deepseek-ai-deepseek-r1-0528
+  hf_repo: hf-deepseek-ai-deepseek-r1-0528
+managed_by: register

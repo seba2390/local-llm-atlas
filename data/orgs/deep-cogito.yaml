@@ -1,0 +1,5 @@
+id: deep-cogito
+name: Deep Cogito
+sources:
+- epoch-ai-models
+managed_by: register

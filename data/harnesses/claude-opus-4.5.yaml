@@ -1,0 +1,6 @@
+id: claude-opus-4.5
+name: Claude Opus 4.5
+kind: agent-scaffold
+sources:
+- epoch-benchmarks-external
+notes: Agent/scaffold name as listed by Epoch AI for OSWorld.

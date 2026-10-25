@@ -1,0 +1,10 @@
+id: o3-mini-2025-01-31
+name: o3-mini
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-01-31'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

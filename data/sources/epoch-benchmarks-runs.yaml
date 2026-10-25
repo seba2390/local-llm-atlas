@@ -1,0 +1,8 @@
+id: epoch-benchmarks-runs
+kind: leaderboard_data
+provenance: third_party
+title: Epoch AI, 'Capabilities & benchmarking' - evaluations run by Epoch AI
+publisher: Epoch AI
+url: https://epoch.ai/data/benchmark_data.zip
+notes: CC-BY 4.0. Files without the _external suffix; each row links to Epoch's public Inspect log (original_url).
+accessed: '2026-10-25'

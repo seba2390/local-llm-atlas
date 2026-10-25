@@ -1,0 +1,6 @@
+id: shanghai-ai-lab
+name: Shanghai AI Lab
+country: Hong Kong
+sources:
+- epoch-ai-models
+managed_by: register

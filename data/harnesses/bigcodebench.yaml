@@ -1,0 +1,8 @@
+id: bigcodebench
+name: BigCodeBench official evaluation
+kind: eval-framework
+url: https://github.com/bigcode-project/bigcodebench
+sources:
+- arxiv-2406.15877
+- bigcodebench-results-hf
+notes: The BigCodeBench maintainers' own evaluation harness (bigcodebench package).

@@ -1,0 +1,17 @@
+id: tau-bench
+name: τ-bench
+category: tool-use
+metric: pass^1
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2024-06-17'
+url: https://github.com/sierra-research/tau-bench
+variants:
+- id: airline
+- id: retail
+sources:
+- arxiv-2406.12045
+description: 'Tool-agent-user interaction: an agent with domain APIs and a policy serves an LLM-simulated user. pass^k = probability
+  that all k i.i.d. trials of a task succeed.'
+managed_by: taubench

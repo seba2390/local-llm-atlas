@@ -1,0 +1,37 @@
+id: kimi-k3
+name: Kimi K3
+org: moonshot
+company: Moonshot
+country: China
+release_date: '2026-07-16'
+open_weights: true
+hf_repo: moonshotai/Kimi-K3
+weights_url: https://huggingface.co/moonshotai/Kimi-K3
+architecture:
+  params_total_b: 2800.0
+  type: moe
+  layers: 93
+  hidden_size: 7168
+  q_heads: 96
+  kv_heads: 96
+  attention: mla
+  experts_total: 896
+  experts_active: 16
+  experts_shared: 2
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-moonshotai-kimi-k3
+field_sources:
+  architecture.type: hf-moonshotai-kimi-k3
+  architecture.layers: hf-moonshotai-kimi-k3
+  architecture.hidden_size: hf-moonshotai-kimi-k3
+  architecture.q_heads: hf-moonshotai-kimi-k3
+  architecture.kv_heads: hf-moonshotai-kimi-k3
+  architecture.attention: hf-moonshotai-kimi-k3
+  architecture.experts_total: hf-moonshotai-kimi-k3
+  architecture.experts_active: hf-moonshotai-kimi-k3
+  architecture.experts_shared: hf-moonshotai-kimi-k3
+  architecture.native_dtype: hf-moonshotai-kimi-k3
+  hf_repo: hf-moonshotai-kimi-k3
+managed_by: register

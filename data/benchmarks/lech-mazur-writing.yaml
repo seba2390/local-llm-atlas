@@ -1,0 +1,10 @@
+id: lech-mazur-writing
+name: Lech Mazur Creative Writing
+category: writing
+metric: score
+unit: score
+higher_is_better: true
+url: https://github.com/lechmazur/writing
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

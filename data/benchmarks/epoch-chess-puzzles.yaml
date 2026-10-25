@@ -1,0 +1,10 @@
+id: epoch-chess-puzzles
+name: Chess Puzzles (Epoch AI)
+category: games
+metric: accuracy
+unit: percent
+higher_is_better: true
+url: https://epoch.ai/benchmarks
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

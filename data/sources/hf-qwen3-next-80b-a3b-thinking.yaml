@@ -1,0 +1,11 @@
+id: hf-qwen3-next-80b-a3b-thinking
+kind: model_card
+provenance: first_party
+title: Qwen/Qwen3-Next-80B-A3B-Thinking model card (README.md)
+publisher: Qwen Team, Alibaba
+url: https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking
+published: '2025-09-09'
+revision: e502dd4100cc68c0de57643fd4317ec93a128670
+notes: Benchmark tables read from https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking/raw/e502dd4100cc68c0de57643fd4317ec93a128670/README.md;
+  published = repository creation date.
+accessed: '2026-10-25'

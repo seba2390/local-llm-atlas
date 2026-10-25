@@ -1,0 +1,10 @@
+id: hf-deepseek-ai-deepseek-v4.1-flash-1017
+kind: model_config
+provenance: first_party
+title: deepseek-ai/DeepSeek-V4.1-Flash-1017 on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017
+revision: 1bae0e1088993b9b82de08f59de5be5a34e42170
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

@@ -1,0 +1,8 @@
+id: cruxeval-official
+name: CRUXEval reference codebase
+kind: benchmark-reference
+url: https://github.com/facebookresearch/cruxeval
+sources:
+- arxiv-2401.03065
+- cruxeval-leaderboard
+notes: Generation + scoring scripts and prompts (prompts.py) from the CRUXEval authors.

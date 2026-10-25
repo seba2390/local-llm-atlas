@@ -1,0 +1,10 @@
+id: claude-fable-5-1
+name: Claude Fable 5.1
+org: anthropic
+company: Anthropic
+country: United States of America
+release_date: '2026-09-01'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,10 @@
+id: hf-moonshotai-kimi-k2.7-code
+kind: model_config
+provenance: first_party
+title: moonshotai/Kimi-K2.7-Code on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/moonshotai/Kimi-K2.7-Code
+revision: 74797c9c62378b951a1f6fcf5c4631024e9b8bef
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

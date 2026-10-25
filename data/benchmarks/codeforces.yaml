@@ -1,0 +1,11 @@
+id: codeforces
+name: Codeforces rating (vendor-simulated contests)
+category: competitive-programming
+metric: rating
+unit: elo
+higher_is_better: true
+url: https://codeforces.com/
+sources:
+- arxiv-2501.01257
+notes: Vendors estimate an Elo rating from their own Codeforces problem sets and simulation protocol; ratings from different
+  vendors are not directly comparable. Percentile-only reports are not stored here.

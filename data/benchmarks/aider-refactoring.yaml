@@ -1,0 +1,15 @@
+id: aider-refactoring
+name: Aider refactoring benchmark
+category: code-editing
+metric: pass_rate_1
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2023-12-21'
+url: https://aider.chat/docs/leaderboards/refactor.html
+sources:
+- aider-unified-diffs-blog
+- aider-refactor-leaderboard-data
+description: Refactor 89 large methods from large Python classes in 9 open source repos (https://github.com/Aider-AI/refactor-benchmark);
+  built to measure 'lazy coding'. Single attempt.
+notes: Record edit format in `setting`. Not the same benchmark as aider-code-editing or aider-polyglot.

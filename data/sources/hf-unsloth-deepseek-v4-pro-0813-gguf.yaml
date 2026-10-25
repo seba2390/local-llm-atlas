@@ -1,0 +1,9 @@
+id: hf-unsloth-deepseek-v4-pro-0813-gguf
+kind: model_card
+provenance: community
+title: unsloth/DeepSeek-V4-Pro-0813-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-V4-Pro-0813) file listing
+publisher: Hugging Face
+url: https://huggingface.co/unsloth/DeepSeek-V4-Pro-0813-GGUF
+revision: 6d053616d152293da72569f56b861466f10ace7d
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

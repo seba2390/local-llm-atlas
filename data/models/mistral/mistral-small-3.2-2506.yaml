@@ -1,0 +1,12 @@
+id: mistral-small-3.2-2506
+name: mistral-small-3.2-2506
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2025-06-20'
+open_weights: true
+architecture:
+  params_total_b: 24.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,6 @@
+id: unknown
+name: Unknown
+kind: other
+sources:
+- epoch-ai-models
+notes: Placeholder for models whose developer is not stated by any imported source and cannot be inferred from the model name. Resolve by adding a cited org.

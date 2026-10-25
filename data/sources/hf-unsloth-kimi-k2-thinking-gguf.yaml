@@ -1,0 +1,9 @@
+id: hf-unsloth-kimi-k2-thinking-gguf
+kind: model_card
+provenance: community
+title: unsloth/Kimi-K2-Thinking-GGUF (GGUF quantisations of moonshotai/Kimi-K2-Thinking) file listing
+publisher: Hugging Face
+url: https://huggingface.co/unsloth/Kimi-K2-Thinking-GGUF
+revision: 7e4f5d413a9bb469174b2cc9e47d457d16bc6702
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

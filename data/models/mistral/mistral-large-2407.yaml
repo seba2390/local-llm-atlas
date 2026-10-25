@@ -1,0 +1,10 @@
+id: mistral-large-2407
+name: mistral-large-2407
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2024-07-24'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

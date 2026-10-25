@@ -1,0 +1,10 @@
+id: qwen3.7-plus
+name: Qwen3.7 Plus
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2026-06-02'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

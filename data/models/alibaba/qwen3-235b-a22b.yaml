@@ -1,0 +1,15 @@
+id: qwen3-235b-a22b
+name: qwen3-235b-a22b
+aliases:
+- Qwen3-235B-A22B
+- chutes/Qwen3-235B-A22B
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-04-28'
+open_weights: true
+architecture:
+  params_total_b: 235.0
+sources:
+- epoch-ai-models
+managed_by: register

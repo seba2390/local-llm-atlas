@@ -1,0 +1,11 @@
+id: hf-qwen3.5-397b-a17b
+kind: model_card
+provenance: first_party
+title: Qwen/Qwen3.5-397B-A17B model card (README.md)
+publisher: Qwen Team, Alibaba
+url: https://huggingface.co/Qwen/Qwen3.5-397B-A17B
+published: '2026-02-16'
+revision: 8472618112abcbd45acbcdc58436aff4233c23f7
+notes: Benchmark tables read from https://huggingface.co/Qwen/Qwen3.5-397B-A17B/raw/8472618112abcbd45acbcdc58436aff4233c23f7/README.md;
+  published = repository creation date.
+accessed: '2026-10-25'

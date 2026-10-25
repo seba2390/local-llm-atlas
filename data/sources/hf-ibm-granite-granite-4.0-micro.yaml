@@ -1,0 +1,10 @@
+id: hf-ibm-granite-granite-4.0-micro
+kind: model_config
+provenance: first_party
+title: ibm-granite/granite-4.0-micro on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/ibm-granite/granite-4.0-micro
+revision: 56111ae135df9c53a78c99028e7bc24035a9e979
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

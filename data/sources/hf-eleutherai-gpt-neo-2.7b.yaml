@@ -1,0 +1,10 @@
+id: hf-eleutherai-gpt-neo-2.7b
+kind: model_config
+provenance: first_party
+title: EleutherAI/gpt-neo-2.7B on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/EleutherAI/gpt-neo-2.7B
+revision: e24fa291132763e59f4a5422741b424fb5d59056
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

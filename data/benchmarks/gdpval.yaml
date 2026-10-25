@@ -1,0 +1,11 @@
+id: gdpval
+name: GDPval
+category: agentic
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2025-09-25'
+url: https://openai.com/index/gdpval/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

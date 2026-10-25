@@ -1,0 +1,6 @@
+id: o3-50-steps
+name: o3 (50 steps)
+kind: agent-scaffold
+sources:
+- epoch-benchmarks-external
+notes: Agent/scaffold name as listed by Epoch AI for OSWorld.

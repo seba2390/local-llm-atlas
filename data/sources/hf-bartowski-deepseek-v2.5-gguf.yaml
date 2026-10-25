@@ -1,0 +1,9 @@
+id: hf-bartowski-deepseek-v2.5-gguf
+kind: model_card
+provenance: community
+title: bartowski/DeepSeek-V2.5-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-V2.5) file listing
+publisher: Hugging Face
+url: https://huggingface.co/bartowski/DeepSeek-V2.5-GGUF
+revision: c5fe4383c9155f148939a5bd5a308eba249a42e1
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

@@ -1,0 +1,14 @@
+id: mixtral-8x22b-instruct-v0.1
+name: Mixtral-8x22B-Instruct-v0.1
+aliases:
+- Mixtral-8x22B-Instruct-v0.1
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2024-04-17'
+open_weights: true
+architecture:
+  params_total_b: 141.0
+sources:
+- epoch-ai-models
+managed_by: register

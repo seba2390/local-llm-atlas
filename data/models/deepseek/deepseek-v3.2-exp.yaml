@@ -1,0 +1,39 @@
+id: deepseek-v3.2-exp
+name: DeepSeek-V3.2-Exp
+aliases:
+- DeepSeek-V3.2-Exp
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2025-09-29'
+open_weights: true
+hf_repo: deepseek-ai/DeepSeek-V3.2-Exp
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
+architecture:
+  params_total_b: 671.0
+  type: moe
+  layers: 61
+  hidden_size: 7168
+  q_heads: 128
+  kv_heads: 128
+  attention: mla
+  experts_total: 256
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: fp8
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-v3.2-exp
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-v3.2-exp
+  architecture.layers: hf-deepseek-ai-deepseek-v3.2-exp
+  architecture.hidden_size: hf-deepseek-ai-deepseek-v3.2-exp
+  architecture.q_heads: hf-deepseek-ai-deepseek-v3.2-exp
+  architecture.kv_heads: hf-deepseek-ai-deepseek-v3.2-exp
+  architecture.attention: hf-deepseek-ai-deepseek-v3.2-exp
+  architecture.experts_total: hf-deepseek-ai-deepseek-v3.2-exp
+  architecture.experts_active: hf-deepseek-ai-deepseek-v3.2-exp
+  architecture.experts_shared: hf-deepseek-ai-deepseek-v3.2-exp
+  architecture.native_dtype: hf-deepseek-ai-deepseek-v3.2-exp
+  hf_repo: hf-deepseek-ai-deepseek-v3.2-exp
+managed_by: register

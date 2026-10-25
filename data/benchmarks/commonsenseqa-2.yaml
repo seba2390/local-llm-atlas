@@ -1,0 +1,10 @@
+id: commonsenseqa-2
+name: CommonsenseQA 2.0
+category: commonsense
+metric: accuracy
+unit: percent
+higher_is_better: true
+url: https://allenai.github.io/csqa2/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

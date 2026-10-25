@@ -1,0 +1,12 @@
+id: mistral-medium-2604
+name: Mistral Medium 3.5
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2026-04-28'
+open_weights: true
+architecture:
+  params_total_b: 128.0
+sources:
+- epoch-ai-models
+managed_by: register

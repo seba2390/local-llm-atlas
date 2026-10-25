@@ -1,0 +1,10 @@
+id: kimi-k2-0711-preview
+name: kimi-k2-0711-preview
+org: moonshot
+company: Moonshot
+country: China
+release_date: '2025-07-12'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

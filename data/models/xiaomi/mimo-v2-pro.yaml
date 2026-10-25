@@ -1,0 +1,10 @@
+id: mimo-v2-pro
+name: mimo-v2-pro
+org: xiaomi
+company: Xiaomi Corp
+country: China
+release_date: '2026-03-18'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,12 @@
+id: reka-flash-3
+name: reka-flash-3
+org: reka
+company: Reka AI
+country: United States of America
+release_date: '2025-03-10'
+open_weights: true
+architecture:
+  params_total_b: 21.0
+sources:
+- epoch-ai-models
+managed_by: register

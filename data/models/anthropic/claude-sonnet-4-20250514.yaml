@@ -1,0 +1,10 @@
+id: claude-sonnet-4-20250514
+name: Claude Sonnet 4 (unknown thinking)
+org: anthropic
+company: Anthropic
+country: United States of America
+release_date: '2025-05-22'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,13 @@
+id: swe-bench-multilingual
+name: SWE-bench Multilingual
+category: software-engineering
+metric: resolved_rate
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2025-04-30'
+url: https://www.swebench.com/multilingual.html
+sources:
+- swe-bench-multilingual-site
+- arxiv-2504.21798
+notes: 300 tasks from 42 repositories in 9 programming languages.

@@ -1,0 +1,6 @@
+id: eleutherai
+name: EleutherAI
+country: United States of America
+sources:
+- epoch-ai-models
+managed_by: register

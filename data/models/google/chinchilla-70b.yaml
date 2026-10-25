@@ -1,0 +1,12 @@
+id: chinchilla-70b
+name: Chinchilla (70B)
+aliases:
+- Chinchilla (70B)
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2022-03-29'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

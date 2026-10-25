@@ -1,0 +1,6 @@
+id: cursor-cli
+name: cursor-cli
+kind: agent-scaffold
+sources:
+- epoch-benchmarks-external
+notes: Agent/scaffold name as listed by Epoch AI for FrontierCode (Cognition).

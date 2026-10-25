@@ -1,0 +1,12 @@
+id: muse-glimmer
+name: Muse Glimmer
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2026-08-10'
+open_weights: true
+architecture:
+  params_total_b: 30.0
+sources:
+- epoch-ai-models
+managed_by: register

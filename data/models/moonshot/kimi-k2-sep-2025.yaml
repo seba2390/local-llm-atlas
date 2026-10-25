@@ -1,0 +1,41 @@
+id: kimi-k2-sep-2025
+name: Kimi K2 Instruct (0905)
+aliases:
+- Kimi K2 (Sep 2025)
+- Kimi-K2-Instruct-0905
+org: moonshot
+company: Moonshot
+country: China
+release_date: '2025-09-05'
+open_weights: true
+hf_repo: moonshotai/Kimi-K2-Instruct-0905
+weights_url: https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905
+architecture:
+  type: moe
+  layers: 61
+  hidden_size: 7168
+  q_heads: 64
+  kv_heads: 64
+  attention: mla
+  experts_total: 384
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: fp8
+  params_total_b: 1026.408
+sources:
+- epoch-ai-models
+- hf-moonshotai-kimi-k2-instruct-0905
+field_sources:
+  architecture.type: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.layers: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.hidden_size: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.q_heads: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.kv_heads: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.attention: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.experts_total: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.experts_active: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.experts_shared: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.native_dtype: hf-moonshotai-kimi-k2-instruct-0905
+  architecture.params_total_b: hf-moonshotai-kimi-k2-instruct-0905
+  hf_repo: hf-moonshotai-kimi-k2-instruct-0905
+managed_by: register

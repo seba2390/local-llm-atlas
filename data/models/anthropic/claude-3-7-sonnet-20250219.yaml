@@ -1,0 +1,10 @@
+id: claude-3-7-sonnet-20250219
+name: Claude 3.7 Sonnet (64k thinking)
+org: anthropic
+company: Anthropic
+country: United States of America
+release_date: '2025-02-24'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

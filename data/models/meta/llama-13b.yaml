@@ -1,0 +1,14 @@
+id: llama-13b
+name: LLaMA-13B
+aliases:
+- LLaMA-13B
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-02-24'
+open_weights: true
+architecture:
+  params_total_b: 13.0
+sources:
+- epoch-ai-models
+managed_by: register

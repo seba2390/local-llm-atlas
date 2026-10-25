@@ -1,0 +1,31 @@
+id: granite-4.1-30b
+name: Granite 4.1 30B
+org: ibm
+company: IBM
+country: United States of America
+release_date: '2026-04-29'
+open_weights: true
+hf_repo: ibm-granite/granite-4.1-30b
+weights_url: https://huggingface.co/ibm-granite/granite-4.1-30b
+architecture:
+  params_total_b: 30.0
+  type: dense
+  layers: 64
+  hidden_size: 4096
+  q_heads: 32
+  kv_heads: 8
+  attention: gqa
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-ibm-granite-granite-4.1-30b
+field_sources:
+  architecture.type: hf-ibm-granite-granite-4.1-30b
+  architecture.layers: hf-ibm-granite-granite-4.1-30b
+  architecture.hidden_size: hf-ibm-granite-granite-4.1-30b
+  architecture.q_heads: hf-ibm-granite-granite-4.1-30b
+  architecture.kv_heads: hf-ibm-granite-granite-4.1-30b
+  architecture.attention: hf-ibm-granite-granite-4.1-30b
+  architecture.native_dtype: hf-ibm-granite-granite-4.1-30b
+  hf_repo: hf-ibm-granite-granite-4.1-30b
+managed_by: register

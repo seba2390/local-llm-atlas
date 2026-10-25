@@ -1,0 +1,30 @@
+id: bfcl
+name: Berkeley Function Calling Leaderboard (BFCL)
+category: tool-use
+metric: overall_acc
+unit: percent
+higher_is_better: true
+introduced: '2024-02-26'
+url: https://gorilla.cs.berkeley.edu/leaderboard.html
+variants:
+- id: v1
+  introduced: '2024-02-26'
+  notes: Single-turn AST + executable categories (Python/Java/JavaScript/REST).
+- id: v2
+  introduced: '2024-08-19'
+  notes: Adds user-contributed 'live' prompts.
+- id: v3
+  introduced: '2024-09-19'
+  notes: Adds multi-turn/multi-step categories. Executable categories were retired from the overall score on 2025-04-09.
+- id: v4
+  introduced: '2025-07-17'
+  notes: Adds agentic web-search and memory categories (overall re-weighted towards agentic tasks) and format-sensitivity
+    analysis.
+sources:
+- bfcl-icml-2025
+- bfcl-result-archive
+description: 'Function/tool-calling accuracy: AST and execution checks of single calls, relevance detection, multi-turn tool
+  use and (v4) agentic web search and memory.'
+notes: Metric ids are the leaderboard column names in snake_case (e.g. multi_turn_acc, live_simple_ast). format_sensitivity_*
+  are spreads in percentage points across prompt formats (lower is better).
+managed_by: bfcl

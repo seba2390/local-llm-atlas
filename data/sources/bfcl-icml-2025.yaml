@@ -1,0 +1,19 @@
+id: bfcl-icml-2025
+kind: paper
+provenance: third_party
+title: 'The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models'
+authors:
+- Shishir G. Patil
+- Huanzhi Mao
+- Fanjia Yan
+- Charlie Cheng-Jie Ji
+- Vishnu Suresh
+- Ion Stoica
+- Joseph E. Gonzalez
+publisher: PMLR (ICML 2025)
+url: https://proceedings.mlr.press/v267/patil25a.html
+published: 2025-07
+notes: 'BFCL v1 blog: https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html (2024-02-26); v2
+  live: blogs/12_bfcl_v2_live.html; v3 multi-turn: blogs/13_bfcl_v3_multi_turn.html (2024-09-19); v4: blogs/15_bfcl_v4_web_search.html
+  (2025-07-17).'
+accessed: '2026-10-25'

@@ -1,0 +1,10 @@
+id: grok-build-0.1
+name: Grok Build 0.1
+org: xai
+company: xAI
+country: United States of America
+release_date: '2026-05-29'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

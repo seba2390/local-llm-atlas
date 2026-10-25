@@ -1,0 +1,6 @@
+id: claude-sonnet-4-6-100-steps
+name: claude-sonnet-4-6 (100 steps)
+kind: agent-scaffold
+sources:
+- epoch-benchmarks-external
+notes: Agent/scaffold name as listed by Epoch AI for OSWorld.

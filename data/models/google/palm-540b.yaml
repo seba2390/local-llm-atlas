@@ -1,0 +1,12 @@
+id: palm-540b
+name: PaLM 540B
+aliases:
+- PaLM 540B
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2022-04-04'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

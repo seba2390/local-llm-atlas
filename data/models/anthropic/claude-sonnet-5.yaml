@@ -1,0 +1,10 @@
+id: claude-sonnet-5
+name: Claude Sonnet 5
+org: anthropic
+company: Anthropic
+country: United States of America
+release_date: '2026-06-30'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

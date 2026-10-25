@@ -1,0 +1,9 @@
+id: hf-unsloth-glm-5.1-gguf
+kind: model_card
+provenance: community
+title: unsloth/GLM-5.1-GGUF (GGUF quantisations of zai-org/GLM-5.1) file listing
+publisher: Hugging Face
+url: https://huggingface.co/unsloth/GLM-5.1-GGUF
+revision: 3238253553497e969f3144fda297dac98b99dbbe
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

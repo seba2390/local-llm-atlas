@@ -1,0 +1,12 @@
+id: muse-spark-open-816b-a42b
+name: Muse Spark Open
+aliases:
+- Muse-Spark-Open-816B-A42B
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2026-10-15'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

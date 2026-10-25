@@ -1,0 +1,14 @@
+id: wizardlm-2-8x22b
+name: WizardLM-2-8x22B
+aliases:
+- WizardLM-2-8x22B
+org: microsoft
+company: Microsoft
+country: United States of America
+release_date: '2024-04-15'
+open_weights: true
+architecture:
+  params_total_b: 141.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,12 @@
+id: mpt-7b
+name: mpt-7b
+org: mosaicml
+company: MosaicML
+country: United States of America
+release_date: '2023-05-05'
+open_weights: true
+architecture:
+  params_total_b: 7.0
+sources:
+- epoch-ai-models
+managed_by: register

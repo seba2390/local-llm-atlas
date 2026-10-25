@@ -1,0 +1,14 @@
+id: meta-llama-3-8b
+name: Meta-Llama-3-8B
+aliases:
+- Meta-Llama-3-8B
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2024-04-18'
+open_weights: true
+architecture:
+  params_total_b: 8.0
+sources:
+- epoch-ai-models
+managed_by: register

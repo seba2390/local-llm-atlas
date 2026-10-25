@@ -1,0 +1,9 @@
+id: aider-code-in-json-data
+kind: leaderboard_data
+provenance: third_party
+title: Aider blog 'LLMs are bad at returning code in JSON' raw results (code-in-json.yml)
+publisher: Aider-AI/aider
+url: https://github.com/Aider-AI/aider/blob/5dc9490bb35f9729ef2c95d00a19ccd30c26339c/aider/website/_data/code-in-json.yml
+revision: 5dc9490bb35f9729ef2c95d00a19ccd30c26339c
+notes: Data behind https://aider.chat/2024/08/14/code-in-json.html
+accessed: '2026-10-25'

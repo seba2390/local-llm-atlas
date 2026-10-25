@@ -1,0 +1,8 @@
+id: matharena
+kind: leaderboard
+provenance: third_party
+title: 'MathArena: Evaluating LLMs on uncontaminated math competitions'
+publisher: ETH Zurich SRI Lab
+url: https://matharena.ai/
+notes: Hosts the final-answer versions of AIME/HMMT competitions that model vendors usually report.
+accessed: '2026-10-25'

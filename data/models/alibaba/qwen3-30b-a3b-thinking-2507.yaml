@@ -1,0 +1,10 @@
+id: qwen3-30b-a3b-thinking-2507
+name: qwen3-30b-a3b-thinking-2507
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-07-30'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

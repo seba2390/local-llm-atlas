@@ -1,0 +1,11 @@
+id: hf-qwen3-4b-instruct-2507
+kind: model_card
+provenance: first_party
+title: Qwen/Qwen3-4B-Instruct-2507 model card (README.md)
+publisher: Qwen Team, Alibaba
+url: https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507
+published: '2025-08-05'
+revision: cdbee75f17c01a7cc42f958dc650907174af0554
+notes: Benchmark tables read from https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/raw/cdbee75f17c01a7cc42f958dc650907174af0554/README.md;
+  published = repository creation date.
+accessed: '2026-10-25'

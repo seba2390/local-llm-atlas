@@ -1,0 +1,9 @@
+id: hf-lmstudio-community-intellect-1-instruct-gguf
+kind: model_card
+provenance: community
+title: lmstudio-community/INTELLECT-1-Instruct-GGUF (GGUF quantisations of PrimeIntellect/INTELLECT-1-Instruct) file listing
+publisher: Hugging Face
+url: https://huggingface.co/lmstudio-community/INTELLECT-1-Instruct-GGUF
+revision: 9406858f7bf553ae44cd9232f4f9f577706bdf5e
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

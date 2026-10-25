@@ -1,0 +1,10 @@
+id: gdp-pdf
+name: GDP.pdf (Surge AI)
+category: agentic
+metric: accuracy
+unit: percent
+higher_is_better: true
+url: https://surgehq.ai/benchmarks/gdp-pdf
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

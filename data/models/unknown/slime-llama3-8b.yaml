@@ -1,0 +1,10 @@
+id: slime-llama3-8b
+name: SliME-Llama3-8B
+aliases:
+- SliME-Llama3-8B
+org: unknown
+release_date: '2024-06-02'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

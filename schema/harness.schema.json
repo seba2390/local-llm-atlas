@@ -5,18 +5,57 @@
   "description": "The software that ran a benchmark (agent scaffold, eval framework, ...). Scores are often a function of the harness, so every score row names one.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "kind"],
+  "required": [
+    "id",
+    "name",
+    "kind"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
-    "name": { "type": "string" },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]*$"
+    },
+    "name": {
+      "type": "string"
+    },
     "kind": {
       "description": "'undisclosed' is the placeholder for reports that do not say how the number was produced.",
-      "enum": ["agent-scaffold", "coding-assistant", "eval-framework", "benchmark-reference", "vendor-internal", "undisclosed"]
+      "enum": [
+        "agent-scaffold",
+        "coding-assistant",
+        "eval-framework",
+        "benchmark-reference",
+        "vendor-internal",
+        "undisclosed"
+      ]
     },
-    "url": { "type": "string", "pattern": "^https?://" },
-    "sources": { "type": "array", "minItems": 1, "items": { "type": "string" } },
-    "notes": { "type": "string" }
+    "url": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
   },
-  "if": { "properties": { "kind": { "not": { "const": "undisclosed" } } } },
-  "then": { "required": ["url", "sources"] }
+  "if": {
+    "properties": {
+      "kind": {
+        "not": {
+          "const": "undisclosed"
+        }
+      }
+    }
+  },
+  "then": {
+    "required": [
+      "sources"
+    ]
+  }
 }

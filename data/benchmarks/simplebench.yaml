@@ -1,0 +1,11 @@
+id: simplebench
+name: SimpleBench
+category: reasoning
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2024-10-31'
+url: https://simple-bench.com/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

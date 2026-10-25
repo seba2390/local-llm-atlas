@@ -1,0 +1,30 @@
+id: granite-4.0-micro
+name: granite-4.0-micro
+org: unknown
+release_date: '2025-10-02'
+open_weights: null
+hf_repo: ibm-granite/granite-4.0-micro
+weights_url: https://huggingface.co/ibm-granite/granite-4.0-micro
+architecture:
+  type: dense
+  layers: 40
+  hidden_size: 2560
+  q_heads: 40
+  kv_heads: 8
+  attention: gqa
+  native_dtype: bf16
+  params_total_b: 3.403
+sources:
+- epoch-ai-models
+- hf-ibm-granite-granite-4.0-micro
+field_sources:
+  architecture.type: hf-ibm-granite-granite-4.0-micro
+  architecture.layers: hf-ibm-granite-granite-4.0-micro
+  architecture.hidden_size: hf-ibm-granite-granite-4.0-micro
+  architecture.q_heads: hf-ibm-granite-granite-4.0-micro
+  architecture.kv_heads: hf-ibm-granite-granite-4.0-micro
+  architecture.attention: hf-ibm-granite-granite-4.0-micro
+  architecture.native_dtype: hf-ibm-granite-granite-4.0-micro
+  architecture.params_total_b: hf-ibm-granite-granite-4.0-micro
+  hf_repo: hf-ibm-granite-granite-4.0-micro
+managed_by: register

@@ -1,0 +1,6 @@
+id: grok-build
+name: grok-build
+kind: agent-scaffold
+sources:
+- epoch-benchmarks-external
+notes: Agent/scaffold name as listed by Epoch AI for FrontierCode (Cognition).

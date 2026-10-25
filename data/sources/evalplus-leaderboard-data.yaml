@@ -1,0 +1,10 @@
+id: evalplus-leaderboard-data
+kind: leaderboard_data
+provenance: third_party
+title: EvalPlus leaderboard results (results.json)
+publisher: EvalPlus
+url: https://github.com/evalplus/evalplus.github.io/blob/4ebfa0d4b62edb942232c723b9d1641fe1d24780/results.json
+revision: 4ebfa0d4b62edb942232c723b9d1641fe1d24780
+notes: Served at https://evalplus.github.io/results.json and rendered on https://evalplus.github.io/leaderboard.html (pass@1,
+  greedy decoding; HumanEval+ v0.1.10, MBPP+ v0.2.0).
+accessed: '2026-10-25'

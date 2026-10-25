@@ -1,0 +1,10 @@
+id: gpt-5.2-pro-2025-12-11-webapp
+name: GPT-5.2 Pro (web)
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-12-11'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

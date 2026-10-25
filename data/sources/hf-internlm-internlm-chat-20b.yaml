@@ -1,0 +1,10 @@
+id: hf-internlm-internlm-chat-20b
+kind: model_config
+provenance: first_party
+title: internlm/internlm-chat-20b on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/internlm/internlm-chat-20b
+revision: ce6e0150bc4b525c44f6e450569a05705dcb4e72
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

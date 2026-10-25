@@ -1,0 +1,11 @@
+id: geobench
+name: GeoBench
+category: multimodal
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2025-03-01'
+url: https://geobench.org/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

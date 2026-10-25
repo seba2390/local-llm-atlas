@@ -1,0 +1,6 @@
+id: vending-bench-2-official
+name: Vending-Bench 2 maintainers' evaluation
+kind: benchmark-reference
+sources:
+- epoch-benchmarks-external
+notes: Score from the benchmark maintainers' own leaderboard/evaluation setup.

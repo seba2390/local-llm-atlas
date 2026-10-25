@@ -1,0 +1,10 @@
+id: hf-internlm-internlm-7b
+kind: model_config
+provenance: first_party
+title: internlm/internlm-7b on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/internlm/internlm-7b
+revision: 96e127d08d851a88cac736a9b091dd953ae1b873
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

@@ -1,0 +1,12 @@
+id: gbaeval
+name: GBAEval
+category: software-engineering
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2026-05-02'
+url: https://gbaeval.com/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

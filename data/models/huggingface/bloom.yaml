@@ -1,0 +1,12 @@
+id: bloom
+name: bloom
+org: huggingface
+company: Hugging Face
+country: United States of America
+release_date: '2022-07-06'
+open_weights: true
+architecture:
+  params_total_b: 176.247
+sources:
+- epoch-ai-models
+managed_by: register

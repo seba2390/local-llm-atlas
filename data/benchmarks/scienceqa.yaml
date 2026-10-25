@@ -1,0 +1,11 @@
+id: scienceqa
+name: ScienceQA
+category: science
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2022-09-20'
+url: https://scienceqa.github.io/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

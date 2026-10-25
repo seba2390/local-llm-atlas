@@ -1,0 +1,10 @@
+id: gemini-2.5-deep-think-2025-08-01-webapp
+name: gemini-2.5-deep-think-2025-08-01-webapp
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2025-08-01'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

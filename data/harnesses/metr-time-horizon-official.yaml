@@ -1,0 +1,6 @@
+id: metr-time-horizon-official
+name: METR Time Horizons maintainers' evaluation
+kind: benchmark-reference
+sources:
+- epoch-benchmarks-external
+notes: Score from the benchmark maintainers' own leaderboard/evaluation setup.

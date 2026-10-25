@@ -1,0 +1,10 @@
+id: livecc-7b-instruct
+name: LiveCC-7B-Instruct
+aliases:
+- LiveCC-7B-Instruct
+org: unknown
+release_date: '2024-04-12'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

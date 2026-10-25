@@ -1,0 +1,40 @@
+id: deepseek-v4.1-flash-1017
+name: DeepSeek V4.1 Flash 1017
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2026-10-17'
+open_weights: true
+hf_repo: deepseek-ai/DeepSeek-V4.1-Flash-1017
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017
+architecture:
+  type: moe
+  layers: 40
+  hidden_size: 5120
+  q_heads: 64
+  kv_heads: 1
+  head_dim: 512
+  attention: mqa
+  experts_total: 384
+  experts_active: 6
+  experts_shared: 1
+  native_dtype: fp8
+  params_total_b: 763.205
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-v4.1-flash-1017
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.layers: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.hidden_size: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.q_heads: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.kv_heads: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.head_dim: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.attention: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.experts_total: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.experts_active: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.experts_shared: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.native_dtype: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  architecture.params_total_b: hf-deepseek-ai-deepseek-v4.1-flash-1017
+  hf_repo: hf-deepseek-ai-deepseek-v4.1-flash-1017
+managed_by: register

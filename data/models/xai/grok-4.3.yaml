@@ -1,0 +1,10 @@
+id: grok-4.3
+name: Grok 4.3 (no thinking)
+org: xai
+company: xAI
+country: United States of America
+release_date: '2026-04-17'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

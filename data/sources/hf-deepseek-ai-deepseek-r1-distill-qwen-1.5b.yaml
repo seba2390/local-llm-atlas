@@ -1,0 +1,10 @@
+id: hf-deepseek-ai-deepseek-r1-distill-qwen-1.5b
+kind: model_config
+provenance: first_party
+title: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+revision: ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

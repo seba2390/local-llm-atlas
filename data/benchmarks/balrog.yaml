@@ -1,0 +1,12 @@
+id: balrog
+name: BALROG
+category: games
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2024-11-20'
+url: https://balrogai.com/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

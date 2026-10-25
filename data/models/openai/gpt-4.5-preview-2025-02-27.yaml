@@ -1,0 +1,10 @@
+id: gpt-4.5-preview-2025-02-27
+name: GPT-4.5 Preview (Feb 2025)
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-02-27'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

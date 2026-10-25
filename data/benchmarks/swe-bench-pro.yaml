@@ -1,0 +1,15 @@
+id: swe-bench-pro
+name: SWE-Bench Pro
+category: software-engineering
+metric: resolved_rate
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2025-09-21'
+url: https://scale.com/leaderboard/swe_bench_pro_public
+variants:
+- id: public
+  notes: Public set (731 tasks).
+- id: commercial
+sources:
+- arxiv-2509.16941

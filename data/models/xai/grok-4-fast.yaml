@@ -1,0 +1,10 @@
+id: grok-4-fast
+name: grok-4-fast
+org: xai
+company: xAI
+country: United States of America
+release_date: '2025-09-19'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

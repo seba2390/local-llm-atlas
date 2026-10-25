@@ -1,0 +1,10 @@
+id: gpt-3.5-turbo-1106
+name: GPT-3.5 Turbo (Nov 2023)
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2023-11-06'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

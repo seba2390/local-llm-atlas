@@ -1,0 +1,12 @@
+id: phi-4
+name: phi-4
+org: microsoft
+company: Microsoft
+country: United States of America
+release_date: '2024-12-12'
+open_weights: true
+architecture:
+  params_total_b: 14.0
+sources:
+- epoch-ai-models
+managed_by: register

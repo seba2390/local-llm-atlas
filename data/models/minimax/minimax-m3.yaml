@@ -1,0 +1,14 @@
+id: minimax-m3
+name: MiniMax-M3
+aliases:
+- MiniMax-M3
+org: minimax
+company: MiniMax
+country: China
+release_date: '2026-06-01'
+open_weights: true
+architecture:
+  params_total_b: 428.0
+sources:
+- epoch-ai-models
+managed_by: register

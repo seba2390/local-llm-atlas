@@ -1,0 +1,10 @@
+id: gemini-1.5-flash-0514
+name: gemini-1.5-flash-0514
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2024-05-14'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

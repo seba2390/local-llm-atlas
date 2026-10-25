@@ -1,0 +1,10 @@
+id: chatgpt-4o-01-29-2025
+name: chatgpt-4o-01-29-2025
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-01-29'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

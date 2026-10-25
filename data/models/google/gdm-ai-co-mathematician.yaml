@@ -1,0 +1,10 @@
+id: gdm-ai-co-mathematician
+name: AI co-mathematician
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2026-05-08'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

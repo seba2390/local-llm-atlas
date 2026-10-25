@@ -1,0 +1,9 @@
+id: hf-lmstudio-community-glm-4.5-air-gguf
+kind: model_card
+provenance: community
+title: lmstudio-community/GLM-4.5-Air-GGUF (GGUF quantisations of zai-org/GLM-4.5-Air) file listing
+publisher: Hugging Face
+url: https://huggingface.co/lmstudio-community/GLM-4.5-Air-GGUF
+revision: 971256cf4616a755d2e601ee074a560440d58f69
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

@@ -1,0 +1,10 @@
+id: hf-opengvlab-internvl2-40b
+kind: model_config
+provenance: first_party
+title: OpenGVLab/InternVL2-40B on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/OpenGVLab/InternVL2-40B
+revision: 5b8643b2ab4d9b7e14621088c3bc988fca09c05e
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

@@ -1,0 +1,9 @@
+id: hf-bartowski-c4ai-command-r-plus-08-2024-gguf
+kind: model_card
+provenance: community
+title: bartowski/c4ai-command-r-plus-08-2024-GGUF (GGUF quantisations of CohereLabs/c4ai-command-r-plus-08-2024) file listing
+publisher: Hugging Face
+url: https://huggingface.co/bartowski/c4ai-command-r-plus-08-2024-GGUF
+revision: 4cb2af9f9be9b2753915e67aa8d658cd031b8a21
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

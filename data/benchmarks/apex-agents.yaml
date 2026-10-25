@@ -1,0 +1,12 @@
+id: apex-agents
+name: APEX-Agents
+category: agentic
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2026-01-21'
+url: https://www.mercor.com/apex/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

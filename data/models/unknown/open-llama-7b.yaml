@@ -1,0 +1,10 @@
+id: open-llama-7b
+name: open_llama_7b
+aliases:
+- open_llama_7b
+org: unknown
+release_date: '2023-06-07'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

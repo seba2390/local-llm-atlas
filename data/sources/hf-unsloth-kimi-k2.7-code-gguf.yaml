@@ -1,0 +1,9 @@
+id: hf-unsloth-kimi-k2.7-code-gguf
+kind: model_card
+provenance: community
+title: unsloth/Kimi-K2.7-Code-GGUF (GGUF quantisations of moonshotai/Kimi-K2.7-Code) file listing
+publisher: Hugging Face
+url: https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF
+revision: 46352ca8dc32aa60f9754f5bd3fb778deeb9e430
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

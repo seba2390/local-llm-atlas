@@ -1,0 +1,7 @@
+id: artificial-analysis
+name: Artificial Analysis
+kind: eval-framework
+url: https://artificialanalysis.ai/
+sources:
+- epoch-benchmarks-external
+notes: Independent evaluator that runs benchmarks with its own harness.

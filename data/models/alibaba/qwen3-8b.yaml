@@ -1,0 +1,14 @@
+id: qwen3-8b
+name: qwen3-8b
+aliases:
+- chutes/Qwen3-8B
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-04-28'
+open_weights: true
+architecture:
+  params_total_b: 8.2
+sources:
+- epoch-ai-models
+managed_by: register

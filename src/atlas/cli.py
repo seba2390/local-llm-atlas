@@ -19,7 +19,33 @@ def main(argv: list[str] | None = None) -> int:
     v.add_argument("--strict", action="store_true", help="treat warnings as errors")
     b = sub.add_parser("build", help="validate, then compile build/atlas.json")
     b.add_argument("--out", type=Path, default=REPO_ROOT / "build" / "atlas.json")
+    i = sub.add_parser("ingest", help="run importers; 'all' runs every importer, registers new models, then re-runs")
+    i.add_argument("names", nargs="+")
+    sub.add_parser("register", help="create/update model and org records from claims staged by importers")
+    sub.add_parser("sync-orgs", help="copy company/country from data/orgs into every model record")
     args = parser.parse_args(argv)
+
+    if args.cmd in ("ingest", "register", "sync-orgs"):
+        from . import ingest
+        from .ingest.register import register, register_orgs, sync_orgs
+
+        if args.cmd == "ingest":
+            names = ingest.IMPORTERS if args.names == ["all"] else args.names
+            for name in names:
+                ingest.run(name)
+            if args.names == ["all"]:
+                register_orgs()
+                register()
+                sync_orgs()
+                for name in names:
+                    ingest.run(name)
+        elif args.cmd == "register":
+            register_orgs()
+            register()
+            sync_orgs()
+        else:
+            sync_orgs()
+        return 0
 
     cat = load(args.data)
     issues = validate(cat)

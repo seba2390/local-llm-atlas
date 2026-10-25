@@ -1,0 +1,8 @@
+id: llava-v1.5-7b
+name: llava-v1.5-7b
+org: unknown
+release_date: '2023-10-05'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

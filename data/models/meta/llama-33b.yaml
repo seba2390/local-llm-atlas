@@ -1,0 +1,14 @@
+id: llama-33b
+name: LLaMA-33B
+aliases:
+- LLaMA-33B
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-02-24'
+open_weights: true
+architecture:
+  params_total_b: 32.5
+sources:
+- epoch-ai-models
+managed_by: register

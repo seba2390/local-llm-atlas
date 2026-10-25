@@ -1,0 +1,10 @@
+id: musr
+name: MuSR
+category: reasoning
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2023-10-24'
+url: https://github.com/Zayne-sprague/MuSR
+sources:
+- arxiv-2310.16049

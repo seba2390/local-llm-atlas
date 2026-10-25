@@ -1,0 +1,9 @@
+id: hf-lmstudio-community-gemma-2-27b-it-gguf
+kind: model_card
+provenance: community
+title: lmstudio-community/gemma-2-27b-it-GGUF (GGUF quantisations of google/gemma-2-27b-it) file listing
+publisher: Hugging Face
+url: https://huggingface.co/lmstudio-community/gemma-2-27b-it-GGUF
+revision: 8f63ea1cfc5ce646813257d8f5d5a1afa82af58f
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

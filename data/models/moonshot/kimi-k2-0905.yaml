@@ -1,0 +1,12 @@
+id: kimi-k2-0905
+name: Kimi K2 0905 (Novita)
+aliases:
+- moonshotai/kimi-k2-0905
+org: moonshot
+company: Moonshot
+country: China
+release_date: '2025-09-05'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

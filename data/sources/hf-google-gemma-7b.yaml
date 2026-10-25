@@ -1,0 +1,10 @@
+id: hf-google-gemma-7b
+kind: model_config
+provenance: first_party
+title: google/gemma-7b on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/google/gemma-7b
+revision: ff6768d9368919a1f025a54f9f5aa0ee591730bb
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

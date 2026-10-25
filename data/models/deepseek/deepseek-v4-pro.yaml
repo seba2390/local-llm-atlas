@@ -1,0 +1,39 @@
+id: deepseek-v4-pro
+name: DeepSeek v4 Pro (unknown thinking)
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2026-04-24'
+open_weights: true
+hf_repo: deepseek-ai/DeepSeek-V4-Pro
+weights_url: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
+architecture:
+  params_total_b: 1600.0
+  type: moe
+  layers: 61
+  hidden_size: 7168
+  q_heads: 128
+  kv_heads: 1
+  head_dim: 512
+  attention: mqa
+  experts_total: 384
+  experts_active: 6
+  experts_shared: 1
+  native_dtype: fp8
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-v4-pro
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-v4-pro
+  architecture.layers: hf-deepseek-ai-deepseek-v4-pro
+  architecture.hidden_size: hf-deepseek-ai-deepseek-v4-pro
+  architecture.q_heads: hf-deepseek-ai-deepseek-v4-pro
+  architecture.kv_heads: hf-deepseek-ai-deepseek-v4-pro
+  architecture.head_dim: hf-deepseek-ai-deepseek-v4-pro
+  architecture.attention: hf-deepseek-ai-deepseek-v4-pro
+  architecture.experts_total: hf-deepseek-ai-deepseek-v4-pro
+  architecture.experts_active: hf-deepseek-ai-deepseek-v4-pro
+  architecture.experts_shared: hf-deepseek-ai-deepseek-v4-pro
+  architecture.native_dtype: hf-deepseek-ai-deepseek-v4-pro
+  hf_repo: hf-deepseek-ai-deepseek-v4-pro
+managed_by: register

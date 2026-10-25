@@ -1,0 +1,9 @@
+id: bfcl
+name: BFCL evaluation pipeline (bfcl-eval)
+kind: eval-framework
+url: https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard
+sources:
+- bfcl-icml-2025
+- bfcl-result-archive
+notes: Official Berkeley Function Calling Leaderboard generation + AST/executable checker. 'mode=FC' uses the model's native
+  function-calling API, 'mode=Prompt' describes tools in the prompt.

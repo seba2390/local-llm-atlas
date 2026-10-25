@@ -1,0 +1,14 @@
+id: minimax-m1-80k
+name: MiniMax-M1-80k
+aliases:
+- MiniMax-M1-80k
+org: minimax
+company: MiniMax
+country: China
+release_date: '2025-06-13'
+open_weights: true
+architecture:
+  params_total_b: 456.0
+sources:
+- epoch-ai-models
+managed_by: register

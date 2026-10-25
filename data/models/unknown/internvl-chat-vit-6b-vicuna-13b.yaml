@@ -1,0 +1,30 @@
+id: internvl-chat-vit-6b-vicuna-13b
+name: InternVL-Chat-ViT-6B-Vicuna-13B
+aliases:
+- InternVL-Chat-ViT-6B-Vicuna-13B
+org: unknown
+release_date: '2024-08-16'
+open_weights: null
+hf_repo: OpenGVLab/InternVL-Chat-ViT-6B-Vicuna-13B
+weights_url: https://huggingface.co/OpenGVLab/InternVL-Chat-ViT-6B-Vicuna-13B
+architecture:
+  type: dense
+  layers: 40
+  hidden_size: 5120
+  q_heads: 40
+  kv_heads: 40
+  attention: mha
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-opengvlab-internvl-chat-vit-6b-vicuna-13b
+field_sources:
+  architecture.type: hf-opengvlab-internvl-chat-vit-6b-vicuna-13b
+  architecture.layers: hf-opengvlab-internvl-chat-vit-6b-vicuna-13b
+  architecture.hidden_size: hf-opengvlab-internvl-chat-vit-6b-vicuna-13b
+  architecture.q_heads: hf-opengvlab-internvl-chat-vit-6b-vicuna-13b
+  architecture.kv_heads: hf-opengvlab-internvl-chat-vit-6b-vicuna-13b
+  architecture.attention: hf-opengvlab-internvl-chat-vit-6b-vicuna-13b
+  architecture.native_dtype: hf-opengvlab-internvl-chat-vit-6b-vicuna-13b
+  hf_repo: hf-opengvlab-internvl-chat-vit-6b-vicuna-13b
+managed_by: register

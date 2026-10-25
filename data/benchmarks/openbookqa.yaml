@@ -1,0 +1,11 @@
+id: openbookqa
+name: OpenBookQA
+category: knowledge
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2018-09-08'
+url: https://allenai.org/data/open-book-qa
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

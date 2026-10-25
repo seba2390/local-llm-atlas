@@ -1,0 +1,14 @@
+id: qwen2.5-coder-1.5b
+name: Qwen2.5-Coder-1.5B
+aliases:
+- Qwen2.5-Coder-1.5B
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2024-09-18'
+open_weights: true
+architecture:
+  params_total_b: 1.54
+sources:
+- epoch-ai-models
+managed_by: register

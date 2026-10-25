@@ -1,0 +1,10 @@
+id: text-ada-001
+name: text-ada-001
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2022-01-27'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

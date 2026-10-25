@@ -1,0 +1,40 @@
+id: laguna-xs.2
+name: Laguna XS.2
+org: poolside
+company: Poolside
+country: United States of America
+release_date: '2026-04-28'
+open_weights: true
+hf_repo: poolside/Laguna-XS.2
+weights_url: https://huggingface.co/poolside/Laguna-XS.2
+architecture:
+  type: moe
+  layers: 40
+  hidden_size: 2048
+  q_heads: 48
+  kv_heads: 8
+  head_dim: 128
+  attention: gqa
+  experts_total: 256
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: bf16
+  params_total_b: 33.443
+sources:
+- epoch-ai-models
+- hf-poolside-laguna-xs.2
+field_sources:
+  architecture.type: hf-poolside-laguna-xs.2
+  architecture.layers: hf-poolside-laguna-xs.2
+  architecture.hidden_size: hf-poolside-laguna-xs.2
+  architecture.q_heads: hf-poolside-laguna-xs.2
+  architecture.kv_heads: hf-poolside-laguna-xs.2
+  architecture.head_dim: hf-poolside-laguna-xs.2
+  architecture.attention: hf-poolside-laguna-xs.2
+  architecture.experts_total: hf-poolside-laguna-xs.2
+  architecture.experts_active: hf-poolside-laguna-xs.2
+  architecture.experts_shared: hf-poolside-laguna-xs.2
+  architecture.native_dtype: hf-poolside-laguna-xs.2
+  architecture.params_total_b: hf-poolside-laguna-xs.2
+  hf_repo: hf-poolside-laguna-xs.2
+managed_by: register

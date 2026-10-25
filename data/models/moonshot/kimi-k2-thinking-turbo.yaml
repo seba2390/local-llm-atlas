@@ -1,0 +1,12 @@
+id: kimi-k2-thinking-turbo
+name: Kimi K2 Thinking Turbo
+org: moonshot
+company: Moonshot
+country: China
+release_date: '2025-11-06'
+open_weights: true
+architecture:
+  params_total_b: 1000.0
+sources:
+- epoch-ai-models
+managed_by: register

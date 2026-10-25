@@ -1,0 +1,11 @@
+id: lambada
+name: LAMBADA
+category: language-modeling
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2016-06-20'
+url: https://zenodo.org/record/2630551
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

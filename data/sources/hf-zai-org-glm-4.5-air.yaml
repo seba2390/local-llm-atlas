@@ -1,0 +1,10 @@
+id: hf-zai-org-glm-4.5-air
+kind: model_config
+provenance: first_party
+title: zai-org/GLM-4.5-Air on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/zai-org/GLM-4.5-Air
+revision: a24ceef6ce4f3536971efe9b778bdaa1bab18daa
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

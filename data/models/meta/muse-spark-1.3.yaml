@@ -1,0 +1,10 @@
+id: muse-spark-1.3
+name: Muse Spark 1.3
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2026-09-02'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

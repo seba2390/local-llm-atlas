@@ -1,0 +1,10 @@
+id: muse-wonder-1.0
+name: Muse Wonder
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2026-10-12'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

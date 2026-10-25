@@ -1,0 +1,10 @@
+id: vita
+name: VITA
+aliases:
+- VITA
+org: unknown
+release_date: '2024-08-12'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

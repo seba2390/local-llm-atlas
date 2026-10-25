@@ -1,0 +1,12 @@
+id: arxiv-2504.21798
+kind: paper
+provenance: first_party
+title: 'SWE-smith: Scaling Data for Software Engineering Agents'
+authors:
+- John Yang
+- et al.
+publisher: arXiv
+url: https://arxiv.org/abs/2504.21798
+published: '2025-04-30'
+notes: Introduces SWE-bench Multilingual (300 tasks, 9 languages).
+accessed: '2026-10-25'

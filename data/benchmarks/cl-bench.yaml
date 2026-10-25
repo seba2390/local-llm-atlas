@@ -1,0 +1,14 @@
+id: cl-bench
+name: CL-bench
+category: long-context
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2026-02-03'
+url: https://epoch.ai/benchmarks
+variants:
+- id: main
+- id: life
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

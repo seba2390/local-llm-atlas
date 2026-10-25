@@ -1,0 +1,10 @@
+id: grok-4-0709
+name: grok-4-0709
+org: xai
+company: xAI
+country: United States of America
+release_date: '2025-07-09'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

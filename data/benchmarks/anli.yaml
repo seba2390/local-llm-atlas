@@ -1,0 +1,10 @@
+id: anli
+name: ANLI (Adversarial NLI)
+category: reasoning
+metric: accuracy
+unit: percent
+higher_is_better: true
+url: https://github.com/facebookresearch/anli
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

@@ -1,0 +1,10 @@
+id: hf-deepseek-ai-deepseek-llm-67b-chat
+kind: model_config
+provenance: first_party
+title: deepseek-ai/deepseek-llm-67b-chat on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat
+revision: 79648bef7658bb824e4630740f6e1484c1b0620b
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

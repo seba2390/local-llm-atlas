@@ -1,0 +1,10 @@
+id: hf-baichuan-inc-baichuan-13b-base
+kind: model_config
+provenance: first_party
+title: baichuan-inc/Baichuan-13B-Base on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/baichuan-inc/Baichuan-13B-Base
+revision: 0ef0739c7bdd34df954003ef76d80f3dabca2ff9
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

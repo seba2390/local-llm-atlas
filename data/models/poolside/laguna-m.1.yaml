@@ -1,0 +1,40 @@
+id: laguna-m.1
+name: Laguna M.1
+org: poolside
+company: Poolside
+country: United States of America
+release_date: '2026-04-28'
+open_weights: null
+hf_repo: poolside/Laguna-M.1
+weights_url: https://huggingface.co/poolside/Laguna-M.1
+architecture:
+  type: moe
+  layers: 70
+  hidden_size: 4096
+  q_heads: 64
+  kv_heads: 8
+  head_dim: 128
+  attention: gqa
+  experts_total: 256
+  experts_active: 16
+  experts_shared: 1
+  native_dtype: bf16
+  params_total_b: 225.796
+sources:
+- epoch-ai-models
+- hf-poolside-laguna-m.1
+field_sources:
+  architecture.type: hf-poolside-laguna-m.1
+  architecture.layers: hf-poolside-laguna-m.1
+  architecture.hidden_size: hf-poolside-laguna-m.1
+  architecture.q_heads: hf-poolside-laguna-m.1
+  architecture.kv_heads: hf-poolside-laguna-m.1
+  architecture.head_dim: hf-poolside-laguna-m.1
+  architecture.attention: hf-poolside-laguna-m.1
+  architecture.experts_total: hf-poolside-laguna-m.1
+  architecture.experts_active: hf-poolside-laguna-m.1
+  architecture.experts_shared: hf-poolside-laguna-m.1
+  architecture.native_dtype: hf-poolside-laguna-m.1
+  architecture.params_total_b: hf-poolside-laguna-m.1
+  hf_repo: hf-poolside-laguna-m.1
+managed_by: register

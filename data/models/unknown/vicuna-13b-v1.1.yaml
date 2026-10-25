@@ -1,0 +1,8 @@
+id: vicuna-13b-v1.1
+name: vicuna-13b-v1.1
+org: unknown
+release_date: '2023-04-12'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,12 @@
+id: megatron-turing-nlg-530b
+name: Megatron-Turing NLG 530B
+aliases:
+- Megatron-Turing NLG 530B
+org: microsoft
+company: Microsoft
+country: United States of America
+release_date: '2021-10-11'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

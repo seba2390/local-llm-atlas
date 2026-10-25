@@ -1,0 +1,9 @@
+id: hf-lmstudio-community-deepseek-v4-flash-0731-gguf
+kind: model_card
+provenance: community
+title: lmstudio-community/DeepSeek-V4-Flash-0731-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-V4-Flash-0731) file listing
+publisher: Hugging Face
+url: https://huggingface.co/lmstudio-community/DeepSeek-V4-Flash-0731-GGUF
+revision: e5d9d9689670fd2bb83dcca8dcdf15a5f50bf670
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

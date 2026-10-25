@@ -1,0 +1,6 @@
+id: blueprint-bench-2-official
+name: Blueprint-Bench 2 maintainers' evaluation
+kind: benchmark-reference
+sources:
+- epoch-benchmarks-external
+notes: Score from the benchmark maintainers' own leaderboard/evaluation setup.

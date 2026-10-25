@@ -1,0 +1,14 @@
+id: qwen3-14b
+name: qwen3-14b
+aliases:
+- chutes/Qwen3-14B
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-04-29'
+open_weights: true
+architecture:
+  params_total_b: 14.8
+sources:
+- epoch-ai-models
+managed_by: register

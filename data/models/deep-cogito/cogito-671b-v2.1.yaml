@@ -1,0 +1,38 @@
+id: cogito-671b-v2.1
+name: Cogito v2.1 (671B)
+org: deep-cogito
+company: Deep Cogito
+release_date: '2025-11-19'
+open_weights: true
+hf_repo: deepcogito/cogito-671b-v2.1
+weights_url: https://huggingface.co/deepcogito/cogito-671b-v2.1
+architecture:
+  params_total_b: 671.0
+  type: moe
+  layers: 61
+  hidden_size: 7168
+  q_heads: 128
+  kv_heads: 128
+  head_dim: 64
+  attention: mla
+  experts_total: 256
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-deepcogito-cogito-671b-v2.1
+field_sources:
+  architecture.type: hf-deepcogito-cogito-671b-v2.1
+  architecture.layers: hf-deepcogito-cogito-671b-v2.1
+  architecture.hidden_size: hf-deepcogito-cogito-671b-v2.1
+  architecture.q_heads: hf-deepcogito-cogito-671b-v2.1
+  architecture.kv_heads: hf-deepcogito-cogito-671b-v2.1
+  architecture.head_dim: hf-deepcogito-cogito-671b-v2.1
+  architecture.attention: hf-deepcogito-cogito-671b-v2.1
+  architecture.experts_total: hf-deepcogito-cogito-671b-v2.1
+  architecture.experts_active: hf-deepcogito-cogito-671b-v2.1
+  architecture.experts_shared: hf-deepcogito-cogito-671b-v2.1
+  architecture.native_dtype: hf-deepcogito-cogito-671b-v2.1
+  hf_repo: hf-deepcogito-cogito-671b-v2.1
+managed_by: register

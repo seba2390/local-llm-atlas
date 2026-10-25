@@ -1,0 +1,12 @@
+id: posttrainbench
+name: PostTrainBench
+category: research
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2026-03-11'
+url: https://epoch.ai/benchmarks
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

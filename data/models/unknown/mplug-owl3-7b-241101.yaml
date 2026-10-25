@@ -1,0 +1,10 @@
+id: mplug-owl3-7b-241101
+name: mPLUG-Owl3-7B-241101
+aliases:
+- mPLUG-Owl3-7B-241101
+org: unknown
+release_date: '2024-11-26'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,10 @@
+id: video-llava-7b
+name: Video-LLaVA-7B
+aliases:
+- Video-LLaVA-7B
+org: unknown
+release_date: '2023-11-17'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

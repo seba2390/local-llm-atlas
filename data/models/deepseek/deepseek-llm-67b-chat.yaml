@@ -1,0 +1,31 @@
+id: deepseek-llm-67b-chat
+name: deepseek-llm-67b-chat
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2023-11-29'
+open_weights: true
+hf_repo: deepseek-ai/deepseek-llm-67b-chat
+weights_url: https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat
+architecture:
+  params_total_b: 67.0
+  type: dense
+  layers: 95
+  hidden_size: 8192
+  q_heads: 64
+  kv_heads: 8
+  attention: gqa
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-deepseek-ai-deepseek-llm-67b-chat
+field_sources:
+  architecture.type: hf-deepseek-ai-deepseek-llm-67b-chat
+  architecture.layers: hf-deepseek-ai-deepseek-llm-67b-chat
+  architecture.hidden_size: hf-deepseek-ai-deepseek-llm-67b-chat
+  architecture.q_heads: hf-deepseek-ai-deepseek-llm-67b-chat
+  architecture.kv_heads: hf-deepseek-ai-deepseek-llm-67b-chat
+  architecture.attention: hf-deepseek-ai-deepseek-llm-67b-chat
+  architecture.native_dtype: hf-deepseek-ai-deepseek-llm-67b-chat
+  hf_repo: hf-deepseek-ai-deepseek-llm-67b-chat
+managed_by: register

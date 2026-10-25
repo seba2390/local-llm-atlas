@@ -1,0 +1,8 @@
+id: aider-edit-leaderboard-data
+kind: leaderboard_data
+provenance: third_party
+title: Aider legacy code-editing leaderboard raw results (edit_leaderboard.yml)
+publisher: Aider-AI/aider
+url: https://github.com/Aider-AI/aider/blob/5dc9490bb35f9729ef2c95d00a19ccd30c26339c/aider/website/_data/edit_leaderboard.yml
+revision: 5dc9490bb35f9729ef2c95d00a19ccd30c26339c
+accessed: 2026-10-25

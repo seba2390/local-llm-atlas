@@ -1,0 +1,36 @@
+id: intellect-1-instruct
+name: INTELLECT-1-Instruct
+aliases:
+- INTELLECT-1-Instruct
+org: prime-intellect
+company: Prime Intellect
+country: United States of America
+release_date: '2024-11-29'
+open_weights: null
+hf_repo: PrimeIntellect/INTELLECT-1-Instruct
+weights_url: https://huggingface.co/PrimeIntellect/INTELLECT-1-Instruct
+architecture:
+  type: dense
+  layers: 42
+  hidden_size: 4096
+  q_heads: 32
+  kv_heads: 8
+  head_dim: 128
+  attention: gqa
+  native_dtype: bf16
+  params_total_b: 10.211
+sources:
+- epoch-ai-models
+- hf-primeintellect-intellect-1-instruct
+field_sources:
+  architecture.type: hf-primeintellect-intellect-1-instruct
+  architecture.layers: hf-primeintellect-intellect-1-instruct
+  architecture.hidden_size: hf-primeintellect-intellect-1-instruct
+  architecture.q_heads: hf-primeintellect-intellect-1-instruct
+  architecture.kv_heads: hf-primeintellect-intellect-1-instruct
+  architecture.head_dim: hf-primeintellect-intellect-1-instruct
+  architecture.attention: hf-primeintellect-intellect-1-instruct
+  architecture.native_dtype: hf-primeintellect-intellect-1-instruct
+  architecture.params_total_b: hf-primeintellect-intellect-1-instruct
+  hf_repo: hf-primeintellect-intellect-1-instruct
+managed_by: register

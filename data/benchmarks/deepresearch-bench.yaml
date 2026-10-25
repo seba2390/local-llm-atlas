@@ -1,0 +1,11 @@
+id: deepresearch-bench
+name: Deep Research Bench (FutureSearch)
+category: research
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+url: https://evals.futuresearch.ai/
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

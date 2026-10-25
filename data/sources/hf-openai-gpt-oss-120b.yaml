@@ -1,0 +1,10 @@
+id: hf-openai-gpt-oss-120b
+kind: model_config
+provenance: first_party
+title: openai/gpt-oss-120b on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/openai/gpt-oss-120b
+revision: b5c939de8f754692c1647ca79fbf85e8c1e70f8a
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

@@ -1,0 +1,6 @@
+id: cadeval-official
+name: CadEval maintainers' evaluation
+kind: benchmark-reference
+sources:
+- epoch-benchmarks-external
+notes: Score from the benchmark maintainers' own leaderboard/evaluation setup.

@@ -1,0 +1,14 @@
+id: phi-3.5-moe-instruct
+name: Phi-3.5-MoE-instruct
+aliases:
+- Phi-3.5-MoE-instruct
+org: microsoft
+company: Microsoft
+country: United States of America
+release_date: '2024-08-17'
+open_weights: true
+architecture:
+  params_total_b: 60.8
+sources:
+- epoch-ai-models
+managed_by: register

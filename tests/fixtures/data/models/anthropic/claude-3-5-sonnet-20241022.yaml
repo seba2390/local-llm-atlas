@@ -1,0 +1,14 @@
+id: claude-3-5-sonnet-20241022
+name: Claude 3.5 Sonnet (upgraded, 2024-10-22)
+org: anthropic
+company: Anthropic
+country: United States of America
+family: Claude 3.5
+variant: instruct
+release_date: 2024-10-22
+open_weights: false
+api_ids: [claude-3-5-sonnet-20241022]
+sources: [anthropic-claude-3-5-sonnet-upgrade]
+field_sources:
+  api_ids: anthropic-model-deprecations
+notes: Architecture and parameter count not disclosed by Anthropic.

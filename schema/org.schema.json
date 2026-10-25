@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "org.schema.json",
+  "title": "Organisation (company / lab behind a model)",
+  "description": "One YAML file per organisation in data/orgs/<id>.yaml. Models reference it via `org`; `company`/`country` on each model are copied from here and checked by the validator.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "sources"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+    "name": { "type": "string" },
+    "country": { "type": "string", "description": "Country of the organisation's headquarters, as named by the source (e.g. 'United States of America', 'China')." },
+    "kind": { "enum": ["company", "academic", "nonprofit", "government", "collaboration", "other"] },
+    "aliases": { "type": "array", "items": { "type": "string" }, "description": "Other names sources use for this organisation." },
+    "hf_orgs": { "type": "array", "items": { "type": "string" }, "description": "Hugging Face organisations that publish this org's official weights." },
+    "url": { "type": "string", "pattern": "^https?://" },
+    "sources": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "field_sources": { "type": "object", "additionalProperties": { "type": "string" } },
+    "managed_by": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

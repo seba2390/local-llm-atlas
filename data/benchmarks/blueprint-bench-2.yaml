@@ -1,0 +1,11 @@
+id: blueprint-bench-2
+name: Blueprint-Bench 2
+category: multimodal
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2026-05-04'
+url: https://andonlabs.com/evals/blueprint-bench
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

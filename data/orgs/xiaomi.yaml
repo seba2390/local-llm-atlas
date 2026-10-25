@@ -1,0 +1,6 @@
+id: xiaomi
+name: Xiaomi Corp
+country: China
+sources:
+- epoch-ai-models
+managed_by: register

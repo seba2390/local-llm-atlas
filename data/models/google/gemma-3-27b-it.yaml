@@ -1,0 +1,14 @@
+id: gemma-3-27b-it
+name: gemma-3-27b-it
+aliases:
+- chutes/Gemma-3-27b-It
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2025-03-12'
+open_weights: true
+architecture:
+  params_total_b: 27.0
+sources:
+- epoch-ai-models
+managed_by: register

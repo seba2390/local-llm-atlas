@@ -1,0 +1,10 @@
+id: gemini-2.5-flash-preview-04-17
+name: Gemini 2.5 Flash Preview (Apr 2025)
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2025-04-17'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,14 @@
+id: baichuan-2-13b-base
+name: Baichuan-2-13B-Base
+aliases:
+- Baichuan-2-13B-Base
+org: baichuan
+company: Baichuan
+country: China
+release_date: '2023-09-06'
+open_weights: true
+architecture:
+  params_total_b: 13.0
+sources:
+- epoch-ai-models
+managed_by: register

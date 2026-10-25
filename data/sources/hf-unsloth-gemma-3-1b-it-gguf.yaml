@@ -1,0 +1,9 @@
+id: hf-unsloth-gemma-3-1b-it-gguf
+kind: model_card
+provenance: community
+title: unsloth/gemma-3-1b-it-GGUF (GGUF quantisations of google/gemma-3-1b-it) file listing
+publisher: Hugging Face
+url: https://huggingface.co/unsloth/gemma-3-1b-it-GGUF
+revision: f0b45be0aac41bd6a100a4b5734cad5f67255bfb
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

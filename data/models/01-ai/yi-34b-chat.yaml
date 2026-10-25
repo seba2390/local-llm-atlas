@@ -1,0 +1,14 @@
+id: yi-34b-chat
+name: Yi-34B-Chat
+aliases:
+- Yi-34B-Chat
+org: 01-ai
+company: 01.AI
+country: China
+release_date: '2023-11-02'
+open_weights: true
+architecture:
+  params_total_b: 34.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,10 @@
+id: deepseek-chat
+name: deepseek-chat
+org: deepseek
+company: DeepSeek
+country: China
+release_date: '2025-12-01'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register

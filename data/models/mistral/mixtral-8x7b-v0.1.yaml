@@ -1,0 +1,14 @@
+id: mixtral-8x7b-v0.1
+name: Mixtral-8x7B-v0.1
+aliases:
+- Mixtral-8x7B-v0.1
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2023-12-11'
+open_weights: true
+architecture:
+  params_total_b: 46.7
+sources:
+- epoch-ai-models
+managed_by: register

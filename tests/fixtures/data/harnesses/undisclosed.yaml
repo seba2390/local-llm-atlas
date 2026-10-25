@@ -1,0 +1,4 @@
+id: undisclosed
+name: Undisclosed
+kind: undisclosed
+notes: Use when the source reports a score without saying which harness/scaffold produced it.

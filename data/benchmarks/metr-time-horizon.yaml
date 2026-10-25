@@ -1,0 +1,16 @@
+id: metr-time-horizon
+name: METR Time Horizons
+category: agentic
+metric: score
+unit: minutes
+higher_is_better: true
+harness_sensitive: true
+introduced: '2025-03-19'
+url: https://metr.org/time-horizons/
+variants:
+- id: unspecified
+- id: v1.0
+- id: v1.1
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

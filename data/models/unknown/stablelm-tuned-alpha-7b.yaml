@@ -1,0 +1,8 @@
+id: stablelm-tuned-alpha-7b
+name: stablelm-tuned-alpha-7b
+org: unknown
+release_date: '2023-04-19'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

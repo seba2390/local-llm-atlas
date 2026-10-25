@@ -1,0 +1,10 @@
+id: gpt-4o-mini-2024-07-18
+name: gpt-4o-mini-2024-07-18
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2024-07-18'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

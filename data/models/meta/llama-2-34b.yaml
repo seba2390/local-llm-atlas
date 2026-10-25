@@ -1,0 +1,12 @@
+id: llama-2-34b
+name: Llama-2-34b
+aliases:
+- Llama-2-34b
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-07-18'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

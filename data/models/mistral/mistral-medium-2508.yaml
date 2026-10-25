@@ -1,0 +1,10 @@
+id: mistral-medium-2508
+name: mistral-medium-2508
+org: mistral
+company: Mistral AI
+country: France
+release_date: '2025-08-12'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

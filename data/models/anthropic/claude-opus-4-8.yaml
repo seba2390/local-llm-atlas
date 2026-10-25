@@ -1,0 +1,10 @@
+id: claude-opus-4-8
+name: Claude Opus 4.8
+org: anthropic
+company: Anthropic
+country: United States of America
+release_date: '2026-05-28'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

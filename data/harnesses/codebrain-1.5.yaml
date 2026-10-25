@@ -1,0 +1,6 @@
+id: codebrain-1.5
+name: CodeBrain-1.5
+kind: agent-scaffold
+sources:
+- epoch-benchmarks-external
+notes: Agent/scaffold name as listed by Epoch AI for terminal-bench.

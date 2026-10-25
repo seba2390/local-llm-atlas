@@ -1,0 +1,9 @@
+id: hf-unsloth-deepseek-r1-distill-qwen-32b-gguf
+kind: model_card
+provenance: community
+title: unsloth/DeepSeek-R1-Distill-Qwen-32B-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) file listing
+publisher: Hugging Face
+url: https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-32B-GGUF
+revision: 1938d05cc893a60f37be1dc16e7465038f4fca63
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

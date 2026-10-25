@@ -1,0 +1,14 @@
+id: qwen-14b-chat
+name: Qwen-14B-Chat
+aliases:
+- Qwen-14B-Chat
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2023-09-24'
+open_weights: true
+architecture:
+  params_total_b: 14.0
+sources:
+- epoch-ai-models
+managed_by: register

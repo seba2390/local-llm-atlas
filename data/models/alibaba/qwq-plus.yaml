@@ -1,0 +1,10 @@
+id: qwq-plus
+name: qwq-plus
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-04-08'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

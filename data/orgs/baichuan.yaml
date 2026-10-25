@@ -1,0 +1,6 @@
+id: baichuan
+name: Baichuan
+country: China
+sources:
+- epoch-ai-models
+managed_by: register

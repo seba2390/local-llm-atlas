@@ -1,0 +1,14 @@
+id: llama-2-13b-chat
+name: Llama-2-13b-chat
+aliases:
+- Llama-2-13b-chat
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-07-18'
+open_weights: true
+architecture:
+  params_total_b: 13.0
+sources:
+- epoch-ai-models
+managed_by: register

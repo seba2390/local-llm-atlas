@@ -1,0 +1,10 @@
+id: hellaswag
+name: HellaSwag
+category: commonsense
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2019-05-19'
+url: https://rowanzellers.com/hellaswag/
+sources:
+- arxiv-1905.07830

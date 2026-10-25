@@ -1,0 +1,10 @@
+id: davinci
+name: davinci
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2020-05-28'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

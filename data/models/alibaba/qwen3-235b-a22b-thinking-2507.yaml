@@ -1,0 +1,17 @@
+id: qwen3-235b-a22b-thinking-2507
+name: Qwen3-235B-A22B-Thinking-2507
+aliases:
+- Qwen/Qwen3-235B-A22B-Thinking-2507
+- Qwen3-235B-A22B-Thinking-2507
+- chutes/Qwen3-235B-A22B-Thinking-2507
+- qwen/qwen3-235b-a22b-thinking-2507
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-07-25'
+open_weights: true
+architecture:
+  params_total_b: 235.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,11 @@
+id: vpct
+name: VPCT
+category: multimodal
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2025-01-30'
+url: https://cbrower.dev/vpct
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

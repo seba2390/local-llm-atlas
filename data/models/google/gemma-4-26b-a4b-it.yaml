@@ -1,0 +1,37 @@
+id: gemma-4-26b-a4b-it
+name: Gemma 4 26B A4B
+aliases:
+- gemma-4-26b-a4b
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2026-04-02'
+open_weights: true
+hf_repo: google/gemma-4-26B-A4B-it
+weights_url: https://huggingface.co/google/gemma-4-26B-A4B-it
+architecture:
+  params_total_b: 25.2
+  type: moe
+  layers: 30
+  hidden_size: 2816
+  q_heads: 16
+  kv_heads: 8
+  head_dim: 256
+  attention: gqa
+  experts_total: 128
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-google-gemma-4-26b-a4b-it
+field_sources:
+  architecture.type: hf-google-gemma-4-26b-a4b-it
+  architecture.layers: hf-google-gemma-4-26b-a4b-it
+  architecture.hidden_size: hf-google-gemma-4-26b-a4b-it
+  architecture.q_heads: hf-google-gemma-4-26b-a4b-it
+  architecture.kv_heads: hf-google-gemma-4-26b-a4b-it
+  architecture.head_dim: hf-google-gemma-4-26b-a4b-it
+  architecture.attention: hf-google-gemma-4-26b-a4b-it
+  architecture.experts_total: hf-google-gemma-4-26b-a4b-it
+  architecture.native_dtype: hf-google-gemma-4-26b-a4b-it
+  hf_repo: hf-google-gemma-4-26b-a4b-it
+managed_by: register

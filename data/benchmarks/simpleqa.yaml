@@ -1,0 +1,15 @@
+id: simpleqa
+name: SimpleQA
+category: knowledge
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2024-11-07'
+url: https://openai.com/index/introducing-simpleqa/
+variants:
+- id: original
+- id: verified
+  introduced: '2025-09-09'
+sources:
+- arxiv-2411.04368
+- arxiv-2509.07968

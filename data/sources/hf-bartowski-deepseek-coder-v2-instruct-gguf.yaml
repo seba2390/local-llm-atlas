@@ -1,0 +1,9 @@
+id: hf-bartowski-deepseek-coder-v2-instruct-gguf
+kind: model_card
+provenance: community
+title: bartowski/DeepSeek-Coder-V2-Instruct-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-Coder-V2-Instruct) file listing
+publisher: Hugging Face
+url: https://huggingface.co/bartowski/DeepSeek-Coder-V2-Instruct-GGUF
+revision: 899b543bb21c3a4c146139a7e52c5deb47ad20e3
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

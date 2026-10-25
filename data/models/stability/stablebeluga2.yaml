@@ -1,0 +1,14 @@
+id: stablebeluga2
+name: StableBeluga2
+aliases:
+- StableBeluga2
+org: stability
+company: Stability AI
+country: United Kingdom
+release_date: '2023-07-20'
+open_weights: true
+architecture:
+  params_total_b: 70.0
+sources:
+- epoch-ai-models
+managed_by: register

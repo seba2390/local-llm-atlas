@@ -1,0 +1,10 @@
+id: grok-4.5
+name: Grok 4.5
+org: xai
+company: xAI
+country: United States of America
+release_date: '2026-07-08'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

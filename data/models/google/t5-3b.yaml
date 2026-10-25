@@ -1,0 +1,14 @@
+id: t5-3b
+name: T5-3B
+aliases:
+- T5-3B
+org: google
+company: Google DeepMind
+country: United States of America
+release_date: '2019-10-23'
+open_weights: true
+architecture:
+  params_total_b: 2.8
+sources:
+- epoch-ai-models
+managed_by: register

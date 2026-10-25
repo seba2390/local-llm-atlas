@@ -1,0 +1,14 @@
+id: cerebras-gpt-13b
+name: Cerebras-GPT-13B
+aliases:
+- Cerebras-GPT-13B
+org: cerebras
+company: Cerebras Systems
+country: United States of America
+release_date: '2023-03-20'
+open_weights: true
+architecture:
+  params_total_b: 13.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,14 @@
+id: falcon-180b
+name: falcon-180B
+aliases:
+- falcon-180B
+org: tii
+company: Technology Innovation Institute
+country: United Arab Emirates
+release_date: '2023-09-06'
+open_weights: true
+architecture:
+  params_total_b: 180.0
+sources:
+- epoch-ai-models
+managed_by: register

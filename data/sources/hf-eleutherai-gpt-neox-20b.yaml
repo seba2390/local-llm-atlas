@@ -1,0 +1,10 @@
+id: hf-eleutherai-gpt-neox-20b
+kind: model_config
+provenance: first_party
+title: EleutherAI/gpt-neox-20b on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/EleutherAI/gpt-neox-20b
+revision: c292233c833e336628618a88a648727eb3dff0a7
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

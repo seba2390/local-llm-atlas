@@ -1,0 +1,12 @@
+id: mpt-30b-instruct
+name: mpt-30b-instruct
+org: mosaicml
+company: MosaicML
+country: United States of America
+release_date: '2023-06-22'
+open_weights: true
+architecture:
+  params_total_b: 30.0
+sources:
+- epoch-ai-models
+managed_by: register

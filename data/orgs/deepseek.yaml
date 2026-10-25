@@ -1,0 +1,6 @@
+id: deepseek
+name: DeepSeek
+country: China
+sources:
+- epoch-ai-models
+managed_by: register

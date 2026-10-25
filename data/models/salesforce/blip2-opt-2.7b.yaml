@@ -1,0 +1,29 @@
+id: blip2-opt-2.7b
+name: blip2-opt-2.7b
+org: salesforce
+company: Salesforce
+country: United States of America
+release_date: '2023-02-06'
+open_weights: true
+hf_repo: Salesforce/blip2-opt-2.7b
+weights_url: https://huggingface.co/Salesforce/blip2-opt-2.7b
+architecture:
+  params_total_b: 1.48
+  type: dense
+  layers: 32
+  hidden_size: 2560
+  q_heads: 32
+  attention: mha
+  native_dtype: fp16
+sources:
+- epoch-ai-models
+- hf-salesforce-blip2-opt-2.7b
+field_sources:
+  architecture.type: hf-salesforce-blip2-opt-2.7b
+  architecture.layers: hf-salesforce-blip2-opt-2.7b
+  architecture.hidden_size: hf-salesforce-blip2-opt-2.7b
+  architecture.q_heads: hf-salesforce-blip2-opt-2.7b
+  architecture.attention: hf-salesforce-blip2-opt-2.7b
+  architecture.native_dtype: hf-salesforce-blip2-opt-2.7b
+  hf_repo: hf-salesforce-blip2-opt-2.7b
+managed_by: register

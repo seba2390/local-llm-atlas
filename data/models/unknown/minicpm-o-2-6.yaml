@@ -1,0 +1,10 @@
+id: minicpm-o-2-6
+name: MiniCPM-o-2_6
+aliases:
+- MiniCPM-o-2_6
+org: unknown
+release_date: '2025-01-12'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

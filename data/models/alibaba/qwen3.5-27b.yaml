@@ -1,0 +1,14 @@
+id: qwen3.5-27b
+name: Qwen3.5 27B
+aliases:
+- qwen3.5-27B
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2026-02-24'
+open_weights: true
+architecture:
+  params_total_b: 27.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,6 @@
+id: zhipu
+name: Z.ai (Zhipu AI)
+country: China
+sources:
+- epoch-ai-models
+managed_by: register

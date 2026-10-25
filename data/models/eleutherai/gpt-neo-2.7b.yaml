@@ -1,0 +1,23 @@
+id: gpt-neo-2.7b
+name: gpt-neo-2.7B
+aliases:
+- gpt-neo-2.7B
+org: eleutherai
+company: EleutherAI
+country: United States of America
+release_date: '2021-03-30'
+open_weights: true
+hf_repo: EleutherAI/gpt-neo-2.7B
+weights_url: https://huggingface.co/EleutherAI/gpt-neo-2.7B
+architecture:
+  params_total_b: 2.7
+  type: dense
+  hidden_size: 2560
+sources:
+- epoch-ai-models
+- hf-eleutherai-gpt-neo-2.7b
+field_sources:
+  architecture.type: hf-eleutherai-gpt-neo-2.7b
+  architecture.hidden_size: hf-eleutherai-gpt-neo-2.7b
+  hf_repo: hf-eleutherai-gpt-neo-2.7b
+managed_by: register

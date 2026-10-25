@@ -1,0 +1,12 @@
+id: mirrorcode
+name: MirrorCode
+category: software-engineering
+metric: accuracy
+unit: percent
+higher_is_better: true
+harness_sensitive: true
+introduced: '2026-06-26'
+url: https://epoch.ai/benchmarks
+sources:
+- epoch-benchmarks-external
+managed_by: epoch

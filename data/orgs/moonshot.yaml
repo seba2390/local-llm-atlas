@@ -1,0 +1,6 @@
+id: moonshot
+name: Moonshot
+country: China
+sources:
+- epoch-ai-models
+managed_by: register

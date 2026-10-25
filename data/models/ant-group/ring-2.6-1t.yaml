@@ -1,0 +1,14 @@
+id: ring-2.6-1t
+name: Ring-2.6-1T
+aliases:
+- Ring-2.6-1T
+org: ant-group
+company: Ant Group
+country: China
+release_date: '2026-05-14'
+open_weights: true
+architecture:
+  params_total_b: 1000.0
+sources:
+- epoch-ai-models
+managed_by: register

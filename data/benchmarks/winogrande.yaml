@@ -1,0 +1,10 @@
+id: winogrande
+name: WinoGrande
+category: commonsense
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2019-07-24'
+url: https://winogrande.allenai.org/
+sources:
+- arxiv-1907.10641

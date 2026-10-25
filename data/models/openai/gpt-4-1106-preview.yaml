@@ -1,0 +1,10 @@
+id: gpt-4-1106-preview
+name: GPT-4 Turbo Preview (Nov 2023)
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2023-11-06'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

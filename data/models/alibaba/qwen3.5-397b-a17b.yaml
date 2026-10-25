@@ -1,0 +1,12 @@
+id: qwen3.5-397b-a17b
+name: Qwen3.5 397B-A17B
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2026-02-13'
+open_weights: true
+architecture:
+  params_total_b: 397.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,6 @@
+id: amazon
+name: Amazon
+country: United States of America
+sources:
+- epoch-ai-models
+managed_by: register

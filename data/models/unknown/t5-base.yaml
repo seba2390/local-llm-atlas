@@ -1,0 +1,9 @@
+id: t5-base
+name: T5-Base
+aliases:
+- T5-Base
+org: unknown
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

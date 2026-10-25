@@ -1,0 +1,9 @@
+id: t5-small
+name: T5-Small
+aliases:
+- T5-Small
+org: unknown
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

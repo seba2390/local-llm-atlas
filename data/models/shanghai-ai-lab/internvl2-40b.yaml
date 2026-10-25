@@ -1,0 +1,33 @@
+id: internvl2-40b
+name: InternVL2-40B
+aliases:
+- InternVL2-40B
+org: shanghai-ai-lab
+company: Shanghai AI Lab
+country: Hong Kong
+release_date: '2024-07-08'
+open_weights: true
+hf_repo: OpenGVLab/InternVL2-40B
+weights_url: https://huggingface.co/OpenGVLab/InternVL2-40B
+architecture:
+  params_total_b: 40.1
+  type: dense
+  layers: 60
+  hidden_size: 7168
+  q_heads: 56
+  kv_heads: 8
+  attention: gqa
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-opengvlab-internvl2-40b
+field_sources:
+  architecture.type: hf-opengvlab-internvl2-40b
+  architecture.layers: hf-opengvlab-internvl2-40b
+  architecture.hidden_size: hf-opengvlab-internvl2-40b
+  architecture.q_heads: hf-opengvlab-internvl2-40b
+  architecture.kv_heads: hf-opengvlab-internvl2-40b
+  architecture.attention: hf-opengvlab-internvl2-40b
+  architecture.native_dtype: hf-opengvlab-internvl2-40b
+  hf_repo: hf-opengvlab-internvl2-40b
+managed_by: register

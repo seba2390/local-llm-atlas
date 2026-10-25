@@ -1,0 +1,9 @@
+id: hf-unsloth-kimi-k2-instruct-gguf
+kind: model_card
+provenance: community
+title: unsloth/Kimi-K2-Instruct-GGUF (GGUF quantisations of moonshotai/Kimi-K2-Instruct) file listing
+publisher: Hugging Face
+url: https://huggingface.co/unsloth/Kimi-K2-Instruct-GGUF
+revision: 23bf90d8196ddfcb3328a6f60c99a9bdb5c1dadf
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

@@ -1,0 +1,9 @@
+id: aider-unified-diffs-blog
+kind: blog
+provenance: first_party
+title: Unified diffs make GPT-4 Turbo 3X less lazy
+publisher: Aider
+url: https://aider.chat/2023/12/21/unified-diffs.html
+published: '2023-12-21'
+notes: 'Introduces aider''s refactoring benchmark: 89 large methods from large Python classes (https://github.com/Aider-AI/refactor-benchmark).'
+accessed: '2026-10-25'

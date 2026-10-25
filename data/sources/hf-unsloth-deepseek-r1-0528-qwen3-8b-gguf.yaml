@@ -1,0 +1,9 @@
+id: hf-unsloth-deepseek-r1-0528-qwen3-8b-gguf
+kind: model_card
+provenance: community
+title: unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF (GGUF quantisations of deepseek-ai/DeepSeek-R1-0528-Qwen3-8B) file listing
+publisher: Hugging Face
+url: https://huggingface.co/unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF
+revision: eb48357c179d34dbf515983f798dfb8752a0f261
+notes: Exact file sizes from the Hugging Face API tree listing at the given revision.
+accessed: '2026-10-25'

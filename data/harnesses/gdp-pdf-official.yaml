@@ -1,0 +1,6 @@
+id: gdp-pdf-official
+name: GDP.pdf (Surge AI) maintainers' evaluation
+kind: benchmark-reference
+sources:
+- epoch-benchmarks-external
+notes: Score from the benchmark maintainers' own leaderboard/evaluation setup.

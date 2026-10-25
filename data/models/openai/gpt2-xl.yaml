@@ -1,0 +1,12 @@
+id: gpt2-xl
+name: gpt2-xl
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2019-11-05'
+open_weights: true
+architecture:
+  params_total_b: 1.5
+sources:
+- epoch-ai-models
+managed_by: register

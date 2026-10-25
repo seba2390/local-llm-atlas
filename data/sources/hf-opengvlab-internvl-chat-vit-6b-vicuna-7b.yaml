@@ -1,0 +1,10 @@
+id: hf-opengvlab-internvl-chat-vit-6b-vicuna-7b
+kind: model_config
+provenance: first_party
+title: OpenGVLab/InternVL-Chat-ViT-6B-Vicuna-7B on Hugging Face (config.json, safetensors metadata, file listing)
+publisher: Hugging Face
+url: https://huggingface.co/OpenGVLab/InternVL-Chat-ViT-6B-Vicuna-7B
+revision: 5a62edecca67848bea28f66156d02e11270cbbd9
+notes: Architecture from config.json, parameter count from safetensors metadata, sizes from the file listing, at the given
+  revision.
+accessed: '2026-10-25'

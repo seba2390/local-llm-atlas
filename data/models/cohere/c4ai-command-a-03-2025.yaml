@@ -1,0 +1,12 @@
+id: c4ai-command-a-03-2025
+name: c4ai-command-a-03-2025
+org: cohere
+company: Cohere
+country: Canada
+release_date: '2025-03-13'
+open_weights: true
+architecture:
+  params_total_b: 111.0
+sources:
+- epoch-ai-models
+managed_by: register

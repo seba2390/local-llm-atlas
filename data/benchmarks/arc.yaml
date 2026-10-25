@@ -1,0 +1,14 @@
+id: arc
+name: ARC (AI2 Reasoning Challenge)
+category: knowledge
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2018-03-14'
+url: https://allenai.org/data/arc
+variants:
+- id: challenge
+- id: easy
+sources:
+- arxiv-1803.05457
+notes: Not to be confused with ARC-AGI (arc-agi).

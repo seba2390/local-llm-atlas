@@ -1,0 +1,20 @@
+id: aime
+name: AIME (American Invitational Mathematics Examination)
+category: math
+metric: accuracy
+unit: percent
+higher_is_better: true
+url: https://maa.org/maa-invitational-competitions/
+variants:
+- id: '2024'
+  introduced: '2024-02-01'
+  notes: AIME 2024 I + II (30 problems).
+- id: '2025'
+  introduced: '2025-02-06'
+  notes: AIME 2025 I + II (30 problems).
+- id: '2026'
+  notes: AIME 2026 I + II (30 problems).
+sources:
+- maa-aime
+- matharena
+notes: Vendors usually report avg@k / pass@1 over several samples; record k and sampling in `setting` when stated.

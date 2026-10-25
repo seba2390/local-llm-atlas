@@ -1,0 +1,39 @@
+id: hy4-preview
+name: Tencent Hy4 preview
+org: tencent
+company: Tencent
+country: China
+release_date: '2026-08-28'
+open_weights: true
+hf_repo: tencent/Hy4-preview
+weights_url: https://huggingface.co/tencent/Hy4-preview
+architecture:
+  params_total_b: 770.0
+  type: moe
+  layers: 78
+  hidden_size: 6144
+  q_heads: 64
+  kv_heads: 8
+  head_dim: 64
+  attention: mla
+  experts_total: 256
+  experts_active: 8
+  experts_shared: 1
+  native_dtype: bf16
+sources:
+- epoch-ai-models
+- hf-tencent-hy4-preview
+field_sources:
+  architecture.type: hf-tencent-hy4-preview
+  architecture.layers: hf-tencent-hy4-preview
+  architecture.hidden_size: hf-tencent-hy4-preview
+  architecture.q_heads: hf-tencent-hy4-preview
+  architecture.kv_heads: hf-tencent-hy4-preview
+  architecture.head_dim: hf-tencent-hy4-preview
+  architecture.attention: hf-tencent-hy4-preview
+  architecture.experts_total: hf-tencent-hy4-preview
+  architecture.experts_active: hf-tencent-hy4-preview
+  architecture.experts_shared: hf-tencent-hy4-preview
+  architecture.native_dtype: hf-tencent-hy4-preview
+  hf_repo: hf-tencent-hy4-preview
+managed_by: register

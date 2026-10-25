@@ -1,0 +1,14 @@
+id: eurus-2-7b-prime
+name: Eurus-2-7B-PRIME
+aliases:
+- Eurus-2-7B-PRIME
+org: tsinghua
+company: Tsinghua University
+country: China
+release_date: '2024-12-31'
+open_weights: true
+architecture:
+  params_total_b: 7.0
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,12 @@
+id: llama-2-70b-hf
+name: Llama-2-70b-hf
+aliases:
+- Llama-2-70b-hf
+org: meta
+company: Meta AI
+country: United States of America
+release_date: '2023-07-18'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

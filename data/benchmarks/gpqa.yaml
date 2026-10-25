@@ -1,0 +1,15 @@
+id: gpqa
+name: GPQA
+category: science
+metric: accuracy
+unit: percent
+higher_is_better: true
+introduced: '2023-11-20'
+url: https://github.com/idavidrein/gpqa
+variants:
+- id: diamond
+  notes: 198-question subset; the commonly reported variant.
+- id: main
+- id: extended
+sources:
+- arxiv-2311.12022

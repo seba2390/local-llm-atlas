@@ -1,0 +1,10 @@
+id: o3-pro-2025-06-10
+name: o3-pro-2025-06-10
+org: openai
+company: OpenAI
+country: United States of America
+release_date: '2025-06-10'
+open_weights: false
+sources:
+- epoch-ai-models
+managed_by: register

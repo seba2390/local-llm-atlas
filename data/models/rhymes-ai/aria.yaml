@@ -1,0 +1,38 @@
+id: aria
+name: Aria
+aliases:
+- Aria
+org: rhymes-ai
+company: Rhymes AI
+country: United States of America
+release_date: '2024-09-30'
+open_weights: null
+hf_repo: rhymes-ai/Aria
+weights_url: https://huggingface.co/rhymes-ai/Aria
+architecture:
+  type: moe
+  layers: 28
+  hidden_size: 2560
+  q_heads: 20
+  kv_heads: 20
+  attention: mha
+  experts_total: 64
+  experts_active: 6
+  native_dtype: bf16
+  params_total_b: 25.307
+sources:
+- epoch-ai-models
+- hf-rhymes-ai-aria
+field_sources:
+  architecture.type: hf-rhymes-ai-aria
+  architecture.layers: hf-rhymes-ai-aria
+  architecture.hidden_size: hf-rhymes-ai-aria
+  architecture.q_heads: hf-rhymes-ai-aria
+  architecture.kv_heads: hf-rhymes-ai-aria
+  architecture.attention: hf-rhymes-ai-aria
+  architecture.experts_total: hf-rhymes-ai-aria
+  architecture.experts_active: hf-rhymes-ai-aria
+  architecture.native_dtype: hf-rhymes-ai-aria
+  architecture.params_total_b: hf-rhymes-ai-aria
+  hf_repo: hf-rhymes-ai-aria
+managed_by: register

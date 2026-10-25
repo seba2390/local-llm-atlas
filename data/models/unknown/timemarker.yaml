@@ -1,0 +1,10 @@
+id: timemarker
+name: TimeMarker
+aliases:
+- TimeMarker
+org: unknown
+release_date: '2024-11-27'
+open_weights: null
+sources:
+- epoch-ai-models
+managed_by: register

@@ -1,0 +1,10 @@
+id: qwen3-30b-a3b-instruct-2507
+name: qwen3-30b-a3b-instruct-2507
+org: alibaba
+company: Alibaba
+country: China
+release_date: '2025-07-29'
+open_weights: true
+sources:
+- epoch-ai-models
+managed_by: register
